@@ -1,0 +1,228 @@
+<Defs>
+
+	<!-- Bodyguard Hat -->
+		<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_BodyguardHat</defName>
+		<label>Bodyguard Hat</label>
+		<description>A sturdy hat worn by bodyguards for protection.</description>
+        <graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/BodyguardHat/Seg_WOTV_BodyguardHat</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
+			<SocialImpact>.15</SocialImpact>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+		</statBases>
+
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+            <li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/BodyguardHat/Seg_WOTV_BodyguardHat</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Head</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+
+	<!--Bodyguard Uniform-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_ApparelBodyguardUniform</defName>
+		<label>Bodyguard Uniform</label>
+		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/BodyguardUniform/Seg_WOTV_BodyguardUniform</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/BodyguardUniform/Seg_WOTV_BodyguardUniform</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+    <!--BodyguardJacket-->
+    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_ApparelBodyguardJacket</defName>
+		<label>Bodyguard Jacket</label>
+		<description>Standard jacket worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/BodyguardJacket/Seg_WOTV_BodyguardJacket</texPath>
+		</graphicData>
+
+		
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.14</DecompressionResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
+		</statBases>
+		<equippedStatOffsets>
+        <MoveSpeed>-0.1</MoveSpeed>
+        <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+                <li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/UtilityApron/Seg_WOTV_UtilityApron</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+</Defs>

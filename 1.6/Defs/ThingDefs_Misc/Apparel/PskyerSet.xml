@@ -1,0 +1,221 @@
+<Defs>
+
+	<!-- Psyker Hood -->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_PsykerHood</defName>
+		<label>Psyker Hood</label>
+		<description>A hood worn by psykers to contain their psychic powers.</description>
+        <graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/PsykerHood/Seg_WOTV_PsykerHood</texPath>
+            <drawOffset>(0,0,10)</drawOffset>
+		</graphicData>
+		<equippedStatOffsets>
+			<PsychicSensitivity>1</PsychicSensitivity>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<Insulation_Cold>1.1</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+		</statBases>
+
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Eyes</li>
+				<li>Mouth</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/PsykerHood/Seg_WOTV_PsykerHood</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Head</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+	<!-- Psyker Helm -->
+		<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_PsykerHelm</defName>
+		<label>Psyker Helm</label>
+		<description>A helm worn by psykers to contain their psychic powers.</description>
+        <graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/PsykerHelm/Seg_WOTV_PsykerHelm</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<PsychicSensitivity>1</PsychicSensitivity>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+		</statBases>
+
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+            <li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/PsykerHelm/Seg_WOTV_PsykerHelm</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Head</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+
+	<!--Psyker Robe-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_ApparelPsykerRobe</defName>
+		<label>Psyker Robe</label>
+		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/PsykerRobe/Seg_WOTV_PsykerRobe</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+        <PsychicSensitivity>1</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/PsykerRobe/Seg_WOTV_PsykerRobe</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+</Defs>

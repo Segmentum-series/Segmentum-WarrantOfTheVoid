@@ -1,0 +1,375 @@
+<Defs>
+
+
+	<!-- Trader Hat -->
+		<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderHat</defName>
+		<label>Trader Hat</label>
+		<description>A stylish hat worn by traders for protection and fashion.</description>
+        <graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/TraderHat/Seg_WOTV_TraderHat</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
+			<SocialImpact>.15</SocialImpact>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+		</statBases>
+
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+            <li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/TraderHat/Seg_WOTV_TraderHat</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Head</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+
+	<!--Trader Shirt-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderShirt</defName>
+		<label>Trader Shirt</label>
+		<description>A stylish shirt worn by traders for protection and fashion.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/TraderShirt/Seg_WOTV_TraderShirt</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/TraderShirt/Seg_WOTV_TraderShirt</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+    <!--Trader Pants-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderPants</defName>
+		<label>Trader Pants</label>
+		<description>Stylish pants worn by traders for protection and fashion.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/TraderPants/Seg_WOTV_TraderPants</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+                <li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/TraderShirt/Seg_WOTV_TraderShirt</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+    <!--Trader Coat-->
+    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderCoat</defName>
+		<label>Trader Coat</label>
+		<description>Stylish coat worn by traders for protection and fashion.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/TraderCoat/Seg_WOTV_TraderCoat</texPath>
+		</graphicData>
+
+		
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.14</DecompressionResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
+		</statBases>
+		<equippedStatOffsets>
+        <MoveSpeed>-0.1</MoveSpeed>
+        <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/TraderCoat/Seg_WOTV_TraderCoat</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+    <!--Trader Armor-->
+    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderArmor</defName>
+		<label>Trader Armor</label>
+		<description>Stylish armor worn by traders for protection and fashion.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparels/TraderArmor/Seg_WOTV_TraderArmor</texPath>
+		</graphicData>
+
+		
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.14</DecompressionResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
+		</statBases>
+		<equippedStatOffsets>
+        <MoveSpeed>-0.1</MoveSpeed>
+        <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparels/UtilityApron/Seg_WOTV_UtilityApron</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                    <li>BEWH_ArmorDecoration</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
+	</ThingDef>
+</Defs>

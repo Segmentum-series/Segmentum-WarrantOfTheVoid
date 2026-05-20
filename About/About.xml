@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Segmentum - Warrant of the Void</name>
+	<author>REDACTED, Abomination, Anndra, T H E  S U S P E C T, TwoLargeGayMen, Phonicmas, JerryTheCultist, ShunTheWitch</author> <!-- just assuming that Pho Jerry Shun will very likely help or we will use something they helped before with-->
+	<packageId>REDACTED.Segmentum.WarrantOfTheVoid</packageId>
+	<modVersion>1.1.0</modVersion>
+	<description>"Move, Poor!"\n\nServe under a Rouge Trader, an insanely wealthly noble with an ancient warrant of the void. They are exploring the uncharted Segmentum Mundus Marginalis, and making sure their extreme wealth and power are known to everyone.\n\nThis mod includes:\n- Apparels\n- Weapons\n- Structures\n\Warrant of the Void is part of "Segmentum", a Warhammer 40.000 modding series by REDACTED.</description>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Phonicmas.RimDark.FrameworkCore</packageId>
+			<displayName>RimDark 40k - Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/Workshop/filedetails/?id=3267464767</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ShunTheWitch.CVNmechanoidwarfarecore</packageId>
+			<displayName>CVN Mechanoid Warfare Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/Workshop/filedetails/?id=3047564391</steamWorkshopUrl>
+		</li>
+		<li>	
+			<packageId>REDACTED.Segmentum.Core</packageId>
+			<displayName>Segmentum-Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/Workshop/FillThisShitInLater</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>brrainz.harmony</li>
+		<li>RedMattis.BetterPrerequisites</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>Dubwise.Rimatomics</li>
+		<li>dubwise.dubsbadhygiene</li>
+		<li>ceteam.combatextended</li>
+		<li>Phonicmas.RimDark.FrameworkCore</li>
+		<li>Phonicmas.RimDark.MankindsFinest</li>
+		<li>vanillaexpanded.vpsycastse</li>
+		<li>ShunTheWitch.CVNmechanoidwarfarecore</li>
+		<li>REDACTED.Segmentum.Core</li>
+	</loadAfter>
+	
+</ModMetaData>
