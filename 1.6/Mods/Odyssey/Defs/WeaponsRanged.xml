@@ -83,6 +83,9 @@
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
 				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 			</li>
 		</verbs>
 		<costList>
