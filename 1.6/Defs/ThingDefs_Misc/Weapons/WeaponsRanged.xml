@@ -123,4 +123,53 @@
 			<li>Seg_COTO_WeaponRangedHighTier</li>
 		</tradeTags>
 	</ThingDef>
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
+		<defName>Seg_WOTV_Gun_LasLock</defName>
+		<label>Laslock</label>
+		<description>A long-barrelled, precision rifle that fires a shot of photonic energy.</description>
+
+		<graphicData>
+			<texPath>Things/Weapons/Seg_WOTV_Ranged_Laslock</texPath>
+			<shaderType>Cutout</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>0.6</uiIconScale>
+		<statBases>
+			<Mass>9</Mass>
+			<EquipDelay>1.2</EquipDelay>
+			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.20</AccuracyTouch>
+			<AccuracyShort>0.40</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<WorkToMake>80000</WorkToMake>
+			<MarketValue>2530</MarketValue>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_LaslockShot</defaultProjectile>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<warmupTime>3</warmupTime>
+				<range>56.9</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<!-- Tags for trading and categorization for later-->
+		<weaponTags>
+			<li>Seg_COTO_Transuranic</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Seg_COTO_WeaponRangedHighTier</li>
+		</tradeTags>
+	</ThingDef>
     </Defs>

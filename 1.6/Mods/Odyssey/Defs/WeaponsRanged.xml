@@ -1,0 +1,100 @@
+<Defs> 
+<ThingDef ParentName="BaseBullet">
+  		<defName>Seg_WOTV_MiningLaser</defName>
+  		<label>mining laser</label>
+  		<description>a high-powered laser for mining operations.</description>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+		<category>Projectile</category>
+		<drawOffscreen>true</drawOffscreen>
+		<seeThroughFog>true</seeThroughFog>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Weapons/Projectiles/Seg_WOTV_Lasbolt</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>2</drawSize>
+		</graphicData>
+
+		<projectile>
+			<damageDef>MiningBomb</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>.5</armorPenetrationBase>
+			<stoppingPower>2</stoppingPower>
+			<speed>999</speed>
+		</projectile>
+
+		<modExtensions>
+			<li Class="taranchuk_lasers.LaserProperties">
+				<damageTickRate>20</damageTickRate>
+				<lifetimeTicks>60</lifetimeTicks>
+				<chainRange>0</chainRange>
+				<maxChainTargets>0</maxChainTargets>
+				<chainDelayTicks>100000</chainDelayTicks>
+				<chainToAnything>false</chainToAnything>
+				<maxBranches>0</maxBranches>
+				<branchChance>0</branchChance>
+
+				<beamWidth>2</beamWidth>
+				<beamWidthDrawScale>2</beamWidthDrawScale>
+
+				<sweepRatePerTick>0</sweepRatePerTick>
+				<maxSweepAngle>0</maxSweepAngle>
+
+				<damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+				<debugCells>false</debugCells>
+
+				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
+				<lockOnTarget>true</lockOnTarget>
+			</li>
+		</modExtensions>
+	</ThingDef>
+<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
+		<defName>Seg_WOTV_Gun_MiningLaser</defName>
+		<label>mining laser</label>
+		<description>A high-powered laser for mining operations.</description>
+
+		<graphicData>
+			<texPath>Things/Weapons/Seg_WOTV_Ranged_MiningLaser</texPath>
+			<shaderType>Cutout</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>0.6</uiIconScale>
+		<statBases>
+			<Mass>9</Mass>
+			<EquipDelay>1.2</EquipDelay>
+			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.20</AccuracyTouch>
+			<AccuracyShort>0.40</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<WorkToMake>80000</WorkToMake>
+			<MarketValue>2530</MarketValue>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_MiningLaser</defaultProjectile>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<warmupTime>3</warmupTime>
+				<range>56.9</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<!-- Tags for trading and categorization for later-->
+		<weaponTags>
+			<li>Seg_COTO_Transuranic</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Seg_COTO_WeaponRangedHighTier</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

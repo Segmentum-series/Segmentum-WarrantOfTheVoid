@@ -48,6 +48,11 @@
 			<wornGraphicPaths>
 				<li>Things/Apparels/BodyguardHat/Seg_WOTV_BodyguardHat</li>
 			</wornGraphicPaths>
+			<renderSkipFlags>
+					<li>Hair</li>
+					<li>Beard</li>
+					<li>Eyes</li>
+			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -57,6 +62,7 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+	
 		
 		<comps>
 			<li Class="Core40k.CompProperties_Decorative">

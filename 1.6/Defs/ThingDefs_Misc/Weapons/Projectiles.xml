@@ -58,4 +58,53 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+  		<defName>Seg_WOTV_LaslockShot</defName>
+  		<label>lasgun shot</label>
+  		<description>a sustained beam of laser energy. good for melting armour.</description>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+		<category>Projectile</category>
+		<drawOffscreen>true</drawOffscreen>
+		<seeThroughFog>true</seeThroughFog>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Weapons/Projectiles/Seg_WOTV_Lasbolt</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>2</drawSize>
+		</graphicData>
+
+		<projectile>
+			<damageDef>Seg_WOTV_LasgunDamage</damageDef>
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>1.3</armorPenetrationBase>
+			<stoppingPower>6</stoppingPower>
+			<speed>999</speed>
+		</projectile>
+
+		<modExtensions>
+			<li Class="taranchuk_lasers.LaserProperties">
+				<damageTickRate>21</damageTickRate>
+				<lifetimeTicks>20</lifetimeTicks>
+				<chainRange>0</chainRange>
+				<maxChainTargets>0</maxChainTargets>
+				<chainDelayTicks>100000</chainDelayTicks>
+				<chainToAnything>false</chainToAnything>
+				<maxBranches>0</maxBranches>
+				<branchChance>0</branchChance>
+
+				<beamWidth>1</beamWidth>
+				<beamWidthDrawScale>1</beamWidthDrawScale>
+
+				<sweepRatePerTick>0</sweepRatePerTick>
+				<maxSweepAngle>0</maxSweepAngle>
+
+				<damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+				<debugCells>false</debugCells>
+
+				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
+				<lockOnTarget>true</lockOnTarget>
+			</li>
+		</modExtensions>
+	</ThingDef>
     </Defs>
