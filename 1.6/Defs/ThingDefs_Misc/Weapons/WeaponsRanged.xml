@@ -57,7 +57,7 @@
     <ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_Lasgun</defName>
 		<label>Mars-pattern Lasgun</label>
-		<description>A long-barrelled, precision rifle that fires a shot of photonic energy.</description>
+		<description>"The most precious item in a guardsman's possession", as the Imperial Infantryman's Uplifting Primer puts it. The Mars-pattern lasgun is one of the oldest lasgun patterns in the arsenal of the Imperium, widely used during the Great Crusade and still used in huge numbers in the Indomitus Era. While not the most powerful infantry firearm, it is ruggedly reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts.</description>
 
 		<graphicData>
 			<texPath>Things/Weapons/Seg_WOTV_Ranged_Lasgun</texPath>
@@ -125,8 +125,8 @@
 	</ThingDef>
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_LasLock</defName>
-		<label>Laslock</label>
-		<description>A long-barrelled, precision rifle that fires a shot of photonic energy.</description>
+		<label>Las-lock</label>
+		<description>The las-lock is an archaic type of las weapon that focuses its energy into powerful single shots with a significant recharge time rather than being capable of bursts or sustained fire. Las-locks are often handbuilt outside of manufactoria and used by militias, scavengers, and heretics, although some better-quality examples following established patterns are still in use in Militarum regiments or for the armsmen of Rogue Trader houses.</description>
 
 		<graphicData>
 			<texPath>Things/Weapons/Seg_WOTV_Ranged_Laslock</texPath>
