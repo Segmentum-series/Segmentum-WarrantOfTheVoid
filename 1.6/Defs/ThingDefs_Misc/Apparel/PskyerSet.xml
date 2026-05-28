@@ -5,12 +5,13 @@
 		<defName>Seg_WOTV_Apparel_PsykerHood</defName>
 		<label>Psyker Hood</label>
 		<description>A hood worn by psykers to contain their psychic powers.</description>
-        <graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/PsykerHood/Seg_WOTV_PsykerHood</texPath>
-            <drawOffset>(0,0,10)</drawOffset>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!-- <shaderType>Cutout</shaderType> -->
+			<texPath>Things/Apparel/PsykerHood/Seg_WOTV_PsykerHood</texPath>
+			<!-- <drawOffset>(0,0,0.10)</drawOffset> -->
 		</graphicData>
+
 		<equippedStatOffsets>
 			<PsychicSensitivity>1</PsychicSensitivity>
 		</equippedStatOffsets>
@@ -29,6 +30,7 @@
 			<Steel>10</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
@@ -46,7 +48,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/PsykerHood/Seg_WOTV_PsykerHood</li>
+				<li>Things/Apparel/PsykerHood/Seg_WOTV_PsykerHood</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -58,18 +60,18 @@
 			</skillRequirements>
 		</recipeMaker>
 		
-		<comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Head</decorativeType>
-			</li>
-		</comps>
-		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+		<!-- <comps>
+				<li Class="Core40k.CompProperties_Decorative">
+					<decorativeType>Head</decorativeType>
+				</li>
+			</comps>
+			<modExtensions>
+				<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+					<tabDefs>
+						<li>BEWH_ArmorDecoration</li>
+					</tabDefs>
+				</li>
+			</modExtensions> -->
 	</ThingDef>
 
 	<!-- Psyker Helm -->
@@ -77,11 +79,12 @@
 		<defName>Seg_WOTV_Apparel_PsykerHelm</defName>
 		<label>Psyker Helm</label>
 		<description>A helm worn by psykers to contain their psychic powers.</description>
-        <graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/PsykerHelm/Seg_WOTV_PsykerHelm</texPath>
+			<texPath>Things/Apparel/PsykerHelm/Seg_WOTV_PsykerHelm</texPath>
 		</graphicData>
+
 		<equippedStatOffsets>
 			<PsychicSensitivity>1</PsychicSensitivity>
 		</equippedStatOffsets>
@@ -107,7 +110,7 @@
 			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
-            <li>UpperHead</li>
+				<li>UpperHead</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
@@ -116,7 +119,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/PsykerHelm/Seg_WOTV_PsykerHelm</li>
+				<li>Things/Apparel/PsykerHelm/Seg_WOTV_PsykerHelm</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -128,7 +131,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		
-		<comps>
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Head</decorativeType>
 			</li>
@@ -139,9 +142,8 @@
                     <li>BEWH_ArmorDecoration</li>
                 </tabDefs>
             </li>
-        </modExtensions>
+        </modExtensions> -->
 	</ThingDef>
-
 
 	<!--Psyker Robe-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
@@ -150,9 +152,9 @@
 		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/PsykerRobe/Seg_WOTV_PsykerRobe</texPath>
+			<texPath>Things/Apparel/PsykerRobe/Seg_WOTV_PsykerRobe</texPath>
 		</graphicData>
 
 		<statBases>
@@ -193,7 +195,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/PsykerRobe/Seg_WOTV_PsykerRobe</li>
+				<li>Things/Apparel/PsykerRobe/Seg_WOTV_PsykerRobe</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>

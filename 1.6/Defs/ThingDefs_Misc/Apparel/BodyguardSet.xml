@@ -1,15 +1,16 @@
 <Defs>
 
 	<!-- Bodyguard Hat -->
-		<ThingDef ParentName="Seg_WOTV_ClothingBase">
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_BodyguardHat</defName>
 		<label>Bodyguard Hat</label>
 		<description>A sturdy hat worn by bodyguards for protection.</description>
-        <graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/BodyguardHat/Seg_WOTV_BodyguardHat</texPath>
+			<texPath>Things/Apparel/BodyguardHat/Seg_WOTV_BodyguardHat</texPath>
 		</graphicData>
+
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
 			<SocialImpact>.15</SocialImpact>
@@ -37,7 +38,7 @@
 			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
-            <li>UpperHead</li>
+				<li>UpperHead</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
@@ -46,8 +47,9 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/BodyguardHat/Seg_WOTV_BodyguardHat</li>
+				<li>Things/Apparel/BodyguardHat/Seg_WOTV_BodyguardHat</li>
 			</wornGraphicPaths>
+		
 			<renderSkipFlags>
 					<li>Hair</li>
 					<li>Beard</li>
@@ -62,20 +64,20 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-	
-		
-		<comps>
+
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Head</decorativeType>
 			</li>
-		</comps>
-		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+		</comps> -->
+
+		<!-- <modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions> -->
 	</ThingDef>
 
 
@@ -86,9 +88,9 @@
 		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/BodyguardUniform/Seg_WOTV_BodyguardUniform</texPath>
+			<texPath>Things/Apparel/BodyguardUniform/Seg_WOTV_BodyguardUniform</texPath>
 		</graphicData>
 
 		<statBases>
@@ -101,8 +103,9 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
-             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
+
 		<costList>
 			<Steel>20</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -130,7 +133,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/BodyguardUniform/Seg_WOTV_BodyguardUniform</li>
+				<li>Things/Apparel/BodyguardUniform/Seg_WOTV_BodyguardUniform</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -141,33 +144,34 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
+
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions> -->
 	</ThingDef>
-    <!--BodyguardJacket-->
-    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+
+	<!--BodyguardJacket-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_ApparelBodyguardJacket</defName>
 		<label>Bodyguard Jacket</label>
 		<description>Standard jacket worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/BodyguardJacket/Seg_WOTV_BodyguardJacket</texPath>
+			<texPath>Things/Apparel/BodyguardJacket/Seg_WOTV_BodyguardJacket</texPath>
 		</graphicData>
 
-		
 		<statBases>
 			<WorkToMake>45000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
@@ -181,9 +185,10 @@
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
-        <MoveSpeed>-0.1</MoveSpeed>
-        <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
 		</equippedStatOffsets>
+
 		<costList>
 			<Steel>70</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
@@ -200,13 +205,13 @@
 			</bodyPartGroups>
 			<layers>
 				<li>Middle</li>
-                <li>Shell</li>
+				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/UtilityApron/Seg_WOTV_UtilityApron</li>
+				<li>Things/Apparel/UtilityApron/Seg_WOTV_UtilityApron</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -217,18 +222,20 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
+
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions> -->
 	</ThingDef>
+
 </Defs>

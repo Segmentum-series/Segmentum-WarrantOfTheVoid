@@ -10,7 +10,7 @@
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Weapons/Projectiles/Seg_WOTV_Lasbolt</texPath>
+			<texPath>Things/Projectile/Seg_WOTV_Lasbolt</texPath>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>2</drawSize>
 		</graphicData>
@@ -54,7 +54,7 @@
 		<description>A high-powered laser for mining operations.</description>
 
 		<graphicData>
-			<texPath>Things/Weapons/Seg_WOTV_Ranged_MiningLaser</texPath>
+			<texPath>Things/Weapon/Seg_WOTV_Ranged_MiningLaser</texPath>
 			<shaderType>Cutout</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>

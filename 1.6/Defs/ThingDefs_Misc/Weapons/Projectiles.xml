@@ -1,5 +1,6 @@
 <Defs>
-<DamageDef ParentName="Bullet">
+	<!-- Lasgun damage -->
+	<DamageDef ParentName="Bullet">
 		<defName>Seg_WOTV_LasgunDamage</defName>
 		<label>Lasburn</label>
 		<workerClass>DamageWorker_AddInjury</workerClass>
@@ -9,10 +10,12 @@
 		<impactSoundType>Electric</impactSoundType>
 		<defaultArmorPenetration>2.0</defaultArmorPenetration>
 	</DamageDef>
-<ThingDef ParentName="BaseBullet">
-  		<defName>Seg_WOTV_LasgunShot</defName>
-  		<label>lasgun shot</label>
-  		<description>a sustained beam of laser energy. good for melting armour.</description>
+
+	<!-- Lasgun shot -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Seg_WOTV_LasgunShot</defName>
+		<label>lasgun shot</label>
+		<description>a sustained beam of laser energy. good for melting armour.</description>
 		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
 		<category>Projectile</category>
 		<drawOffscreen>true</drawOffscreen>
@@ -20,7 +23,7 @@
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Weapons/Projectiles/Seg_WOTV_Lasbolt</texPath>
+			<texPath>Things/Projectile/Seg_WOTV_Lasbolt</texPath>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>2</drawSize>
 		</graphicData>
@@ -58,10 +61,12 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+
+	<!-- Laslock shot -->
 	<ThingDef ParentName="BaseBullet">
-  		<defName>Seg_WOTV_LaslockShot</defName>
-  		<label>lasgun shot</label>
-  		<description>a sustained beam of laser energy. good for melting armour.</description>
+		<defName>Seg_WOTV_LaslockShot</defName>
+		<label>laslock shot</label>
+		<description>a sustained beam of laser energy. good for melting armour.</description>
 		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
 		<category>Projectile</category>
 		<drawOffscreen>true</drawOffscreen>
@@ -69,7 +74,7 @@
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Weapons/Projectiles/Seg_WOTV_Lasbolt</texPath>
+			<texPath>Things/Projectile/Seg_WOTV_Lasbolt</texPath>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>2</drawSize>
 		</graphicData>
@@ -107,4 +112,5 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-    </Defs>
+
+</Defs>

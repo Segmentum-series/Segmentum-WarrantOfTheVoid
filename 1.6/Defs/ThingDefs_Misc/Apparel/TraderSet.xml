@@ -7,9 +7,9 @@
 		<label>Trader Hat</label>
 		<description>A stylish hat worn by traders for protection and fashion.</description>
         <graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/TraderHat/Seg_WOTV_TraderHat</texPath>
+			<texPath>Things/Apparel/TraderHat/Seg_WOTV_TraderHat</texPath>
 		</graphicData>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
@@ -47,7 +47,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/TraderHat/Seg_WOTV_TraderHat</li>
+				<li>Things/Apparel/TraderHat/Seg_WOTV_TraderHat</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -81,9 +81,9 @@
 		<description>A stylish shirt worn by traders for protection and fashion.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/TraderShirt/Seg_WOTV_TraderShirt</texPath>
+			<texPath>Things/Apparel/TraderShirt/Seg_WOTV_TraderShirt</texPath>
 		</graphicData>
 
 		<statBases>
@@ -124,7 +124,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/TraderShirt/Seg_WOTV_TraderShirt</li>
+				<li>Things/Apparel/TraderShirt/Seg_WOTV_TraderShirt</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -156,9 +156,9 @@
 		<description>Stylish pants worn by traders for protection and fashion.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/TraderPants/Seg_WOTV_TraderPants</texPath>
+			<texPath>Things/Apparel/TraderPants/Seg_WOTV_TraderPants</texPath>
 		</graphicData>
 
 		<statBases>
@@ -197,7 +197,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/TraderShirt/Seg_WOTV_TraderShirt</li>
+				<li>Things/Apparel/TraderShirt/Seg_WOTV_TraderShirt</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -229,9 +229,9 @@
 		<description>Stylish coat worn by traders for protection and fashion.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/TraderCoat/Seg_WOTV_TraderCoat</texPath>
+			<texPath>Things/Apparel/TraderCoat/Seg_WOTV_TraderCoat</texPath>
 		</graphicData>
 
 		
@@ -272,7 +272,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/TraderCoat/Seg_WOTV_TraderCoat</li>
+				<li>Things/Apparel/TraderCoat/Seg_WOTV_TraderCoat</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -304,9 +304,9 @@
 		<description>Stylish armor worn by traders for protection and fashion.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/TraderArmor/Seg_WOTV_TraderArmor</texPath>
+			<texPath>Things/Apparel/TraderArmor/Seg_WOTV_TraderArmor</texPath>
 		</graphicData>
 
 		
@@ -347,7 +347,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/UtilityApron/Seg_WOTV_UtilityApron</li>
+				<li>Things/Apparel/UtilityApron/Seg_WOTV_UtilityApron</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>

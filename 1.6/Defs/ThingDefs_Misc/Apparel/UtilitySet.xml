@@ -28,12 +28,12 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<recipeUsers Inherit="False">
 				<li>ElectricTailoringBench</li>
-                <li>HandTailoringBench</li>
+				<li>HandTailoringBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		
 	</ThingDef>
-    <ApparelLayerDef>
+
+	<ApparelLayerDef>
 		<defName>Seg_WOTV_Mask</defName>
 		<label>Mask</label>
 		<drawOrder>500</drawOrder>
@@ -44,12 +44,13 @@
 		<defName>Seg_WOTV_Apparel_UtilityMask</defName>
 		<label>UtilityMask</label>
 		<description>Utility Mask, Bitch.</description>
-        <graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/UtilityMask/Seg_WOTV_UtilityMask</texPath>
-            <drawOffset>(0,0,10)</drawOffset>
+			<texPath>Things/Apparel/UtilityMask/Seg_WOTV_UtilityMask</texPath>
+			<!-- <drawOffset>(0,0,0.10)</drawOffset> -->
 		</graphicData>
+
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
 			<ConstructionSpeed>.25</ConstructionSpeed>
@@ -88,9 +89,10 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/UtilityMask/Seg_WOTV_UtilityMask</li>
+				<li>Things/Apparel/UtilityMask/Seg_WOTV_UtilityMask</li>
 			</wornGraphicPaths>
 		</apparel>
+		
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>ComplexClothing</li>
@@ -100,18 +102,18 @@
 			</skillRequirements>
 		</recipeMaker>
 		
-		<comps>
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Head</decorativeType>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions> -->
 	</ThingDef>
 
 	<!-- Utility Helmet -->
@@ -119,11 +121,13 @@
 		<defName>Seg_WOTV_Apparel_UtilityHelmet</defName>
 		<label>UtilityHelmet</label>
 		<description>Utility Helmet, Bitch.</description>
-        <graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/UtilityHelmet/Seg_WOTV_UtilityHelmet</texPath>
+			<texPath>Things/Apparel/UtilityHelmet/Seg_WOTV_UtilityHelmet</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/UtilityHelmet/Seg_WOTV_UtilityHelmet</uiIconPath>
+
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
 			<ConstructionSpeed>.25</ConstructionSpeed>
@@ -152,7 +156,7 @@
 			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
-            <li>UpperHead</li>
+			<li>UpperHead</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
@@ -161,7 +165,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/UtilityHelmet/Seg_WOTV_UtilityHelmet</li>
+				<li>Things/Apparel/UtilityHelmet/Seg_WOTV_UtilityHelmet</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -173,18 +177,18 @@
 			</skillRequirements>
 		</recipeMaker>
 		
-		<comps>
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Head</decorativeType>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions> -->
 	</ThingDef>
 
 
@@ -195,9 +199,9 @@
 		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/UtilityJumpsuit/Seg_WOTV_UtilityJumpsuit</texPath>
+			<texPath>Things/Apparel/UtilityJumpsuit/Seg_WOTV_UtilityJumpsuit</texPath>
 		</graphicData>
 
 		<statBases>
@@ -239,7 +243,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/UtilityJumpsuit/Seg_WOTV_UtilityJumpsuit</li>
+				<li>Things/Apparel/UtilityJumpsuit/Seg_WOTV_UtilityJumpsuit</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -250,30 +254,32 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
+
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions> -->
 	</ThingDef>
-    <!--Utility Apron-->
-    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+
+	<!-- Utility Apron -->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_ApparelUtilityApron</defName>
 		<label>Utility Apron</label>
 		<description>Standard apron worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/UtilityApron/Seg_WOTV_UtilityApron</texPath>
+			<texPath>Things/Apparel/UtilityApron/Seg_WOTV_UtilityApron</texPath>
 		</graphicData>
 
 		<statBases>
@@ -315,7 +321,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/UtilityApron/Seg_WOTV_UtilityApron</li>
+				<li>Things/Apparel/UtilityApron/Seg_WOTV_UtilityApron</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -326,18 +332,19 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
+
+		<!-- <comps>
 			<li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions> -->
 	</ThingDef>
 </Defs>

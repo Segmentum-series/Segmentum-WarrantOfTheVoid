@@ -1,6 +1,5 @@
 <Defs>
 
-
 	<!--Adept Coat-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_ApparelAdeptCoat</defName>
@@ -8,11 +7,11 @@
 		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/AdeptCoat/Seg_WOTV_AdeptCoat</texPath>
+			<texPath>Things/Apparel/AdeptCoat/Seg_WOTV_AdeptCoat</texPath>
 		</graphicData>
-        <statBases>
+		<statBases>
 			<WorkToMake>45000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<Mass>2.2</Mass>
@@ -23,13 +22,12 @@
 			<Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 
-	
 		<equippedStatOffsets>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>20</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
-            <Cloth>120</Cloth>
+			<Cloth>120</Cloth>
 		</costList>
 
 		<apparel>
@@ -48,7 +46,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/AdeptCoat/Seg_WOTV_AdeptCoat</li>
+				<li>Things/Apparel/AdeptCoat/Seg_WOTV_AdeptCoat</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -65,24 +63,25 @@
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 	</ThingDef>
-    <!--Adept Wrapping-->
-    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+
+	<!--Adept Wrapping-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_ApparelAdeptWrapping</defName>
 		<label>Adept Wrapping</label>
 		<description>Standard wrapping worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
 
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
-			<texPath>Things/Apparels/AdeptWrapping/Seg_WOTV_AdeptWrapping</texPath>
+			<texPath>Things/Apparel/AdeptWrapping/Seg_WOTV_AdeptWrapping</texPath>
 		</graphicData>
 
 		<statBases>
@@ -124,7 +123,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparels/AdeptWrapping/Seg_WOTV_AdeptWrapping</li>
+				<li>Things/Apparel/AdeptWrapping/Seg_WOTV_AdeptWrapping</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
@@ -141,12 +140,13 @@
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 	</ThingDef>
+
 </Defs>
