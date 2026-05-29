@@ -59,8 +59,8 @@
 	<!-- Mars-pattern Lasgun -->
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_Lasgun</defName>
-		<label>Mars-pattern Lasgun</label>
-		<description>"The most precious item in a guardsman's possession", as the Imperial Infantryman's Uplifting Primer puts it. The Mars-pattern lasgun is one of the oldest lasgun patterns in the arsenal of the Imperium, widely used during the Great Crusade and still used in huge numbers in the Indomitus Era. While not the most powerful infantry firearm, it is ruggedly reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts.</description>
+		<label>Lasgun (Ryza-pattern)</label>
+		<description>Like all lasguns, the Ryza-pattern is not the most powerful firearm, but it is reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts. This is one of the oldest patterns of lasgun still in use in the Imperium, and is still frequently found in the hands of noble retinues or Inquisition warbands as well as seeing continuing use by forces supplied by the forge world of Ryza.</description>
 
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
@@ -120,10 +120,10 @@
 		</modExtensions>
 		<!-- Tags for trading and categorization for later-->
 		<weaponTags>
-			<li>Seg_COTO_Transuranic</li>
+			<li>Seg_WOTV_Las</li>
 		</weaponTags>
 		<tradeTags>
-			<li>Seg_COTO_WeaponRangedHighTier</li>
+			<li>Seg_WOTV_Las</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -171,10 +171,10 @@
 		</costList>
 		<!-- Tags for trading and categorization for later-->
 		<weaponTags>
-			<li>Seg_COTO_Transuranic</li>
+			<li>Seg_WOTV_Las</li>
 		</weaponTags>
 		<tradeTags>
-			<li>Seg_COTO_WeaponRangedHighTier</li>
+			<li>Seg_WOTV_Las</li>
 		</tradeTags>
 	</ThingDef>
 
