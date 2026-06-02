@@ -7,7 +7,7 @@
 		<recipeMaker>
 			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
 			<recipeUsers Inherit="False">
-				<li>FabricationBench</li>
+				<li>Seg_ImperialCraftingTable</li>
 			</recipeUsers>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -56,17 +56,16 @@
 		<tradeTags Inherit="False" />
 	</ThingDef>
 
-	<!-- Mars-pattern Lasgun -->
+	<!-- Ryza-pattern Lasgun -->
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_Lasgun</defName>
 		<label>Lasgun (Ryza-pattern)</label>
 		<description>Like all lasguns, the Ryza-pattern is not the most powerful firearm, but it is reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts. This is one of the oldest patterns of lasgun still in use in the Imperium, and is still frequently found in the hands of noble retinues or Inquisition warbands as well as seeing continuing use by forces supplied by the forge world of Ryza.</description>
-
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
 			<shaderType>Cutout</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
+			<drawSize>1.3</drawSize>
 		</graphicData>
 		<uiIconScale>0.6</uiIconScale>
 		<statBases>
@@ -84,13 +83,13 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Seg_WOTV_LasgunShot</defaultProjectile>
+				<defaultProjectile>Seg_WOTV_RyzaLasgunShot</defaultProjectile>
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<warmupTime>1</warmupTime>
 				<range>28.9</range>
-				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
 		</verbs>

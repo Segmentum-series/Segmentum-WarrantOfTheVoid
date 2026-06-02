@@ -1,66 +1,4 @@
 <Defs>
-	<!-- Lasgun damage -->
-	<DamageDef ParentName="Bullet">
-		<defName>Seg_WOTV_LasgunDamage</defName>
-		<label>Lasburn</label>
-		<workerClass>DamageWorker_AddInjury</workerClass>
-		<armorCategory>Heat</armorCategory>
-		<hediff>Shredded</hediff>
-		<deathMessage>{0} was turned into swiss cheese.</deathMessage>
-		<impactSoundType>Electric</impactSoundType>
-		<defaultArmorPenetration>2.0</defaultArmorPenetration>
-	</DamageDef>
-
-	<!-- Lasgun shot -->
-	<ThingDef ParentName="BaseBullet">
-		<defName>Seg_WOTV_LasgunShot</defName>
-		<label>lasgun shot</label>
-		<description>a sustained beam of laser energy. good for melting armour.</description>
-		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
-		<category>Projectile</category>
-		<drawOffscreen>true</drawOffscreen>
-		<seeThroughFog>true</seeThroughFog>
-
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Projectile/Seg_WOTV_Lasbolt</texPath>
-			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>2</drawSize>
-		</graphicData>
-
-		<projectile>
-			<damageDef>Seg_WOTV_LasgunDamage</damageDef>
-			<damageAmountBase>10</damageAmountBase>
-			<armorPenetrationBase>.5</armorPenetrationBase>
-			<stoppingPower>2</stoppingPower>
-			<speed>999</speed>
-		</projectile>
-
-		<modExtensions>
-			<li Class="taranchuk_lasers.LaserProperties">
-				<damageTickRate>3</damageTickRate>
-				<lifetimeTicks>6</lifetimeTicks>
-				<chainRange>0</chainRange>
-				<maxChainTargets>0</maxChainTargets>
-				<chainDelayTicks>100000</chainDelayTicks>
-				<chainToAnything>false</chainToAnything>
-				<maxBranches>0</maxBranches>
-				<branchChance>0</branchChance>
-
-				<beamWidth>2</beamWidth>
-				<beamWidthDrawScale>.5</beamWidthDrawScale>
-
-				<sweepRatePerTick>0</sweepRatePerTick>
-				<maxSweepAngle>0</maxSweepAngle>
-
-				<damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
-				<debugCells>false</debugCells>
-
-				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
-				<lockOnTarget>true</lockOnTarget>
-			</li>
-		</modExtensions>
-	</ThingDef>
 
 	<!-- Laslock shot -->
 	<ThingDef ParentName="BaseBullet">
@@ -80,7 +18,7 @@
 		</graphicData>
 
 		<projectile>
-			<damageDef>Seg_WOTV_LasgunDamage</damageDef>
+			<damageDef>Seg_LasgunDamage</damageDef>
 			<damageAmountBase>45</damageAmountBase>
 			<armorPenetrationBase>1.3</armorPenetrationBase>
 			<stoppingPower>6</stoppingPower>
@@ -100,6 +38,56 @@
 
 				<beamWidth>1</beamWidth>
 				<beamWidthDrawScale>1</beamWidthDrawScale>
+
+				<sweepRatePerTick>0</sweepRatePerTick>
+				<maxSweepAngle>0</maxSweepAngle>
+
+				<damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+				<debugCells>false</debugCells>
+
+				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
+				<lockOnTarget>true</lockOnTarget>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!-- Lasgun shot -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Seg_WOTV_RyzaLasgunShot</defName>
+		<label>lasgun shot</label>
+		<description>a sustained beam of laser energy. good for melting armour.</description>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+		<category>Projectile</category>
+		<drawOffscreen>true</drawOffscreen>
+		<seeThroughFog>true</seeThroughFog>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Seg_WOTV_Lasbolt</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>2</drawSize>
+		</graphicData>
+
+		<projectile>
+			<damageDef>Seg_LasgunDamage</damageDef>
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationBase>.5</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>999</speed>
+		</projectile>
+
+		<modExtensions>
+			<li Class="taranchuk_lasers.LaserProperties">
+				<damageTickRate>2</damageTickRate>
+				<lifetimeTicks>4</lifetimeTicks>
+				<chainRange>0</chainRange>
+				<maxChainTargets>0</maxChainTargets>
+				<chainDelayTicks>100000</chainDelayTicks>
+				<chainToAnything>false</chainToAnything>
+				<maxBranches>0</maxBranches>
+				<branchChance>0</branchChance>
+
+				<beamWidth>1.35</beamWidth>
+				<beamWidthDrawScale>.5</beamWidthDrawScale>
 
 				<sweepRatePerTick>0</sweepRatePerTick>
 				<maxSweepAngle>0</maxSweepAngle>
