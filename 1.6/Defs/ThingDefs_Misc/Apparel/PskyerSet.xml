@@ -54,6 +54,7 @@
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>ComplexClothing</li>
+				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
 				<Crafting>4</Crafting>
@@ -125,6 +126,7 @@
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>ComplexClothing</li>
+				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
 				<Crafting>4</Crafting>
@@ -201,6 +203,7 @@
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>ComplexClothing</li>
+				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
 				<Crafting>4</Crafting>

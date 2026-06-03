@@ -5,7 +5,9 @@
 		<description>Base definition for that Skitarii rifle thing i cant be assed to spell again.this should never show in game, if it does report to KitchenSink.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+			<researchPrerequisites>
+				<li>Seg_MunitorumEquipment</li>
+			</researchPrerequisites>
 			<recipeUsers Inherit="False">
 				<li>Seg_ImperialCraftingTable</li>
 			</recipeUsers>
@@ -61,6 +63,11 @@
 		<defName>Seg_WOTV_Gun_Lasgun</defName>
 		<label>Lasgun (Ryza-pattern)</label>
 		<description>Like all lasguns, the Ryza-pattern is not the most powerful firearm, but it is reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts. This is one of the oldest patterns of lasgun still in use in the Imperium, and is still frequently found in the hands of noble retinues or Inquisition warbands as well as seeing continuing use by forces supplied by the forge world of Ryza.</description>
+		<recipeMaker>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_MunitorumEquipment</li>
+			</researchPrerequisites>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
 			<shaderType>Cutout</shaderType>
@@ -131,7 +138,11 @@
 		<defName>Seg_WOTV_Gun_LasLock</defName>
 		<label>Las-lock</label>
 		<description>The las-lock is an archaic type of las weapon that focuses its energy into powerful single shots with a significant recharge time rather than being capable of bursts or sustained fire. Las-locks are often handbuilt outside of manufactoria and used by militias, scavengers, and heretics, although some better-quality examples following established patterns are still in use in Militarum regiments or for the armsmen of Rogue Trader houses.</description>
-
+		<recipeMaker>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_MunitorumEquipment</li>
+			</researchPrerequisites>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_Laslock</texPath>
 			<shaderType>Cutout</shaderType>

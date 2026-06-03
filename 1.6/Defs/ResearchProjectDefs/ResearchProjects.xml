@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- Main research tree -->
+
+<!-- Segmentum research tree -->
+	
+<!-- Work gear -->
+
+<ResearchProjectDef>
+		<defName>Seg_WOTV_BasicApparel</defName>
+		<label>Imperium work gear</label>
+		<description>Prepare to manufacture profession-appropriate gear and clothing for Imperial personnel, from bureaucrats to voidship crew.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.8</researchViewY>
+		<prerequisites>
+			<li>Seg_MunitorumEquipment</li>
+		</prerequisites>
+		<tab>Seg_SegmentumTab</tab>
+</ResearchProjectDef>
+
+<!-- Specialist gear -->
+
+<ResearchProjectDef>
+		<defName>Seg_WOTV_SpecialistApparel</defName>
+		<label>Retinue garb</label>
+		<description>Prepare to manufacture profession-appropriate gear and clothing for high-ranking Imperial personnel such as are found in the retinues of the illustrious Rogue Trader dynasties.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.8</researchViewY>
+		<prerequisites>
+			<li>Seg_WOTV_BasicApparel</li>
+		</prerequisites>
+		<tab>Seg_SegmentumTab</tab>
+</ResearchProjectDef>
+
+<!-- Trader gear -->
+
+<ResearchProjectDef>
+		<defName>Seg_WOTV_TraderApparel</defName>
+		<label>Imperial noble accoutrements</label>
+		<description>Prepare to craft gear and clothing for the highest-ranking Imperial nobility, including the illustrious and daring Rogue Traders.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2.4</researchViewY>
+		<prerequisites>
+			<li>Seg_WOTV_BasicApparel</li>
+		</prerequisites>
+		<tab>Seg_SegmentumTab</tab>
+</ResearchProjectDef>
+
+<!-- Work gear -->
+
+<ResearchProjectDef>
+		<defName>Seg_WOTV_AdvancedEquipment</defName>
+		<label>advanced Munitorum equipment</label>
+		<description>Negotiate the Munitorum permissions necessary for local production of more esoteric weaponry and equipment, such as is often used by the armsmen of Rogue Trader dynasties.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2.4</researchViewY>
+		<prerequisites>
+			<li>Seg_MunitorumEquipment</li>
+		</prerequisites>
+		<tab>Seg_SegmentumTab</tab>
+</ResearchProjectDef>
+
+</Defs>
