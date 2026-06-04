@@ -3,8 +3,8 @@
 	<!--Adept Coat-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_ApparelAdeptCoat</defName>
-		<label>Adept Coat</label>
-		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
+		<label>adept coat</label>
+		<description>This functional uniform is characteristic of the civilian specialists of the Imperium of Man. While the Imperium's propaganda centres the role of its armed forces and holy servants - from the Space Marines to the Guard and the militant orders of the Sisters of Battle - without the functionaries and bureaucrats and clerks of the Adeptus Administratum, it would grind to a halt.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -25,8 +25,7 @@
 		<equippedStatOffsets>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>20</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>5</Steel>
 			<Cloth>120</Cloth>
 		</costList>
 
@@ -76,8 +75,8 @@
 	<!--Adept Wrapping-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_ApparelAdeptWrapping</defName>
-		<label>Adept Wrapping</label>
-		<description>Standard wrapping worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
+		<label>adept wrapping</label>
+		<description>Many adepts will wear belts and pouches to carry scrolls, data-slates, and containers so that they can perform their duties more efficiently.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -93,10 +92,10 @@
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
-		<equippedStatOffsets>
+		<!--equippedStatOffsets>
 			<ConstructionSpeed>.10</ConstructionSpeed>
 			<ConstructSuccessChance>.10</ConstructSuccessChance>
-		</equippedStatOffsets>
+		</equippedStatOffsets-->
 		<costList>
 			<Steel>20</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>

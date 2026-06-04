@@ -3,8 +3,8 @@
 	<!-- Psyker Hood -->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_PsykerHood</defName>
-		<label>Psyker Hood</label>
-		<description>A hood worn by psykers to contain their psychic powers.</description>
+		<label>psyker hood</label>
+		<description>Psykers are feared and hated by the people of the galaxy even though the Imperium's transportation and communication infrastructure would collapse overnight without them. This hood serves to hide some of the psyker collar from sight, making people a bit more comfortable when dealing with these 'witches', sanctioned though they may be.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<!-- <shaderType>Cutout</shaderType> -->
@@ -27,8 +27,7 @@
 		</statBases>
 
 		<costList>
-			<Steel>10</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Cloth>50</Cloth>
 		</costList>
 
 		<apparel>
@@ -57,7 +56,7 @@
 				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		
@@ -78,8 +77,8 @@
 	<!-- Psyker Helm -->
 		<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_PsykerHelm</defName>
-		<label>Psyker Helm</label>
-		<description>A helm worn by psykers to contain their psychic powers.</description>
+		<label>psyker helm</label>
+		<description>This specially constructed helm serves to strengthen and regulate the warp-touched power of the psyker, making it easier for them to tap into their psykanic talents without being overwhelmed or losing control.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
@@ -101,8 +100,9 @@
 		</statBases>
 
 		<costList>
-			<Steel>10</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>25</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 
 		<apparel>
@@ -150,8 +150,8 @@
 	<!--Psyker Robe-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_ApparelPsykerRobe</defName>
-		<label>Psyker Robe</label>
-		<description>Standard clothing worn by the cultists of the Mechanicus. A common sight among priests of forge worlds, although higher ranking members may replace it with more distinct apparel suited to their tasks and augmented body needs.\n\n&lt;color=#40cbde&gt;Customizable in the styling station or Mechanicus forge altar&lt;/color&gt;.</description>
+		<label>psyker robe</label>
+		<description>Even the most highly ranked and esteemed psykers in the Imperium are often distrusted and feared. These lavish robes - covered in sigils, seals, and protective charms - at least reassure anyone nearby that this psyker has been processed by the Black Ships and sanctioned by the Emperor.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -171,7 +171,8 @@
         <PsychicSensitivity>1</PsychicSensitivity>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>20</Steel>
+			<Cloth>150</Cloth>
+			<Steel>15</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 

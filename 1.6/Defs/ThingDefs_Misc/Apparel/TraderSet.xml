@@ -4,8 +4,8 @@
 	<!-- Trader Hat -->
 		<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderHat</defName>
-		<label>Trader Hat</label>
-		<description>A stylish hat worn by traders for protection and fashion.</description>
+		<label>trader hat</label>
+		<description>No Lord Captain can expect to be taken seriously without a suitably imposing hat of office. </description>
         <graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
@@ -28,7 +28,8 @@
 		</statBases>
 
 		<costList>
-			<Steel>10</Steel>
+			<Cloth>80</Cloth>
+			<Gold>20</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 
@@ -78,8 +79,8 @@
 	<!--Trader Shirt-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderShirt</defName>
-		<label>Trader Shirt</label>
-		<description>A stylish shirt worn by traders for protection and fashion.</description>
+		<label>trader shirt</label>
+		<description>There is no uniform for the Rogue Traders of the Imperium, but many of them tend towards the flamboyant, lavish and almost piratical in their dress. This shirt is a typical example, embroidered and decorated to ensure everyone knows of the Trader's high status.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -100,7 +101,8 @@
              <IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>20</Steel>
+			<Cloth>170</Cloth>
+			<Gold>20</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 
@@ -154,8 +156,8 @@
     <!--Trader Pants-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderPants</defName>
-		<label>Trader Pants</label>
-		<description>Stylish pants worn by traders for protection and fashion.</description>
+		<label>trader pants</label>
+		<description>There is no uniform for the Rogue Traders of the Imperium, but many of them tend towards the flamboyant, lavish and almost piratical in their dress. These pants are a typical example, embroidered and decorated to ensure everyone knows of the Trader's high status.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -176,7 +178,8 @@
              <IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>20</Steel>
+			<Cloth>90</Cloth>
+			<Gold>20</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 
@@ -228,8 +231,8 @@
     <!--Trader Coat-->
     <ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderCoat</defName>
-		<label>Trader Coat</label>
-		<description>Stylish coat worn by traders for protection and fashion.</description>
+		<label>trader coat</label>
+		<description>There is no uniform for the Rogue Traders of the Imperium, but many of them tend towards the flamboyant, lavish and almost piratical in their dress. This long coat is a typical example, embroidered and decorated to ensure everyone knows of the Trader's high status.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -255,8 +258,9 @@
         <IncomingDamageFactor>-0.15</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>70</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<Cloth>180</Cloth>
+			<Gold>30</Gold>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 
 		<apparel>
@@ -304,8 +308,8 @@
     <!--Trader Armor-->
     <ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderArmor</defName>
-		<label>Trader Armor</label>
-		<description>Stylish armor worn by traders for protection and fashion.</description>
+		<label>trader armour</label>
+		<description>This armour may be ornamental, but it doesn't lack for protective qualities either. Rogue Traders tend to be aware of the dangers that come with their role, and when necessary they don flak or carapace armour quite happily - although they always ensure that it looks the part.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -332,7 +336,9 @@
 		</equippedStatOffsets>
 		<costList>
 			<Steel>70</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<Gold>30</Gold>
+			<Seg_Ceramite>80</Seg_Ceramite>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 
 		<apparel>
