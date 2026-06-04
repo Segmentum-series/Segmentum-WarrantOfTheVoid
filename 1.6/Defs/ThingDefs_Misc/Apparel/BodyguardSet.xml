@@ -11,11 +11,11 @@
 			<texPath>Things/Apparel/BodyguardHat/Seg_WOTV_BodyguardHat</texPath>
 		</graphicData>
 
-		<!--equippedStatOffsets>
-			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
-			<SocialImpact>.15</SocialImpact>
+		<equippedStatOffsets>
+			<SocialImpact>.10</SocialImpact>
 			<MoveSpeed>0.1</MoveSpeed>
-		</equippedStatOffsets-->
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
@@ -102,10 +102,10 @@
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
-		<!--equippedStatOffsets>
-			<MoveSpeed>-0.1</MoveSpeed>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
 			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
-		</equippedStatOffsets-->
+		</equippedStatOffsets>
 
 		<costList>
 			<Cloth>90</Cloth>

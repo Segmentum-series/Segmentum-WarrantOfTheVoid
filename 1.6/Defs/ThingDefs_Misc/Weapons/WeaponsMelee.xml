@@ -1,2 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<ThingDef Abstract="True" Name="WOTVMeleeWeapon_base" ParentName="BaseWeapon">
+		<techLevel>Ultra</techLevel>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponMelee</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<smeltable>true</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<thingCategories>
+			<li>Seg_WOTV_WeaponMelee</li>
+		</thingCategories>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+		</recipeMaker>
+		<!-- Tags for trading and categorization for later
+		<weaponTags>
+			<li>UltratechMelee</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>Ultratech</li>
+		</weaponClasses-->
+		<tradeTags>
+			<li>Seg_WOTV_WeaponMelee</li>
+		</tradeTags>
+		<!--relicChance MayRequire="Ludeon.RimWorld.Ideology">0</relicChance>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs> -->
+	</ThingDef>
+
+
+<!-- Trader rapier -->
+	<ThingDef ParentName="WOTVMeleeWeapon_base">
+		<defName>Seg_WOTV_MeleeWeapon_TraderRapier</defName>
+		<label>Noble's power rapier</label>
+		<description>This elegant and ornate power sword is as much a mark of status as a weapon, as effective in its own way when worn on a Rogue Trader's hip as it is when wielded in anger.</description>
+		<soundInteract>Seg_WOTV_Sound_PoweredMeleeWeapon_Equip</soundInteract>
+		<meleeHitSound>Seg_WOTV_Sound_PoweredMeleeWeapon_Impact</meleeHitSound>
+		<equippedAngleOffset>-60</equippedAngleOffset>
+		<smeltable>false</smeltable>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Melee_TraderRapier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+		<statBases>
+			<WorkToMake>52000</WorkToMake>
+			<Mass>4</Mass>
+			<MarketValue>2200</MarketValue>
+		</statBases> <!--Need social impact and maybe something else?-->
+		<costList>
+			<Steel>15</Steel>
+			<Plasteel>100</Plasteel>
+			<Gold>20</Gold>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>LongBlades</li>
+				<li>Seg_WOTV_TraderApparel</li>
+			</researchPrerequisites>
+			<recipeUsers>
+				<li>Seg_ImperialCraftingTable</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<displayPriority>400</displayPriority>
+		</recipeMaker>
+		<weaponTags>
+			<li>Seg_WOTV_AdvancedMelee</li>
+		</weaponTags>		
+		<tools>
+			<li>
+				<label>hilt</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.6</cooldownTime>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
 </Defs>

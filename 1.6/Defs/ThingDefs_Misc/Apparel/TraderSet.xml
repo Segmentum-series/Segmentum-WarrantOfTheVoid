@@ -12,9 +12,7 @@
 			<texPath>Things/Apparel/TraderHat/Seg_WOTV_TraderHat</texPath>
 		</graphicData>
 		<equippedStatOffsets>
-			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
-			<SocialImpact>.15</SocialImpact>
-			<MoveSpeed>0.1</MoveSpeed>
+			<SocialImpact>.20</SocialImpact>
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
@@ -97,8 +95,9 @@
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
+			<SocialImpact>.10</SocialImpact>
 			<MoveSpeed>-0.1</MoveSpeed>
-             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+            <IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
 			<Cloth>170</Cloth>
@@ -174,8 +173,9 @@
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
+			<SocialImpact>.10</SocialImpact>
 			<MoveSpeed>-0.1</MoveSpeed>
-             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+            <IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
 			<Cloth>90</Cloth>
@@ -254,8 +254,9 @@
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
-        <MoveSpeed>-0.1</MoveSpeed>
-        <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+			<SocialImpact>.15</SocialImpact>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
 			<Cloth>180</Cloth>
@@ -331,8 +332,9 @@
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
-        <MoveSpeed>-0.1</MoveSpeed>
-        <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+			<SocialImpact>.10</SocialImpact>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.20</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>70</Steel>

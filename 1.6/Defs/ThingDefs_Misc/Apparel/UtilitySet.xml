@@ -51,19 +51,19 @@
 			<!-- <drawOffset>(0,0,0.10)</drawOffset> -->
 		</graphicData>
 
-		<!--equippedStatOffsets>
-			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
-			<ConstructionSpeed>.25</ConstructionSpeed>
-			<ConstructSuccessChance>.20</ConstructSuccessChance>
-			<ToxicEnvironmentResistance>.30</ToxicEnvironmentResistance>
-		</equippedStatOffsets-->
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
+			<SmeltingSpeed>.30</SmeltingSpeed>
+			<ConstructionSpeed>.10</ConstructionSpeed>
+			<ConstructSuccessChance>.10</ConstructSuccessChance>
+		</equippedStatOffsets>
 		<statBases>
-			<WorkToMake>14000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
-			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.9</Mass>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
 			<Insulation_Cold>1.1</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
 		</statBases>
@@ -129,21 +129,20 @@
 		</graphicData>
 		<uiIconPath>Things/Apparel/UtilityHelmet/Seg_WOTV_UtilityHelmet</uiIconPath>
 
-		<!--equippedStatOffsets>
-			<WorkSpeedGlobal>.10</WorkSpeedGlobal>
-			<ConstructionSpeed>.25</ConstructionSpeed>
-			<ConstructSuccessChance>.20</ConstructSuccessChance>
-			<ToxicEnvironmentResistance>.30</ToxicEnvironmentResistance>
-		</equippedStatOffsets-->
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.15</WorkSpeedGlobal>
+			<ConstructionSpeed>.05</ConstructionSpeed>
+			<ConstructSuccessChance>.05</ConstructSuccessChance>
+		</equippedStatOffsets>
 		<statBases>
-			<WorkToMake>14000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
-			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.75</ArmorRating_Heat>
-			<Insulation_Cold>14.4</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>1.6</Mass>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>5.4</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 		</statBases>
 
 		<costList>
@@ -208,16 +207,16 @@
 
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
+			<MaxHitPoints>250</MaxHitPoints>
 			<Mass>2.2</Mass>
 			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
-		<!--equippedStatOffsets>
-			<ConstructionSpeed>.10</ConstructionSpeed>
-			<ConstructSuccessChance>.10</ConstructSuccessChance>
-		</equippedStatOffsets-->
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<Cloth>80</Cloth>
 		</costList>
@@ -292,10 +291,11 @@
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
-		<!--equippedStatOffsets>
+		<equippedStatOffsets>
 			<ConstructionSpeed>.10</ConstructionSpeed>
-			<ConstructSuccessChance>.10</ConstructSuccessChance>
-		</equippedStatOffsets-->
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
 		<costList>
 			<Cloth>60</Cloth>
 			<Steel>30</Steel>

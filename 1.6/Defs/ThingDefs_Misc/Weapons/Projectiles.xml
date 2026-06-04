@@ -117,4 +117,5 @@
       <stoppingPower>2</stoppingPower>
       <speed>55</speed>
     </projectile>
+	</ThingDef>
 </Defs>
