@@ -47,8 +47,8 @@
 		<defName>Seg_WOTV_MeleeWeapon_TraderRapier</defName>
 		<label>Noble's power rapier</label>
 		<description>This elegant and ornate power sword is as much a mark of status as a weapon, as effective in its own way when worn on a Rogue Trader's hip as it is when wielded in anger.</description>
-		<soundInteract>Seg_WOTV_Sound_PoweredMeleeWeapon_Equip</soundInteract>
-		<meleeHitSound>Seg_WOTV_Sound_PoweredMeleeWeapon_Impact</meleeHitSound>
+		<soundInteract>Seg_WOTV_RapierEquip</soundInteract>
+		<meleeHitSound>Seg_WOTV_RapierHit</meleeHitSound>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<smeltable>false</smeltable>
 		<weaponClasses>
