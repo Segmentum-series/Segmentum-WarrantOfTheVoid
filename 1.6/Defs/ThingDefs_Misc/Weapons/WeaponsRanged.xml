@@ -176,8 +176,9 @@
 			</li>
 		</verbs>
 		<costList>
-			<Steel>70</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<Steel>50</Steel>
+			<Wood>10</Wood>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<!-- Tags for trading and categorization for later-->
 		<weaponTags>
