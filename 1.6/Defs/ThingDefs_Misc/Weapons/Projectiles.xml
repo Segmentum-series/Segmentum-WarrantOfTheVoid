@@ -50,6 +50,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
 	<!-- Lasgun shot -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_RyzaLasgunShot</defName>
@@ -100,5 +101,20 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-
+	
+	<!--Stub revolver bullet-->
+	<ThingDef ParentName="BaseBullet">
+    <defName>Seg_WOTV_StubRevolverBullet</defName>
+    <label>stub revolver bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+	  <armorPenetrationBase>0.8</armorPenetrationBase>
+      <stoppingPower>2</stoppingPower>
+      <speed>55</speed>
+    </projectile>
 </Defs>

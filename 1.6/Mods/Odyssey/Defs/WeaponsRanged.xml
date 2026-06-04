@@ -51,8 +51,13 @@
 <ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_MiningLaser</defName>
 		<label>mining laser</label>
-		<description>A high-powered laser for mining operations.</description>
-
+		<description>This laser emits intense focused beams of energy intended for use in industrial-scale mines. It is unwieldy though still deadly if aimed at a living target.</description>
+		<recipeMaker>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_WOTV_BasicApparel</li>
+				<li>DeepDrilling</li>
+			</researchPrerequisites>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_MiningLaser</texPath>
 			<shaderType>Cutout</shaderType>
@@ -61,15 +66,15 @@
 		</graphicData>
 		<uiIconScale>0.6</uiIconScale>
 		<statBases>
-			<Mass>9</Mass>
+			<Mass>6</Mass>
 			<EquipDelay>1.2</EquipDelay>
 			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
-			<AccuracyTouch>0.20</AccuracyTouch>
+			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.40</AccuracyShort>
-			<AccuracyMedium>0.90</AccuracyMedium>
-			<AccuracyLong>0.95</AccuracyLong>
-			<WorkToMake>80000</WorkToMake>
-			<MarketValue>2530</MarketValue>
+			<AccuracyMedium>0.20</AccuracyMedium>
+			<AccuracyLong>0.10</AccuracyLong>
+			<WorkToMake>36000</WorkToMake>
+			<MarketValue>1800</MarketValue>
 		</statBases>
 		<verbs>
 			<li>
@@ -79,8 +84,8 @@
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<warmupTime>3</warmupTime>
-				<range>56.9</range>
-				<burstShotCount>2</burstShotCount>
+				<range>11.9</range>
+				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<targetParams>
@@ -94,10 +99,10 @@
 		</costList>
 		<!-- Tags for trading and categorization for later-->
 		<weaponTags>
-			<li>Seg_COTO_Transuranic</li>
+			<li>Seg_WOTV_MiningLaser</li>
 		</weaponTags>
 		<tradeTags>
-			<li>Seg_COTO_WeaponRangedHighTier</li>
+			<li>Seg_WOTV_SpecialistWeapons</li>
 		</tradeTags>
 	</ThingDef>
 </Defs>

@@ -14,7 +14,7 @@
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
 			<skillRequirements>
-				<Crafting>12</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<comps>
@@ -49,7 +49,7 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>20</power>
+				<power>9</power>
 				<cooldownTime>4</cooldownTime>
 			</li>
 		</tools>
@@ -76,15 +76,15 @@
 		</graphicData>
 		<uiIconScale>0.6</uiIconScale>
 		<statBases>
-			<Mass>9</Mass>
+			<Mass>3.5</Mass>
 			<EquipDelay>1.2</EquipDelay>
 			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
-			<AccuracyTouch>0.20</AccuracyTouch>
-			<AccuracyShort>0.40</AccuracyShort>
-			<AccuracyMedium>0.90</AccuracyMedium>
-			<AccuracyLong>0.95</AccuracyLong>
-			<WorkToMake>80000</WorkToMake>
-			<MarketValue>2530</MarketValue>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<WorkToMake>20000</WorkToMake>
+			<MarketValue>1200</MarketValue>
 		</statBases>
 		<verbs>
 			<li>
@@ -133,7 +133,7 @@
 		</tradeTags>
 	</ThingDef>
 
-	<!-- Seg_WOTV_Gun_LasLock -->
+	<!-- Las-lock -->
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_LasLock</defName>
 		<label>Las-lock</label>
@@ -151,15 +151,15 @@
 		</graphicData>
 		<uiIconScale>0.6</uiIconScale>
 		<statBases>
-			<Mass>9</Mass>
+			<Mass>5</Mass>
 			<EquipDelay>1.2</EquipDelay>
 			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
-			<AccuracyTouch>0.20</AccuracyTouch>
-			<AccuracyShort>0.40</AccuracyShort>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
 			<AccuracyMedium>0.90</AccuracyMedium>
-			<AccuracyLong>0.95</AccuracyLong>
-			<WorkToMake>80000</WorkToMake>
-			<MarketValue>2530</MarketValue>
+			<AccuracyLong>0.80</AccuracyLong>
+			<WorkToMake>6000</WorkToMake>
+			<MarketValue>800</MarketValue>
 		</statBases>
 		<verbs>
 			<li>
@@ -169,7 +169,7 @@
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<warmupTime>3</warmupTime>
-				<range>56.9</range>
+				<range>36.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
 				<muzzleFlashScale>10</muzzleFlashScale>
@@ -187,5 +187,80 @@
 			<li>Seg_WOTV_Las</li>
 		</tradeTags>
 	</ThingDef>
+
+	<!--Stub revolver-->
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="Gun_Revolver">
+		<defName>Seg_WOTV_StubRevolver</defName>
+		<label>stub revolver</label>
+		<description>This short-barrelled large-calibre revolver fires solid bullets from a rotating chamber. It is a weapon of an ancient type, possibly dating back as far as late M2, and is rarely used by the Militarum except as an unofficial sidearm. It is most often found in the hands of enforcers and hive gangers, or perhaps noble lifewards who fancy themselves as dashing gunslingers.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Ranged_Revolver</texPath>
+			<shaderType>Cutout</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>1.2</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Seg_WOTV_BasicWeapons</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_WOTV_AdvancedEquipment</li>
+			</researchPrerequisites>
+			<displayPriority>400</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_StubRevolverBullet</defaultProjectile>
+				<warmupTime>0.2</warmupTime>
+				<range>21.9</range>
+				<soundCast>Shot_Revolver</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+  </ThingDef>
 
 </Defs>
