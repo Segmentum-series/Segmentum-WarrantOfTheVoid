@@ -15,7 +15,7 @@
 		<smeltable>true</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
 		<thingCategories>
-			<li>Seg_WOTV_WeaponMelee</li>
+			<li>WeaponsMelee</li>
 		</thingCategories>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
