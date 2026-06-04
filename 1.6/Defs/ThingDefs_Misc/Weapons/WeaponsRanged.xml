@@ -5,7 +5,7 @@
 		<description>Base definition for that Skitarii rifle thing i cant be assed to spell again.this should never show in game, if it does report to KitchenSink.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisites>
+			<researchPrerequisites Inherit="False">
 				<li>Seg_MunitorumEquipment</li>
 			</researchPrerequisites>
 			<recipeUsers Inherit="False">

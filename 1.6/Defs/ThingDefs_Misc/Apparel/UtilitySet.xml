@@ -27,8 +27,7 @@
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<recipeUsers Inherit="False">
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
+				<li>Seg_ImperialCraftingTable</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -95,7 +94,6 @@
 		
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_BasicApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
@@ -170,7 +168,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_BasicApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
@@ -248,7 +245,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_BasicApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
@@ -329,7 +325,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_BasicApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>

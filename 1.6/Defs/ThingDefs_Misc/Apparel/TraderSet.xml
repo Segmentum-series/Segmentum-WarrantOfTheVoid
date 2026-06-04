@@ -51,7 +51,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
@@ -131,7 +130,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
@@ -207,7 +205,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
@@ -285,7 +282,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
@@ -364,7 +360,6 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>ComplexClothing</li>
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
