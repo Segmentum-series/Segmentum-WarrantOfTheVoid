@@ -74,7 +74,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.3</drawSize>
 		</graphicData>
-		<uiIconScale>0.6</uiIconScale>
+		<uiIconScale>1.4</uiIconScale>
 		<statBases>
 			<Mass>3.5</Mass>
 			<EquipDelay>1.2</EquipDelay>
@@ -149,7 +149,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<uiIconScale>0.6</uiIconScale>
+		<uiIconScale>1.3</uiIconScale>
 		<statBases>
 			<Mass>5</Mass>
 			<EquipDelay>1.2</EquipDelay>
@@ -200,7 +200,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<uiIconScale>1.4</uiIconScale>
+		<uiIconScale>1.8</uiIconScale>
 		<soundInteract>Interact_Revolver</soundInteract>
 		<statBases>
 			<WorkToMake>6000</WorkToMake>
