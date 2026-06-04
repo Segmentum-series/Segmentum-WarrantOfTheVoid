@@ -23,6 +23,8 @@
 		</statBases>
 
 		<equippedStatOffsets>
+			<SocialImpact>.05</SocialImpact>
+			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>5</Steel>
@@ -92,10 +94,9 @@
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
-		<!--equippedStatOffsets>
-			<ConstructionSpeed>.10</ConstructionSpeed>
-			<ConstructSuccessChance>.10</ConstructSuccessChance>
-		</equippedStatOffsets-->
+		<equippedStatOffsets>
+			<ResearchSpeed>.10</ResearchSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<Steel>20</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
