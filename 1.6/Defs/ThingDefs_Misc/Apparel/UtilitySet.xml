@@ -1,5 +1,4 @@
 <Defs>
-<!--Breaking change needed this comment is so the file is now different-->
 	<ThingDef Abstract="true" Name="Seg_WOTV_ClothingBase" ParentName="ArmorMachineableBase">
 		<thingClass>Apparel</thingClass>
 		<graphicData>
@@ -82,8 +81,13 @@
 				<li>Neck</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Overhead</li>
+				<li>EyeCover</li>
 			</layers>
+			<drawData>
+				<defaultData>
+					<layer>69</layer>
+				</defaultData>
+			</drawData>
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
