@@ -5,7 +5,7 @@
 		<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderHat</defName>
 		<label>trader hat</label>
-		<description>No Lord Captain can expect to be taken seriously without a suitably imposing hat of office. </description>
+		<description>No Lord Captain can expect to be taken seriously without a suitably imposing hat of office.</description>
         <graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
