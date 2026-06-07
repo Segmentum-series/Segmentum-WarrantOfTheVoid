@@ -355,7 +355,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<wornGraphicPaths>
-				<li>Things/Apparel/UtilityApron/Seg_WOTV_UtilityApron</li>
+				<li>Things/Apparel/TraderArmor/Seg_WOTV_TraderArmor</li>
 			</wornGraphicPaths>
 		</apparel>
 		<recipeMaker>
