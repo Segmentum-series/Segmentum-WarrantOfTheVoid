@@ -79,7 +79,7 @@
 			<Mass>3.5</Mass>
 			<EquipDelay>1.5</EquipDelay>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
-			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.65</AccuracyShort>
 			<AccuracyMedium>0.40</AccuracyMedium>
 			<AccuracyLong>0.25</AccuracyLong>
@@ -104,7 +104,7 @@
 			<Steel>70</Steel>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
-		<modExtensions>
+		<!--<modExtensions>
 			<li Class="VEF.Things.ThingDefExtension">
 				<weaponCarryDrawOffsets>
 					<north>
@@ -123,7 +123,7 @@
 					</west>
 				</weaponCarryDrawOffsets>
 			</li>
-		</modExtensions>
+		</modExtensions>-->
 		<!-- Tags for trading and categorization for later-->
 		<weaponTags>
 			<li>Seg_WOTV_Las</li>

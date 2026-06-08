@@ -90,8 +90,8 @@
 				<beamWidth>0.5</beamWidth>
 				<beamWidthDrawScale>1</beamWidthDrawScale>
 
-				<sweepRatePerTick>0</sweepRatePerTick>
-				<maxSweepAngle>0</maxSweepAngle>
+				<sweepRatePerTick>.003</sweepRatePerTick>
+				<maxSweepAngle>3</maxSweepAngle>
 
 				<damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
 				<debugCells>false</debugCells>
