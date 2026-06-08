@@ -166,7 +166,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Seg_WOTV_LaslockShot</defaultProjectile>
-				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCast>Seg_WOTV_RyzaLasgunFire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<warmupTime>3</warmupTime>
 				<range>36.9</range>
