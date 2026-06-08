@@ -1,0 +1,56 @@
+<Defs>
+ <ThingDef ParentName="BuildingBase">
+    <defName>Seg_WOTV_WarrantOfTrade</defName>
+    <label>warrant of trade</label>
+    <description>Anndra.</description>
+    <thingClass>seg.WarrantOfTrade</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Seg_WOTV_WarrantWall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0,0,3,1.8)</rect>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <shadowData>
+        <volume>(3,0.5,2)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <Flammability>0.6</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Gold>1000</Gold>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <designationHotKey>Misc3</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType><!-- used by call bossgroup -->
+  </ThingDef>
+</Defs>
