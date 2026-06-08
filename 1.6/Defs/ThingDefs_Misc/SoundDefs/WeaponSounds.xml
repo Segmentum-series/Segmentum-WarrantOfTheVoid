@@ -34,4 +34,20 @@
 		</subSounds>
 	</SoundDef>
 
+		<SoundDef>
+		<defName>Seg_WOTV_RyzaLasgunFire</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Seg_WOTV_Sound_RyzaLasgun</clipPath>
+					</li>
+				</grains>
+				<volumeRange>28~32</volumeRange>
+				<pitchRange>1.0~1.2</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
 </Defs>
