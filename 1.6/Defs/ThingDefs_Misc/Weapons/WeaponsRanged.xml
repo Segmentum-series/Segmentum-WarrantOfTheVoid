@@ -60,24 +60,24 @@
 
 	<!-- Ryza-pattern Lasgun -->
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
-		<defName>Seg_WOTV_Gun_Lasgun</defName>
+		<defName>Seg_WOTV_Gun_RyzaLasgun</defName>
 		<label>Lasgun (Ryza-pattern)</label>
 		<description>Like all lasguns, the Ryza-pattern is not the most powerful firearm, but it is reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts. This is one of the oldest patterns of lasgun still in use in the Imperium, and is still frequently found in the hands of noble retinues or Inquisition warbands as well as seeing continuing use by forces supplied by the forge world of Ryza.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
+			<shaderType>Cutout</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
 		<recipeMaker>
 			<researchPrerequisites Inherit="False">
 				<li>Seg_MunitorumEquipment</li>
 			</researchPrerequisites>
 		</recipeMaker>
-		<graphicData>
-			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
-			<shaderType>Cutout</shaderType>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.3</drawSize>
-		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<statBases>
 			<Mass>3.5</Mass>
-			<EquipDelay>1.2</EquipDelay>
+			<EquipDelay>1.5</EquipDelay>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 			<AccuracyTouch>0.85</AccuracyTouch>
 			<AccuracyShort>0.65</AccuracyShort>
@@ -94,7 +94,7 @@
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<warmupTime>1</warmupTime>
-				<range>28.9</range>
+				<range>26.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<muzzleFlashScale>10</muzzleFlashScale>

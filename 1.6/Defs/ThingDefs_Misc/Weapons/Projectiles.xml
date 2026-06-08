@@ -27,7 +27,7 @@
 
 		<modExtensions>
 			<li Class="taranchuk_lasers.LaserProperties">
-				<damageTickRate>21</damageTickRate>
+				<damageTickRate>20</damageTickRate>
 				<lifetimeTicks>20</lifetimeTicks>
 				<chainRange>0</chainRange>
 				<maxChainTargets>0</maxChainTargets>
@@ -70,7 +70,7 @@
 
 		<projectile>
 			<damageDef>Seg_LasgunDamage</damageDef>
-			<damageAmountBase>9</damageAmountBase>
+			<damageAmountBase>8</damageAmountBase>
 			<armorPenetrationBase>.30</armorPenetrationBase>
 			<stoppingPower>2</stoppingPower>
 			<speed>999</speed>
@@ -78,8 +78,8 @@
 
 		<modExtensions>
 			<li Class="taranchuk_lasers.LaserProperties">
-				<damageTickRate>2</damageTickRate>
-				<lifetimeTicks>6</lifetimeTicks>
+				<damageTickRate>8</damageTickRate>
+				<lifetimeTicks>8</lifetimeTicks>
 				<chainRange>0</chainRange>
 				<maxChainTargets>0</maxChainTargets>
 				<chainDelayTicks>100000</chainDelayTicks>
