@@ -36,13 +36,13 @@
 				<maxBranches>0</maxBranches>
 				<branchChance>0</branchChance>
 
-				<beamWidth>1</beamWidth>
+				<beamWidth>0.7</beamWidth>
 				<beamWidthDrawScale>1</beamWidthDrawScale>
 
 				<sweepRatePerTick>0</sweepRatePerTick>
 				<maxSweepAngle>0</maxSweepAngle>
 
-				<damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+				<damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
 				<debugCells>false</debugCells>
 
 				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
@@ -79,7 +79,7 @@
 		<modExtensions>
 			<li Class="taranchuk_lasers.LaserProperties">
 				<damageTickRate>2</damageTickRate>
-				<lifetimeTicks>4</lifetimeTicks>
+				<lifetimeTicks>6</lifetimeTicks>
 				<chainRange>0</chainRange>
 				<maxChainTargets>0</maxChainTargets>
 				<chainDelayTicks>100000</chainDelayTicks>
@@ -87,13 +87,13 @@
 				<maxBranches>0</maxBranches>
 				<branchChance>0</branchChance>
 
-				<beamWidth>1.01</beamWidth>
-				<beamWidthDrawScale>.5</beamWidthDrawScale>
+				<beamWidth>0.5</beamWidth>
+				<beamWidthDrawScale>1</beamWidthDrawScale>
 
 				<sweepRatePerTick>0</sweepRatePerTick>
 				<maxSweepAngle>0</maxSweepAngle>
 
-				<damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+				<damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
 				<debugCells>false</debugCells>
 
 				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
