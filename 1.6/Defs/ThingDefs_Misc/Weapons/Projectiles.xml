@@ -46,7 +46,7 @@
 				<debugCells>false</debugCells>
 
 				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
-				<lockOnTarget>true</lockOnTarget>
+				<lockOnTarget>false</lockOnTarget>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -90,14 +90,14 @@
 				<beamWidth>0.5</beamWidth>
 				<beamWidthDrawScale>1</beamWidthDrawScale>
 
-				<sweepRatePerTick>.003</sweepRatePerTick>
-				<maxSweepAngle>3</maxSweepAngle>
+				<sweepRatePerTick>0</sweepRatePerTick>
+				<maxSweepAngle>0</maxSweepAngle>
 
 				<damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
 				<debugCells>false</debugCells>
 
 				<textureScrollOffsetPerTick>(0, 0.1)</textureScrollOffsetPerTick>
-				<lockOnTarget>true</lockOnTarget>
+				<lockOnTarget>false</lockOnTarget>
 			</li>
 		</modExtensions>
 	</ThingDef>
