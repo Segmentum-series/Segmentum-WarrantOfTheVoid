@@ -78,8 +78,8 @@
 
 		<modExtensions>
 			<li Class="taranchuk_lasers.LaserProperties">
-				<damageTickRate>8</damageTickRate>
-				<lifetimeTicks>8</lifetimeTicks>
+				<damageTickRate>15</damageTickRate>
+				<lifetimeTicks>15</lifetimeTicks>
 				<chainRange>0</chainRange>
 				<maxChainTargets>0</maxChainTargets>
 				<chainDelayTicks>100000</chainDelayTicks>
