@@ -72,6 +72,8 @@
 		<recipeMaker>
 			<researchPrerequisites Inherit="False">
 				<li>Seg_MunitorumEquipment</li>
+				<li>Batteries</li>
+				<li>GasOperation</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<uiIconScale>1.4</uiIconScale>
@@ -141,6 +143,8 @@
 		<recipeMaker>
 			<researchPrerequisites Inherit="False">
 				<li>Seg_MunitorumEquipment</li>
+				<li>Batteries</li>
+				<li>Gunsmithing</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<graphicData>
