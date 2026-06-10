@@ -3,8 +3,8 @@
 	<!-- Laslock shot -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_LaslockShot</defName>
-		<label>laslock shot</label>
-		<description>a sustained beam of laser energy. good for melting armour.</description>
+		<label>lasbolt</label>
+		<description>A stabbing bolt of las energy.</description>
 		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
 		<category>Projectile</category>
 		<drawOffscreen>true</drawOffscreen>
@@ -54,8 +54,8 @@
 	<!-- Lasgun shot -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_RyzaLasgunShot</defName>
-		<label>lasgun shot</label>
-		<description>a sustained beam of laser energy. good for melting armour.</description>
+		<label>lasbolt</label>
+		<description>A stabbing bolt of las energy.</description>
 		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
 		<category>Projectile</category>
 		<drawOffscreen>true</drawOffscreen>
@@ -71,8 +71,8 @@
 		<projectile>
 			<damageDef>Seg_LasgunDamage</damageDef>
 			<damageAmountBase>8</damageAmountBase>
-			<armorPenetrationBase>.30</armorPenetrationBase>
-			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>.20</armorPenetrationBase>
+			<stoppingPower>0.5</stoppingPower>
 			<speed>999</speed>
 		</projectile>
 
