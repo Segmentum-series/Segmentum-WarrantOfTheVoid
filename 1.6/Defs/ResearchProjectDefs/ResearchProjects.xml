@@ -25,7 +25,7 @@
 <ResearchProjectDef>
 		<defName>Seg_WOTV_SpecialistApparel</defName>
 		<label>Retinue garb</label>
-		<description>Prepare to manufacture profession-appropriate gear and clothing for high-ranking Imperial personnel such as are found in the retinues of the illustrious Rogue Trader dynasties.</description>
+		<description>Prepare to manufacture profession-appropriate gear and clothing for high-ranking Imperial personnel such as those found in the retinues of the illustrious Rogue Trader dynasties.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<researchViewX>2</researchViewX>
