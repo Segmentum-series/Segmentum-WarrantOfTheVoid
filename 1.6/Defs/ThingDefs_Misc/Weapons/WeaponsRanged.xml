@@ -70,6 +70,7 @@
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<recipeMaker>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
 			<researchPrerequisites Inherit="False">
 				<li>Seg_MunitorumEquipment</li>
 				<li>Batteries</li>
@@ -141,6 +142,7 @@
 		<label>Las-lock</label>
 		<description>The las-lock is an archaic type of las weapon that focuses its energy into powerful single shots with a significant recharge time rather than being capable of bursts or sustained fire. Las-locks are often handbuilt outside of manufactoria and used by militias, scavengers, and heretics, although some better-quality examples following established patterns are still in use in Militarum regiments or for the armsmen of Rogue Trader houses.</description>
 		<recipeMaker>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
 			<researchPrerequisites Inherit="False">
 				<li>Seg_MunitorumEquipment</li>
 				<li>Batteries</li>
