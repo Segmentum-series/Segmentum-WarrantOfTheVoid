@@ -99,7 +99,7 @@
       <li>None</li>
     </workDisables>
 	<forcedTraits>
-      <SegWOTV_Voidhand />
+      <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
     </forcedTraits>
   </BackstoryDef>
 
@@ -583,7 +583,7 @@
 	  <Gourmand />
     </disallowedTraits>
 	<forcedTraits>
-	  <SegWOTV_Voidhand />
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -618,7 +618,7 @@
 	  <Wimp />
     </disallowedTraits>
 	<forcedTraits>
-	  <SegWOTV_Voidhand />
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
 	  <BEWH_Surgeon MayRequire="phonicmas.rimdark.mankindsfinest"/>
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -890,7 +890,7 @@
 	  <li>Animals</li>
     </workDisables>	
 	<forcedTraits>
-	  <SegWOTV_Voidhand />
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -920,7 +920,7 @@
 	  <li>Animals</li>
     </workDisables>	
 	<forcedTraits>
-	  <SegWOTV_Voidhand />
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
 	</forcedTraits>
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -952,7 +952,7 @@
 	  <li>Animals</li>
     </workDisables>	
 	<forcedTraits>
-	  <SegWOTV_Voidhand />
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1719,7 +1719,7 @@
     </disallowedTraits>	
 	<forcedTraits>
 	  <Bloodlust />
-	  <SegWOTV_Voidhand />
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -1748,7 +1748,7 @@
       <li>None</li>
     </workDisables>
 	<forcedTraits>
-      <SegWOTV_Voidhand />
+      <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
     </forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1778,7 +1778,7 @@
       <li>None</li>
     </workDisables>
 	<forcedTraits>
-      <SegWOTV_Voidhand />
+      <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
     </forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
