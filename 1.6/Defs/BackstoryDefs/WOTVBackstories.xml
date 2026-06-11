@@ -1835,5 +1835,112 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
+  
+  <!--Rogue Trader backstories-->
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Lord General</title>
+    <defName>Seg_WOTV_MilitarumGeneral</defName>
+    <titleShort>Lord General</titleShort>
+    <baseDesc>[PAWN_nameDef] attained the rank of Lord General in the Astra Militarum before being elevated to the head of a Rogue Trader house. [PAWN_possessive] life in command of the Emperor's armies was one of rugged plenty, but [PAWN_pronoun] saw [PAWN_possessive] share of combat and was used to commanding [PAWN_possessive] lessers even before taking the dynasty's reins.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_NobleBackstories</li>
+    </spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+	  <Shooting>2</Shooting>
+	  <Melee>3</Melee>
+	  <Social>6</Social>
+    </skillGains>
+	<forcedTraits>
+	</forcedTraits>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Lord General</title>
+    <defName>Seg_WOTV_MilitarumGeneralAwarded</defName>
+    <titleShort>Lord General</titleShort>
+    <baseDesc>[PAWN_nameDef] attained the rank of Lord General in the Astra Militarum and was instrumental in several great victories for the Imperium, with better-than-average personnel and materiel loss ratios. In recognition for [PAWN_possessive] valiant and faithful service, the High Lords of Terra awarded [PAWN_objective] a Warrant of Trade, ennobling [PAWN_objective] at the head of a Rogue Trader house.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_NobleBackstories</li>
+    </spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+	  <Shooting>3</Shooting>
+	  <Melee>3</Melee>
+	  <Social>7</Social>
+    </skillGains>
+	<forcedTraits>
+	</forcedTraits>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>planetary governor</title>
+    <defName>Seg_WOTV_PlanetaryGovernor</defName>
+    <titleShort>governor</titleShort>
+    <baseDesc>[PAWN_nameDef] spent a while as governor of one of the Imperium's million worlds, which is usually a lifetime appointment, but the extenuating circumstances of dynastic succession pulled [PAWN_objective] offworld and into the dashing life of a voidfaring Rogue Trader. Though unused to hardship, [PAWN_pronoun] has great experience of running a complex administrative structure.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_NobleBackstories</li>
+    </spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </workDisables>
+    <skillGains>
+	  <Social>7</Social>
+	  <Intellectual>4</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Greedy />
+	</forcedTraits>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
    
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>crime lord</title>
+    <defName>Seg_WOTV_CrimeLord</defName>
+    <titleShort>crime lord</titleShort>
+    <baseDesc>[PAWN_nameDef] clawed [PAWN_possessive] way to the top of a system-wide criminal cartel, and had a reputation for readiness to get [PAWN_possessive] hands dirty to get the job done and maintain [PAWN_possessive] position. Whether by hook or, more likely, by crook, [PAWN_pronoun] secured a Warrant of Trade and was able to take [PAWN_possessive] cartel into legitimacy with the approval of the High Lords of Terra themselves.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_NobleBackstories</li>
+    </spawnCategories>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+	  <Shooting>2</Shooting>
+	  <Melee>3</Melee>
+	  <Social>5</Social>
+	  <Intellectual>2</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	</forcedTraits>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+  
 </Defs>
