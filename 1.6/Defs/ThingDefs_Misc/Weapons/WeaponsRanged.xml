@@ -197,7 +197,7 @@
 
 	<!--Stub revolver-->
 	<ThingDef ParentName="BaseHumanMakeableGun" Name="Gun_Revolver">
-		<defName>Seg_WOTV_StubRevolver</defName>
+		<defName>Seg_WOTV_Gun_StubRevolver</defName>
 		<label>stub revolver</label>
 		<description>This short-barrelled large-calibre revolver fires solid bullets from a rotating chamber. It is a weapon of an ancient type, possibly dating back as far as late M2, and is rarely used by the Militarum except as an unofficial sidearm. It is most often found in the hands of enforcers and hive gangers, or perhaps noble lifewards who fancy themselves as dashing gunslingers.</description>
 		<possessionCount>1</possessionCount>

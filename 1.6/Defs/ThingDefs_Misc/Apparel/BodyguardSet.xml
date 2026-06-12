@@ -84,7 +84,7 @@
 
 	<!--Bodyguard Uniform-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
-		<defName>Seg_WOTV_ApparelBodyguardUniform</defName>
+		<defName>Seg_WOTV_Apparel_BodyguardUniform</defName>
 		<label>bodyguard uniform</label>
 		<description>These fatigues - likely Astra Militarum surplus or patterned after them - are functional and suited to lengthy field use. Many lower-ranking members of a Rogue Trader's retinue make use of such clothing.</description>
 
@@ -163,7 +163,7 @@
 
 	<!--BodyguardJacket-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
-		<defName>Seg_WOTV_ApparelBodyguardJacket</defName>
+		<defName>Seg_WOTV_Apparel_BodyguardJacket</defName>
 		<label>bodyguard jacket</label>
 		<description>Beyond a good set of carapace armour to protect the wearer, this duster is irregularly reinforced with extra fabric and bullet- or las-resistant weaves, adding an extra level of survivability in the likely eventuality of being caught in a firefight.</description>
 

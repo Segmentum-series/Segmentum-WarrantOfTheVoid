@@ -147,7 +147,7 @@
 
 	<!--Psyker Robe-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
-		<defName>Seg_WOTV_ApparelPsykerRobe</defName>
+		<defName>Seg_WOTV_Apparel_PsykerRobe</defName>
 		<label>psyker robe</label>
 		<description>Even the most highly ranked and esteemed psykers in the Imperium are often distrusted and feared. These lavish robes - covered in sigils, seals, and protective charms - at least reassure anyone nearby that this psyker has been processed by the Black Ships and sanctioned by the Emperor.</description>
 

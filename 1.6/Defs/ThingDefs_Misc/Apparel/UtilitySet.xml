@@ -196,7 +196,7 @@
 
 	<!--Utility Jumpsuit-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
-		<defName>Seg_WOTV_ApparelUtilityJumpsuit</defName>
+		<defName>Seg_WOTV_Apparel_UtilityJumpsuit</defName>
 		<label>utility jumpsuit</label>
 		<description>This basic jumpsuit is made of cheap but resilient fabric, similar to those worn by the masses of lower-rank labourers and crewmen on a Rogue Trader's voidship.</description>
 
@@ -273,7 +273,7 @@
 
 	<!-- Utility Apron -->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
-		<defName>Seg_WOTV_ApparelUtilityApron</defName>
+		<defName>Seg_WOTV_Apparel_UtilityApron</defName>
 		<label>utility apron</label>
 		<description>This rough and resilient apron provides extra protection for manual labourers, such as those found in the enginarium or maintenance clans of a voidship's lower decks.</description>
 
