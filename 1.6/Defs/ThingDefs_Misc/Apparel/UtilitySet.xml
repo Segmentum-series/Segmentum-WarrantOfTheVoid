@@ -54,6 +54,7 @@
 			<SmeltingSpeed>.30</SmeltingSpeed>
 			<ConstructionSpeed>.10</ConstructionSpeed>
 			<ConstructSuccessChance>.10</ConstructSuccessChance>
+			<ShootingAccuracyPawn>-.30</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
@@ -117,6 +118,9 @@
 				</tabDefs>
 			</li>
 		</modExtensions> -->
+		<thingCategories>
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
 	</ThingDef>
 
 	<!-- Utility Helmet -->
@@ -191,6 +195,9 @@
 				</tabDefs>
 			</li>
 		</modExtensions> -->
+		<thingCategories>
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
 	</ThingDef>
 
 
@@ -269,6 +276,9 @@
 				</tabDefs>
 			</li>
 		</modExtensions> -->
+		<thingCategories>
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
 	</ThingDef>
 
 	<!-- Utility Apron -->
@@ -349,5 +359,8 @@
 				</tabDefs>
 			</li>
 		</modExtensions> -->
+		<thingCategories>
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
 	</ThingDef>
 </Defs>
