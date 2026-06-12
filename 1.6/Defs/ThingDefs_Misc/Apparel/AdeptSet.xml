@@ -71,6 +71,9 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
+		<thingCategories>
+			<li>Seg_WOTV_ArmorInquisitorial</li>
+		</thingCategories>
 	</ThingDef>
 
 	<!--Adept Wrapping-->
@@ -147,6 +150,115 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
+		<thingCategories>
+			<li>Seg_WOTV_ArmorInquisitorial</li>
+		</thingCategories>
+	</ThingDef>
+	<!-- Backpack base -->
+	<ThingDef Abstract="true" Name="Seg_WOTV_BackpackBase" ParentName="ArmorMachineableBase">
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>Seg_ImperialCraftingTable</li>
+			</recipeUsers>
+		</recipeMaker>
+		<thingCategories>
+			<li>Seg_WOTV_ArmorInquisitorial</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Seg_WOTV_InquisitorialArmor</li>
+		</tradeTags>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>BEWH_CutoutThreeColor</shaderType>
+		</graphicData>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Backpack</li>
+			</layers>
+			<drawData>
+				<dataSouth>
+					<layer>-10</layer>
+				</dataSouth>
+				<dataWest>
+					<layer>80</layer>
+				</dataWest>
+				<dataEast>
+					<layer>80</layer>
+				</dataEast>
+				<dataNorth>
+					<layer>100</layer>
+				</dataNorth>
+			</drawData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+		</apparel>
+		<modExtensions>
+			<li Class="VEF.Apparels.ApparelExtension">
+				<isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
+	<!-- Adept backpack -->
+	<ThingDef ParentName="Seg_WOTV_BackpackBase">
+		<defName>Seg_WOTV_Apparel_AdeptPack</defName>
+		<label>adept pack</label>
+		<description>anndra.</description> 
+		<graphicData>
+			<texPath>Things/Apparel/AdeptPack/Seg_WOTV_AdeptPack</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>Seg_WOTV_BasicApparel</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Cloth>60</Cloth>
+			<WoodLog>30</WoodLog>
+		
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>550</MaxHitPoints>
+			<Mass>3.6</Mass>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat> 
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+			<CarryingCapacity>50</CarryingCapacity>
+			<SocialImpact>0.20</SocialImpact>
+			<ResearchSpeed>0.35</ResearchSpeed>
+            <ReadingSpeed>0.50</ReadingSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		
+		<apparel>
+			<wornGraphicPath>Things/Apparel/AdeptPack/Seg_WOTV_AdeptPack</wornGraphicPath>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
+				<defaultPrimaryColor>(120,82,66)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,255,255)</defaultSecondaryColor>
+				<defaultTertiaryColor>(25,146,198)</defaultTertiaryColor>
+				
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

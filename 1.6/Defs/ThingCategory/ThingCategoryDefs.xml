@@ -1,0 +1,13 @@
+<Defs>
+	<ThingCategoryDef>
+		<defName>Seg_WOTV_ArmorInquisitorial</defName>
+		<label>Inquisitorial armor and clothing</label>
+		<parent>ApparelArmor</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Seg_WOTV_ArmorTrader</defName>
+		<label>Trader armor</label>
+		<parent>ApparelArmor</parent>
+	</ThingCategoryDef>
+</Defs>
