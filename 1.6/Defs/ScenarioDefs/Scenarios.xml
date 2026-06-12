@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Rogue Trader -->
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>Seg_WOTV_ScenarioPawnKind_RogueTrader</defName>
+		<label>Rogue Trader</label>
+		<defaultFactionType>Seg_WOTV_PlayerRT</defaultFactionType>
+		<race>Human</race>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags Inherit="False">
+			<!-- <li>?</li> -->
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>Seg_WOTV_Apparel_TraderHat</li>
+			<li>Seg_WOTV_Apparel_TraderCoat</li>
+			<li>Seg_WOTV_Apparel_TraderShirt</li>
+			<li>Seg_WOTV_Apparel_TraderPants</li>
+		</apparelRequired>
+		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+		<initialWillRange>0~0</initialWillRange>
+		<apparelMoney>0~0</apparelMoney>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		<backstoryFiltersOverride>
+			<li>
+			<categoriesChildhood>
+				<li>SegWOTV_NobleBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>SegWOTV_NobleBackstories</li>
+			</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Bodyguard -->
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>Seg_WOTV_ScenarioPawnKind_Bodyguard</defName>
+		<label>Bodyguard</label>
+		<defaultFactionType>Seg_WOTV_PlayerRT</defaultFactionType>
+		<race>Human</race>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags Inherit="False">
+			<!-- <li>?</li> -->
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>Seg_WOTV_Apparel_BodyguardHat</li>
+			<li>Seg_WOTV_Apparel_BodyguardUniform</li>
+			<li>Seg_WOTV_Apparel_BodyguardJacket</li>
+			<li>Seg_COTO_Apparel_SkitariiBackpack</li>
+		</apparelRequired>
+		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+		<initialWillRange>0~0</initialWillRange>
+		<apparelMoney>0~0</apparelMoney>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		<backstoryFiltersOverride>
+			<li>
+			<categoriesChildhood>
+				<li>SegWOTV_RetinueBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>SegWOTV_RetinueBackstories</li>
+			</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Worker -->
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>Seg_WOTV_ScenarioPawnKind_Worker</defName>
+		<label>Voidship Crew</label>
+		<defaultFactionType>Seg_WOTV_PlayerRT</defaultFactionType>
+		<race>Human</race>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags Inherit="False">
+			<!-- <li>?</li> -->
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>Seg_WOTV_Apparel_UtilityJumpsuit</li>
+			<li>Seg_WOTV_Apparel_UtilityApron</li>
+		</apparelRequired>
+		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+		<initialWillRange>0~0</initialWillRange>
+		<apparelMoney>0~0</apparelMoney>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		<backstoryFiltersOverride>
+			<li>
+			<categoriesChildhood>
+				<li>SegWOTV_WorkerBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>SegWOTV_WorkerBackstories</li>
+			</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Worker Apron -->
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>Seg_WOTV_ScenarioPawnKind_Armsman</defName>
+		<label>Armsman</label>
+		<defaultFactionType>Seg_WOTV_PlayerRT</defaultFactionType>
+		<race>Human</race>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags Inherit="False">
+			<!-- <li>?</li> -->
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>Seg_WOTV_Apparel_UtilityJumpsuit</li>
+			<li>Seg_Apparel_FlakHelmet</li>
+			<li>Seg_Apparel_FlakArmour</li>
+		</apparelRequired>
+		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+		<initialWillRange>0~0</initialWillRange>
+		<apparelMoney>0~0</apparelMoney>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		<backstoryFiltersOverride>
+			<li>
+			<categoriesChildhood>
+				<li>SegWOTV_MilitarumBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>SegWOTV_MilitarumBackstories</li>
+			</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	
+	<!-- Rogue Trader Scenario -->
+	<ScenarioDef Name="RogueTraderPLACEHOLDER" ParentName="ScenarioBase">
+		<defName>Seg_WOTV_Scenario_RogueTrader</defName>
+		<label>Rogue Trader PLACEHOLDER</label>
+		<description>PLACEHOLDER\n\nyeah</description>
+		<scenario>
+			<playerFaction>
+				<factionDef>Seg_WOTV_PlayerRT</factionDef>
+			</playerFaction>
+			<summary>A Rogue Trader and what remains of their retinue crash land on a rimworld.</summary>
+			<parts>
+				
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+					<def>Seg_ConfigurePawnsKindDefs</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<leftBehindPawnKind>Seg_WOTV_ScenarioPawnKind_Worker</leftBehindPawnKind>
+					<kindCounts>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_RogueTrader</kindDef>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_Bodyguard</kindDef>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_Worker</kindDef>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_Armsman</kindDef>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+					</kindCounts>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+					<visible>false</visible>
+				</li>
+
+				<!-- Player pawns modifiers -->
+				
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Seg_MunitorumEquipment</project>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting on ground weapons -->
+					<def>StartingThing_Defined</def>
+					<thingDef>Seg_WOTV_Gun_RyzaLasgun</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Seg_WOTV_Gun_LasLock</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Seg_WOTV_Gun_StubRevolver</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Seg_WOTV_MeleeWeapon_TraderRapier</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting components -->
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting food -->
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting advanced components -->
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentSpacer</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting plasteel -->
+					<def>StartingThing_Defined</def>
+					<thingDef>Plasteel</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting silver -->
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>1500</count>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart"> <!-- Starting steel -->
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>1000</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>10</count>
+				</li>
+
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<allowRoofed>false</allowRoofed>
+					<count>5</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>300</count>
+				</li>
+				
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>PLACEHOLDER\n\nyeah</text>
+				<closeSound>GameStartSting</closeSound>
+				</li>
+				
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

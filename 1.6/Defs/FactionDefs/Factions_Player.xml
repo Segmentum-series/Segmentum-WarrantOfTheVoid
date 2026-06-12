@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- Requires update -->
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>Seg_WOTV_PlayerRT</defName>
+		<label>Rogue Trader's retinue</label>
+		<description>The personal retinue of a Rogue Trader.</description>
+		<isPlayer>true</isPlayer>
+		<pawnSingular>crewman</pawnSingular>
+		<pawnsPlural>crew</pawnsPlural>
+		<basicMemberKind>Seg_COTO_MechanicusColonist</basicMemberKind>
+		<techLevel>Spacer</techLevel>
+		<allowedCultures>
+			<li>Seg_Imperium</li>
+		</allowedCultures>
+		<factionNameMaker>Seg_NamerFactionImperiumPlayer</factionNameMaker>
+		<settlementNameMaker>Seg_NamerSettlementImperium</settlementNameMaker>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>SegWOTV_MilitarumBackstories</li>
+					<li>SegWOTV_RetinueBackstories</li>
+					<li>SegWOTV_NobleBackstories</li>>
+					<li>SegWOTV_WorkerBackstories</li>>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>UI/Factions/Seg_COTO_MechanicusOutpost</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<startingResearchTags><!-- Requires update -->
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags><!-- Requires update -->
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Hyperweave</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+</Defs>
