@@ -7,7 +7,7 @@
     <graphicData>
       <texPath>Things/Building/Seg_WOTV_WarrantWall</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(4,3)</drawSize>
       <damageData>
         <rect>(0,0,3,1.8)</rect>
         <cornerBL>Damage/Corner</cornerBL>
@@ -29,7 +29,7 @@
       <WorkToBuild>2200</WorkToBuild>
       <Flammability>0.6</Flammability>
     </statBases>
-    <size>(2,2)</size>
+    <size>(3,1)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
