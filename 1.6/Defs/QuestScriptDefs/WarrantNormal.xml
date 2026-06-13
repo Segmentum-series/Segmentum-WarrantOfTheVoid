@@ -6,26 +6,15 @@
     <autoAccept>true</autoAccept>
     <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">Raided_BanditCamp</successHistoryEvent>
     <everAcceptableInSpace>true</everAcceptableInSpace>
-    <!-- ALL THE NAMERS BELOW MUST BE CHANGED BEFORE RELEASE, ANNDRA DELETE THIS NOTE WHEN CHANGED PLEASE-->
     <questNameRules>
       <rulesStrings>
-        <li>questName->[stash] of [treasure]</li>
-        <li>stash->Establishment</li>
-        <li>stash->A Step Into</li>
-        <li>stash->Start Of</li>
-        <li>stash->PeePants</li>
-        <li>treasure->Greed</li>
-        <li>treasure->Avarice</li>
-        <li>treasure->Explotation</li>
-        <li>treasure->Jingoism</li>
-        <li>treasure->Colonialism</li>
+        <li>questName->Earning the Warrant</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
         <!-- Faction leader asker -->
-         <!--BELOW MUST BE CHANGED BEFORE RELEASE, ANNDRA DELETE THIS NOTE WHEN CHANGED PLEASE-->
-        <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of that a band of brigands has stolen a warrant of trade, this incredibly valuable artifact gives huge trade bonuses and is of immense value. Go get it!\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
+        <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has contacted us. A gang of malefactors and deserters has drawn the wrath of distant of Terra for actions unspecified, and the Imperium is offering a lavish reward for anyone who performs the service of wiping them out. Whosoever is responsible for destroying these miscreants will be awarded a Warrant of Trade! This would ennoble the bearer as a Rogue Trader with high rank and immense power, including right of settlement and ownership of this very rimworld.\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -172,8 +161,8 @@
                   <chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
                 </parms>
                 <addCampLootReward>true</addCampLootReward>
-                <customLetterLabel TKey="LetterLabelPaymentArrived">Payment arrived</customLetterLabel>
-                <customLetterText TKey="LetterTextPaymentArrived">You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived.</customLetterText>
+                <customLetterLabel TKey="LetterLabelPaymentArrived">Warrant of Trade arrived</customLetterLabel>
+                <customLetterText TKey="LetterTextPaymentArrived">The enemies of the Imperium are defeated!\n\nThe signed and authenticated Warrant of Trade has arrived.</customLetterText>
                 <nodeIfChosenPawnSignalUsed Class="QuestNode_Letter">
                   <letterDef>ChoosePawn</letterDef>
                   <label TKey="LetterLabelFavorReceiver">[asker_faction_royalFavorLabel]</label>
