@@ -73,7 +73,7 @@
 	<!-- Worker -->
 	<PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>Seg_WOTV_ScenarioPawnKind_Worker</defName>
-		<label>Voidship Crew</label>
+		<label>Worker</label>
 		<defaultFactionType>Seg_WOTV_PlayerRT</defaultFactionType>
 		<race>Human</race>
 		<chemicalAddictionChance>0.05</chemicalAddictionChance>
