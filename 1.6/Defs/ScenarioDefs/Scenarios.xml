@@ -24,6 +24,8 @@
 		<apparelMoney>0~0</apparelMoney>
 		<initialResistanceRange>13~21</initialResistanceRange>
 		<humanPregnancyChance>0</humanPregnancyChance>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>55</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
@@ -58,6 +60,8 @@
 		<apparelMoney>0~0</apparelMoney>
 		<initialResistanceRange>13~21</initialResistanceRange>
 		<humanPregnancyChance>0</humanPregnancyChance>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>55</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
@@ -90,6 +94,8 @@
 		<apparelMoney>0~0</apparelMoney>
 		<initialResistanceRange>13~21</initialResistanceRange>
 		<humanPregnancyChance>0</humanPregnancyChance>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>55</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
@@ -123,6 +129,8 @@
 		<apparelMoney>0~0</apparelMoney>
 		<initialResistanceRange>13~21</initialResistanceRange>
 		<humanPregnancyChance>0</humanPregnancyChance>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>55</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
