@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef ParentName="FactionBase" Abstract="True" Name="HiddenImperiumBase">
+  <FactionDef ParentName="FactionBase" Abstract="True" Name="Seg_WOTV_HiddenImperiumBase">
     <pawnSingular>imperial</pawnSingular>
     <pawnsPlural>imperials</pawnsPlural>
     <categoryTag>Ancient</categoryTag>
@@ -66,9 +66,10 @@
     <messageDefendersAttacking>Ancient soldiers are attacking.</messageDefendersAttacking>
   </FactionDef>
 
-  <FactionDef ParentName="HiddenImperiumBase">
-    <defName>the Imperium of Man</defName>
-    <label>The galaxy-spanning Imperium of Man, ruled by the God-Emperor.</label>
+  <FactionDef ParentName="Seg_WOTV_HiddenImperiumBase">
+    <defName>Seg_WOTV_ImperiumOfMan</defName>
+    <label>Imperium of Man</label>
+    <description>The galaxy-spanning Imperium of Man, ruled by the God-Emperor.</description>
   </FactionDef>
 
 </Defs>

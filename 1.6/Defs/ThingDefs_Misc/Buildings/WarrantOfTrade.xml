@@ -1,7 +1,7 @@
 <Defs>
  <ThingDef ParentName="BuildingBase">
-    <defName>Seg_WOTV_WarrantOfTrade</defName>
-    <label>Warrant of Trade</label>
+    <defName>Seg_WOTV_WarrantWall</defName>
+    <label>Warrant Wall</label>
     <description>The Warrant of Trade is a one-of-a-kind document that gives the bearer almost boundless authority, on a level with planetary or subsector governors or even the agents of the Imperial Inquisition. Some of the oldest Rogue Trader houses have documents supposedly signed by the Emperor himself or one of his primarch sons, but even the more recent warrants carry the authority of the High Lords of Terra and grant legitimacy and power beyond the wildest dreams of even most nobles of the Imperium of Man. The decisions and diktats of a Rogue Trader cannot be overruled or countermanded except at the highest levels of Imperial society - in theory, at least.</description>
     <thingClass>seg.WarrantOfTrade</thingClass>
     <minifiedDef>MinifiedThing</minifiedDef>
@@ -39,8 +39,9 @@
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
-      <Gold>1000</Gold>
+      <Gold>500</Gold>
       <ComponentIndustrial>4</ComponentIndustrial>
+      <Seg_WOTV_WarrantOfTrade>1</Seg_WOTV_WarrantOfTrade>
     </costList>
     <defaultPlacingRot>South</defaultPlacingRot>
     <interactionCellOffset>(0,0,2)</interactionCellOffset>
@@ -56,6 +57,48 @@
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-    <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType><!-- used by call bossgroup -->
+    <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType>
+    <comps>
+      <li Class="seg.CompProperties_SegCompWarrantWall" />
+    </comps>
   </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Seg_WOTV_WarrantOfTrade</defName>
+    <label>Trade Warrant</label>
+    <description>the actual piece of paper, giving you the power to trade with anyone</description>
+    <graphicData>
+      <texPath>Things/Item/Seg_WOTV_WarrantOfTrade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>10000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <tradeability>None</tradeability>
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>Seg_Untradable</li>
+    </tradeTags>
+  </ThingDef>
+  <RoyalTitleDef>
+    <defName>Seg_WOTV_RougeTraderTitle</defName>
+    <label>rogue trader</label>
+    <seniority>1</seniority>
+    <favorCost>0</favorCost>
+    <grantedAbilities>
+      <li>Seg_WOTV_RougeTraderAbility</li>
+    </grantedAbilities>
+</RoyalTitleDef>
 </Defs>

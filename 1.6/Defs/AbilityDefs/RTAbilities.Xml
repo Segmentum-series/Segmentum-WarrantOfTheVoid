@@ -1,0 +1,67 @@
+<Defs>
+<HediffDef>
+		<defName>Seg_WOTV_RougeTraderTitleHediff</defName>
+		<label>Hidden RT Buff</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+		<everCurableByItem>false</everCurableByItem>
+		<isBad>false</isBad>
+		<description>hidden code way to give the rouge trader. should only be visible with show hidden heddifs.</description>
+		<stages>
+			<li>
+            <becomeVisible>false</becomeVisible>
+				<statOffsets>
+					<TradePriceImprovement>0.395</TradePriceImprovement> <!-- 39.5% better prices, this is the the code allows-->
+                </statOffsets>                      
+			</li>
+		</stages>
+        <comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>30000</disappearsAfterTicks>
+                <showRemainingTime>False</showRemainingTime>
+      </li>
+		</comps>
+	</HediffDef>
+    <AbilityDef>
+        <defName>Seg_WOTV_RougeTraderAbility</defName>
+        <label>Prim, Preen and Present</label>
+        <description>Whip that thicc ass warrant out, giving you a very large trade bonus for a short time.</description>
+        <cooldownTicksRange>120000</cooldownTicksRange>
+        <iconPath>UI/Abilities/Seg_WOTV_Ability_RougeTrader</iconPath>
+        <jobDef>CastAbilityOnThing</jobDef>
+        <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+        <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+        <targetRequired>true</targetRequired>
+        <showWhenDrafted>true</showWhenDrafted>
+         <casterMustBeCapableOfViolence>False</casterMustBeCapableOfViolence>
+        <targetRequired>False</targetRequired>
+        <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+        <hostile>false</hostile>
+        <statBases>
+            <Ability_Duration>50</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>-1</range>
+            <warmupTime>.5</warmupTime>
+            <drawAimPie>False</drawAimPie>
+            <requireLineOfSight>False</requireLineOfSight>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+                <canTargetAnimals>false</canTargetAnimals>
+                <canTargetHumans>false</canTargetHumans>
+                <canTargetMechs>false</canTargetMechs>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Seg_WOTV_RougeTraderTitleHediff</hediffDef>
+                <replaceExisting>true</replaceExisting>
+            </li>
+        </comps>
+    </AbilityDef>
+    </Defs>
