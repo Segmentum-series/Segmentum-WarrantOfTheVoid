@@ -35,7 +35,7 @@
     <titleShort>Militarum brat</titleShort>
     <baseDesc>[PAWN_nameDef] was born and raised among the camp followers of a Militarum regiment. [PAWN_pronoun] spent [PAWN_possessive] childhood running errands for soldiers and support troops, while trying to grab some normality with other children in the same situation.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
     </spawnCategories>
     <skillGains>
@@ -62,7 +62,7 @@
     <baseDesc>[PAWN_nameDef] was made a Whiteshield, a cadet soldier in a Cadian regiment, at a young age, training with live rounds and doing intense drill in addition to regular labour or education.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>3</Shooting>
@@ -84,7 +84,7 @@
     <baseDesc>[PAWN_nameDef] was born and raised on an asteroid processing void station, living off nutrient paste and breathing stale air.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
       <li>Outlander</li>
@@ -137,7 +137,7 @@
     <baseDesc>[PAWN_nameDef] was promised to an Administratum scribe-clan at an early age. Separated from [PAWN_possessive] family, [PAWN_pronoun] learned to read and write and was put to work copying missives and memoranda as they passed through the scribe-clan's assigned bureaucratic level. Constant scribework has left [PAWN_objective] more frail than most.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>Offworld</li>
 	  <li>Outsider</li>
       <li>Outlander</li>
@@ -162,7 +162,7 @@
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
 	  <li>Madman</li>
@@ -193,7 +193,7 @@
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>Pirate</li>
       <li>Offworld</li>
     </spawnCategories>
@@ -227,7 +227,7 @@
     <spawnCategories>
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>Offworld</li>
     </spawnCategories>
     <workDisables>
@@ -250,7 +250,7 @@
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
     </spawnCategories>
     <skillGains>
 	  <Intellectual>5</Intellectual>
@@ -272,7 +272,7 @@
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
 	  <li>Outsider</li>
@@ -299,7 +299,7 @@
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <workDisables>
@@ -323,7 +323,7 @@
     <titleShort>trooper</titleShort>
     <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum and trained in the use of a lasgun and bayonet. [PAWN_pronoun] has seen combat in several large-scale battles and is somehow miraculously still alive.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -353,7 +353,7 @@
     <titleShort>penal legionary</titleShort>
     <baseDesc>[PAWN_nameDef] was convicted of a capital crime on an Imperial world and pressed into a Penal Legion as las fodder. [PAWN_pronoun] managed to survive, however, and on [PAWN_possessive] sixth deployment [PAWN_pronoun] saved the life of a Militarum staff officer in the face of overwhelming heretical numbers. As a reward for this act of exceptional valour, [PAWN_nameDef] was granted the Emperor's forgiveness and the high honour of joining a regiment as a regular Guardsman. </baseDesc>
     <spawnCategories>
-	  <li>SegWOTV_MilitarumBackstories</li>
+	  <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -384,7 +384,7 @@
     <baseDesc>[PAWN_nameDef] was part of [PAWN_possessive] homeworld's Planetary Defence Forces and trained in the basic use of a lasgun and bayonet. Although [PAWN_pronoun] did not see combat, this familiarity is still useful.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>Offworld</li>
 	  <li>Pirate</li>
     </spawnCategories>
@@ -410,7 +410,7 @@
     <baseDesc>[PAWN_nameDef] was part of [PAWN_possessive] homeworld's Planetary Defence Forces and trained in the basic use of a lasgun and bayonet. [PAWN_pronoun] participated in a bloody defence of [PAWN_possessive] world and miraculously survived.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>Offworld</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -437,7 +437,7 @@
     <titleShort>medicae</titleShort>
     <baseDesc>After conscription into the Astra Militarum, [PAWN_nameDef] was trained as a platoon-level medicae. [PAWN_pronoun] is used to being around wounds and has an aptitude for blades.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -470,7 +470,7 @@
     <titleShort>medicae</titleShort>
     <baseDesc>After conscription into the Astra Militarum, [PAWN_nameDef] was trained as a regimental medicae. [PAWN_pronoun] is a skilled surgeon with an aptitude for blades.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -503,7 +503,7 @@
     <titleShort>flamer trooper</titleShort>
     <baseDesc>After conscription into the Astra Militarum, [PAWN_nameDef] was trained to use a flamer in combat. [PAWN_pronoun] has grown to love the smell of promethium jelly and the way the fire dances; coincidentally, [PAWN_pronoun] has also learned how to treat burns.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
@@ -536,7 +536,7 @@
     <titleShort>pilot</titleShort>
     <baseDesc>[PAWN_nameDef] was part of the Imperial Navy and trained to fly Valkyrie dropships in support of Militarum operations. [PAWN_pronoun] learned the basics of aircraft maintenance and is a proficient navigator and pilot.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -638,7 +638,6 @@
     <titleShort>officer</titleShort>
     <baseDesc>[PAWN_nameDef] was commissioned as an officer in a regiment of the Astra Militarum. [PAWN_pronoun] has commanded troops in several campaigns and is miraculously still alive, having escaped enemy fire and that of [PAWN_possessive] own men.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -646,7 +645,7 @@
 	  <li>Social</li>
     </requiredWorkTags>
     <workDisables>
-      <li>ManualDumb</li>
+      <li>None</li>
     </workDisables>
     <skillGains>
       <Shooting>2</Shooting>
@@ -667,7 +666,7 @@
     <titleShort>staff officer</titleShort>
     <baseDesc>[PAWN_nameDef] was commissioned as an officer of the Astra Militarum, and was assigned to a position on the staff of a senior officer on the basis of meritorious service. [PAWN_pronoun] has some command experience and is used to smoothing the ruffled feathers of aggrieved commanders and generals, but has grown accustomed to some of the privileges of rank and the general's table.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_NobleBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -701,7 +700,7 @@
     <titleShort>staff officer</titleShort>
     <baseDesc>[PAWN_nameDef] was commissioned as an officer of the Astra Militarum, and was quickly assigned to a position on the staff of a senior officer due to [PAWN_possessive] connections. In spite of being promoted above [PAWN_possessive] capabilities through nepotism, [PAWN_pronoun] has some experience managing aggrieved commanders and generals, though [PAWN_pronoun] is mostly fond of the privileges of rank afforded to [PAWN_objective].</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_NobleBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -734,7 +733,7 @@
     <titleShort>adept</titleShort>
     <baseDesc>[PAWN_nameDef] was sent to serve in the Departmento Munitorum, responsible for the logistics of the Astra Militarum. [PAWN_possessive] life was dominated by lists, numbers, and endless amounts of paper and cogitator read-outs, and [PAWN_pronoun] became used to running off very little sleep to catch up with the endless demands of the Imperium's war machine.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>SegWOTV_RetinueBackstories</li>
 	  <li>SegWOTV_WorkerBackstories</li>
     </spawnCategories>
@@ -761,7 +760,7 @@
     <titleShort>menial</titleShort>
     <baseDesc>[PAWN_nameDef] was a menial of the Departmento Munitorum, responsible for minor tasks in the logistics and support of the Astra Militarum. [PAWN_possessive] life was dominated by bulk cooking of Militarum rations, scrubbing floors, and running message slips back and forth between [PAWN_possessive] superiors. [PAWN_pronoun] became used to functioning with very little sleep and working as fast as [PAWN_pronoun] could to get through the day.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>SegWOTV_RetinueBackstories</li>
 	  <li>SegWOTV_WorkerBackstories</li>
     </spawnCategories>
@@ -940,7 +939,7 @@
     <spawnCategories>
 	  <li>SegWOTV_RetinueBackstories</li>
 	  <li>SegWOTV_WorkerBackstories</li>
-	  <li>SegWOTV_MilitarumBackstories</li>
+	  <li>SegWOTV_ArmsmanBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -1111,31 +1110,6 @@
     </skillGains>
 	<forcedTraits>
 	  <Industriousness>-1</Industriousness>
-	</forcedTraits>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-  </BackstoryDef>
-
-  <BackstoryDef>
-    <slot>Adulthood</slot>
-    <title>Ministorum priest</title>
-    <defName>Seg_WOTV_MinistorumPriest</defName>
-    <titleShort>priest</titleShort>
-    <baseDesc>[PAWN_nameDef] was a priest of the Adeptus Ministorum, preaching the glory of the Emperor and the nobility of suffering in the name of Him on Terra. [PAWN_pronoun] has a strong command of rhetoric and thinks lay work is beneath [PAWN_objective].</baseDesc>
-    <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
-    </spawnCategories>
-    <workDisables>
-      <li>ManualDumb</li>
-	  <li>ManualSkilled</li>
-	  <li>Animals</li>
-    </workDisables>
-    <skillGains>
-	  <Social>4</Social>
-	  <Intellectual>5</Intellectual>
-    </skillGains>
-	<forcedTraits>
-	  <Industriousness>-2</Industriousness>
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1349,7 +1323,7 @@
       <li>SegWOTV_WorkerBackstories</li>
     </spawnCategories>
     <workDisables>
-      <li>ManualDumb</li>
+      <li>None</li>
     </workDisables>
     <skillGains>
 	  <Shooting>-2</Shooting>
@@ -1669,7 +1643,7 @@
     <baseDesc>[PAWN_nameDef] was an enforcer on a void station, part of the brutal police enforcing the Imperium's laws and norms. [PAWN_pronoun] was used to breaking heads and rounding up scum who threatened the stability of the station.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
-      <li>SegWOTV_MilitarumBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -2001,5 +1975,31 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
- 
+
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Ministorum priest</title>
+    <defName>Seg_WOTV_MinistorumPriest</defName>
+    <titleShort>priest</titleShort>
+    <baseDesc>Before being ennobled as head of a Rogue Trader house, [PAWN_nameDef] was a priest of the Adeptus Ministorum, preaching the glory of the Emperor and the nobility of suffering in the name of Him on Terra. [PAWN_pronoun] has a strong command of rhetoric and thinks lay work is beneath [PAWN_objective].</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_RogueTraderBackstories</li>
+    </spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+	  <li>ManualSkilled</li>
+	  <li>Animals</li>
+    </workDisables>
+    <skillGains>
+	  <Social>4</Social>
+	  <Intellectual>5</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Industriousness>-2</Industriousness>
+	</forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
 </Defs>

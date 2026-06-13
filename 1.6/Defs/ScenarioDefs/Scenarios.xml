@@ -30,7 +30,7 @@
 				<li>SegWOTV_NobleBackstories</li>
 			</categoriesChildhood>
 			<categoriesAdulthood>
-				<li>SegWOTV_NobleBackstories</li>
+				<li>SegWOTV_RogueTraderBackstories</li>
 			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
@@ -126,10 +126,10 @@
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
-				<li>SegWOTV_MilitarumBackstories</li>
+				<li>SegWOTV_ArmsmanBackstories</li>
 			</categoriesChildhood>
 			<categoriesAdulthood>
-				<li>SegWOTV_MilitarumBackstories</li>
+				<li>SegWOTV_ArmsmanBackstories</li>
 			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
