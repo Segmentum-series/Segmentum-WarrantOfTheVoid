@@ -138,8 +138,8 @@
 	<!-- Rogue Trader Scenario -->
 	<ScenarioDef Name="RogueTraderPLACEHOLDER" ParentName="ScenarioBase">
 		<defName>Seg_WOTV_Scenario_RogueTrader</defName>
-		<label>Rogue Trader PLACEHOLDER</label>
-		<description>PLACEHOLDER\n\nyeah</description>
+		<label>First Into Darkness</label>
+		<description>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship burns in high orbit and almost nobody from its crew of thousands has survived to land on the rimworld.\n\nNaturally, the Emperor-blessed Rogue Trader is among that group, for those thousands were sworn to ensure their survival. It is time to show the Imperium - nay, the galaxy! - just how deserved this position is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!</description>
 		<scenario>
 			<playerFaction>
 				<factionDef>Seg_WOTV_PlayerRT</factionDef>
@@ -150,7 +150,7 @@
 				<!-- Config pages -->
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
 					<def>Seg_ConfigurePawnsKindDefs</def>
-					<pawnChoiceCount>4</pawnChoiceCount>
+					<pawnChoiceCount>5</pawnChoiceCount>
 					<leftBehindPawnKind>Seg_WOTV_ScenarioPawnKind_Worker</leftBehindPawnKind>
 					<kindCounts>
 						<li>
@@ -165,7 +165,7 @@
 						</li>
 						<li>
 							<kindDef>Seg_WOTV_ScenarioPawnKind_Worker</kindDef>
-							<count>1</count>
+							<count>2</count>
 							<requiredAtStart>true</requiredAtStart>
 						</li>
 						<li>
@@ -194,20 +194,20 @@
 				<!-- Player starting things -->
 				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting on ground weapons -->
 					<def>StartingThing_Defined</def>
-					<thingDef>Seg_WOTV_Gun_RyzaLasgun</thingDef>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
 					<thingDef>Seg_WOTV_Gun_LasLock</thingDef>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Seg_WOTV_Gun_StubRevolver</thingDef>
-					<count>1</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Seg_WOTV_MeleeWeapon_TraderRapier</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting components -->
 					<def>StartingThing_Defined</def>
@@ -244,7 +244,7 @@
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>ComponentIndustrial</thingDef>
-					<count>10</count>
+					<count>15</count>
 				</li>
 
 				<!-- Scatter some things anywhere -->
@@ -263,7 +263,7 @@
 				<!-- Game start dialog -->
 				<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>PLACEHOLDER\n\nyeah</text>
+				<text>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship burns in high orbit and almost nobody from its crew of thousands has survived to land on the rimworld.\n\nNaturally, the Emperor-blessed Rogue Trader is among that group, for those thousands were sworn to ensure their survival. It is time to show the Imperium - nay, the galaxy! - just how deserved this position is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!</text>
 				<closeSound>GameStartSting</closeSound>
 				</li>
 				
