@@ -61,7 +61,6 @@
     <titleShort>Whiteshield</titleShort>
     <baseDesc>[PAWN_nameDef] was made a Whiteshield, a cadet soldier in a Cadian regiment, at a young age, training with live rounds and doing intense drill in addition to regular labour or education.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_MilitarumBackstories</li>
     </spawnCategories>
@@ -85,6 +84,7 @@
     <baseDesc>[PAWN_nameDef] was born and raised on an asteroid processing void station, living off nutrient paste and breathing stale air.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
       <li>Outlander</li>
@@ -136,8 +136,8 @@
     <titleShort>scribe</titleShort>
     <baseDesc>[PAWN_nameDef] was promised to an Administratum scribe-clan at an early age. Separated from [PAWN_possessive] family, [PAWN_pronoun] learned to read and write and was put to work copying missives and memoranda as they passed through the scribe-clan's assigned bureaucratic level. Constant scribework has left [PAWN_objective] more frail than most.</baseDesc>
     <spawnCategories>
-	  <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
 	  <li>Offworld</li>
 	  <li>Outsider</li>
       <li>Outlander</li>
@@ -160,9 +160,9 @@
     <titleShort>cultist child</titleShort>
     <baseDesc>[PAWN_nameDef] was raised among a cult worshipping the Ruinous Powers. The cultists were wiped out in an Ordo Hereticus raid, but an uncharacteristically merciful interrogator deemed [PAWN_nameDef] to be free from corruption, and [PAWN_pronoun] escaped execution or servitorisation.</baseDesc>
     <spawnCategories>
-	  <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
 	  <li>Madman</li>
@@ -193,6 +193,7 @@
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
       <li>Pirate</li>
       <li>Offworld</li>
     </spawnCategories>
@@ -226,6 +227,7 @@
     <spawnCategories>
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
       <li>Offworld</li>
     </spawnCategories>
     <workDisables>
@@ -248,6 +250,7 @@
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
     </spawnCategories>
     <skillGains>
 	  <Intellectual>5</Intellectual>
@@ -269,6 +272,7 @@
       <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
 	  <li>Outsider</li>
@@ -293,9 +297,9 @@
     <titleShort>peasant child</titleShort>
     <baseDesc>[PAWN_nameDef] was born into a peasant family on a feudal world with a largely medieval level of technology. [PAWN_pronoun] had few prospects for life beyond subsistence farming or service in the levy.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <workDisables>
@@ -380,6 +384,7 @@
     <baseDesc>[PAWN_nameDef] was part of [PAWN_possessive] homeworld's Planetary Defence Forces and trained in the basic use of a lasgun and bayonet. Although [PAWN_pronoun] did not see combat, this familiarity is still useful.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
       <li>Offworld</li>
 	  <li>Pirate</li>
     </spawnCategories>
@@ -405,6 +410,7 @@
     <baseDesc>[PAWN_nameDef] was part of [PAWN_possessive] homeworld's Planetary Defence Forces and trained in the basic use of a lasgun and bayonet. [PAWN_pronoun] participated in a bloody defence of [PAWN_possessive] world and miraculously survived.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
       <li>Offworld</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -563,6 +569,7 @@
     <baseDesc>Part of a voidship crew, [PAWN_nameDef] was trained to fly lighters - small shuttles intended for cargo and personnel transfer to other ships, stations, or planetary surfaces. [PAWN_pronoun] is a reasonably skilled pilot and is well-used to helping haul cargo on and off [PAWN_possessive] craft.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_WorkerBackstories</li>
 	  <li>Offworld</li>
       <li>Pirate</li>
     </spawnCategories>
@@ -596,7 +603,6 @@
     <titleShort>chirurgeon</titleShort>
     <baseDesc>[PAWN_nameDef] was a chirurgeon aboard a voidship, providing medical care for the crew when needed. [PAWN_pronoun] became proficient with suturing wounds, treating diseases, and affixing augmetic limbs to unlucky ratings who got their extremities caught in the machinery of the voidship's systems.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
@@ -634,7 +640,6 @@
     <spawnCategories>
       <li>SegWOTV_MilitarumBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
-      <li>SegWOTV_NobleBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -874,7 +879,6 @@
     <titleShort>officer</titleShort>
     <baseDesc>[PAWN_nameDef] was an officer on a chartist vessel - a voidship that plied the interstellar tradelanes of the Imperium, lacking a navigator and relying on short jumps through the warp to make its slow way from system to system, laden down with cargo and passengers. [PAWN_pronoun] is well-used to commanding underlings and to a life spent in the void. </baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
 	  <li>SegWOTV_RetinueBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
@@ -936,6 +940,7 @@
     <spawnCategories>
 	  <li>SegWOTV_RetinueBackstories</li>
 	  <li>SegWOTV_WorkerBackstories</li>
+	  <li>SegWOTV_MilitarumBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -1168,7 +1173,6 @@
     <titleShort>acolyte</titleShort>
     <baseDesc>[PAWN_nameDef] was an acolyte of an Inquisitorial warband. Working under an Inquisitor - or, more frequently, one of the Inquisitor's subordinates - [PAWN_pronoun] became somewhat inured to danger and hardship, providing muscle and an extra gun when called upon.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -1274,7 +1278,6 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
  
-
   <BackstoryDef>
     <slot>Adulthood</slot>
     <title>footman</title>
@@ -1302,42 +1305,11 @@
  
   <BackstoryDef>
     <slot>Adulthood</slot>
-    <title>noble</title>
-    <defName>Seg_WOTV_ImperialNoble</defName>
-    <titleShort>noble</titleShort>
-    <baseDesc>[PAWN_nameDef] was a noble on an Imperial world, with unimaginable privilege compared to the people around [PAWN_objective]. [PAWN_possessive] life was one of unceasing luxury, and [PAWN_pronoun] expects the very best to be provided for [PAWN_objective] even now.</baseDesc>
-    <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
-      <li>Madman</li>
-      <li>Cult</li>
-    </spawnCategories>
-    <workDisables>
-      <li>ManualDumb</li>
-	  <li>ManualSkilled</li>
-    </workDisables>
-    <skillGains>
-	  <Melee>2</Melee>
-	  <Social>3</Social>
-    </skillGains>
-	<forcedTraits>
-	  <Jealous />
-	</forcedTraits>
-    <disallowedTraits>
-	  <Industriousness>1</Industriousness>
-	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
-    </disallowedTraits>	
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-  </BackstoryDef>
- 
-  <BackstoryDef>
-    <slot>Adulthood</slot>
     <title>deathworlder</title>
     <defName>Seg_WOTV_Deathworlder</defName>
     <titleShort>deathworlder</titleShort>
     <baseDesc>[PAWN_nameDef] lived on a deathworld - a planet where even the flora and fauna are totally inimcal to human life and existence is a struggle. [PAWN_pronoun] had to be extremely tough to survive to adulthood in such a place.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
 	  <li>Pirate</li>
       <li>Madman</li>
@@ -1510,7 +1482,6 @@
     <baseDesc>[PAWN_nameDef] was a member of a illegitimate mercantile cartel focused on trading between xenos and humanity. Trade in xeno-artefacts is strictly forbidden by Imperial law and precepts, but people like [PAWN_nameDef] who engage in the 'Cold Trade' can find patronage and protection from official figures such as Rogue Traders or radically-inclined Inquisitors as long as they prove themselves useful.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
-	  <li>SegWOTV_NobleBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -1698,6 +1669,7 @@
     <baseDesc>[PAWN_nameDef] was an enforcer on a void station, part of the brutal police enforcing the Imperium's laws and norms. [PAWN_pronoun] was used to breaking heads and rounding up scum who threatened the stability of the station.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_MilitarumBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -1845,7 +1817,7 @@
     <titleShort>Lord General</titleShort>
     <baseDesc>[PAWN_nameDef] attained the rank of Lord General in the Astra Militarum before being elevated to the head of a Rogue Trader house. [PAWN_possessive] life in command of the Emperor's armies was one of rugged plenty, but [PAWN_pronoun] saw [PAWN_possessive] share of combat and was used to commanding [PAWN_possessive] lessers even before taking the dynasty's reins.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
     </spawnCategories>
     <workDisables>
       <li>ManualDumb</li>
@@ -1871,7 +1843,7 @@
     <titleShort>Lord General</titleShort>
     <baseDesc>[PAWN_nameDef] attained the rank of Lord General in the Astra Militarum and was instrumental in several great victories for the Imperium, with better-than-average personnel and materiel loss ratios. In recognition for [PAWN_possessive] valiant and faithful service, the High Lords of Terra awarded [PAWN_objective] a Warrant of Trade, ennobling [PAWN_objective] at the head of a Rogue Trader house.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
     </spawnCategories>
     <workDisables>
       <li>ManualDumb</li>
@@ -1897,7 +1869,7 @@
     <titleShort>governor</titleShort>
     <baseDesc>[PAWN_nameDef] spent a while as governor of one of the Imperium's million worlds, which is usually a lifetime appointment, but the extenuating circumstances of dynastic succession pulled [PAWN_objective] offworld and into the dashing life of a voidfaring Rogue Trader. Though unused to hardship, [PAWN_pronoun] has great experience of running a complex administrative structure.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
     </spawnCategories>
     <workDisables>
       <li>ManualDumb</li>
@@ -1924,7 +1896,7 @@
     <titleShort>crime lord</titleShort>
     <baseDesc>[PAWN_nameDef] clawed [PAWN_possessive] way to the top of a system-wide criminal cartel, and had a reputation for readiness to get [PAWN_possessive] hands dirty to get the job done and maintain [PAWN_possessive] position. Whether by hook or, more likely, by crook, [PAWN_pronoun] secured a Warrant of Trade and was able to take [PAWN_possessive] cartel into legitimacy with the approval of the High Lords of Terra themselves.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
     </spawnCategories>
     <workDisables>
     </workDisables>
@@ -1942,5 +1914,92 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
-  
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>feudal noble</title>
+    <defName>Seg_WOTV_FeudalNobleRT</defName>
+    <titleShort>noble</titleShort>
+    <baseDesc>[PAWN_nameDef] was a vassal noble on a feudal world with a largely medieval level of technology, expected to fulfill [PAWN_possessive] duty to [PAWN_possessive] liege lord and living off the labour of serfs and tenants. After performing an extraordinary service to the Imperium, [PAWN_pronoun] was raised to the position of Rogue Trader, but is still adapting to the wider galaxy.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_RogueTraderBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>ManualDumb</li>
+	  <li>ManualSkilled</li>
+    </workDisables>
+    <skillGains>
+	  <Melee>6</Melee>
+	  <Social>3</Social>
+	  <Intellectual>-4</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <SlowLearner />
+	</forcedTraits>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>noble</title>
+    <defName>Seg_WOTV_ImperialNobleRT</defName>
+    <titleShort>noble</titleShort>
+    <baseDesc>[PAWN_nameDef] was a noble on an Imperial world, with unimaginable privilege compared to the people around [PAWN_objective]. [PAWN_possessive] life was one of unceasing luxury, and being raised to the heights of a Rogue Trader dynasty has done nothing to dim [PAWN_possessive] expectations even on the rimworld.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_RogueTraderBackstories</li>
+    </spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+	  <li>ManualSkilled</li>
+    </workDisables>
+    <skillGains>
+	  <Melee>2</Melee>
+	  <Social>3</Social>
+    </skillGains>
+	<forcedTraits>
+	  <Jealous />
+	</forcedTraits>
+    <disallowedTraits>
+	  <Industriousness>1</Industriousness>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>chartist captain</title>
+    <defName>Seg_WOTV_ChartistCaptain</defName>
+    <titleShort>captain</titleShort>
+    <baseDesc>[PAWN_nameDef] was the captain of a chartist vessel - a voidship that plied the interstellar tradelanes of the Imperium, lacking a navigator and relying on short jumps through the warp to make its slow way from system to system, laden down with cargo and passengers. [PAWN_pronoun] is well-used to commanding a voidship's crew and to a life spent in the void. </baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_RogueTraderBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+    <skillGains>
+	  <Social>4</Social>
+	  <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>
+	  <li>PlantWork</li>
+	  <li>Animals</li>
+    </workDisables>	
+	<forcedTraits>
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
+	</forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+ 
 </Defs>

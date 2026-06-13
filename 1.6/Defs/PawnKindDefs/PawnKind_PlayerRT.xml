@@ -18,9 +18,6 @@
 		<techHediffsChance>0.04</techHediffsChance>
 		<techHediffsMoney>50~800</techHediffsMoney>
 		<techHediffsTags>
-			<li>Poor</li>
-			<li>Simple</li>
-			<li>ImplantEmpireCommon</li>
 			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_CrudeAugmetics</li>
 			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_StandardAugmetics</li>
 		</techHediffsTags>
