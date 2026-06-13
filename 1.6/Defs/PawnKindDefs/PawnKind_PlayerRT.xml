@@ -21,6 +21,8 @@
 			<li>Poor</li>
 			<li>Simple</li>
 			<li>ImplantEmpireCommon</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_CrudeAugmetics</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_StandardAugmetics</li>
 		</techHediffsTags>
 		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>

@@ -8,20 +8,20 @@
 		<isPlayer>true</isPlayer>
 		<pawnSingular>crewman</pawnSingular>
 		<pawnsPlural>crew</pawnsPlural>
-		<basicMemberKind>Seg_COTO_MechanicusColonist</basicMemberKind>
+		<basicMemberKind>Seg_WOTV_ScenarioPawnKind_Worker</basicMemberKind>
 		<techLevel>Spacer</techLevel>
 		<allowedCultures>
 			<li>Seg_Imperium</li>
 		</allowedCultures>
-		<factionNameMaker>Seg_NamerFactionImperiumPlayer</factionNameMaker>
-		<settlementNameMaker>Seg_NamerSettlementImperium</settlementNameMaker>
+		<factionNameMaker>SegNamerFactionRogueTrader</factionNameMaker>
+		<settlementNameMaker>SegNamerSettlementImperium</settlementNameMaker>
 		<backstoryFilters>
 			<li>
 				<categories>
 					<li>SegWOTV_MilitarumBackstories</li>
 					<li>SegWOTV_RetinueBackstories</li>
-					<li>SegWOTV_NobleBackstories</li>>
-					<li>SegWOTV_WorkerBackstories</li>>
+					<li>SegWOTV_NobleBackstories</li>
+					<li>SegWOTV_WorkerBackstories</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -36,7 +36,7 @@
 		</startingTechprintsResearchTags>
 		<apparelStuffFilter>
 			<thingDefs>
-				<li>Hyperweave</li>
+				<li>Synthread</li>
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>

@@ -11,7 +11,7 @@
     <baseDesc>After being orphaned, [PAWN_nameDef] was raised in the Schola Progenium and went through strict indoctrination, education, and training according to Imperial edict.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_NobleBackstories</li>
-	  <li>SegWOTV_MilitarumBackstories</li>
+	  <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>3</Shooting>
