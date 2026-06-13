@@ -4,6 +4,10 @@
     <label>Warrant of Trade</label>
     <description>The Warrant of Trade is a one-of-a-kind document that gives the bearer almost boundless authority, on a level with planetary or subsector governors or even the agents of the Imperial Inquisition. Some of the oldest Rogue Trader houses have documents supposedly signed by the Emperor himself or one of his primarch sons, but even the more recent warrants carry the authority of the High Lords of Terra and grant legitimacy and power beyond the wildest dreams of even most nobles of the Imperium of Man. The decisions and diktats of a Rogue Trader cannot be overruled or countermanded except at the highest levels of Imperial society - in theory, at least.</description>
     <thingClass>seg.WarrantOfTrade</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+    <li>Seg_ImperiumArtifactBuildings</li>
+    </thingCategories>
     <graphicData>
       <texPath>Things/Building/Seg_WOTV_WarrantWall</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -28,6 +32,7 @@
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>2200</WorkToBuild>
       <Flammability>0.6</Flammability>
+      <Mass>500</Mass>
     </statBases>
     <size>(3,1)</size>
     <building>
