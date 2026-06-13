@@ -10,7 +10,7 @@
     <titleShort>progena</titleShort>
     <baseDesc>After being orphaned, [PAWN_nameDef] was raised in the Schola Progenium and went through strict indoctrination, education, and training according to Imperial edict.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
 	  <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <skillGains>
@@ -110,7 +110,7 @@
     <titleShort>noble child</titleShort>
     <baseDesc>[PAWN_nameDef] grew up in unimaginable privilege as the child of a noble family in an Imperial hive city. [PAWN_pronoun] had everything [PAWN_pronoun] could ever ask for, and a lot more besides, but was unused to menial tasks.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>1</Shooting>
@@ -190,7 +190,7 @@
     <titleShort>deathworlder</titleShort>
     <baseDesc>[PAWN_nameDef] was born in the unforgiving hell of a death world where the very flora and fauna is inimical to human survival. Only the toughest survive such a childhood.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
@@ -225,7 +225,7 @@
     <titleShort>agriworld child</titleShort>
     <baseDesc>[PAWN_nameDef] grew up on an agriworld, a planet-wide food production operation. [PAWN_pronoun] has been familiar with machines, livestock and harvesting from a young age.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>Offworld</li>
@@ -247,7 +247,7 @@
     <titleShort>foundling</titleShort>
     <baseDesc>[PAWN_nameDef] was orphaned at a young age and given to the Adeptus Ministorum for training and education. Although [PAWN_pronoun] spent much of his childhood confined to a bare cell in prayer, [PAWN_pronoun] learned to read and write and still knows numerous hymns and catechisms of the God Emperor by heart.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
@@ -269,7 +269,7 @@
     <titleShort>raid survivor</titleShort>
     <baseDesc>When still a child, [PAWN_nameDef] was one of the only survivors of a deadly xenos raid which killed most of [PAWN_possessive] community. Although it spurred a fierce interest in the wider galaxy, [PAWN_possessive] struggles with the trauma of the massacre to this day.</baseDesc>
     <spawnCategories>
-      <li>SegWOTV_NobleBackstories</li>
+      <li>SegWOTV_RogueTraderBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
