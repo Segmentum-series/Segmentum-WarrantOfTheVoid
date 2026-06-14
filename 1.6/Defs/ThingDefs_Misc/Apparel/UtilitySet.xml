@@ -54,23 +54,25 @@
 			<SmeltingSpeed>.30</SmeltingSpeed>
 			<ConstructionSpeed>.10</ConstructionSpeed>
 			<ConstructSuccessChance>.10</ConstructSuccessChance>
-			<ShootingAccuracyPawn>-.30</ShootingAccuracyPawn>
+			<ShootingAccuracyPawn>-.50</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Mass>1.9</Mass>
-			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.65</ArmorRating_Heat>
-			<Insulation_Cold>1.1</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 
 		<costList>
-			<Steel>30</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<stuffCategories>	
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
@@ -106,18 +108,20 @@
 			</skillRequirements>
 		</recipeMaker>
 		
-		<!-- <comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Head</decorativeType>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
+				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
+				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
+				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-				<tabDefs>
-					<li>BEWH_ArmorDecoration</li>
-				</tabDefs>
-			</li>
-		</modExtensions> -->
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
 		<thingCategories>
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
@@ -144,17 +148,19 @@
 			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Mass>1.6</Mass>
-			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<Insulation_Cold>5.4</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
+			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 
 		<costList>
-			<Steel>30</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<stuffCategories>	
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -183,18 +189,20 @@
 			</skillRequirements>
 		</recipeMaker>
 		
-		<!-- <comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Head</decorativeType>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
+				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
+				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
+				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-				<tabDefs>
-					<li>BEWH_ArmorDecoration</li>
-				</tabDefs>
-			</li>
-		</modExtensions> -->
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
 		<thingCategories>
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
@@ -262,20 +270,20 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-
-		<!-- <comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Body</decorativeType>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
+				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
+				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
+				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-				<tabDefs>
-					<li>BEWH_ArmorColoring</li>
-					<li>BEWH_ArmorDecoration</li>
-				</tabDefs>
-			</li>
-		</modExtensions> -->
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
 		<thingCategories>
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
@@ -346,19 +354,20 @@
 			</skillRequirements>
 		</recipeMaker>
 
-		<!-- <comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Body</decorativeType>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
+				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
+				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
+				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-				<tabDefs>
-					<li>BEWH_ArmorColoring</li>
-					<li>BEWH_ArmorDecoration</li>
-				</tabDefs>
-			</li>
-		</modExtensions> -->
+            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+                <tabDefs>
+                    <li>BEWH_ArmorColoring</li>
+                </tabDefs>
+            </li>
+        </modExtensions>
 		<thingCategories>
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
