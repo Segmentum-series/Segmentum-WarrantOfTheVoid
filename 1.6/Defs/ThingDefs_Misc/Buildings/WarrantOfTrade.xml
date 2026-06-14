@@ -95,10 +95,13 @@
   <RoyalTitleDef>
     <defName>Seg_WOTV_RougeTraderTitle</defName>
     <label>Rogue Trader</label>
-    <seniority>1</seniority>
+    <seniority>0</seniority>
     <favorCost>0</favorCost>
     <grantedAbilities>
       <li>Seg_WOTV_RogueTraderAbility</li>
     </grantedAbilities>
+    <tags>
+      <li>Seg_WOTV_RougeTraderTitle</li>
+    </tags>
 </RoyalTitleDef>
 </Defs>

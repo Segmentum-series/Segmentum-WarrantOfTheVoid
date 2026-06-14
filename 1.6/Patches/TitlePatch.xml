@@ -1,0 +1,30 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="Ancients"]</xpath>
+    <value>
+      <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Imperial Authority</royalFavorLabel>
+      <royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">UI/Icons/RoyalFavor</royalFavorIconPath>
+
+      <!--<royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">
+        RoyalTitleInheritanceWorker
+      </royalTitleInheritanceWorkerClass>-->
+
+      <royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
+        <li>Child</li>
+        <li>Grandchild</li>
+        <li>GreatGrandchild</li>
+        <li>NephewOrNiece</li>
+        <li>Spouse</li>
+        <li>Sibling</li>
+        <li>HalfSibling</li>
+        <li>Cousin</li>
+        <li>Parent</li>
+        <li>UncleOrAunt</li>
+      </royalTitleInheritanceRelations>
+
+      <royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
+        <li>Seg_WOTV_RougeTraderTitle</li>
+      </royalTitleTags>
+    </value>
+  </Operation>
+</Patch>
