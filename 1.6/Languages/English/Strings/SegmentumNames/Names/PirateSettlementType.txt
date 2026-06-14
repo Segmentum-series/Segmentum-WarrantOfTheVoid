@@ -1,0 +1,8 @@
+Fort
+Camp
+Hideout
+Depot
+Voidport
+Stockade
+Outpost
+Landing

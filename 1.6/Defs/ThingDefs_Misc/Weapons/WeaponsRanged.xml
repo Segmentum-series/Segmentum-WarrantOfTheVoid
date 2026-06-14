@@ -189,6 +189,7 @@
 		<!-- Tags for trading and categorization for later-->
 		<weaponTags>
 			<li>Seg_WOTV_Las</li>
+			<li>Seg_WOTV_Laslock</li>
 		</weaponTags>
 		<tradeTags>
 			<li>Seg_WOTV_Las</li>
@@ -217,6 +218,7 @@
 			<AccuracyMedium>0.40</AccuracyMedium>
 			<AccuracyLong>0.30</AccuracyLong>
 			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<MarketValue>600</MarketValue>
 		</statBases>
 		<weaponTags>
 			<li>Seg_WOTV_BasicWeapons</li>

@@ -37,6 +37,7 @@
     <spawnCategories>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>1</Shooting>
@@ -85,6 +86,7 @@
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
       <li>Outlander</li>
@@ -163,6 +165,7 @@
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
 	  <li>Madman</li>
@@ -194,6 +197,7 @@
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
       <li>Pirate</li>
       <li>Offworld</li>
     </spawnCategories>
@@ -228,6 +232,7 @@
       <li>SegWOTV_RogueTraderBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
       <li>Offworld</li>
     </spawnCategories>
     <workDisables>
@@ -242,6 +247,36 @@
 
   <BackstoryDef>
     <slot>Childhood</slot>
+    <title>voidship child</title>
+    <defName>Seg_WOTV_VoidshipClanChild</defName>
+    <titleShort>lowerdecker</titleShort>
+    <baseDesc>[PAWN_nameDef] was a child of a voidship clan tasked with menial maintenance of a machine none of them understood but regarded almost as divine. [PAWN_pronoun] is unused to open skies but good with [PAWN_possessive] hands.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
+	  <li>Pirate</li>
+	  <li>Offworld</li>
+    </spawnCategories>
+    <skillGains>
+	  <Social>1</Social>
+	  <Crafting>2</Crafting>
+	  <Construction>2</Construction>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+	  <li>Animals</li>
+    </workDisables>
+    <forcedTraits>
+      <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
+    </forcedTraits>
+    <disallowedTraits>
+      <Pyromaniac />
+    </disallowedTraits>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <slot>Childhood</slot>
     <title>Ministorum foundling</title>
     <defName>Seg_WOTV_MinistorumFoundling</defName>
     <titleShort>foundling</titleShort>
@@ -251,6 +286,7 @@
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
     </spawnCategories>
     <skillGains>
 	  <Intellectual>5</Intellectual>
@@ -273,6 +309,7 @@
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
 	  <li>Outsider</li>
@@ -300,6 +337,7 @@
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <workDisables>
@@ -346,6 +384,73 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Militarum deserter</title>
+    <defName>Seg_WOTV_MilitarumDeserter</defName>
+    <titleShort>deserter</titleShort>
+    <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum and trained in the use of a lasgun and bayonet. [PAWN_pronoun] deserted and somehow evaded the commissars, but is often worried that [PAWN_possessive] actions will catch up with [PAWN_pronoun].</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_PirateBackstories</li>
+	  <li>Pirate</li>
+	  <li>Ganger</li>
+	  <li>Outsider</li>
+	  <li>Madman</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <disallowedTraits>
+	  <Wimp />
+    </disallowedTraits>
+	<forcedTraits>
+	  <Neurotic>1</Neurotic>
+	</forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>penal legionary</title>
+    <defName>Seg_WOTV_PenalLegionary</defName>
+    <titleShort>penal legionary</titleShort>
+    <baseDesc>[PAWN_nameDef] was convicted of a capital crime on an Imperial world and pressed into a Penal Legion. [PAWN_pronoun] was sent into battle as las fodder but managed to run away and somehow remove the bomb collar around [PAWN_possessive] neck. So far [PAWN_pronoun] has avoided death or capture.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_PirateBackstories</li>
+	  <li>Pirate</li>
+	  <li>Ganger</li>
+	  <li>Outsider</li>
+	  <li>Offworld</li>
+	  <li>Madman</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+	<forcedTraits>
+	  <NaturalMood>-1</NaturalMood>
+	</forcedTraits>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
   <BackstoryDef>
     <slot>Adulthood</slot>
     <title>redeemed penal legionary</title>
@@ -385,6 +490,7 @@
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
       <li>Offworld</li>
 	  <li>Pirate</li>
     </spawnCategories>
@@ -505,6 +611,7 @@
     <spawnCategories>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -570,6 +677,7 @@
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Offworld</li>
       <li>Pirate</li>
     </spawnCategories>
@@ -604,6 +712,7 @@
     <baseDesc>[PAWN_nameDef] was a chirurgeon aboard a voidship, providing medical care for the crew when needed. [PAWN_pronoun] became proficient with suturing wounds, treating diseases, and affixing augmetic limbs to unlucky ratings who got their extremities caught in the machinery of the voidship's systems.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
     </spawnCategories>
@@ -879,6 +988,7 @@
     <baseDesc>[PAWN_nameDef] was an officer on a chartist vessel - a voidship that plied the interstellar tradelanes of the Imperium, lacking a navigator and relying on short jumps through the warp to make its slow way from system to system, laden down with cargo and passengers. [PAWN_pronoun] is well-used to commanding underlings and to a life spent in the void. </baseDesc>
     <spawnCategories>
 	  <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -907,6 +1017,7 @@
     <baseDesc>[PAWN_nameDef] was part of a crew clan on the lower decks of an ancient Imperial voidship, tasked with operation of a machine none of them understood but which they regarded almost as divine.</baseDesc>
     <spawnCategories>
 	  <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
     </spawnCategories>
@@ -940,6 +1051,7 @@
 	  <li>SegWOTV_RetinueBackstories</li>
 	  <li>SegWOTV_WorkerBackstories</li>
 	  <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -971,6 +1083,7 @@
     <spawnCategories>
 	  <li>SegWOTV_RetinueBackstories</li>
 	  <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -1032,6 +1145,7 @@
     <baseDesc>[PAWN_nameDef] lived and worked in a hive city but chafed against the strictures of Imperial society. [PAWN_pronoun] never went as far as insurrection or heresy, but could never accept [PAWN_possessive] place in the Imperium, and sought out subversive art and literature.</baseDesc>
     <spawnCategories>
 	  <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
 	  <li>Outsider</li>
@@ -1097,6 +1211,7 @@
     <baseDesc>[PAWN_nameDef] was a lay cleric of the Adeptus Ministorum. [PAWN_pronoun] assisted with cathedrum services and breathed enough incense to last a lifetime, but is unused to manual labour.</baseDesc>
     <spawnCategories>
 	  <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <workDisables>
@@ -1285,6 +1400,7 @@
     <baseDesc>[PAWN_nameDef] lived on a deathworld - a planet where even the flora and fauna are totally inimcal to human life and existence is a struggle. [PAWN_pronoun] had to be extremely tough to survive to adulthood in such a place.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
       <li>Madman</li>
     </spawnCategories>
@@ -1353,6 +1469,7 @@
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -1387,6 +1504,7 @@
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
       <li>Madman</li>
       <li>Cult</li>
@@ -1422,6 +1540,7 @@
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -1456,6 +1575,7 @@
     <baseDesc>[PAWN_nameDef] was a member of a illegitimate mercantile cartel focused on trading between xenos and humanity. Trade in xeno-artefacts is strictly forbidden by Imperial law and precepts, but people like [PAWN_nameDef] who engage in the 'Cold Trade' can find patronage and protection from official figures such as Rogue Traders or radically-inclined Inquisitors as long as they prove themselves useful.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -1486,6 +1606,7 @@
     <baseDesc>[PAWN_nameDef] made a living smuggling illicit goods into an Imperial hive city. It was a profitable enterprise, although having to keep [PAWN_possessive] operation hidden from the enforcers made [PAWN_objective] paranoid.</baseDesc>
     <spawnCategories>
 	  <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -1515,6 +1636,7 @@
     <baseDesc>[PAWN_nameDef] made a living as a data broker in a hive city, providing [PAWN_possessive] services both to legitimate mercantile conglomerates and to illegal cartels. [PAWN_pronoun] is most at home in noospheric data streams and has cultivated mnemonic techniques to mentally order the information [PAWN_possessive] living relies on.</baseDesc>
     <spawnCategories>
 	  <li>SegWOTV_RetinueBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -1679,6 +1801,7 @@
     <baseDesc>[PAWN_nameDef] was part of a recolliger clan on a derelict voidship. [PAWN_pronoun] was dropped off with the rest of the clan to salvage the ship, hoping to be picked up by another ship at some point in the future.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
       <li>Madman</li>
@@ -1708,6 +1831,7 @@
     <baseDesc>[PAWN_nameDef] was an asteroid miner based on a void station. [PAWN_pronoun] endured the rough conditions and became familiar with ores, minerals, and mining machinery.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
+      <li>SegWOTV_PirateBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -1778,6 +1902,102 @@
     <disallowedTraits>
       <Recluse MayRequire="Ludeon.RimWorld.Biotech"/>
     </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+  
+  
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>flect dealer</title>
+    <defName>SegWOTV_FlectDealer</defName>
+    <titleShort>flect dealer</titleShort>
+    <baseDesc>[PAWN_nameDef] was a middleman in a hive city operation distributing flects, shards of warp-tainted glass that gave visions of other lives and otherworldly beings. [PAWN_pronoun] made a small fortune out of it, but the lure of staring into the flects [PAWN_pronoun] sold was too much for [PAWN_objective]. The warp has left its mark on [PAWN_possessive] psyche.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_PirateBackstories</li>
+	  <li>Pirate</li>
+      <li>Madman</li>
+      <li>Cult</li>
+    </spawnCategories>
+    <skillGains>
+	  <Social>4</Social>
+	  <Artistic>5</Artistic>
+    </skillGains>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <disallowedTraits>
+      <Recluse MayRequire="Ludeon.RimWorld.Biotech"/>
+    </disallowedTraits>
+    <forcedTraits>
+	  <Nerves>-2</Nerves>
+	  <TorturedArtist />
+	  <PsychicSensitivity>2</PsychicSensitivity>
+	  <Disturbing MayRequire="Ludeon.RimWorld.Anomaly"/>
+    </forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>flect addict</title>
+    <defName>SegWOTV_FlectAddict</defName>
+    <titleShort>flect addict</titleShort>
+    <baseDesc>[PAWN_nameDef] was a hive city labourer who got hooked on flects, shards of warp-tainted glass that gave visions of other lives and otherworldly beings. The lure of staring into the flects and imbibing the sights they showed was too much for [PAWN_objective], who spent every coin [PAWN_pronoun] he could scrounge on more of them. The warp has left its mark on [PAWN_possessive] psyche.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_PirateBackstories</li>
+	  <li>Pirate</li>
+      <li>Madman</li>
+      <li>Cult</li>
+    </spawnCategories>
+    <skillGains>
+	  <Social>-2</Social>
+	  <Artistic>5</Artistic>
+    </skillGains>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <disallowedTraits>
+      <Recluse MayRequire="Ludeon.RimWorld.Biotech"/>
+    </disallowedTraits>
+    <forcedTraits>
+	  <Nerves>-2</Nerves>
+	  <TorturedArtist />
+	  <PsychicSensitivity>2</PsychicSensitivity>
+	  <Disturbing MayRequire="Ludeon.RimWorld.Anomaly"/>
+    </forcedTraits>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Pirate chaplain</title>
+    <defName>Seg_WOTV_PirateChaplain</defName>
+    <titleShort>chaplain</titleShort>
+    <baseDesc>[PAWN_nameDef] was the on-board chaplain of a pirate voidship, preaching the holy word of the God-Emperor to [PAWN_possessive] crew and ensuring they kept on the spiritual straight and narrow even if they had long decided to commit to Lex-breaking. [PAWN_pronoun] took gleeful part in their raids and dedicated every smashed skull and charred corpse to His glory.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_PirateBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+	  <li>Social</li>
+    </requiredWorkTags>
+    <workDisables>
+	  <li>Animals</li>
+    </workDisables>
+    <skillGains>
+	  <Melee>4</Melee>
+	  <Shooting>2</Shooting>
+	  <Social>4</Social>
+	  <Intellectual>2</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Bloodlust />
+	  <Nerves>1</Nerves>
+      <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
+	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
@@ -1975,7 +2195,6 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
-
 
   <BackstoryDef>
     <slot>Adulthood</slot>

@@ -242,6 +242,11 @@
 					<thingDef>Silver</thingDef>
 					<count>1500</count>
 				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting medicine -->
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>15</count>
+				</li>
 
 				<!-- Scatter some things near player start -->
 				<li Class="ScenPart_ScatterThingsNearPlayerStart"> <!-- Starting steel -->
@@ -252,7 +257,7 @@
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>ComponentIndustrial</thingDef>
-					<count>15</count>
+					<count>10</count>
 				</li>
 
 				<!-- Scatter some things anywhere -->

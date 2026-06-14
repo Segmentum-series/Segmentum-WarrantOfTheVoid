@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Name="Seg_WOTV_ImperiumPiratesBase" ParentName="FactionBase">
+    <defName>Seg_WOTV_ImperiumPirates</defName>
+    <label>Imperium pirates</label>
+    <description>A collection of criminals, malcontents, deserters, pirates, dissidents, and renegades originally from the Imperium of Man. Whatever their reasons for detaching from Imperial society, they have ended up organised as raiders and plunderers, using the rimworld as a safe haven for their ships and gangs between forays and raids into the void and its trade lanes. They are equipped with a motley assortment of weapons and armour.</description>
+    <pawnSingular>pirate</pawnSingular>
+    <pawnsPlural>pirates</pawnsPlural>
+	<fixedLeaderKinds>
+		<li>Seg_WOTV_PirateCaptain</li>
+	</fixedLeaderKinds>
+	<leaderTitle>Raid Captain</leaderTitle>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>World/WorldObjects/Expanding/PirateOutpost</factionIconPath>
+    <factionNameMaker>SegNamerFactionPirate</factionNameMaker>
+    <settlementNameMaker>SegNamerSettlementPirate</settlementNameMaker>
+    <colorSpectrum>
+      <li>(0.78, 0, 0.27)</li>
+      <li>(1, 0.74, 0.83)</li>
+    </colorSpectrum>
+    <permanentEnemy>false</permanentEnemy>
+    <techLevel>Spacer</techLevel>
+	<allowedCultures>
+		<li>Seg_Imperium</li>
+	</allowedCultures>		
+	<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
+		<ideoName MayRequire="Ludeon.RimWorld.Ideology">Cult Imperialis (heterodox)</ideoName>
+		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">The Imperial Cult is a religious structure that has dominated the Imperium of Mankind for ten thousand years, venerating the Emperor as an incarnate god who suffers on behalf of humanity and guides them in all things. Its inescapable, totalising grasp on Imperial society is one of the biggest causes of dissidence and rebellion, but even many of those who chafe at its strictures and societal control still believe in the divinity of the God-Emperor and the necessity to fear and distrust xenos, mutants, and witches. Many a pirate voidship has an on-board chaplain, and many a pirate captain will pray to the God-Emperor for wealth and victory.</ideoDescription>
+		<deityPresets MayRequire="Ludeon.RimWorld.Ideology">
+			<li>
+				<nameType>
+					<name>God-Emperor of Mankind</name>
+					<type>Him on Terra</type>
+				</nameType>
+				<gender>Male</gender>
+				<iconPath>UI/Deities/DeityGeneric</iconPath>
+			</li>
+		</deityPresets>
+		<forcedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</forcedMemes>
+		<requiredPreceptsOnly MayRequire="Ludeon.RimWorld.Ideology">false</requiredPreceptsOnly>
+    <allowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+    </allowedMemes>
+    <structureMemeWeights>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+    </structureMemeWeights>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BEWH_Ogryn MayRequire="Phonicmas.RimDark.Abhuman">0.1</BEWH_Ogryn>
+        <BEWH_Ratling MayRequire="Phonicmas.RimDark.Abhuman">0.05</BEWH_Ratling>
+        <BEWH_Beastman MayRequire="Phonicmas.RimDark.Abhuman">0.010</BEWH_Beastman>
+      </xenotypeChances>
+    </xenotypeSet>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>SegWOTV_PirateBackstories</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_PawnKindCustomization">
+			<defaultColorSelection>
+				<li>
+					<key>Seg_COTO_MagosBackpack_ColorPreset_2</key>
+					<value>TryMatch</value>
+				</li>
+				<li>
+					<key>Seg_FlakArmour_ColorPreset_1</key>
+					<value>TryMatch</value>
+				</li>
+				<li>
+					<key>Seg_MarsLasgun_ColorPreset_1</key>
+					<value>TryMatch</value>
+				</li>
+				<li>
+					<key>Seg_COTO_MagosApparel_ColorPreset_2</key>
+					<value>Default</value>
+				</li>
+			</defaultColorSelection>
+			</li>
+		</modExtensions>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <raidLootMaker>SegPirateRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Seg_WOTV_Dreg>10</Seg_WOTV_Dreg>
+          <Seg_WOTV_GangerMelee>3</Seg_WOTV_GangerMelee>
+          <Seg_WOTV_Ganger>10</Seg_WOTV_Ganger>
+          <Seg_WOTV_Pirate>10</Seg_WOTV_Pirate>
+          <Seg_WOTV_RenegadeGrenadier>2</Seg_WOTV_RenegadeGrenadier>
+          <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
+          <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <Seg_WOTV_Ganger>10</Seg_WOTV_Ganger>
+          <Seg_WOTV_Pirate>10</Seg_WOTV_Pirate>
+          <Seg_WOTV_RenegadeGrenadier>2</Seg_WOTV_RenegadeGrenadier>
+          <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, explosives with ranged mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <Seg_WOTV_RenegadeGrenadier>10</Seg_WOTV_RenegadeGrenadier>
+          <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
+          <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, renegades only -->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
+          <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Seg_WOTV_Dreg>3</Seg_WOTV_Dreg>
+          <Seg_WOTV_GangerMelee>3</Seg_WOTV_GangerMelee>
+          <Seg_WOTV_Ganger>10</Seg_WOTV_Ganger>
+          <Seg_WOTV_Pirate>10</Seg_WOTV_Pirate>
+          <Seg_WOTV_RenegadeGrenadier>2</Seg_WOTV_RenegadeGrenadier>
+          <Seg_WOTV_Renegade>8</Seg_WOTV_Renegade>
+          <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>60</configurationListOrderPriority>
+  </FactionDef>
+
+  <ThingSetMakerDef>
+    <defName>SegPirateRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>MedicineIndustrial</li>
+            <li>MealSurvivalPack</li>
+            <li>Flake</li>
+            <li>Yayo</li>
+            <li>GoJuice</li>
+            <li>WakeUp</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+
+</Defs>

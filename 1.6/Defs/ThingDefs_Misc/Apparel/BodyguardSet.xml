@@ -35,6 +35,7 @@
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
+				<li>Seg_WOTV_BodyguardApparel</li>
 			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>

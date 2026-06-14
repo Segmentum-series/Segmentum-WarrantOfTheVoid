@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Imperium Pirate Namers-->
+  
+  <RulePackDef>
+    <defName>SegNamerSettlementPirate</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name(p=4)->[segpiratetownname]'s [segpiratetowntype]</li>
+		<li>r_name(p=4)->[segpiratetownlabel] [segpiratetowntype]</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>segpiratetownname->SegmentumNames/Names/ImperiumLast</li>
+		<li>segpiratetownlabel->SegmentumNames/Names/PirateSettlementLabel</li>
+		<li>segpiratetowntype->SegmentumNames/Names/PirateSettlementType</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>SegNamerFactionPirate</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[PirateNoun] [PirateBand]</li>
+        <li>r_name->[PirateSegmentum] [PirateBand]</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>PirateNoun->SegmentumNames/Names/PirateNoun</li>
+		<li>PirateBand->SegmentumNames/Names/PirateBand</li>
+		<li>PirateSegmentum->SegmentumNames/Names/PirateSegmentum</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+ 
+</Defs>
