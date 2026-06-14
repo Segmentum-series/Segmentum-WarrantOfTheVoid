@@ -7,13 +7,13 @@
     <everAcceptableInSpace>true</everAcceptableInSpace>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Reclaiming Your Warrant</li>
+        <li>questName->Reclaiming the Warrant</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
         <!-- Faction leader asker -->
-        <li>questDescription(asker_factionLeader==True)->We have recieved one last communcation from our downed crewmates. The warrant wall did not make it, but the warrant itself did and its at [siteTile].\n the messagesays that [allSitePartsDescriptionsExceptFirst]</li>
+        <li>questDescription(asker_factionLeader==True)->In a great stroke of luck, or possibly the favour of the God-Emperor, the Warrant of Trade has been located! It is intact, and being held by a group of pirates who survived the mutual destruction of your flagship. Their camp is sure to be well-guarded by the standards of malcontents and criminals, but the sacred Warrant of Trade must be recovered at all costs!</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -159,8 +159,8 @@
                   <chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
                 </parms>
                 <addCampLootReward>true</addCampLootReward>
-                <customLetterLabel TKey="LetterLabelPaymentArrived">Warrant of Trade arrived</customLetterLabel>
-                <customLetterText TKey="LetterTextPaymentArrived">The enemies of the Imperium are defeated!\n\nThe signed and authenticated Warrant of Trade has arrived.</customLetterText>
+                <customLetterLabel TKey="LetterLabelPaymentArrived">Warrant of Trade reclaimed</customLetterLabel>
+                <customLetterText TKey="LetterTextPaymentArrived">The scum of the void are defeated!\n\nThe signed and authenticated Warrant of Trade has been reclaimed.</customLetterText>
                 <nodeIfChosenPawnSignalUsed Class="QuestNode_Letter">
                   <letterDef>ChoosePawn</letterDef>
                   <label TKey="LetterLabelFavorReceiver">[asker_faction_royalFavorLabel]</label>
