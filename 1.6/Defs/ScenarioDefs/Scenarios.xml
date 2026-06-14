@@ -147,7 +147,7 @@
 	<ScenarioDef Name="RogueTraderPLACEHOLDER" ParentName="ScenarioBase">
 		<defName>Seg_WOTV_Scenario_RogueTrader</defName>
 		<label>First Into Darkness</label>
-		<description>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship burns in high orbit and almost nobody from its crew of thousands has survived to land on the rimworld.\n\nNaturally, the Emperor-blessed Rogue Trader is among that group, for those thousands were sworn to ensure their survival. It is time to show the Imperium - nay, the galaxy! - just how deserved this position is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!</description>
+		<description>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship disintegrates and burns in high orbit after attack by pirates, and almost nobody from its crew of thousands has survived to land on the rimworld.\n\nNaturally, the Emperor-blessed Rogue Trader is among that group, for those thousands were sworn to ensure their survival. It is time to show the Imperium - nay, the galaxy! - just how deserved this position is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!</description>
 		<scenario>
 			<playerFaction>
 				<factionDef>Seg_WOTV_PlayerRT</factionDef>
@@ -271,7 +271,7 @@
 				<!-- Game start dialog -->
 				<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship burns in high orbit and almost nobody from its crew of thousands has survived to land on the rimworld.\n\nNaturally, the Emperor-blessed Rogue Trader is among that group, for those thousands were sworn to ensure their survival. It is time to show the Imperium - nay, the galaxy! - just how deserved this position is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!</text>
+				<text>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship disintegrates and burns in high orbit after attack by pirates, and almost nobody from its crew of thousands has survived to land on the rimworld.\n\nNaturally, the Emperor-blessed Rogue Trader is among that group, for those thousands were sworn to ensure their survival. It is time to show the Imperium - nay, the galaxy! - just how deserved this position is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!\n\nNote: the fate of the sacred Warrant of Trade is unknown. Keep an ear to the ground for information on its whereabouts, assuming it is not merely ash in the void.</text>
 				<closeSound>GameStartSting</closeSound>
 				</li>
 				
