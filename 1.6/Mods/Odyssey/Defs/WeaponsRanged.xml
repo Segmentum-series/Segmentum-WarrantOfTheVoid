@@ -53,9 +53,11 @@
 		<label>mining laser</label>
 		<description>This laser emits intense focused beams of energy intended for use in industrial-scale mines. It is unwieldy though still deadly if aimed at a living target.</description>
 		<recipeMaker>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
 			<researchPrerequisites Inherit="False">
 				<li>Seg_WOTV_BasicApparel</li>
 				<li>DeepDrilling</li>
+				<li>Batteries</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<graphicData>
