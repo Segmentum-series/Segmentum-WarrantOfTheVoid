@@ -13,7 +13,7 @@
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->We have received a vox transmission from an Imperial Navy fleet passing through the system.\nA gang of malefactors and deserters has drawn the wrath of distant of Terra for actions unspecified, and the Imperium is offering a lavish reward for anyone who performs the service of wiping them out. Whatever they did, it must have been serious, because whosoever is responsible for destroying these miscreants will be awarded a Warrant of Trade!\nThis would ennoble the bearer as a Rogue Trader with high rank and immense power, including right of settlement and ownership of this very rimworld.</li>
+        <li>questDescription->We have received a vox transmission from an Imperial Navy fleet passing through the system.\nA gang of malefactors and deserters has drawn the wrath of distant Terra for actions unspecified, and the Imperium is offering a lavish reward for anyone who performs the service of wiping them out. Whatever they did, it must have been serious, because whosoever is responsible for destroying these miscreants will be awarded a Warrant of Trade!\nThis would ennoble the bearer as a Rogue Trader with high rank and immense power, including right of settlement and ownership of this very rimworld.</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
