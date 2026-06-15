@@ -4,6 +4,50 @@
 <!--Imperium Pirate Namers-->
   
   <RulePackDef>
+    <defName>SegImperiumPirateNameUtility</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>SegImperiumPirateFirst_Male->SegmentumNames/Names/ImperiumFirst_Male</li>
+	    <li>SegImperiumPirateFirst_Female->SegmentumNames/Names/ImperiumFirst_Female</li>
+	    <li>SegImperiumPirateNickname->SegmentumNames/Names/PirateNickname</li>
+        <li>SegImperiumPirateLast->SegmentumNames/Names/ImperiumLast</li>
+      </rulesFiles>
+	  <rulesStrings>
+        <li>SegImperiumPirateFirstMale->[SegImperiumPirateFirst_Male]</li>
+        <li>SegImperiumPirateFirstFemale->[SegImperiumPirateFirst_Female]</li>
+        <li>SegImperiumPirateNickname->[SegImperiumPirateNickname]</li>
+        <li>SegImperiumPirateLast->[SegImperiumPirateLast]</li>
+      </rulesStrings>
+	  </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>SegNamerPersonImperiumPirateMale</defName>
+	<include>
+		<li>SegImperiumPirateNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=10)->[SegImperiumPirateFirstMale] [SegImperiumPirateLast]</li>
+        <li>r_name(p=1)->[SegImperiumPirateFirstMale] '[SegImperiumPirateNickname]' [SegImperiumPirateLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>SegNamerPersonImperiumPirateFemale</defName>
+	<include>
+		<li>SegImperiumPirateNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=10)->[SegImperiumPirateFirstFemale] [SegImperiumPirateLast]</li>
+        <li>r_name(p=1)->[SegImperiumPirateFirstFemale] '[SegImperiumPirateNickname]' [SegImperiumPirateLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
     <defName>SegNamerSettlementPirate</defName>
     <rulePack>
       <rulesStrings>

@@ -98,7 +98,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ResearchSpeed>.10</ResearchSpeed>
-			<GlobalWorkSpeed>.05</GlobalWorkSpeed>
+			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>20</Steel>
