@@ -2168,7 +2168,6 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
-
   <BackstoryDef>
     <slot>Adulthood</slot>
     <title>chartist captain</title>
@@ -2179,6 +2178,7 @@
       <li>SegWOTV_RogueTraderBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
+      <li>Social</li>
       <li>ManualDumb</li>
     </requiredWorkTags>
     <skillGains>
@@ -2196,6 +2196,39 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
 
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Navis Imperialis captain</title>
+    <defName>Seg_WOTV_NavyCaptain</defName>
+    <titleShort>captain</titleShort>
+    <baseDesc>Before becoming a Rogue Trader, [PAWN_nameDef] was the captain of a Navis Imperialis cruiser, a city unto itself populated by tens of thousands of voidsmen and bristling with planet-ending firepower. [PAWN_pronoun] is well-used to command and to a life spent in the void, as well as the cut and thrust of void combat and the occasional boarding action.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_RogueTraderBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+	  <Shooting>3</Shooting>
+	  <Melee>2</Melee>
+	  <Social>2</Social>
+	  <Intellectual>5</Intellectual>
+    </skillGains>
+    <workDisables>
+	  <li>PlantWork</li>
+	  <li>Animals</li>
+    </workDisables>	
+	<forcedTraits>
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
+	</forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+  
   <BackstoryDef>
     <slot>Adulthood</slot>
     <title>Ministorum priest</title>
@@ -2216,6 +2249,42 @@
     </skillGains>
 	<forcedTraits>
 	  <Industriousness>-2</Industriousness>
+	</forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Arbites marshal</title>
+    <defName>Seg_WOTV_ArbitratorMarshal</defName>
+    <titleShort>Arbitrator</titleShort>
+    <baseDesc>[PAWN_nameDef] was a marshal of the Adeptus Arbites with responsibility for the Imperial Tithe collection of an entire subsector. [PAWN_pronoun] was feared by all levels of Imperial society even before elevation to the rank of Rogue Trader, and has extensive [PAWN_possessive] experience of cracking down on dissent and throwing [PAWN_possessive] bureaucratic weight around.</baseDesc>
+    <spawnCategories>
+      <li>SegWOTV_RogueTraderBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+	  <Shooting>2</Shooting>
+	  <Melee>4</Melee>
+	  <Social>3</Social>
+	  <Intellectual>3</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+	  <li>Caring</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <disallowedTraits>
+      <Recluse MayRequire="Ludeon.RimWorld.Biotech"/>
+    </disallowedTraits>
+    <disallowedTraits>
+	  <Kind />
+    </disallowedTraits>	
+	<forcedTraits>
+	  <Tough />
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
