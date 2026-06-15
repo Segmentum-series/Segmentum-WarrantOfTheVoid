@@ -18,12 +18,12 @@
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
+			<Mass>2.1</Mass>
 			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.55</ArmorRating_Heat>
-			<Insulation_Cold>1.1</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>7</Insulation_Heat>
 		</statBases>
 
 		<costList>
@@ -91,12 +91,12 @@
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
+			<Mass>3.2</Mass>
 			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
-			<Insulation_Cold>14.4</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<Insulation_Cold>2.5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 		</statBases>
 
 		<costList>
@@ -128,7 +128,7 @@
 				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		
@@ -161,8 +161,8 @@
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
-			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<Mass>5.7</Mass>
+			<StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>

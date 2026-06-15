@@ -17,12 +17,12 @@
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
+			<Mass>2.1</Mass>
 			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
-			<Insulation_Cold>14.4</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 		</statBases>
 
 		<costList>
@@ -54,7 +54,7 @@
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		
@@ -90,9 +90,9 @@
 
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
-			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>3.6</Mass>
+			<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
@@ -102,7 +102,7 @@
             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Cloth>170</Cloth>
+			<Cloth>130</Cloth>
 			<Gold>20</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
@@ -111,7 +111,7 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
+		<costStuffCount>80</costStuffCount>
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -136,7 +136,7 @@
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<comps>
@@ -167,9 +167,9 @@
 
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
-			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>4.1</Mass>
+			<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
@@ -179,7 +179,7 @@
             <IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Cloth>90</Cloth>
+			<Cloth>40</Cloth>
 			<Gold>20</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
@@ -188,7 +188,7 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
+		<costStuffCount>90</costStuffCount>
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -211,7 +211,7 @@
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<comps>
@@ -242,14 +242,12 @@
 
 		
 		<statBases>
-			<WorkToMake>45000</WorkToMake>
+			<WorkToMake>32000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.2</Mass>
-		<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<Mass>4.5</Mass>
+			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
-			<DecompressionResistance MayRequire="kentington.saveourship2">0.14</DecompressionResistance>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<SocialImpact>.15</SocialImpact>
@@ -265,7 +263,7 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>110</costStuffCount>
+		<costStuffCount>160</costStuffCount>
 
 
 		<apparel>
@@ -326,7 +324,7 @@
 			<WorkToMake>45000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
 			<Mass>2.2</Mass>
-			<ArmorRating_Sharp>.65</ArmorRating_Sharp>
+			<ArmorRating_Sharp>.95</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.85</ArmorRating_Heat>
 			<Insulation_Cold>7</Insulation_Cold>
@@ -340,10 +338,10 @@
 			<IncomingDamageFactor>-0.20</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>70</Steel>
+			<Steel>120</Steel>
 			<Gold>30</Gold>
-			<Seg_Ceramite>80</Seg_Ceramite>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Seg_Ceramite>90</Seg_Ceramite>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 
 		<apparel>
@@ -370,7 +368,7 @@
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>10</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<comps>

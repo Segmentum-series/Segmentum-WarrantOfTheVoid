@@ -27,7 +27,7 @@
     <naturalEnemy>true</naturalEnemy>
     <techLevel>Spacer</techLevel>
 	<allowedCultures>
-		<li>Seg_Imperium</li>
+		<li>Seg_WOTV_ImperiumPirates</li>
 	</allowedCultures>		
 	<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
 		<ideoName MayRequire="Ludeon.RimWorld.Ideology">Cult Imperialis (heterodox)</ideoName>

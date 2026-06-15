@@ -1,5 +1,6 @@
 Voidlord
 Voidstorm
 Riftstorm
-Sabbat
 Voidwolf
+Fringe
+Wilderness
