@@ -39,7 +39,8 @@
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <costList>
-      <Gold>500</Gold>
+      <Gold>200</Gold>
+      <Silver>200</Silver>
       <ComponentIndustrial>4</ComponentIndustrial>
       <Seg_WOTV_WarrantOfTrade>1</Seg_WOTV_WarrantOfTrade>
     </costList>
