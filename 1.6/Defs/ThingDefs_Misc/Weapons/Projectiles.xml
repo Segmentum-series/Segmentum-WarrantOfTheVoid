@@ -20,8 +20,8 @@
 		<projectile>
 			<damageDef>Seg_LasgunDamage</damageDef>
 			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationBase>0.30</armorPenetrationBase>
-			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.40</armorPenetrationBase>
+			<stoppingPower>3.5</stoppingPower>
 			<speed>999</speed>
 		</projectile>
 

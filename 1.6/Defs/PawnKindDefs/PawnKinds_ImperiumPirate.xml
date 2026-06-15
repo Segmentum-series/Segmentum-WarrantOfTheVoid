@@ -59,6 +59,7 @@
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
 	  <li>Seg_ImperiumWorkGear</li>
+	  <li>Seg_FlakArmour</li>
     </apparelTags>
     <gearHealthRange>0.4~1.1</gearHealthRange>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
@@ -82,7 +83,7 @@
     <defName>Seg_WOTV_Ganger</defName>
     <label>ganger</label>
     <apparelMoney>300~500</apparelMoney>
-    <weaponMoney>200~550</weaponMoney>
+    <weaponMoney>200~500</weaponMoney>
     <weaponTags>
       <li>Gun</li>
 	  <li>Seg_WOTV_Laslock</li>
@@ -99,7 +100,7 @@
     <apparelTags>
       <li>Outlander</li>
     </apparelTags>
-    <weaponMoney>100~160</weaponMoney>
+    <weaponMoney>100~200</weaponMoney>
     <weaponTags>
       <li>MedievalMeleeBasic</li>
       <li>MedievalMeleeDecent</li>
@@ -120,13 +121,11 @@
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
 	  <li>Seg_FlakArmour</li>
 	  <li>Seg_ImperiumWorkGear</li>
     </apparelTags>
-    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    <weaponMoney>250~700</weaponMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>250~650</weaponMoney>
     <weaponTags>
       <li>Gun</li>
 	  <li>Seg_WOTV_Laslock</li>

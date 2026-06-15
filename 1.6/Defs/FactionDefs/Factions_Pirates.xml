@@ -24,6 +24,7 @@
       <li>(1, 0.74, 0.83)</li>
     </colorSpectrum>
     <permanentEnemy>false</permanentEnemy>
+    <naturalEnemy>true</naturalEnemy>
     <techLevel>Spacer</techLevel>
 	<allowedCultures>
 		<li>Seg_Imperium</li>
@@ -66,6 +67,12 @@
         </categories>
       </li>
     </backstoryFilters>
+    <caravanTraderKinds>
+      <li>Seg_WOTV_Caravan_ImperiumPirates</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
 		<modExtensions>
 			<li Class="Core40k.DefModExtension_PawnKindCustomization">
 			<defaultColorSelection>
@@ -159,6 +166,24 @@
           <Seg_WOTV_Renegade>8</Seg_WOTV_Renegade>
           <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
         </options>
+      </li>
+      <li>
+        <!-- Trade caravan if peace made with pirates -->
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Horse>5</Horse>
+          <Donkey>2</Donkey>
+        </carriers>
+        <guards>
+          <Seg_WOTV_Dreg>3</Seg_WOTV_Dreg>
+          <Seg_WOTV_Ganger>10</Seg_WOTV_Ganger>
+          <Seg_WOTV_Pirate>10</Seg_WOTV_Pirate>
+          <Seg_WOTV_Renegade>5</Seg_WOTV_Renegade>
+        </guards>
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
