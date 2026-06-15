@@ -93,7 +93,7 @@
     </tradeTags>
   </ThingDef>
   <RoyalTitleDef>
-    <defName>Seg_WOTV_RougeTraderTitle</defName>
+    <defName>Seg_WOTV_RogueTraderTitle</defName>
     <label>Rogue Trader</label>
     <seniority>0</seniority>
     <favorCost>0</favorCost>
@@ -101,7 +101,7 @@
       <li>Seg_WOTV_RogueTraderAbility</li>
     </grantedAbilities>
     <tags>
-      <li>Seg_WOTV_RougeTraderTitle</li>
+      <li>Seg_WOTV_RogueTraderTitle</li>
     </tags>
 </RoyalTitleDef>
 </Defs>
