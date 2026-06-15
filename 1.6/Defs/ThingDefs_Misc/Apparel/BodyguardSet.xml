@@ -29,7 +29,7 @@
 
 		<costList>
 			<Steel>10</Steel>
-			<Cloth>40</Cloth>
+			<Cloth>50</Cloth>
 		</costList>
 
 		<apparel>
@@ -87,7 +87,7 @@
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_BodyguardUniform</defName>
 		<label>bodyguard uniform</label>
-		<description>These fatigues - likely Astra Militarum surplus or patterned after them - are functional and suited to lengthy field use. Many lower-ranking members of a Rogue Trader's retinue make use of such clothing.</description>
+		<description>These clothes are a mix of standard fatigues and garments picked as much for style as for function. Such clothing is worn by mercenaries who like to make an impression, or the more flamboyant members of a Rogue Trader's retinue.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -97,7 +97,7 @@
 
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
+			<MaxHitPoints>250</MaxHitPoints>
 			<Mass>2.2</Mass>
 			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
@@ -109,14 +109,14 @@
 		</equippedStatOffsets>
 
 		<costList>
-			<Cloth>90</Cloth>
+			<Cloth>70</Cloth>
 		</costList>
 
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
+		<costStuffCount>60</costStuffCount>
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -143,7 +143,7 @@
 				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>7</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 
@@ -166,7 +166,7 @@
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_BodyguardJacket</defName>
 		<label>bodyguard jacket</label>
-		<description>Beyond a good set of carapace armour to protect the wearer, this duster is irregularly reinforced with extra fabric and bullet- or las-resistant weaves, adding an extra level of survivability in the likely eventuality of being caught in a firefight.</description>
+		<description>Besides being a good set of carapace armour to protect the wearer, the accompanying duster is irregularly reinforced with extra fabric and las-resistant weaves, adding an additional level of survivability in the likely event of a firefight.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -175,12 +175,12 @@
 		</graphicData>
 
 		<statBases>
-			<WorkToMake>45000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToMake>32000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>2.2</Mass>
-			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.70</ArmorRating_Heat>
 			<Insulation_Cold>7</Insulation_Cold>
 			<Insulation_Heat>10</Insulation_Heat>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.14</DecompressionResistance>
@@ -193,8 +193,9 @@
 
 		<costList>
 			<Cloth>150</Cloth>
-			<Steel>20</Steel>
-			<Seg_Ceramite>25</Seg_Ceramite>
+			<Steel>80</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Seg_Ceramite>50</Seg_Ceramite>
 		</costList>
 
 		<apparel>
@@ -223,7 +224,7 @@
 				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+				<Crafting>9</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 

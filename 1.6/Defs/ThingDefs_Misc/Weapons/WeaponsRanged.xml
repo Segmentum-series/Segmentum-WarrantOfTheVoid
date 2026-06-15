@@ -214,14 +214,15 @@
 			<WorkToMake>6000</WorkToMake>
 			<Mass>1.2</Mass>
 			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.80</AccuracyShort>
-			<AccuracyMedium>0.40</AccuracyMedium>
-			<AccuracyLong>0.30</AccuracyLong>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
 			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 			<MarketValue>600</MarketValue>
 		</statBases>
 		<weaponTags>
 			<li>Seg_WOTV_BasicWeapons</li>
+			<li>Seg_WOTV_StubRevolver</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedLight</li>
@@ -245,7 +246,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Seg_WOTV_StubRevolverBullet</defaultProjectile>
 				<warmupTime>0.2</warmupTime>
-				<range>21.9</range>
+				<range>19.9</range>
 				<soundCast>Shot_Revolver</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
