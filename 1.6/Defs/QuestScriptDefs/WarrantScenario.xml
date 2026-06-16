@@ -1,6 +1,6 @@
  <Defs>
  <QuestScriptDef>
-    <defName>Seg_WOTV_WarrantScenario</defName>
+    <defName>Seg_WOTV_warrantBuildingscenario</defName>
     <rootSelectionWeight>0.00001</rootSelectionWeight>
     <rootMinPoints>0</rootMinPoints>
     <autoAccept>true</autoAccept>

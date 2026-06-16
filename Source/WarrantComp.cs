@@ -5,78 +5,99 @@ using UnityEngine;
 namespace seg
 {
     public class SegWarrantGameComponent : GameComponent
+{
+    public static SegWarrantGameComponent Instance;
+
+    private List<Thing> warrantBuildings = new List<Thing>();
+
+    public SegWarrantGameComponent(Game game)
     {
-        public static SegWarrantGameComponent Instance;
+        Instance = this;
+    }
 
-        private List<SegCompWarrantWall> warrants = new List<SegCompWarrantWall>();
-
-        public SegWarrantGameComponent(Game game)
+    public override void GameComponentTick()
+    {
+        for (int i = warrantBuildings.Count - 1; i >= 0; i--)
         {
-            Instance = this;
-        }
+            Thing thing = warrantBuildings[i];
 
-        public override void GameComponentTick()
-        {
-            for (int i = warrants.Count - 1; i >= 0; i--)
+            if (thing == null || thing.Destroyed)
             {
-                var comp = warrants[i];
-                if (comp.owner != null && comp.owner.Dead)
+                warrantBuildings.RemoveAt(i);
+                continue;
+            }
+
+            SegCompWarrantWall comp = thing.TryGetComp<SegCompWarrantWall>();
+            if (comp == null)
+            {
+                warrantBuildings.RemoveAt(i);
+                continue;
+            }
+
+            if (comp.owner != null && comp.owner.Dead)
+            {
+                if (comp.heir != null)
                 {
-                    if (comp.heir != null)
-                    {
-                        ApplyTitle(comp.heir);
-                    }
-                    RemoveTitle(comp.owner);
-                    comp.owner = null;
+                    ApplyTitle(comp.heir);
                 }
+
+                RemoveTitle(comp.owner);
+                comp.owner = null;
             }
         }
-
-        public void Notify_OwnerAssigned(SegCompWarrantWall comp)
-        {
-            if (!warrants.Contains(comp))
-                warrants.Add(comp);
-
-            ApplyTitle(comp.owner);
-        }
-
-        public void Notify_HeirAssigned(SegCompWarrantWall comp)
-        {
-            if (!warrants.Contains(comp))
-                warrants.Add(comp);
-        }
-
-        public void Notify_WarrantDestroyed(SegCompWarrantWall comp)
-        {
-            if (comp.owner != null)
-                RemoveTitle(comp.owner);
-
-            warrants.Remove(comp);
-        }
-
-        private void ApplyTitle(Pawn pawn)
-        {
-            Faction faction = Find.FactionManager.FirstFactionOfDef(
-                DefDatabase<FactionDef>.GetNamed("Ancients"));
-
-            RoyalTitleDef title = DefDatabase<RoyalTitleDef>.GetNamed("Seg_WOTV_RougeTraderTitle");
-
-            pawn.royalty.SetTitle(faction, title, grantRewards: false);
-        }
-
-        private void RemoveTitle(Pawn pawn)
-        {
-            Faction faction = Find.FactionManager.FirstFactionOfDef(
-                DefDatabase<FactionDef>.GetNamed("Ancients"));
-
-            pawn.royalty.SetTitle(faction, null, grantRewards: false);
-        }
-
-        public override void ExposeData()
-        {
-            Scribe_Collections.Look(ref warrants, "Seg_WOTV_Warrants", LookMode.Reference);
-        }
     }
+
+    public void Notify_OwnerAssigned(SegCompWarrantWall comp)
+    {
+        Thing parent = comp.parent;
+
+        if (!warrantBuildings.Contains(parent))
+            warrantBuildings.Add(parent);
+
+        ApplyTitle(comp.owner);
+    }
+
+    public void Notify_HeirAssigned(SegCompWarrantWall comp)
+    {
+        Thing parent = comp.parent;
+
+        if (!warrantBuildings.Contains(parent))
+            warrantBuildings.Add(parent);
+    }
+
+    public void Notify_WarrantDestroyed(SegCompWarrantWall comp)
+    {
+        Thing parent = comp.parent;
+
+        if (comp.owner != null)
+            RemoveTitle(comp.owner);
+
+        warrantBuildings.Remove(parent);
+    }
+
+    private void ApplyTitle(Pawn pawn)
+    {
+        Faction faction = Find.FactionManager.FirstFactionOfDef(
+            DefDatabase<FactionDef>.GetNamed("Ancients"));
+
+        RoyalTitleDef title = DefDatabase<RoyalTitleDef>.GetNamed("Seg_WOTV_RogueTraderTitle");
+
+        pawn.royalty.SetTitle(faction, title, grantRewards: false);
+    }
+
+    private void RemoveTitle(Pawn pawn)
+    {
+        Faction faction = Find.FactionManager.FirstFactionOfDef(
+            DefDatabase<FactionDef>.GetNamed("Ancients"));
+
+        pawn.royalty.SetTitle(faction, null, grantRewards: false);
+    }
+
+    public override void ExposeData()
+    {
+        Scribe_Collections.Look(ref warrantBuildings, "Seg_WOTV_warrantBuildings", LookMode.Reference);
+    }
+}
  public class CompProperties_SegCompWarrantWall : CompProperties
     {
         public CompProperties_SegCompWarrantWall()

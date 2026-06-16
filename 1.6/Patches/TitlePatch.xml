@@ -23,7 +23,7 @@
       </royalTitleInheritanceRelations>
 
       <royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
-        <li>Seg_WOTV_RougeTraderTitle</li>
+        <li>Seg_WOTV_RogueTraderTitle</li>
       </royalTitleTags>
     </value>
   </Operation>
