@@ -90,6 +90,9 @@
 				<defaultData>
 					<layer>71</layer>
 				</defaultData>
+				<dataNorth>
+					<layer>1</layer>
+					</dataNorth>
 			</drawData>
 			<defaultOutfitTags>
 				<li>Worker</li>
