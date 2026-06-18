@@ -53,6 +53,8 @@
     <designationHotKey>Misc3</designationHotKey>
     <placeWorkers>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>Core40k.PlaceWorker_OnlyOnePerMap</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>MicroelectronicsBasics</li>
@@ -61,6 +63,12 @@
     <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType>
     <comps>
       <li Class="seg.CompProperties_SegCompWarrantWall" />
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Beauty>1</Beauty>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
     </comps>
   </ThingDef>
   

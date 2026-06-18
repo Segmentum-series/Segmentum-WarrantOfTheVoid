@@ -140,18 +140,20 @@
 			</skillRequirements>
 		</recipeMaker>
 		<comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Body</decorativeType>
+			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
+				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
+				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
+				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
 			</li>
 		</comps>
 		<modExtensions>
             <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
                 <tabDefs>
                     <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
                 </tabDefs>
             </li>
         </modExtensions>
+		
 	</ThingDef>
     <!--Trader Pants-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
