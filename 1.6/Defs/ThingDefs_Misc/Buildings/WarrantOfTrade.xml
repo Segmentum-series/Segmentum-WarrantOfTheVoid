@@ -29,7 +29,7 @@
     <fillPercent>0.5</fillPercent>
     <canOverlapZones>false</canOverlapZones>
     <statBases>
-      <MaxHitPoints>250</MaxHitPoints>
+      <MaxHitPoints>400</MaxHitPoints>
       <WorkToBuild>2200</WorkToBuild>
       <Flammability>0.6</Flammability>
       <Mass>500</Mass>
@@ -79,7 +79,7 @@
     <useHitPoints>true</useHitPoints>
     <statBases>
       <MarketValue>10000</MarketValue>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <Mass>2</Mass>
       <Flammability>0.2</Flammability>
     </statBases>
