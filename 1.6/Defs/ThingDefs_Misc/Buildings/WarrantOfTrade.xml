@@ -48,7 +48,7 @@
     <interactionCellOffset>(0,0,2)</interactionCellOffset>
     <hasInteractionCell>true</hasInteractionCell>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Misc</designationCategory>
+    <designationCategory>BEWH_RimDarkCategory</designationCategory>
     <uiOrder>2100</uiOrder>
     <designationHotKey>Misc3</designationHotKey>
     <placeWorkers>
