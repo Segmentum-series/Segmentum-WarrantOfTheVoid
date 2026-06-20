@@ -76,10 +76,11 @@
 		</thingCategories>
 	</ThingDef>
 
+
 	<!--Adept Wrapping-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_AdeptWrapping</defName>
-		<label>adept wrapping</label>
+		<label>adept accessory</label>
 		<description>Many adepts will wear belts and pouches to carry scrolls, data-slates, and containers so that they can perform their duties more efficiently.</description>
 
 		<graphicData>
@@ -101,15 +102,9 @@
 			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>20</Steel>
+			<Steel>40</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
-
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -155,7 +150,8 @@
 			<li>Seg_WOTV_ArmorInquisitorial</li>
 		</thingCategories>
 	</ThingDef>
-	<!-- Backpack base -->
+
+<!-- Backpack base -->
 	<ThingDef Abstract="true" Name="Seg_WOTV_BackpackBase" ParentName="ArmorMachineableBase">
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -175,7 +171,6 @@
 		</tradeTags>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>BEWH_CutoutThreeColor</shaderType>
 		</graphicData>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -243,7 +238,7 @@
 			<CarryingCapacity>15</CarryingCapacity>
 			<SocialImpact>0.10</SocialImpact>
 			<ResearchSpeed>0.35</ResearchSpeed>
-            <ReadingSpeed>0.50</ReadingSpeed>
+			<ReadingSpeed>0.50</ReadingSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		

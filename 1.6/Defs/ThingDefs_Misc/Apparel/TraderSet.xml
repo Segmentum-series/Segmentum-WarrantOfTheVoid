@@ -1,12 +1,11 @@
 <Defs>
 
-
-	<!-- Trader Hat -->
-		<ThingDef ParentName="Seg_WOTV_ClothingBase">
+<!-- Trader Hat -->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderHat</defName>
 		<label>trader hat</label>
 		<description>No Lord Captain can expect to be taken seriously without a suitably imposing hat of office.</description>
-        <graphicData>
+		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Cutout</shaderType>
 			<texPath>Things/Apparel/TraderHat/Seg_WOTV_TraderHat</texPath>
@@ -33,11 +32,10 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags>
-			</tags>
+			<tags></tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
-            <li>UpperHead</li>
+				<li>UpperHead</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
@@ -64,12 +62,12 @@
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 		<thingCategories>
 			<li>Seg_WOTV_ArmorTrader</li>
 		</thingCategories>
@@ -99,7 +97,7 @@
 		<equippedStatOffsets>
 			<SocialImpact>.10</SocialImpact>
 			<MoveSpeed>-0.1</MoveSpeed>
-            <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
 			<Cloth>130</Cloth>
@@ -139,23 +137,18 @@
 				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
-			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
-				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
-				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
-			</li>
-		</comps>
+
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
-		
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 	</ThingDef>
-    <!--Trader Pants-->
+
+
+	<!--Trader pants-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderPants</defName>
 		<label>trader pants</label>
@@ -178,7 +171,7 @@
 		<equippedStatOffsets>
 			<SocialImpact>.10</SocialImpact>
 			<MoveSpeed>-0.1</MoveSpeed>
-            <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
 			<Cloth>40</Cloth>
@@ -196,7 +189,7 @@
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
-                <li>Legs</li>
+				<li>Legs</li>
 			</bodyPartGroups>
 			<layers>
 				<li>OnSkin</li>
@@ -204,10 +197,8 @@
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
-			<wornGraphicPaths>
-				<li>Things/Apparel/TraderShirt/Seg_WOTV_TraderShirt</li>
-			</wornGraphicPaths>
 		</apparel>
+
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>Seg_WOTV_TraderApparel</li>
@@ -216,29 +207,25 @@
 				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Body</decorativeType>
-			</li>
-		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 	</ThingDef>
-    <!--Trader Coat-->
-    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+
+
+	<!--Trader Coat-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderCoat</defName>
 		<label>trader coat</label>
 		<description>There is no uniform for the Rogue Traders of the Imperium, but many of them tend towards the flamboyant, lavish and almost piratical in their dress. This long coat is a typical example, embroidered and decorated to ensure everyone knows of the Trader's high status.</description>
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Apparel/TraderCoat/Seg_WOTV_TraderCoat</texPath>
 		</graphicData>
 
@@ -266,7 +253,6 @@
 			<li>Leathery</li>
 		</stuffCategories>
 		<costStuffCount>160</costStuffCount>
-
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -297,9 +283,9 @@
 		</recipeMaker>
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
-				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
-				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
+				<defaultPrimaryColor>(134,37,53)</defaultPrimaryColor>
+				<defaultSecondaryColor>(134,37,53)</defaultSecondaryColor>
+				<defaultTertiaryColor>(134,37,53)</defaultTertiaryColor>
 			</li>
 		</comps>
 		<modExtensions>
@@ -310,7 +296,9 @@
             </li>
         </modExtensions>
 	</ThingDef>
-    <!--Trader Armor-->
+
+
+<!--Trader Armor-->
     <ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_TraderArmor</defName>
 		<label>trader armour</label>
@@ -322,7 +310,6 @@
 			<texPath>Things/Apparel/TraderArmor/Seg_WOTV_TraderArmor</texPath>
 		</graphicData>
 
-		
 		<statBases>
 			<WorkToMake>45000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
@@ -374,18 +361,5 @@
 				<Crafting>10</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Body</decorativeType>
-			</li>
-		</comps>
-		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
 	</ThingDef>
 </Defs>

@@ -53,7 +53,6 @@
 			<li>Seg_WOTV_Apparel_BodyguardHat</li>
 			<li>Seg_WOTV_Apparel_BodyguardUniform</li>
 			<li>Seg_WOTV_Apparel_BodyguardJacket</li>
-			<li>Seg_COTO_Apparel_SkitariiBackpack</li>
 		</apparelRequired>
 		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
 		<initialWillRange>0~0</initialWillRange>

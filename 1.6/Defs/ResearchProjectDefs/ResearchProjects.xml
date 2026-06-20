@@ -61,11 +61,12 @@
 		<defName>Seg_WOTV_AdvancedEquipment</defName>
 		<label>advanced Munitorum equipment</label>
 		<description>Negotiate the Munitorum permissions necessary for local production of more esoteric weaponry and equipment, of the type often used by armsmen of Rogue Trader dynasties.</description>
-		<baseCost>1500</baseCost>
+		<baseCost>800</baseCost>
 		<techLevel>Spacer</techLevel>
 		<researchViewX>1</researchViewX>
 		<researchViewY>2.4</researchViewY>
 		<prerequisites>
+			<li>ComplexClothing</li>
 			<li>Seg_MunitorumEquipment</li>
 		</prerequisites>
 		<tab>Seg_SegmentumTab</tab>

@@ -44,7 +44,7 @@
 		<description>This mask provides glare and spark protection for manual labourers, such as those found in the enginarium or maintenance clans of a voidship's lower decks.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Apparel/UtilityMask/Seg_WOTV_UtilityMask</texPath>
 			<!-- <drawOffset>(0,0,0.10)</drawOffset> -->
 		</graphicData>
@@ -68,7 +68,7 @@
 		<costList>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
-		<stuffCategories>	
+		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>30</costStuffCount>
@@ -110,25 +110,112 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		
+
 		<comps>
-			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
-				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
-				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 		<thingCategories>
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
 	</ThingDef>
+
+
+<!-- TO DELETE -->
+	<!-- Utility Mask -->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_UtilityMask2nd</defName>
+		<label>utility mask 2nd</label>
+		<description>This mask provides glare and spark protection for manual labourers, such as those found in the enginarium or maintenance clans of a voidship's lower decks.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/UtilityMask/Seg_WOTV_UtilityMask</texPath>
+			<!-- <drawOffset>(0,0,0.10)</drawOffset> -->
+		</graphicData>
+
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
+			<SmeltingSpeed>.30</SmeltingSpeed>
+			<ConstructionSpeed>.10</ConstructionSpeed>
+			<ConstructSuccessChance>.10</ConstructSuccessChance>
+			<ShootingAccuracyPawn>-.50</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>125</MaxHitPoints>
+			<Mass>1.9</Mass>
+			<StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Eyes</li>
+				<li>Mouth</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+			</layers>
+			<drawData>
+				<defaultData>
+					<layer>71</layer>
+				</defaultData>
+				<dataNorth>
+					<layer>1</layer>
+					</dataNorth>
+			</drawData>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/UtilityMask/Seg_WOTV_UtilityMask</li>
+			</wornGraphicPaths>
+		</apparel>
+		
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_BasicApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
+		<thingCategories>
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
+	</ThingDef>
+<!-- END OF TO DELETE -->
 
 	<!-- Utility Helmet -->
 		<ThingDef ParentName="Seg_WOTV_ClothingBase">
@@ -192,20 +279,13 @@
 			</skillRequirements>
 		</recipeMaker>
 		
-		<comps>
-			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
-				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
-				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
-			</li>
-		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 		<thingCategories>
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
@@ -273,13 +353,6 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<comps>
-			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
-				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
-				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
-			</li>
-		</comps>
 		<modExtensions>
             <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
                 <tabDefs>
@@ -324,7 +397,6 @@
 		</costList>
 
 		<stuffCategories>
-			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
@@ -357,20 +429,13 @@
 			</skillRequirements>
 		</recipeMaker>
 
-		<comps>
-			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(146,12,18)</defaultPrimaryColor>
-				<defaultSecondaryColor>(146,12,18)</defaultSecondaryColor>
-				<defaultTertiaryColor>(146,12,18)</defaultTertiaryColor>
-			</li>
-		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 		<thingCategories>
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>

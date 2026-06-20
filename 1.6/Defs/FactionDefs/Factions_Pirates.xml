@@ -77,20 +77,12 @@
 			<li Class="Core40k.DefModExtension_PawnKindCustomization">
 			<defaultColorSelection>
 				<li>
-					<key>Seg_COTO_MagosBackpack_ColorPreset_2</key>
-					<value>TryMatch</value>
-				</li>
-				<li>
 					<key>Seg_FlakArmour_ColorPreset_1</key>
 					<value>TryMatch</value>
 				</li>
 				<li>
 					<key>Seg_MarsLasgun_ColorPreset_1</key>
 					<value>TryMatch</value>
-				</li>
-				<li>
-					<key>Seg_COTO_MagosApparel_ColorPreset_2</key>
-					<value>Default</value>
 				</li>
 			</defaultColorSelection>
 			</li>

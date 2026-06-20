@@ -25,7 +25,7 @@
 				</categories>
 			</li>
 		</backstoryFilters>
-		<factionIconPath>UI/Factions/Seg_COTO_MechanicusOutpost</factionIconPath>
+		<factionIconPath>UI/Factions/Seg_WOTV_RogueTraderOutpost</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<startingResearchTags><!-- Requires update -->
 			<li>ClassicStart</li>

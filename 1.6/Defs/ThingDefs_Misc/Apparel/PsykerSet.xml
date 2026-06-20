@@ -27,8 +27,13 @@
 		</statBases>
 
 		<costList>
-			<Cloth>50</Cloth>
+			<Cloth>20</Cloth>
 		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -58,20 +63,6 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		
-		<!-- <comps>
-				<li Class="Core40k.CompProperties_Decorative">
-					<decorativeType>Head</decorativeType>
-				</li>
-			</comps>
-			<modExtensions>
-				<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-					<tabDefs>
-						<li>BEWH_ArmorDecoration</li>
-					</tabDefs>
-				</li>
-			</modExtensions> -->
-			
 	</ThingDef>
 
 	<!-- Psyker Helm -->
@@ -81,7 +72,6 @@
 		<description>This specially constructed helm serves to strengthen and regulate the warp-touched power of the psyker, making it easier for them to tap into their psykanic talents without being overwhelmed or losing control.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
 			<texPath>Things/Apparel/PsykerHelm/Seg_WOTV_PsykerHelm</texPath>
 		</graphicData>
 
@@ -131,19 +121,6 @@
 				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		
-		<!-- <comps>
-			<li Class="Core40k.CompProperties_Decorative">
-				<decorativeType>Head</decorativeType>
-			</li>
-		</comps>
-		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions> -->
 	</ThingDef>
 
 	<!--Psyker Robe-->
@@ -154,7 +131,6 @@
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
 			<texPath>Things/Apparel/PsykerRobe/Seg_WOTV_PsykerRobe</texPath>
 		</graphicData>
 
@@ -167,14 +143,14 @@
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-        <PsychicSensitivity>1</PsychicSensitivity>
+		<PsychicSensitivity>1</PsychicSensitivity>
 		</equippedStatOffsets>
+
 		<costList>
 			<Cloth>150</Cloth>
 			<Steel>15</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
-
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -191,7 +167,8 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<layers>
-				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -213,13 +190,5 @@
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
-		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                    <li>BEWH_ArmorDecoration</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
 	</ThingDef>
 </Defs>
