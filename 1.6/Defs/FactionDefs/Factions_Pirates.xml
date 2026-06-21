@@ -16,7 +16,7 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <factionIconPath>World/WorldObjects/Expanding/PirateOutpost</factionIconPath>
+    <factionIconPath>UI/Factions/Seg_WOTV_ImperialPiratesOutpost</factionIconPath>
     <factionNameMaker>SegNamerFactionPirate</factionNameMaker>
     <settlementNameMaker>SegNamerSettlementPirate</settlementNameMaker>
     <colorSpectrum>
@@ -28,7 +28,7 @@
     <techLevel>Spacer</techLevel>
 	<allowedCultures>
 		<li>Seg_WOTV_ImperiumPirates</li>
-	</allowedCultures>		
+	</allowedCultures>
 	<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
 		<ideoName MayRequire="Ludeon.RimWorld.Ideology">Cult Imperialis (heterodox)</ideoName>
 		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">The Imperial Cult is a religious structure that has dominated the Imperium of Mankind for ten thousand years, venerating the Emperor as an incarnate god who suffers on behalf of humanity and guides them in all things. Its inescapable, totalising grasp on Imperial society is one of the biggest causes of dissidence and rebellion, but even many of those who chafe at its strictures and societal control still believe in the divinity of the God-Emperor and the necessity to fear and distrust xenos, mutants, and witches. Many a pirate voidship has an on-board chaplain, and many a pirate captain will pray to the God-Emperor for wealth and victory.</ideoDescription>
