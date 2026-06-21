@@ -67,4 +67,43 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+	      	    <SoundDef>
+    <defName>Aim_Revolver</defName>  
+    <context>MapOnly</context>
+	<sustain>true</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Seg_WOTV_Sound_RevolverAim</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>0.8~1</pitchRange>
+        <volumeRange>25~25</volumeRange>
+		</li>
+    </subSounds>
+  </SoundDef>
+
+  	      	    <SoundDef>
+    <defName>Fire_Revolver</defName>  
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Seg_WOTV_Sound_Revolver</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>0.8~1</pitchRange>
+        <volumeRange>25~25</volumeRange>
+		</li>
+    </subSounds>
+  </SoundDef>
 </Defs>

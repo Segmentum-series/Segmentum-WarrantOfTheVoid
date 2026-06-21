@@ -247,7 +247,8 @@
 				<defaultProjectile>Seg_WOTV_StubRevolverBullet</defaultProjectile>
 				<warmupTime>0.2</warmupTime>
 				<range>19.9</range>
-				<soundCast>Shot_Revolver</soundCast>
+				<soundCast>Fire_Revolver</soundCast>
+				<soundAiming>Aim_Revolver</soundAiming>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
