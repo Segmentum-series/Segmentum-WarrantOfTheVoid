@@ -305,6 +305,8 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
+		<nameMaker>Seg_COTO_NamerPersonMechanicusMale</nameMaker>
+		<nameMakerFemale>Seg_COTO_NamerPersonMechanicusFemale</nameMakerFemale>
 		<weaponMoney>1500~2600</weaponMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<apparelRequired Inherit="False">
