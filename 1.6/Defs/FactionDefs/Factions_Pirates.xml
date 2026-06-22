@@ -84,15 +84,17 @@
 					<key>Seg_MarsLasgun_ColorPreset_1</key>
 					<value>TryMatch</value>
 				</li>
-				<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">
+			</defaultColorSelection>
+			<!--defaultColorSelection MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">
+				<li>
 					<key>Seg_COTO_MagosApparel_ColorPreset_3</key>
 					<value>TryMatch</value>
 				</li>
-				<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">
+				<li>
 					<key>Seg_COTO_MagosBackpack_ColorPreset_3</key>
 					<value>TryMatch</value>
 				</li>
-			</defaultColorSelection>
+			</defaultColorSelection-->
 			</li>
 		</modExtensions>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
