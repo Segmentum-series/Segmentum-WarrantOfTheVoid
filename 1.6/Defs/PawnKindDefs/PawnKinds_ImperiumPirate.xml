@@ -353,6 +353,16 @@
 					</value>
 				</li>
 			</extraDecorations>
+			<defaultColorSelection>
+				<li>
+					<key>Seg_COTO_MagosApparel_ColorPreset_3</key>
+					<value>TryMatch</value>
+				</li>
+				<li>
+					<key>Seg_COTO_MagosBackpack_ColorPreset_3</key>
+					<value>TryMatch</value>
+				</li>
+			</defaultColorSelection>
 			</li>
 		</modExtensions>
 	</PawnKindDef>
