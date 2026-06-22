@@ -307,7 +307,7 @@
 		</backstoryFiltersOverride>
 		<nameMaker>Seg_COTO_NamerPersonMechanicusMale</nameMaker>
 		<nameMakerFemale>Seg_COTO_NamerPersonMechanicusFemale</nameMakerFemale>
-		<weaponMoney>1500~2600</weaponMoney>
+		<weaponMoney>900~2400</weaponMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<apparelRequired Inherit="False">
 			<li>Seg_COTO_Apparel_ExploratorHood</li>
@@ -318,6 +318,8 @@
 		<techHediffsTags>
 			<li>Seg_COTO_StandardAugmetics</li>
 			<li>Seg_COTO_AdvancedAugmetics</li>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
 		<techHediffsChance>0.9</techHediffsChance>
 		<techHediffsMoney>1000~3500</techHediffsMoney>
