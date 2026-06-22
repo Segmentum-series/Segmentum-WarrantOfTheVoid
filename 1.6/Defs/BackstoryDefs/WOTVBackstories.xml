@@ -2001,6 +2001,42 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
+
+  <BackstoryDef>
+	<slot>Adulthood</slot>
+	<title>Malatek</title>
+	<defName>SegWOTV_Malatek</defName>
+	<titleShort>Malatek</titleShort>
+	<baseDesc>[PAWN_nameDef] is an ordained techpriest of the Adeptus Mechanicus who struck out on [PAWN_possessive] own after running up against the repressive strictures they had on techpriest behaviour and research. While some of the Magi of the Cult regard [PAWN_possessive] obsessions as tech-heresy, [PAWN_nameDef] has simply decided that joining up with a pirate band gives [PAWN_objective] the most freedom in pursuing the Quest for Knowledge.</baseDesc>
+	<spawnCategories>
+		<li>SegWOTV_MalatekBackstories</li>
+	</spawnCategories>
+		<requiredWorkTags>
+			<li>Violent</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<workDisables>
+			<li>None</li>
+		</workDisables>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Construction>1</Construction>
+			<Crafting>4</Crafting>
+			<Medicine>3</Medicine>
+			<Social>-4</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<possessions>
+			<TextBook>1</TextBook>
+		</possessions>
+		<forcedTraits>
+			<Transhumanist />
+			<Abrasive />
+		</forcedTraits>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</BackstoryDef>
   
   <!--Rogue Trader backstories-->
 

@@ -277,5 +277,84 @@
     <initialWillRange>12~15</initialWillRange>
     <initialResistanceRange>12~18</initialResistanceRange>
   </PawnKindDef>
+
+	<!-- Malatek -->
+	<PawnKindDef ParentName="Seg_COTO_TechpriestPawnBase" MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">
+		<defName>Seg_WOTV_Malatek</defName>
+		<label>Malatek</label>
+		<combatPower>120</combatPower>
+		<isFighter>true</isFighter>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponTags>
+			<li>Seg_COTO_MagosBasicRanged</li>
+			<li>Seg_COTO_MagosBasicMelee</li>
+			<li>Seg_COTO_Arc</li>
+			<li>Seg_COTO_PhosphorBlast</li>
+			<li>Seg_COTO_RadPistol</li>
+			<li>Seg_COTO_PlasmaCaliver</li>
+		</weaponTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>SegCOTO_Mechanicus</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>SegWOTV_MalatekBackstories</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>1500~2600</weaponMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelRequired Inherit="False">
+			<li>Seg_COTO_Apparel_ExploratorHood</li>
+			<li>Seg_COTO_Apparel_ExploratorRobe</li>
+			<li>Seg_COTO_Apparel_MagosCassock</li>
+			<li>Seg_COTO_Apparel_MagosBackpack</li>
+		</apparelRequired>
+		<techHediffsTags>
+			<li>Seg_COTO_StandardAugmetics</li>
+			<li>Seg_COTO_AdvancedAugmetics</li>
+		</techHediffsTags>
+		<techHediffsChance>0.9</techHediffsChance>
+		<techHediffsMoney>1000~3500</techHediffsMoney>
+		<techHediffsMaxAmount>7</techHediffsMaxAmount>
+		<techHediffsRequired Inherit="False">
+			<li>Seg_COTO_NoosphericCortex</li>
+		</techHediffsRequired>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>2~12</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>2~12</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>6~8</range>
+			</li>
+		</skills>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_PawnKindCustomization">
+			<extraDecorations>
+				<li>
+					<key>Seg_COTO_Apparel_ExploratorHood</key>
+					<value>
+						<li>Seg_COTO_Deco_ExploratorHoodGearTeeth</li>
+					</value>
+				</li>
+				<li>
+					<key>Seg_COTO_Apparel_ExploratorRobe</key>
+					<value>
+						<li>Seg_COTO_Deco_ExploratorRobeGearTeeth</li>
+					</value>
+				</li>
+			</extraDecorations>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
   
 </Defs>
