@@ -138,6 +138,11 @@
 			</skillRequirements>
 		</recipeMaker>
 
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+			</li>
+		</comps>
 		<modExtensions>
 			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
 				<tabDefs>
@@ -281,20 +286,19 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+
 		<comps>
-			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(134,37,53)</defaultPrimaryColor>
-				<defaultSecondaryColor>(134,37,53)</defaultSecondaryColor>
-				<defaultTertiaryColor>(134,37,53)</defaultTertiaryColor>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-                <tabDefs>
-                    <li>BEWH_ArmorColoring</li>
-                </tabDefs>
-            </li>
-        </modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 

@@ -146,7 +146,12 @@
 				<Crafting>7</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		
+
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+			</li>
+		</comps>
 		<modExtensions>
 			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
 				<tabDefs>
