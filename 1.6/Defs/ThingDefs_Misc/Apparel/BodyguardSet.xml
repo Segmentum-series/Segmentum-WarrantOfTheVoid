@@ -3,7 +3,7 @@
 <!-- Bodyguard Hat -->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_BodyguardHat</defName>
-		<label>bodyguard hat</label>
+		<label>gunslinger hat</label>
 		<description>Members of a Rogue Trader's retinue have more latitude in their personal dress than most armed servants of the Imperium, and what better way to express their individuality than to adopt some rakish headgear?</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -86,7 +86,7 @@
 <!--Bodyguard Uniform-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_BodyguardUniform</defName>
-		<label>bodyguard uniform</label>
+		<label>gunslinger uniform</label>
 		<description>These clothes are a mix of standard fatigues and garments picked as much for style as for function. Such clothing is worn by mercenaries who like to make an impression, or the more flamboyant members of a Rogue Trader's retinue.</description>
 
 		<graphicData>
@@ -164,7 +164,7 @@
 <!--Bodyguard jacket-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_BodyguardJacket</defName>
-		<label>bodyguard jacket</label>
+		<label>gunslinger jacket</label>
 		<description>Besides being a good set of carapace armour to protect the wearer, the accompanying duster is irregularly reinforced with extra fabric and las-resistant weaves, adding an additional level of survivability in the likely event of a firefight.</description>
 
 		<graphicData>
