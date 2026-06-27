@@ -207,8 +207,6 @@
     <gearHealthRange>0.9~2.3</gearHealthRange>
     <apparelMoney>800~1600</apparelMoney>
     <apparelTags>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
 	  <li>Seg_FlakArmour</li>
 	  <li>Seg_WOTV_UtilityApparel</li>
     </apparelTags>
@@ -236,6 +234,16 @@
     <biocodeWeaponChance>0</biocodeWeaponChance>
     <initialWillRange>7~10</initialWillRange>
     <initialResistanceRange>7~15</initialResistanceRange>
+	<modExtensions>
+			<li Class="Core40k.DefModExtension_PawnKindCustomization">
+			<defaultColorSelection>
+				<li>
+					<key>Seg_FlakArmour_ColorPreset_8</key>
+					<value>TryMatch</value>
+				</li>
+			</defaultColorSelection>
+			</li>
+	</modExtensions>
   </PawnKindDef>
   
   <PawnKindDef ParentName="Seg_WOTV_PirateBase" Name="Seg_WOTV_PirateCaptain">
