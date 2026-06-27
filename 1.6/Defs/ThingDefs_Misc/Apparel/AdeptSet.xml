@@ -33,6 +33,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_AdeptApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -108,6 +111,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_AdeptApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -244,6 +250,9 @@
 		
 		<apparel>
 			<wornGraphicPath>Things/Apparel/AdeptPack/Seg_WOTV_AdeptPack</wornGraphicPath>
+			<tags>
+				<li>Seg_WOTV_AdeptApparel</li>
+			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>

@@ -38,6 +38,7 @@
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
+				<li>Seg_WOTV_PsykerApparel</li>
 			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -98,6 +99,7 @@
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
+				<li>Seg_WOTV_PsykerApparel</li>
 			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -159,6 +161,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_PsykerApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>

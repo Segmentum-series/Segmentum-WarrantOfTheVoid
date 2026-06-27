@@ -23,7 +23,7 @@
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <apparelTags>
       <li>IndustrialBasic</li>
-	  <li>Seg_ImperiumWorkGear</li>
+	  <li>Seg_WOTV_UtilityApparel</li>
     </apparelTags>
     <weaponMoney>60~200</weaponMoney>
     <weaponTags>
@@ -58,7 +58,7 @@
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
-	  <li>Seg_ImperiumWorkGear</li>
+	  <li>Seg_WOTV_UtilityApparel</li>
 	  <li>Seg_FlakArmour</li>
     </apparelTags>
     <gearHealthRange>0.4~1.1</gearHealthRange>
@@ -122,7 +122,7 @@
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
 	  <li>Seg_FlakArmour</li>
-	  <li>Seg_ImperiumWorkGear</li>
+	  <li>Seg_WOTV_UtilityApparel</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     <weaponMoney>250~650</weaponMoney>
@@ -168,7 +168,7 @@
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
 	  <li>Seg_FlakArmour</li>
-	  <li>Seg_ImperiumWorkGear</li>
+	  <li>Seg_WOTV_UtilityApparel</li>
     </apparelTags>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>500~700</weaponMoney>
@@ -210,7 +210,7 @@
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
 	  <li>Seg_FlakArmour</li>
-	  <li>Seg_ImperiumWorkGear</li>
+	  <li>Seg_WOTV_UtilityApparel</li>
     </apparelTags>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>500~700</weaponMoney>
@@ -242,7 +242,7 @@
     <defName>Seg_WOTV_PirateCaptain</defName>
     <label>captain</label>
     <race>Human</race>
-    <combatPower>150</combatPower>
+    <combatPower>160</combatPower>
     <maxGenerationAge>50</maxGenerationAge>
     <gearHealthRange>1.1~2.3</gearHealthRange>
     <apparelMoney>1600~2000</apparelMoney>
@@ -254,6 +254,8 @@
     <weaponMoney>2300~2400</weaponMoney>
     <weaponTags>
 	  <li>Seg_WOTV_AdvancedMelee</li>
+	  <li>Seg_WOTV_StubRevolver</li>
+	  <li>Seg_Las</li>
     </weaponTags>
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>400~1500</techHediffsMoney>

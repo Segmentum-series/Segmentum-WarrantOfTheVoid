@@ -32,7 +32,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags></tags>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -113,6 +115,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -192,6 +197,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Legs</li>
@@ -261,6 +269,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -340,6 +351,9 @@
 
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
