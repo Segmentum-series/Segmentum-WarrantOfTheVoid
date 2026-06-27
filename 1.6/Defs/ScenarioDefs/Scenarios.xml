@@ -119,7 +119,7 @@
 			<!-- <li>?</li> -->
 		</apparelTags>
 		<apparelRequired Inherit="False">
-			<li>Seg_WOTV_Apparel_UtilityJumpsuit</li>
+			<li>Seg_WOTV_Apparel_BodyguardUniform</li>
 			<li>Seg_Apparel_FlakHelmet</li>
 			<li>Seg_Apparel_FlakArmour</li>
 		</apparelRequired>
