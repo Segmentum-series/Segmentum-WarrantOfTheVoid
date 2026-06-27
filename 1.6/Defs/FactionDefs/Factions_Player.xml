@@ -36,7 +36,16 @@
 		</startingTechprintsResearchTags>
 		<apparelStuffFilter>
 			<thingDefs>
-				<li>Synthread</li>
+				<li>Hyperweave</li>
+				<li>DevilstrandCloth</li>
+				<li>Cloth</li>
+				<li>Leather_Plain</li>
+				<li>Leather_Panthera</li>
+				<li>Leather_Bird</li>
+				<li>Leather_Lizard</li>
+				<li>Leather_Heavy</li>
+				<li>Leather_Light</li>
+				<li>WoolSheep</li>
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>
