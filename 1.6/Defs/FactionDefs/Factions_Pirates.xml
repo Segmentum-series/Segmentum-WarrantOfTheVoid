@@ -89,6 +89,20 @@
 		</modExtensions>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
     <raidLootMaker>SegPirateRaidLootMaker</raidLootMaker>
+	<apparelStuffFilter Inherit="False">
+		<thingDefs>
+			<li>Hyperweave</li>
+			<li>DevilstrandCloth</li>
+			<li>Cloth</li>
+			<li>Leather_Plain</li>
+			<li>Leather_Panthera</li>
+			<li>Leather_Bird</li>
+			<li>Leather_Lizard</li>
+			<li>Leather_Heavy</li>
+			<li>Leather_Light</li>
+			<li>WoolSheep</li>
+		</thingDefs>
+	</apparelStuffFilter>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>

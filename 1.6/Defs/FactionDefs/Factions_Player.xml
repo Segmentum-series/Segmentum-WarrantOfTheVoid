@@ -34,7 +34,7 @@
 			<li>ClassicStart</li>
 			<li>ClassicStartTechprints</li>
 		</startingTechprintsResearchTags>
-		<apparelStuffFilter>
+		<apparelStuffFilter Inherit="False">
 			<thingDefs>
 				<li>Hyperweave</li>
 				<li>DevilstrandCloth</li>
