@@ -101,6 +101,15 @@
                     <Seg_WOTV_DeckEnforcer>15</Seg_WOTV_DeckEnforcer>
                 </rankRequirements>
             </li>
+            <li>
+                <rankDef>Seg_WOTV_MasterAtArms</rankDef>
+                <displayPosition>(6, 3)</displayPosition>
+                 <rankRequirementsOneAmong>
+                    <Seg_WOTV_EnforcerOfficer>20</Seg_WOTV_EnforcerOfficer>
+                    <Seg_WOTV_Armsman>20</Seg_WOTV_Armsman>
+                    <Seg_WOTV_VoidBreacher>20</Seg_WOTV_VoidBreacher>
+                </rankRequirementsOneAmong>
+            </li>
               <li>
                 <rankDef>Seg_WOTV_Chirurgeon</rankDef>
                 <displayPosition>(6, -3)</displayPosition>

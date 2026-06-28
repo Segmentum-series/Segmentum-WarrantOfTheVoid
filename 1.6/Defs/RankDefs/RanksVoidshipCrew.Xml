@@ -123,6 +123,7 @@
         <label>Foreman</label>
         <description>The most experienced and trusted ratings are promoted to the rank of foreman and given responsibility for groups of workers who perform specific tasks on board the voidship. Foremen are sometimes chiefs of voidship clans, with the position being inherited by their children rather than assigned by ranking officer.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Foreman</rankIconPath>
+        <colonyLimitOfRank>(3, 0)</colonyLimitOfRank>
         <rankTier>4</rankTier>
           <incompatibleRanks>
             <li>Seg_WOTV_BridgeOfficer</li>
@@ -147,6 +148,7 @@
         <label>Infernus Master</label>
         <description>The Infernus Master is in charge of the damage control teams on board the voidship, and although they are rarely considered to be on the same exalted social level as the soft-handed bridge officers, they command a measure of respect nonetheless.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_InfernusMaster</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
         <rankTier>4</rankTier>
         <requiredSkills>
             <Social>3</Social>
@@ -242,7 +244,7 @@
             <Social>3</Social>
         </requiredSkills>
         <statOffsets>
-           <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-.2</CertaintyLossFactor>
+			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-.2</CertaintyLossFactor>
             <MeleeCooldownFactor>0.03</MeleeCooldownFactor>
         </statOffsets>
         <statFactors>
@@ -301,8 +303,28 @@
         </statFactors>
         <givesPassions>
         </givesPassions>
-
     </Seg.RankDef> 
+	
+    <Seg.RankDef>
+        <defName>Seg_WOTV_MasterAtArms</defName>
+        <label>Master-at-Arms</label>
+        <description>The Master-at-Arms is responsible for discipline aboard the voidship, as well as commanding the ship's complement of enforcers and armsmen.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_MasterAtArms</rankIconPath>
+        <rankTier>5</rankTier>
+        <requiredSkills>
+            <Shooting>7</Shooting>
+            <Melee>6</Melee>
+            <Social>5</Social>
+        </requiredSkills>
+        <statOffsets>
+            <MoveSpeed>0.10</MoveSpeed>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-.4</CertaintyLossFactor>
+            <SocialImpact>.20</SocialImpact>
+        </statOffsets>
+        <statFactors>
+			<MeleeHitChance>1.05</MeleeHitChance>
+        </statFactors>
+    </Seg.RankDef>
 
     <Seg.RankDef>
         <defName>Seg_WOTV_Chirurgeon</defName>
