@@ -1,0 +1,531 @@
+    <Defs>
+    <Seg.RankDef>
+        <defName>Seg_WOTV_VoidshipMenial</defName>
+        <label>Voidship Menial</label>
+        <description>Many Imperial ships are enclosed cities in the void, where thousands of people will be born, live, and die without ever seeing natural light or setting foot on a planet's surface. Often formed into clans, a lot of these menials have little to do with the operation of the ship itself, being more like the camp followers of an army on campaign.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_VoidshipMenial</rankIconPath>
+        <rankTier>1</rankTier>
+		<incompatibleRanks>
+            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_AstartesRankNeophyte</li>
+            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ThunderWarriorRankInitiate</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechMilita</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechAcolytum</li>
+        </incompatibleRanks>
+        <!-- <requiredAgeRange>(7, 99999)</requiredAgeRange> -->
+        <statOffsets>
+            <WorkSpeedGlobal>0.02</WorkSpeedGlobal>
+        </statOffsets>
+    </Seg.RankDef>
+    <Seg.RankDef>
+        <defName>Seg_WOTV_Voidsman</defName>
+        <label>Voidsman</label>
+        <description>Crew members who have gained some experience in serving on board a voidship are valued more highly than the masses of menial, but are still essentially seen as replaceable raw materials by many of the senior officers.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Voidsman</rankIconPath>
+        <rankTier>2</rankTier>
+        <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
+        <statOffsets>
+            <WorkSpeedGlobal>0.02</WorkSpeedGlobal>
+        </statOffsets>
+         <statFactors>
+            <GlobalLearningFactor>1.01</GlobalLearningFactor>
+        </statFactors>
+    </Seg.RankDef>
+      <Seg.RankDef>
+        <defName>Seg_WOTV_AbleVoidsman</defName>
+        <label>Able Voidsman</label>
+        <description>Trained crew members, also known as ratings, perform the vast majority of skilled tasks on board a voidship. They have proven themselves trustworthy enough to operate sacred machinery (under supervision) and form the bulk of the active crew on board.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_AbleVoidsman</rankIconPath>
+        <rankTier>3</rankTier>
+          <incompatibleRanks>
+            <li>Seg_WOTV_Infernus</li>
+            <li>Seg_WOTV_JuniorMedicae</li>
+            <li>Seg_WOTV_DeckEnforcer</li>
+        </incompatibleRanks>
+        <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
+        <requiredSkills>
+            <Construction>2</Construction>
+            <Social>2</Social>
+        </requiredSkills>
+        <statOffsets>
+            <WorkSpeedGlobal>0.01</WorkSpeedGlobal>
+            <ConstructionSpeed>0.10</ConstructionSpeed>
+        </statOffsets>
+    </Seg.RankDef>
+     <Seg.RankDef>
+        <defName>Seg_WOTV_Infernus</defName>
+        <label>Infernus</label>
+        <description>While every voidsman tells tales of monsters in the black of space and the predation of the Archenemy, no foe is more feared than simple fire on board the ship. The Inferni are expected to respond rapidly to extinguish fires before they can spread and cause the deaths of the entire crew, and this line of work produces hardy and steadfast crewmen.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Infernus</rankIconPath>
+        <rankTier>3</rankTier>
+          <incompatibleRanks>
+            <li>Seg_WOTV_AbleVoidsman</li>
+            <li>Seg_WOTV_JuniorMedicae</li>
+            <li>Seg_WOTV_DeckEnforcer</li>
+        </incompatibleRanks>
+        <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
+        <statOffsets>
+            <Insulation_Heat>25</Insulation_Heat>
+        </statOffsets>
+		<statFactors>		
+			<PainShockThreshold>1.10</PainShockThreshold>
+		</statFactors>
+    </Seg.RankDef>
+     <Seg.RankDef>
+        <defName>Seg_WOTV_JuniorMedicae</defName>
+        <label>Junior Medicae</label>
+        <description>The Imperium's voidships require a well-staffed medicae facility to function. Combat wounds, injuries from industrial accidents, and epidemics and pestilences breeding in the confines of the lower decks all need to be managed, and dealing with all of this often requires an extensive staff of doctors, nurses, assistants and servitors.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_JuniorMedicae</rankIconPath>
+        <rankTier>3</rankTier>
+          <incompatibleRanks>
+            <li>Seg_WOTV_AbleVoidsman</li>
+            <li>Seg_WOTV_Infernus</li>
+            <li>Seg_WOTV_DeckEnforcer</li>
+        </incompatibleRanks>
+        <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
+        <requiredSkills>
+            <Medicine>4</Medicine>
+        </requiredSkills>
+         <givesPassions>
+            <li>
+				<skill>Medicine</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+        <statOffsets>
+            <MedicalTendQuality>0.05</MedicalTendQuality>
+        </statOffsets>
+         <statFactors>
+            <GlobalLearningFactor>1.01</GlobalLearningFactor>
+        </statFactors>
+    </Seg.RankDef>
+     <Seg.RankDef>
+        <defName>Seg_WOTV_DeckEnforcer</defName>
+        <label>Deck Enforcer</label>
+        <description>Due to the rough conditions and poor treatment of menials aboard most voidships, a lot of shipmasters rely on the ship's enforcers to crack down on dissent and disorder before it can become mutiny or worse.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_DeckEnforcer</rankIconPath>
+        <rankTier>3</rankTier>
+          <incompatibleRanks>
+            <li>Seg_WOTV_AbleVoidsman</li>
+            <li>Seg_WOTV_Infernus</li>
+            <li>Seg_WOTV_JuniorMedicae</li>
+        </incompatibleRanks>
+        <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
+        <requiredSkills>
+            <Melee>3</Melee>
+        </requiredSkills>
+        <statOffsets>
+            <MeleeCooldownFactor>0.05</MeleeCooldownFactor>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-.1</CertaintyLossFactor>
+        </statOffsets>
+    </Seg.RankDef>
+    <Seg.RankDef>
+        <defName>Seg_WOTV_Foreman</defName>
+        <label>Foreman</label>
+        <description>The most experienced and trusted ratings are promoted to the rank of foreman and given responsibility for groups of workers who perform specific tasks on board the voidship. Foremen are sometimes chiefs of voidship clans, with the position being inherited by their children rather than assigned by ranking officer.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Foreman</rankIconPath>
+        <rankTier>4</rankTier>
+          <incompatibleRanks>
+            <li>Seg_WOTV_BridgeOfficer</li>
+        </incompatibleRanks>
+        <requiredSkills>
+            <Construction>6</Construction>
+            <Social>4</Social>
+        </requiredSkills>
+        <statOffsets>
+           <SocialImpact>0.10</SocialImpact>
+           <ConstructSuccessChance>.50 </ConstructSuccessChance>
+        </statOffsets>
+        <givesPassions>
+            <li>
+				<skill>Construction</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+    </Seg.RankDef>
+    <Seg.RankDef>
+        <defName>Seg_WOTV_InfernusMaster</defName>
+        <label>Infernus Master</label>
+        <description>The Infernus Master is in charge of the damage control teams on board the voidship, and although they are rarely considered to be on the same exalted social level as the soft-handed bridge officers, they command a measure of respect nonetheless.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_InfernusMaster</rankIconPath>
+        <rankTier>4</rankTier>
+        <requiredSkills>
+            <Social>3</Social>
+        </requiredSkills>
+        <statOffsets>
+           <SocialImpact>0.10</SocialImpact>
+        </statOffsets>
+         <statFactors>
+			<PainShockThreshold>1.15</PainShockThreshold>
+        </statFactors>
+
+    </Seg.RankDef>
+    <Seg.RankDef>
+        <defName>Seg_WOTV_Medicae</defName>
+        <label>Medicae</label>
+        <description>Experienced medicae personnel are invaluable on a voidship and are often respected and feared by the rest of the crew, who know that they will have the power of life and death over them should anything happen.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Medicae</rankIconPath>
+        <rankTier>4</rankTier>
+        <requiredSkills>
+            <Medicine>7</Medicine>
+        </requiredSkills>
+        <statOffsets>
+           <MedicalTendQuality>0.10</MedicalTendQuality>
+           <SocialImpact>0.10</SocialImpact>
+        </statOffsets>
+    </Seg.RankDef>
+
+    <Seg.RankDef>
+        <defName>Seg_WOTV_BridgeOfficer</defName>
+        <label>Bridge Officer</label>
+        <description>The largest Imperial voidships have a bridge crew in the hundreds, but even the smallest often have a good number of junior officers ready to feed reports further up the chain of command or pass orders to where they need to go.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_BridgeOfficer</rankIconPath>
+        <rankTier>4</rankTier>
+          <incompatibleRanks>
+            <li>Seg_WOTV_Foreman</li>
+        </incompatibleRanks>
+        <requiredSkills>
+            <Social>4</Social>
+        </requiredSkills>
+        <statOffsets>
+           <SocialImpact>0.10</SocialImpact>
+        </statOffsets>
+         <statFactors>
+            <GlobalLearningFactor>1.05</GlobalLearningFactor>
+        </statFactors>
+        <givesPassions>
+            <li>
+				<skill>Social</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+
+    </Seg.RankDef>
+    <!--Seg.RankDef>
+        <defName>Seg_WOTV_Drivesmaster</defName>
+        <label>Drivesmaster</label>
+        <description>An expert analyst with a mastery of statistics, probabilities, and extrapolation of events. A Logis is often seen as a kind of prophet by \nthe wider Cult Mechanicus.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Drivesmaster</rankIconPath>
+        <rankTier>4</rankTier>
+       <ImplantsRequired>4</ImplantsRequired>
+        <RequiredHediff>Seg_COTO_CalculusLogi_Hediff</RequiredHediff>
+        <requiredSkills>
+            <Social>6</Social>
+            <Intellectual>8</Intellectual>
+        </requiredSkills>
+        <statOffsets>
+            <ResearchSpeed>0.15</ResearchSpeed>
+            <ReadingSpeed>0.20</ReadingSpeed>
+            <SocialImpact>.30</SocialImpact>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.25</ConversionPower>
+
+            
+
+        </statOffsets>
+         <statFactors>
+           
+        </statFactors>
+        <givesPassions>
+             <li>
+            <skill>Intellectual</skill>
+            <modType>AddOneLevel</modType> </li>
+        </givesPassions>
+
+    </Seg.RankDef-->
+    <Seg.RankDef>
+        <defName>Seg_WOTV_EnforcerOfficer</defName>
+        <label>Enforcer Officer</label>
+        <description>The most effective enforcers are promoted to positions of command and given responsibility for keeping order in a whole compartment or segment of a deck. The position can attract sadists, but even the more duty-minded enforcers often take satisfaction from the physical execution of their duties. </description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnforcerOfficer</rankIconPath>
+        <rankTier>4</rankTier>
+        <requiredSkills>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </requiredSkills>
+        <statOffsets>
+           <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-.2</CertaintyLossFactor>
+            <MeleeCooldownFactor>0.03</MeleeCooldownFactor>
+        </statOffsets>
+        <statFactors>
+           <MeleeHitChance>1.05</MeleeHitChance>
+        </statFactors>
+        <givesPassions>
+            <li>
+				<skill>Melee</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+        <recreationFromSkills>
+            <li>Melee</li>
+        </recreationFromSkills>
+    </Seg.RankDef> 
+    <Seg.RankDef>
+        <defName>Seg_WOTV_Armsman</defName>
+        <label>Armsman</label>
+        <description>Any ship plying the void needs an armed contingent aboard to protect against piracy, xenos attack, or heretics, and the ship's armsmen are trained and equipped to fight any threats the voidship may face.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Armsman</rankIconPath>
+        <rankTier>4</rankTier>
+        <requiredSkills>
+            <Shooting>5</Shooting>
+        </requiredSkills>
+        <statOffsets>
+            <MoveSpeed>0.10</MoveSpeed>
+            <AimingDelayFactor>-0.02</AimingDelayFactor>
+        </statOffsets>
+         <statFactors>
+            <ShootingAccuracyPawn>1.10</ShootingAccuracyPawn>           
+        </statFactors>
+        <givesPassions>
+            <li>
+				<skill>Shooting</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+    </Seg.RankDef>
+     <Seg.RankDef>
+        <defName>Seg_WOTV_VoidBreacher</defName>
+        <label>Void Breacher</label>
+        <description>If a shipmaster expects to perform any boarding actions or similar, then training and equipping void breachers is a smart idea. These soldiers are expected to be able to break through entrenched defenders on a ship or station and engage in close quarters, creating openings for other squads to follow up behind them.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_VoidBreacher</rankIconPath>
+        <rankTier>4</rankTier>
+        <requiredSkills>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+        </requiredSkills>
+        <statOffsets>
+            <MoveSpeed>0.20</MoveSpeed>
+            <AimingDelayFactor>-0.05</AimingDelayFactor>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+        </statOffsets>
+         <statFactors>
+           <MeleeHitChance>1.02</MeleeHitChance>
+        </statFactors>
+        <givesPassions>
+        </givesPassions>
+
+    </Seg.RankDef> 
+
+    <Seg.RankDef>
+        <defName>Seg_WOTV_Chirurgeon</defName>
+        <label>Chirurgeon</label>
+        <description>Chirurgeons are qualified surgical experts and are often trusted to fit augmetic implants to crew members who need them. On the larger ships, only the most 'useful' crew members tend to be granted the privilege of augmetics, while menials are expected to manage with crude prosthetics at best.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Chirurgeon</rankIconPath>
+        <rankTier>5</rankTier>
+        <requiredSkills>
+            <Medicine>10</Medicine>
+        </requiredSkills>
+        <statOffsets>
+            <MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
+            <MedicalTendQuality>0.10</MedicalTendQuality>
+            <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+        </statOffsets>
+        <givesPassions>
+            <li>
+				<skill>Medicine</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+    </Seg.RankDef>
+    <!--Seg.RankDef>
+        <defName>Seg_WOTV_Navigator</defName>
+        <label>Navigator</label>
+        <description>Secutors are techpriests who have so dedicated themselves to combat that their very bodies have been modified extensively for that purpose. They condition themselves to meditate while fighting and see battle as a way to worship the Machine God.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Navigator</rankIconPath>
+        <rankTier>4</rankTier>
+       <ImplantsRequired>2</ImplantsRequired>
+        <RequiredHediff>Seg_COTO_SecutorAugmetics_Hediff</RequiredHediff>
+        <incompatibleRanks>
+            <li>Seg_COTO_MagosMilitant</li>
+        </incompatibleRanks>
+        <requiredSkills>
+            <Melee>8</Melee>
+        </requiredSkills>
+        <statOffsets>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+            
+            
+
+        </statOffsets>
+         <statFactors>
+           <MeleeHitChance>1.05</MeleeHitChance>
+        <ShootingAccuracyPawn>1.02</ShootingAccuracyPawn>
+          <MeleeWeapon_CooldownMultiplier>0.90</MeleeWeapon_CooldownMultiplier>
+        <PainShockThreshold>1.10</PainShockThreshold>
+        </statFactors>
+        <givesPassions>
+            <li>
+            <skill>Melee</skill>
+            <modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+        <recreationFromSkills>
+            <li>Melee</li>
+        </recreationFromSkills>
+    </Seg.RankDef-->
+
+    <Seg.RankDef>
+        <defName>Seg_WOTV_Quartermaster</defName>
+        <label>Quartermaster</label>
+        <description>The ship's quartermaster is possibly the most important person on board, for without them the ship's crew would starve and even the most skilled enginarium clan would soon run out of spare parts to enact repairs. Quartermasters often dedicate themselves to finding every possible trick and loophole in securing the most effective technology and equipment the Imperium has to offer for the ship they serve on.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Quartermaster</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+        <rankTier>6</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_MasterHelmsman</li>
+            <li>Seg_WOTV_Voxmaster</li>
+            <li>Seg_WOTV_Shipmaster</li>
+            <li>Seg_WOTV_LordCaptain</li>
+        </incompatibleRanks>
+        <requiredSkills>
+            <Social>7</Social>
+            <Intellectual>5</Intellectual>			
+        </requiredSkills>
+        <statOffsets>
+            <NegotiationAbility>0.20</NegotiationAbility>
+            <ResearchSpeed>0.10</ResearchSpeed>
+            <ReadingSpeed>0.20</ReadingSpeed>
+        </statOffsets>
+        <givesPassions>
+            <li>
+				<skill>Intellectual</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+    </Seg.RankDef>
+	
+    <Seg.RankDef>
+        <defName>Seg_WOTV_MasterHelmsman</defName>
+        <label>Master Helmsman</label>
+        <description>The master helmsman is responsible for directing the movement of the ship in realspace, and is required to understand the dynamics and forces of celestial bodies and how their gravity affects the voidship. The most skillful helmsmen can dance millions of tons of metal through vacuum like an Old Terran hummingbird darting around a flower.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_MasterHelmsman</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+        <rankTier>6</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_Quartermaster</li>
+            <li>Seg_WOTV_Voxmaster</li>
+            <li>Seg_WOTV_Shipmaster</li>
+            <li>Seg_WOTV_LordCaptain</li>
+        </incompatibleRanks>
+        <requiredSkills>
+            <Intellectual>5</Intellectual>
+        </requiredSkills>
+        <statOffsets>
+            <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey"> 0.7</PilotingAbility>
+            <MoveSpeed>0.05</MoveSpeed>
+        </statOffsets>
+    </Seg.RankDef>
+	
+    <!--Seg.RankDef>
+        <defName>Seg_WOTV_EnginseerPrime</defName>
+        <label>Enginseer Prime</label>
+        <description>Artisans are master machinists who can direct the population of entire forgeplexes to construct and assemble facilities, voidships, and military equipment that they design - as long as they follow sanctioned STC parameters.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnginseerPrime</rankIconPath>
+        <rankTier>8</rankTier>
+        <ImplantsRequired>6</ImplantsRequired>
+       <incompatibleRanks>
+            <li>Seg_COTO_ArchmagosDominius</li>
+        </incompatibleRanks>
+
+        <requiredSkills>
+            <Construction>10</Construction>
+            <Crafting>12</Crafting>
+        </requiredSkills>
+        <statOffsets>
+            <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+            <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech"> 0.20</MechRepairSpeed>
+            <ConstructionSpeed>0.15</ConstructionSpeed>
+            <DeepDrillingSpeed>0.20</DeepDrillingSpeed>
+            <ConstructSuccessChance>0.20</ConstructSuccessChance>
+
+            
+
+        </statOffsets>
+        <givesPassions>
+            <li>
+            <skill>Crafting</skill>
+            <modType>AddOneLevel</modType> </li>
+             <li>
+            <skill>Construction</skill>
+            <modType>AddOneLevel</modType> </li>
+        </givesPassions>
+
+    </Seg.RankDef-->
+	
+     <Seg.RankDef>
+        <defName>Seg_WOTV_Voxmaster</defName>
+        <label>Voxmaster</label>
+        <description>The ship's voxmaster is in charge of all shipboard communications as well as vox channels with other ships, stations, or facilities on-planet. Even the ship's astropaths will report warp-borne interstellar communications to the Voxmaster to pass on to the ship's commander.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Voxmaster</rankIconPath>
+        <rankTier>6</rankTier>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+        <incompatibleRanks>
+            <li>Seg_WOTV_Quartermaster</li>
+            <li>Seg_WOTV_MasterHelmsman</li>
+            <li>Seg_WOTV_Shipmaster</li>
+            <li>Seg_WOTV_LordCaptain</li>
+        </incompatibleRanks>
+        <requiredSkills>
+            <Social>8</Social>
+            <Intellectual>4</Intellectual>			
+        </requiredSkills>
+        <statOffsets>
+            <SocialImpact>.50</SocialImpact>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.10</ConversionPower>
+        </statOffsets>
+    </Seg.RankDef>
+	
+     <Seg.RankDef>
+        <defName>Seg_WOTV_Shipmaster</defName>
+        <label>Shipmaster</label>
+        <description>The Shipmaster is in command of the day to day operations of a voidship, issuing orders to subordinate officers to have their every command carried out, unless countermanded by a higher noble or senior naval officer.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Shipmaster</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+        <rankTier>7</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_LordCaptain</li>
+        </incompatibleRanks>
+        <requiredSkills>
+            <Social>10</Social>
+        </requiredSkills>
+        <statOffsets>
+            <SocialImpact>0.20</SocialImpact>
+            <NegotiationAbility>0.10</NegotiationAbility>
+        </statOffsets>
+        <removeRanksOnUnlock>
+            <li>Seg_WOTV_Voxmaster</li>
+            <li>Seg_WOTV_MasterHelmsman</li>
+            <li>Seg_WOTV_Quartermaster</li>
+        </removeRanksOnUnlock>
+    </Seg.RankDef> 
+
+    <Seg.RankDef>
+        <defName>Seg_WOTV_LordCaptain</defName>
+        <label>Lord Captain</label>
+        <description>Lord Captain is a title given to a Rogue Trader in command of their own voidship. For their crew and sworn vassals, the Lord Captain's word is law no matter where they are. Many a Rogue Trader likes to adopt a swashbuckling style and sees themselves as a duellist or otherwise impressive combatant.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_LordCaptain</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+        <rankTier>7</rankTier>
+        <requiredSkills>
+            <Social>14</Social>
+        </requiredSkills>
+        <statOffsets>
+            <SocialImpact>0.50</SocialImpact>
+            <NegotiationAbility>0.30</NegotiationAbility>
+        </statOffsets>
+         <statFactors>
+           <NegotiationAbility>1.5</NegotiationAbility>
+        </statFactors>
+        <givesPassions>
+            <li>
+				<skill>Shooting</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+            <li>
+				<skill>Melee</skill>
+				<modType>AddOneLevel</modType>
+			</li>
+        </givesPassions>
+        <removeRanksOnUnlock>
+            <li>Seg_WOTV_Shipmaster</li>
+        </removeRanksOnUnlock>
+    </Seg.RankDef> 
+    </Defs>

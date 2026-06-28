@@ -1,0 +1,164 @@
+<Defs>
+<!--    Voidship Crew-->
+    <Core40k.RankCategoryDef>
+        <defName>Seg_WOTV_ImperialVoidshipRankCategory</defName>
+        <label>Imperial Voidship</label>
+        <description>Ranks of the crew and officers on typical voidships - naval and otherwise - of the Imperium of Man.</description>
+        <ranks>
+            <li>
+                <rankDef>Seg_WOTV_VoidshipMenial</rankDef>
+                <displayPosition>(0, -1)</displayPosition>
+            </li>
+
+            <li>
+                <rankDef>Seg_WOTV_Voidsman</rankDef>
+                <displayPosition>(2, -1)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_VoidshipMenial>10</Seg_WOTV_VoidshipMenial>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_AbleVoidsman</rankDef>
+                <displayPosition>(4, -1)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_Voidsman>20</Seg_WOTV_Voidsman>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_Infernus</rankDef>
+                <displayPosition>(4, -2)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_Voidsman>20</Seg_WOTV_Voidsman>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_JuniorMedicae</rankDef>
+                <displayPosition>(4, -3)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_Voidsman>20</Seg_WOTV_Voidsman>
+                </rankRequirements>
+			</li>
+            <li>
+                <rankDef>Seg_WOTV_DeckEnforcer</rankDef>
+                <displayPosition>(4, 3)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_Voidsman>20</Seg_WOTV_Voidsman>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_Foreman</rankDef>
+                <displayPosition>(5, -1)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_AbleVoidsman>20</Seg_WOTV_AbleVoidsman>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_InfernusMaster</rankDef>
+                <displayPosition>(5, -2)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_Infernus>20</Seg_WOTV_Infernus>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_Medicae</rankDef>
+                <displayPosition>(5, -3)</displayPosition>
+                <rankRequirements>
+                    <Seg_WOTV_JuniorMedicae>10</Seg_WOTV_JuniorMedicae>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_BridgeOfficer</rankDef>
+                <displayPosition>(5, 0)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_AbleVoidsman>15</Seg_WOTV_AbleVoidsman>
+                </rankRequirements>
+            </li>
+            <!--li>
+                <rankDef>Seg_WOTV_Drivesmaster</rankDef>
+                <displayPosition>(5, 1)</displayPosition>
+                 <rankRequirements>
+                    <Seg_COTO_Enginseer>10</Seg_COTO_Enginseer>
+                </rankRequirements>
+            </li-->
+            <li>
+                <rankDef>Seg_WOTV_EnforcerOfficer</rankDef>
+                <displayPosition>(5, 2)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_DeckEnforcer>15</Seg_WOTV_DeckEnforcer>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_Armsman</rankDef>
+                <displayPosition>(5, 3)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_DeckEnforcer>15</Seg_WOTV_DeckEnforcer>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_VoidBreacher</rankDef>
+                <displayPosition>(5, 4)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_DeckEnforcer>15</Seg_WOTV_DeckEnforcer>
+                </rankRequirements>
+            </li>
+              <li>
+                <rankDef>Seg_WOTV_Chirurgeon</rankDef>
+                <displayPosition>(6, -3)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_Medicae>20</Seg_WOTV_Medicae>
+                </rankRequirements>
+            </li>
+             <!--li>
+                <rankDef>Seg_WOTV_Navigator</rankDef>
+                <displayPosition>(7, -2)</displayPosition>
+                 <rankRequirements>
+                    <Seg_COTO_MagosMetallurgicus>15</Seg_COTO_MagosMetallurgicus>
+                </rankRequirements>
+            </li-->
+            <li>
+                <rankDef>Seg_WOTV_Quartermaster</rankDef>
+                <displayPosition>(7, -1)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_BridgeOfficer>30</Seg_WOTV_BridgeOfficer>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_MasterHelmsman</rankDef>
+                <displayPosition>(7, 0)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_BridgeOfficer>30</Seg_WOTV_BridgeOfficer>
+                </rankRequirements>
+            </li>
+            <!--li>
+                <rankDef>Seg_WOTV_EnginseerPrime</rankDef>
+                <displayPosition>(6, 1)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_Drivesmaster>20</Seg_WOTV_Drivesmaster>
+                </rankRequirements>
+            </li-->
+            <li>
+                <rankDef>Seg_WOTV_Voxmaster</rankDef>
+                <displayPosition>(7, 1)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_BridgeOfficer>30</Seg_WOTV_BridgeOfficer>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_Shipmaster</rankDef>
+                <displayPosition>(8, 0)</displayPosition>
+                 <rankRequirementsOneAmong>
+                    <Seg_WOTV_Quartermaster>20</Seg_WOTV_Quartermaster>
+                    <Seg_WOTV_MasterHelmsman>20</Seg_WOTV_MasterHelmsman>
+                    <Seg_WOTV_Voxmaster>20</Seg_WOTV_Voxmaster>
+                </rankRequirementsOneAmong>
+            </li>
+            <li>
+                <rankDef>Seg_WOTV_LordCaptain</rankDef>
+                <displayPosition>(9, 0)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_Shipmaster>30</Seg_WOTV_Shipmaster>
+                </rankRequirements>
+            </li>
+ </ranks>
+</Core40k.RankCategoryDef>            
+</Defs>
