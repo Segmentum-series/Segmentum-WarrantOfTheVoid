@@ -13,7 +13,7 @@
         </incompatibleRanks>
         <!-- <requiredAgeRange>(7, 99999)</requiredAgeRange> -->
         <statOffsets>
-            <WorkSpeedGlobal>0.02</WorkSpeedGlobal>
+            <WorkSpeedGlobal>0.03</WorkSpeedGlobal>
         </statOffsets>
     </Seg.RankDef>
     <Seg.RankDef>
@@ -24,7 +24,7 @@
         <rankTier>2</rankTier>
         <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
         <statOffsets>
-            <WorkSpeedGlobal>0.02</WorkSpeedGlobal>
+            <WorkSpeedGlobal>0.03</WorkSpeedGlobal>
         </statOffsets>
          <statFactors>
             <GlobalLearningFactor>1.01</GlobalLearningFactor>
