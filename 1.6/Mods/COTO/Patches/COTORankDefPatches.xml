@@ -1,0 +1,27 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/Core40k.RankCategoryDef[defName="Seg_WOTV_ImperialVoidshipRankCategory"]/ranks</xpath>
+    <value>
+            <li>
+                <rankDef>Seg_WOTV_Drivesmaster</rankDef>
+                <displayPosition>(5, 1)</displayPosition>
+                 <rankRequirements>
+                    <Seg_COTO_Enginseer>10</Seg_COTO_Enginseer>
+                </rankRequirements>
+            </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/Core40k.RankCategoryDef[defName="Seg_WOTV_ImperialVoidshipRankCategory"]/ranks</xpath>
+    <value>
+            <li>
+                <rankDef>Seg_WOTV_EnginseerPrime</rankDef>
+                <displayPosition>(6, 1)</displayPosition>
+                 <rankRequirements>
+                    <Seg_WOTV_Drivesmaster>20</Seg_WOTV_Drivesmaster>
+                </rankRequirements>
+            </li>
+    </value>
+  </Operation>
+</Patch>

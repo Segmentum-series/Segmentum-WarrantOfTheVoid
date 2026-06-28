@@ -202,41 +202,11 @@
         </givesPassions>
 
     </Seg.RankDef>
-    <!--Seg.RankDef>
-        <defName>Seg_WOTV_Drivesmaster</defName>
-        <label>Drivesmaster</label>
-        <description>An expert analyst with a mastery of statistics, probabilities, and extrapolation of events. A Logis is often seen as a kind of prophet by \nthe wider Cult Mechanicus.</description>
-        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Drivesmaster</rankIconPath>
-        <rankTier>4</rankTier>
-       <ImplantsRequired>4</ImplantsRequired>
-        <RequiredHediff>Seg_COTO_CalculusLogi_Hediff</RequiredHediff>
-        <requiredSkills>
-            <Social>6</Social>
-            <Intellectual>8</Intellectual>
-        </requiredSkills>
-        <statOffsets>
-            <ResearchSpeed>0.15</ResearchSpeed>
-            <ReadingSpeed>0.20</ReadingSpeed>
-            <SocialImpact>.30</SocialImpact>
-            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.25</ConversionPower>
-
-            
-
-        </statOffsets>
-         <statFactors>
-           
-        </statFactors>
-        <givesPassions>
-             <li>
-            <skill>Intellectual</skill>
-            <modType>AddOneLevel</modType> </li>
-        </givesPassions>
-
-    </Seg.RankDef-->
+	
     <Seg.RankDef>
         <defName>Seg_WOTV_EnforcerOfficer</defName>
         <label>Enforcer Officer</label>
-        <description>The most effective enforcers are promoted to positions of command and given responsibility for keeping order in a whole compartment or segment of a deck. The position can attract sadists, but even the more duty-minded enforcers often take satisfaction from the physical execution of their duties. </description>
+        <description>The most effective enforcers are promoted to positions of command and given responsibility for keeping order in a whole compartment or segment of a deck. The position can attract sadists, but even the more duty-minded enforcers often take satisfaction from the physical execution of their duties.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnforcerOfficer</rankIconPath>
         <rankTier>4</rankTier>
         <requiredSkills>
@@ -260,6 +230,7 @@
             <li>Melee</li>
         </recreationFromSkills>
     </Seg.RankDef> 
+	
     <Seg.RankDef>
         <defName>Seg_WOTV_Armsman</defName>
         <label>Armsman</label>
@@ -283,6 +254,7 @@
 			</li>
         </givesPassions>
     </Seg.RankDef>
+	
      <Seg.RankDef>
         <defName>Seg_WOTV_VoidBreacher</defName>
         <label>Void Breacher</label>
@@ -347,6 +319,7 @@
 			</li>
         </givesPassions>
     </Seg.RankDef>
+	
     <!--Seg.RankDef>
         <defName>Seg_WOTV_Navigator</defName>
         <label>Navigator</label>
@@ -435,42 +408,6 @@
             <MoveSpeed>0.05</MoveSpeed>
         </statOffsets>
     </Seg.RankDef>
-	
-    <!--Seg.RankDef>
-        <defName>Seg_WOTV_EnginseerPrime</defName>
-        <label>Enginseer Prime</label>
-        <description>Artisans are master machinists who can direct the population of entire forgeplexes to construct and assemble facilities, voidships, and military equipment that they design - as long as they follow sanctioned STC parameters.</description>
-        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnginseerPrime</rankIconPath>
-        <rankTier>8</rankTier>
-        <ImplantsRequired>6</ImplantsRequired>
-       <incompatibleRanks>
-            <li>Seg_COTO_ArchmagosDominius</li>
-        </incompatibleRanks>
-
-        <requiredSkills>
-            <Construction>10</Construction>
-            <Crafting>12</Crafting>
-        </requiredSkills>
-        <statOffsets>
-            <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-            <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech"> 0.20</MechRepairSpeed>
-            <ConstructionSpeed>0.15</ConstructionSpeed>
-            <DeepDrillingSpeed>0.20</DeepDrillingSpeed>
-            <ConstructSuccessChance>0.20</ConstructSuccessChance>
-
-            
-
-        </statOffsets>
-        <givesPassions>
-            <li>
-            <skill>Crafting</skill>
-            <modType>AddOneLevel</modType> </li>
-             <li>
-            <skill>Construction</skill>
-            <modType>AddOneLevel</modType> </li>
-        </givesPassions>
-
-    </Seg.RankDef-->
 	
      <Seg.RankDef>
         <defName>Seg_WOTV_Voxmaster</defName>

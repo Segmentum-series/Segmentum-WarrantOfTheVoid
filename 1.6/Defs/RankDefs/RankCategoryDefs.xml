@@ -73,13 +73,6 @@
                     <Seg_WOTV_AbleVoidsman>15</Seg_WOTV_AbleVoidsman>
                 </rankRequirements>
             </li>
-            <!--li>
-                <rankDef>Seg_WOTV_Drivesmaster</rankDef>
-                <displayPosition>(5, 1)</displayPosition>
-                 <rankRequirements>
-                    <Seg_COTO_Enginseer>10</Seg_COTO_Enginseer>
-                </rankRequirements>
-            </li-->
             <li>
                 <rankDef>Seg_WOTV_EnforcerOfficer</rankDef>
                 <displayPosition>(5, 2)</displayPosition>
@@ -138,13 +131,6 @@
                     <Seg_WOTV_BridgeOfficer>30</Seg_WOTV_BridgeOfficer>
                 </rankRequirements>
             </li>
-            <!--li>
-                <rankDef>Seg_WOTV_EnginseerPrime</rankDef>
-                <displayPosition>(6, 1)</displayPosition>
-                 <rankRequirements>
-                    <Seg_WOTV_Drivesmaster>20</Seg_WOTV_Drivesmaster>
-                </rankRequirements>
-            </li-->
             <li>
                 <rankDef>Seg_WOTV_Voxmaster</rankDef>
                 <displayPosition>(7, 1)</displayPosition>
