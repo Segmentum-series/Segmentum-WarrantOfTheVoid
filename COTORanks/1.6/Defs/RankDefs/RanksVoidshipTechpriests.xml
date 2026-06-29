@@ -35,9 +35,6 @@
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnginseerPrime</rankIconPath>
         <rankTier>8</rankTier>
         <ImplantsRequired>6</ImplantsRequired>
-        <incompatibleRanks>
-            <li>Seg_COTO_ArchmagosDominius</li>
-        </incompatibleRanks>
         <requiredSkills>
             <Construction>10</Construction>
             <Crafting>10</Crafting>

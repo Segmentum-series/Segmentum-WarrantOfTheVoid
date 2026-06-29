@@ -5,9 +5,9 @@
             <li>
                 <rankDef>Seg_WOTV_Drivesmaster</rankDef>
                 <displayPosition>(5, 1)</displayPosition>
-                 <rankRequirements>
+                <!--rankRequirements>
                     <Seg_COTO_Enginseer>10</Seg_COTO_Enginseer>
-                </rankRequirements>
+                </rankRequirements-->
             </li>
     </value>
   </Operation>
