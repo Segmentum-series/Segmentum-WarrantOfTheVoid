@@ -271,7 +271,8 @@
             <MeleeDodgeChance>0.5</MeleeDodgeChance>
         </statOffsets>
          <statFactors>
-           <MeleeHitChance>1.02</MeleeHitChance>
+            <MeleeHitChance>1.02</MeleeHitChance>
+            <HackingSpeed>1.5</HackingSpeed>
         </statFactors>
         <givesPassions>
         </givesPassions>
