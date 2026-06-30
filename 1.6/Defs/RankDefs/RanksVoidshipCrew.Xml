@@ -19,7 +19,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_Voidsman</defName>
         <label>Voidsman</label>
-        <description>Crew members who have gained some experience in serving on board a voidship are valued more highly than the masses of menial, but are still essentially seen as replaceable raw materials by many of the senior officers.</description>
+        <description>Crew members who have gained some experience in serving on board \na voidship are valued more highly than the masses of menials, but are \nstill essentially seen as replaceable raw materials by many of the \nsenior officers.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Voidsman</rankIconPath>
         <rankTier>2</rankTier>
         <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
@@ -34,7 +34,7 @@
       <Seg.RankDef>
         <defName>Seg_WOTV_AbleVoidsman</defName>
         <label>Able Voidsman</label>
-        <description>Trained crew members, also known as ratings, perform the vast majority of skilled tasks on board a voidship. They have proven themselves trustworthy enough to operate sacred machinery (under supervision) and form the bulk of the active crew on board.</description>
+        <description>Trained crew members, also known as ratings, perform the vast \nmajority of skilled tasks on board a voidship. They have proven \nthemselves trustworthy enough to operate sacred machinery (under \nsupervision) and form the bulk of the active crew on board.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_AbleVoidsman</rankIconPath>
         <rankTier>3</rankTier>
           <incompatibleRanks>
@@ -56,7 +56,7 @@
      <Seg.RankDef>
         <defName>Seg_WOTV_Infernus</defName>
         <label>Infernus</label>
-        <description>While every voidsman tells tales of monsters in the black of space and the predation of the Archenemy, no foe is more feared than simple fire on board the ship. The Inferni are expected to respond rapidly to extinguish fires before they can spread and cause the deaths of the entire crew, and this line of work produces hardy and steadfast crewmen.</description>
+        <description>While every voidsman tells tales of monsters in the black of space and the predation of the Archenemy, no foe is more feared than simple fire \non board the ship. The Inferni are expected to respond rapidly to \nextinguish fires before they can spread and cause the deaths of the entire crew, and this line of work produces hardy and steadfast \ncrewmen.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Infernus</rankIconPath>
         <rankTier>3</rankTier>
           <incompatibleRanks>
@@ -105,7 +105,7 @@
      <Seg.RankDef>
         <defName>Seg_WOTV_DeckEnforcer</defName>
         <label>Deck Enforcer</label>
-        <description>Due to the rough conditions and poor treatment of menials aboard most voidships, a lot of shipmasters rely on the ship's enforcers to crack down on dissent and disorder before it can become mutiny or worse.</description>
+        <description>Due to the rough conditions and poor treatment of menials aboard most voidships, a lot of shipmasters rely on the ship's enforcers to crack \ndown on dissent and disorder before it can become mutiny or worse.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_DeckEnforcer</rankIconPath>
         <rankTier>3</rankTier>
           <incompatibleRanks>
@@ -211,7 +211,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_EnforcerOfficer</defName>
         <label>Enforcer Officer</label>
-        <description>The most effective enforcers are promoted to positions of command and given responsibility for keeping order in a whole compartment or segment of a deck. The position can attract sadists, but even the more duty-minded enforcers often take satisfaction from the physical execution of their duties.</description>
+        <description>The most effective enforcers are promoted to positions of command \nand given responsibility for keeping order in a whole compartment or segment of a deck. The position can attract sadists, but even the more duty-minded enforcers often take satisfaction from the physical \nexecution of their duties.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnforcerOfficer</rankIconPath>
         <rankTier>4</rankTier>
         <requiredSkills>
@@ -240,7 +240,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_Armsman</defName>
         <label>Armsman</label>
-        <description>Any ship plying the void needs an armed contingent aboard to protect against piracy, xenos attack, or heretics. The ship's armsmen are trained and equipped to fight any threats the voidship may face.</description>
+        <description>Any ship plying the void needs an armed contingent aboard to protect against piracy, xenos attack, or heretics. The ship's armsmen are \ntrained and equipped to fight any threats the voidship may face.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Armsman</rankIconPath>
         <rankTier>4</rankTier>
         <requiredSkills>
@@ -265,7 +265,7 @@
      <Seg.RankDef>
         <defName>Seg_WOTV_VoidBreacher</defName>
         <label>Void Breacher</label>
-        <description>If a shipmaster expects to perform any boarding actions or similar, then training and equipping void breachers is a smart idea. These soldiers are expected to be able to breach hulls, break through entrenched defenders on a ship or station, and engage in close quarters combat, creating openings for other squads to follow up behind them.</description>
+        <description>If a shipmaster expects to perform any boarding actions or similar, then training and equipping void breachers is a smart idea. These soldiers \nare expected to be able to breach hulls, break through entrenched \ndefenders on a ship or station, and engage in close quarters combat, \ncreating openings for other squads to follow up behind them.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_VoidBreacher</rankIconPath>
         <rankTier>4</rankTier>
         <requiredSkills>
@@ -311,7 +311,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_Chirurgeon</defName>
         <label>Chirurgeon</label>
-        <description>Chirurgeons are qualified surgical experts and are often trusted to fit augmetic implants to crew members who need them. On the larger ships, only the most 'useful' crew members tend to be granted the privilege of augmetics, while menials are expected to manage with crude prosthetics at best.</description>
+        <description>Chirurgeons are qualified surgical experts and are often trusted to fit augmetic implants to crew members who need them. On the larger \nships, only the most 'useful' crew members tend to be granted the privilege of augmetics, while menials are expected to manage with \ncrude prosthetics at best.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Chirurgeon</rankIconPath>
         <rankTier>5</rankTier>
         <requiredSkills>
@@ -371,7 +371,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_Quartermaster</defName>
         <label>Quartermaster</label>
-        <description>The ship's quartermaster is possibly the most important person on board, for without them the ship's crew would starve and even the most skilled enginarium clan would soon run out of spare parts to enact repairs. Quartermasters often dedicate themselves to finding every possible trick and loophole in securing the most effective technology and equipment the Imperium has to offer for the ship they serve on.</description>
+        <description>The ship's quartermaster is possibly the most important person on \nboard, for without them the ship's crew would starve and even the most \nskilled enginarium clan would soon run out of spare parts to enact \nrepairs. Quartermasters often dedicate themselves to finding every possible trick and loophole in securing the most effective technology \nand equipment the Imperium has to offer for the ship they serve on.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Quartermaster</rankIconPath>
         <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
         <rankTier>6</rankTier>
@@ -401,7 +401,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_MasterHelmsman</defName>
         <label>Master Helmsman</label>
-        <description>The master helmsman is responsible for directing the movement of the ship in realspace, and is required to understand the dynamics and forces of celestial bodies and how their gravity affects the voidship. The most skillful helmsmen can dance millions of tons of metal through vacuum like an Old Terran hummingbird darting around a flower.</description>
+        <description>The master helmsman is responsible for directing the movement of the ship in realspace, and is required to understand the dynamics and forces of celestial bodies and how their gravity affects the voidship. The most skillful helmsmen can dance millions of tons of metal through vacuum \nlike an Old Terran hummingbird darting around a flower.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_MasterHelmsman</rankIconPath>
         <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
         <rankTier>6</rankTier>
@@ -449,7 +449,7 @@
      <Seg.RankDef>
         <defName>Seg_WOTV_Shipmaster</defName>
         <label>Shipmaster</label>
-        <description>The Shipmaster is in command of the day to day operations of a voidship, issuing orders to subordinate officers to have their every command carried out, unless countermanded by a higher noble or senior naval officer.</description>
+        <description>The Shipmaster is in command of the day to day operations of a voidship, issuing orders to subordinate officers to have their every command carried out, unless countermanded by a higher noble or \nsenior naval officer.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Shipmaster</rankIconPath>
         <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
         <rankTier>7</rankTier>

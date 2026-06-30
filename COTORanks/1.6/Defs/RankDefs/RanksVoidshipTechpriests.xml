@@ -31,7 +31,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_EnginseerPrime</defName>
         <label>Enginseer Prime</label>
-        <description>The highest-ranking member of the Cult of Mars aboard an Imperial voidship is usually the Enginseer Prime, who serves as the most expert techpriest on the crew. They often personally oversee the operation of crucial equipment such as the ship's void shields and Gellar field generator, knowing that such sacred machines are the only defences the ship has against fiery death in space or the horrors of the warp.</description>
+        <description>The highest-ranking member of the Cult of Mars aboard an Imperial voidship is usually the Enginseer Prime, who serves as the most expert techpriest on the crew. They often personally oversee the operation of crucial equipment such as the ship's void shields and Gellar field generator, knowing that such sacred machines are the only defences \nthe ship has against fiery death in space or the horrors of the warp.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnginseerPrime</rankIconPath>
         <rankTier>8</rankTier>
         <ImplantsRequired>6</ImplantsRequired>
