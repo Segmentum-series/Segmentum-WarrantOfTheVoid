@@ -14,22 +14,25 @@
 
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset>0.25</PsychicSensitivityOffset>
-			<PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">0.50</PsychicEntropyGain>
+			<PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">-0.50</PsychicEntropyGain>
 			<PsychicEntropyRecoveryRate>0.10</PsychicEntropyRecoveryRate>
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>2.1</Mass>
+			<Mass>3.5</Mass>
 			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Cold>4</Insulation_Cold>
 			<Insulation_Heat>7</Insulation_Heat>
 		</statBases>
 
 		<costList>
 			<Cloth>20</Cloth>
+			<Steel>25</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -57,13 +60,16 @@
 			<wornGraphicPaths>
 				<li>Things/Apparel/PsykerHood/Seg_WOTV_PsykerHood</li>
 			</wornGraphicPaths>
+			<renderSkipFlags>
+					<li>Hair</li>
+			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>Seg_WOTV_SpecialistApparel</li>
 			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>6</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 	</ThingDef>
@@ -80,18 +86,18 @@
 
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset>0.25</PsychicSensitivityOffset>
-			<PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">0.50</PsychicEntropyGain>
+			<PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">-0.50</PsychicEntropyGain>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.10</PsychicEntropyRecoveryRate>
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>3.2</Mass>
 			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Cold>2.5</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
+			<Insulation_Heat>2.5</Insulation_Heat>
 		</statBases>
 
 		<costList>

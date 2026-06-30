@@ -48,6 +48,9 @@
 			<wornGraphicPaths>
 				<li>Things/Apparel/TraderHat/Seg_WOTV_TraderHat</li>
 			</wornGraphicPaths>
+			<renderSkipFlags>
+					<li>Hair</li>
+			</renderSkipFlags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
