@@ -28,6 +28,7 @@
         </statOffsets>
          <statFactors>
             <GlobalLearningFactor>1.01</GlobalLearningFactor>
+			<CleaningSpeed>1.25</CleaningSpeed>
         </statFactors>
     </Seg.RankDef>
       <Seg.RankDef>
@@ -49,6 +50,7 @@
         <statOffsets>
             <WorkSpeedGlobal>0.01</WorkSpeedGlobal>
             <ConstructionSpeed>0.10</ConstructionSpeed>
+			<CarryingCapacity>10</CarryingCapacity>
         </statOffsets>
     </Seg.RankDef>
      <Seg.RankDef>
@@ -64,10 +66,12 @@
         </incompatibleRanks>
         <!-- <requiredAgeRange>(13, 99999)</requiredAgeRange> -->
         <statOffsets>
-            <Insulation_Heat>25</Insulation_Heat>
+            <ComfyTemperatureMax>25</ComfyTemperatureMax>
+			<ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
         </statOffsets>
 		<statFactors>		
 			<PainShockThreshold>1.10</PainShockThreshold>
+			<MentalBreakThreshold>0.75</MentalBreakThreshold>
 		</statFactors>
     </Seg.RankDef>
      <Seg.RankDef>
@@ -154,7 +158,8 @@
             <Social>3</Social>
         </requiredSkills>
         <statOffsets>
-           <SocialImpact>0.10</SocialImpact>
+            <SocialImpact>0.10</SocialImpact>
+			<MentalBreakThreshold>-0.10</MentalBreakThreshold>
         </statOffsets>
          <statFactors>
 			<PainShockThreshold>1.15</PainShockThreshold>
@@ -216,6 +221,7 @@
         <statOffsets>
 			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-.2</CertaintyLossFactor>
             <MeleeCooldownFactor>0.03</MeleeCooldownFactor>
+			<ArrestSuccessChance>0.20</ArrestSuccessChance>
         </statOffsets>
         <statFactors>
            <MeleeHitChance>1.05</MeleeHitChance>
@@ -312,6 +318,7 @@
             <MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
             <MedicalTendQuality>0.10</MedicalTendQuality>
             <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+			<MedicalTendSpeed>0.10</MedicalTendSpeed>
         </statOffsets>
         <givesPassions>
             <li>
