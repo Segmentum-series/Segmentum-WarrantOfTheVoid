@@ -5,6 +5,13 @@
         <description>The Drivesmaster is a techpriest with responsibility for the engines of a voidship, overseeing the maintenance crews of ratings and technomats who keep the great machines running.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Drivesmaster</rankIconPath>
         <rankTier>4</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_VoidshipMenial</li>
+            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_AstartesRankNeophyte</li>
+            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ThunderWarriorRankInitiate</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechMilita</li>
+            <li MayRequire="Phonicmas.RimDark.Abhuman">Seg_WOTV_Navigator</li>
+        </incompatibleRanks>
         <ImplantsRequired>4</ImplantsRequired>
         <RequiredHediff>Seg_COTO_NoosphericCortex_Hediff</RequiredHediff>
         <requiredSkills>

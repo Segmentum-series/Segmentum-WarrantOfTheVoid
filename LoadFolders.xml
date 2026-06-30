@@ -7,5 +7,6 @@
 		<li IfModActive = "ludeon.rimworld.odyssey">1.6/Mods/Odyssey</li>
 		<li IfModActive = "REDACTED.Segmentum.ChildrenOfTheOmnissiah">COTORanks/1.6/</li>
 		<li IfModActive = "Phonicmas.RimDark.MankindsFinest">1.6/Mods/RimDarkMF</li>
+		<li IfModActive = "Phonicmas.RimDark.Abhuman">RDAbhumanRanks/1.6</li>
 	</v1.6>
 </loadFolders>

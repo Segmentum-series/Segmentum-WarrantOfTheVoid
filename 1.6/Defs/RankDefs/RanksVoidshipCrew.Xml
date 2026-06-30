@@ -10,6 +10,8 @@
             <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ThunderWarriorRankInitiate</li>
 			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechMilita</li>
 			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechAcolytum</li>
+            <li MayRequire="Phonicmas.RimDark.Abhuman">Seg_WOTV_Navigator</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_WOTV_Drivesmaster</li>
         </incompatibleRanks>
         <!-- <requiredAgeRange>(7, 99999)</requiredAgeRange> -->
         <statOffsets>
@@ -330,43 +332,6 @@
 			</li>
         </givesPassions>
     </Seg.RankDef>
-	
-    <!--Seg.RankDef>
-        <defName>Seg_WOTV_Navigator</defName>
-        <label>Navigator</label>
-        <description>Secutors are techpriests who have so dedicated themselves to combat that their very bodies have been modified extensively for that purpose. They condition themselves to meditate while fighting and see battle as a way to worship the Machine God.</description>
-        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Navigator</rankIconPath>
-        <rankTier>4</rankTier>
-       <ImplantsRequired>2</ImplantsRequired>
-        <RequiredHediff>Seg_COTO_SecutorAugmetics_Hediff</RequiredHediff>
-        <incompatibleRanks>
-            <li>Seg_COTO_MagosMilitant</li>
-        </incompatibleRanks>
-        <requiredSkills>
-            <Melee>8</Melee>
-        </requiredSkills>
-        <statOffsets>
-            <MeleeDodgeChance>0.5</MeleeDodgeChance>
-            
-            
-
-        </statOffsets>
-         <statFactors>
-           <MeleeHitChance>1.05</MeleeHitChance>
-        <ShootingAccuracyPawn>1.02</ShootingAccuracyPawn>
-          <MeleeWeapon_CooldownMultiplier>0.90</MeleeWeapon_CooldownMultiplier>
-        <PainShockThreshold>1.10</PainShockThreshold>
-        </statFactors>
-        <givesPassions>
-            <li>
-            <skill>Melee</skill>
-            <modType>AddOneLevel</modType>
-			</li>
-        </givesPassions>
-        <recreationFromSkills>
-            <li>Melee</li>
-        </recreationFromSkills>
-    </Seg.RankDef-->
 
     <Seg.RankDef>
         <defName>Seg_WOTV_Quartermaster</defName>

@@ -110,13 +110,6 @@
                     <Seg_WOTV_Medicae>20</Seg_WOTV_Medicae>
                 </rankRequirements>
             </li>
-             <!--li>
-                <rankDef>Seg_WOTV_Navigator</rankDef>
-                <displayPosition>(7, -2)</displayPosition>
-                 <rankRequirements>
-                    <Seg_COTO_MagosMetallurgicus>15</Seg_COTO_MagosMetallurgicus>
-                </rankRequirements>
-            </li-->
             <li>
                 <rankDef>Seg_WOTV_Quartermaster</rankDef>
                 <displayPosition>(7, -1)</displayPosition>

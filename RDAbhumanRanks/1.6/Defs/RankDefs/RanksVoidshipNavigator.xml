@@ -1,0 +1,33 @@
+    <Defs>
+    <Seg.RankDef>
+        <defName>Seg_WOTV_Navigator</defName>
+        <label>Navigator</label>
+        <description>The ship's Navigator is a noble mutant, one of the few sanctioned by \nthe Imperial Creed, charged with guiding the voidship through the warp with the use of their third eye. The most skilled Navigators can find the shortest path through the Immaterium, and minimise the risk of attack \nby daemons or other beasts of the empyrean. Navigators are highly respected but often feared by the rest of the ship's crew, who can find their mutations disturbing.</description>
+        <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Navigator</rankIconPath>
+        <rankTier>8</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_VoidshipMenial</li>
+            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_AstartesRankNeophyte</li>
+            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ThunderWarriorRankInitiate</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechMilita</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechAcolytum</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_WOTV_Drivesmaster</li>
+        </incompatibleRanks>
+        <requiredGenesAll>
+            <li>BEWH_NavigtorWarpEye</li>
+            <li>BEWH_NavigtorWarpNavigation</li>
+            <li>BEWH_NavigtorUnsettlingPresence</li>
+            <li>BEWH_NavigtorLongLived</li>
+            <li>BEWH_NavigtorNavisNobilite</li>
+        </requiredGenesAll>
+        <statOffsets>
+			<SocialImpact>0.10</SocialImpact>
+        </statOffsets>
+        <statFactors>
+        </statFactors>
+        <givesPassions>
+        </givesPassions>
+        <recreationFromSkills>
+        </recreationFromSkills>
+    </Seg.RankDef>
+    </Defs>
