@@ -15,7 +15,7 @@
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset>0.25</PsychicSensitivityOffset>
 			<PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">-0.50</PsychicEntropyGain>
-			<PsychicEntropyRecoveryRate>0.10</PsychicEntropyRecoveryRate>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.15</PsychicEntropyRecoveryRate>
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
@@ -87,7 +87,7 @@
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset>0.25</PsychicSensitivityOffset>
 			<PsychicEntropyGain MayRequire="Ludeon.RimWorld.Royalty">-0.50</PsychicEntropyGain>
-			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.10</PsychicEntropyRecoveryRate>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.15</PsychicEntropyRecoveryRate>
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>14000</WorkToMake>
