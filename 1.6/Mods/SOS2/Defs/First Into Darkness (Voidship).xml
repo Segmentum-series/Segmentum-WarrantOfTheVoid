@@ -1,14 +1,14 @@
 ﻿<Defs>
 <ScenarioDef Name="Seg_WOTV_Scenario_RogueTraderSOS2" ParentName="ScenarioBase">
 		<defName>Seg_WOTV_Scenario_RogueTraderSOS2</defName>
-		<label>First Into Darkness VoidBorne</label>
-		<description>update.</description>
-			
+		<label>First Into Darkness (Voidship)</label>
+		<description>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship disintegrates and burns in high orbit after attack by pirates, and almost nobody from its crew of thousands has survived, but the Emperor-blessed Rogue Trader had taken the precaution of keeping a guncutter fuelled and ready to go at all times.\n\nPowering away from the burning flagship, the survivors swear an oath. It is time to show the Imperium - nay, the galaxy! - just how indomitable a Rogue Trader is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!</description>
+		
 			<scenario>
 			<playerFaction>
 				<factionDef>Seg_WOTV_PlayerRT</factionDef>
 			</playerFaction>
-			<summary>A Rogue Trader and what remains of their retinue crash land on a rimworld.</summary>
+			<summary>A Rogue Trader and what remains of their retinue escape disaster on a guncutter.</summary>
 			<parts>
 				
 				<!-- Config pages -->
@@ -53,6 +53,14 @@
 				<li Class="ScenPart_StartingResearch">
 					<def>StartingResearch</def>
 					<project>Seg_MunitorumEquipment</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>ShipBasics</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>ColoredLights</project>
 				</li>
 
 				<!-- Player starting things -->
@@ -103,36 +111,11 @@
 					<thingDef>MedicineIndustrial</thingDef>
 					<count>15</count>
 				</li>
-
-				<!-- Scatter some things near player start -->
-				<li Class="ScenPart_ScatterThingsNearPlayerStart"> <!-- Starting steel -->
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>Steel</thingDef>
-					<count>1000</count>
-				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>ComponentIndustrial</thingDef>
-					<count>10</count>
-				</li>
-
-				<!-- Scatter some things anywhere -->
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>ShipChunk</thingDef>
-					<allowRoofed>false</allowRoofed>
-					<count>5</count>
-				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>Steel</thingDef>
-					<count>300</count>
-				</li>
 				
 				<!-- Game start dialog -->
 				<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship disintegrates and burns in high orbit after attack by pirates, and almost nobody from its crew of thousands has survived to land on the rimworld.\n\nNaturally, the Emperor-blessed Rogue Trader is among that group, for those thousands were sworn to ensure their survival. It is time to show the Imperium - nay, the galaxy! - just how deserved this position is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!\n\nNote: the fate of the sacred Warrant of Trade is unknown. Keep an ear to the ground for information on its whereabouts, assuming it is not merely ash in the void.</text>
+				<text>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship disintegrates and burns in high orbit after attack by pirates, and almost nobody from its crew of thousands has survived, but the Emperor-blessed Rogue Trader had taken the precaution of having a guncutter fuelled and ready to go at all times!\n\nPowering away from the burning flagship, the survivors swear an oath. It is time to show the Imperium - nay, the galaxy! - just how indomitable a Rogue Trader is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!\n\nNote: the fate of the sacred Warrant of Trade is unknown. Keep an ear to the proverbial ground for information on its whereabouts, assuming it is not merely ash in the void.</text>
 				<closeSound>GameStartSting</closeSound>
 				</li>
 				
@@ -154,10 +137,6 @@
                 <spaceShipDef>Guncutter</spaceShipDef>
                 <startType>Ship</startType>
 				<visible>true</visible>
-            </li>
-            <li Class="ScenPart_StartingResearch">
-                <def>StartingResearch</def>
-                <project>ShipBasics</project>
             </li>
 			</parts>
 			</scenario>
