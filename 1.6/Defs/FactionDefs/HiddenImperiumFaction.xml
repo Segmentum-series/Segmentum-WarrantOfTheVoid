@@ -9,7 +9,7 @@
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>2000</configurationListOrderPriority>
     <displayInFactionSelection>false</displayInFactionSelection>
-    <fixedName>the Imperium of Man</fixedName>
+    <fixedName>Imperium of Man</fixedName>
     <canGenerateQuestSites>false</canGenerateQuestSites>
     <factionIconPath>World/WorldObjects/Expanding/Sites/DownedRefugee</factionIconPath>
     <techLevel>Spacer</techLevel>
@@ -63,7 +63,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <messageDefendersAttacking>Ancient soldiers are attacking.</messageDefendersAttacking>
+    <messageDefendersAttacking>Imperial forces are attacking.</messageDefendersAttacking>
   </FactionDef>
 
   <FactionDef ParentName="Seg_WOTV_HiddenImperiumBase">
