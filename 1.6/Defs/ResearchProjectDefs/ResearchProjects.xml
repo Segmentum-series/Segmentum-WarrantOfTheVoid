@@ -15,6 +15,7 @@
 		<researchViewX>1</researchViewX>
 		<researchViewY>1.8</researchViewY>
 		<prerequisites>
+			<li>ComplexClothing</li>
 			<li>Seg_MunitorumEquipment</li>
 		</prerequisites>
 		<tab>Seg_SegmentumTab</tab>
@@ -66,7 +67,6 @@
 		<researchViewX>1</researchViewX>
 		<researchViewY>2.4</researchViewY>
 		<prerequisites>
-			<li>ComplexClothing</li>
 			<li>Seg_MunitorumEquipment</li>
 		</prerequisites>
 		<tab>Seg_SegmentumTab</tab>
