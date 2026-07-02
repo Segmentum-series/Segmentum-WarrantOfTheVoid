@@ -73,7 +73,7 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
-		<thingCategories>
+		<thingCategories Inherit="False">
 			<li>Seg_WOTV_ArmorTrader</li>
 		</thingCategories>
 	</ThingDef>
@@ -158,6 +158,9 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
 	</ThingDef>
 
 
@@ -230,6 +233,9 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
 	</ThingDef>
 
 
@@ -313,6 +319,9 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
 	</ThingDef>
 
 
@@ -382,5 +391,8 @@
 				<Crafting>10</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
 	</ThingDef>
 </Defs>

@@ -74,8 +74,8 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
-		<thingCategories>
-			<li>Seg_WOTV_ArmorInquisitorial</li>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
 	</ThingDef>
 
@@ -83,7 +83,7 @@
 	<!--Adept Wrapping-->
 	<ThingDef ParentName="Seg_WOTV_ClothingBase">
 		<defName>Seg_WOTV_Apparel_AdeptWrapping</defName>
-		<label>adept accessory</label>
+		<label>adept wrappings</label>
 		<description>Many adepts will wear belts and pouches to carry scrolls, data-slates, and containers so that they can perform their duties more efficiently.</description>
 
 		<graphicData>
@@ -152,8 +152,8 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
-		<thingCategories>
-			<li>Seg_WOTV_ArmorInquisitorial</li>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
 	</ThingDef>
 
@@ -216,7 +216,7 @@
 	<!-- Adept backpack -->
 	<ThingDef ParentName="Seg_WOTV_BackpackBase">
 		<defName>Seg_WOTV_Apparel_AdeptPack</defName>
-		<label>adept pack</label>
+		<label>adept backpack</label>
 		<description>The Imperium runs on parchment, ink, and candle tallow as much as it does on promethium and fyceline, and carrying an auto-quill, data-slate and spare scrolls can help an adept in the fulfillment of their responsibilities.</description> 
 		<graphicData>
 			<texPath>Things/Apparel/AdeptPack/Seg_WOTV_AdeptPack</texPath>
@@ -265,5 +265,8 @@
 				
 			</li>
 		</comps>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
 	</ThingDef>
 </Defs>
