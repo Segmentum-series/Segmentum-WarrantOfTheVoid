@@ -216,7 +216,7 @@
 	</ThingDef>
 
 	<!--Stub revolver-->
-	<ThingDef ParentName="BaseHumanMakeableGun" Name="Gun_Revolver">
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase" Name="Gun_Revolver">
 		<defName>Seg_WOTV_Gun_StubRevolver</defName>
 		<label>stub revolver</label>
 		<description>This short-barrelled large-calibre revolver fires solid bullets from a rotating chamber. It is a weapon of an ancient type, possibly dating back as far as late M2, and is rarely used by the Militarum except as an unofficial sidearm. It is most often found in the hands of enforcers and hive gangers, or perhaps noble lifewards who fancy themselves as dashing gunslingers.</description>
@@ -239,21 +239,22 @@
 			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 			<MarketValue>600</MarketValue>
 		</statBases>
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>Seg_WOTV_BasicWeapons</li>
 			<li>Seg_WOTV_StubRevolver</li>
 		</weaponTags>
-		<weaponClasses>
+		<weaponClasses Inherit="False">
 			<li>RangedLight</li>
 		</weaponClasses>
-		<costList>
+		<costList Inherit="False">
 			<Steel>40</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<skillRequirements>
+			<skillRequirements Inherit="False">
 				<Crafting>4</Crafting>
 			</skillRequirements>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
 			<researchPrerequisites Inherit="False">
 				<li>Seg_WOTV_AdvancedEquipment</li>
 			</researchPrerequisites>
@@ -272,7 +273,7 @@
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
 		</verbs>
-		<tools>
+		<tools Inherit="False">
 			<li>
 				<label>grip</label>
 				<capacities>
