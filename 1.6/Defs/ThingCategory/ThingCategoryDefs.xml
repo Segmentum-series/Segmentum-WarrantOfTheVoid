@@ -1,10 +1,4 @@
-<Defs>	
-	<ThingCategoryDef>
-		<defName>Seg_ImperiumWorkGear</defName>
-		<label>Imperium work gear</label>
-		<parent>Apparel</parent>
-	</ThingCategoryDef>
-	
+<Defs>		
 	<ThingCategoryDef>
 		<defName>Seg_WOTV_ArmorTrader</defName>
 		<label>Rogue Trader armour</label>
