@@ -134,7 +134,7 @@
             </li>
 			<li Class="SaveOurShip2.ScenPart_StartInSpace">
                 <def>StartInSpace</def>
-                <spaceShipDef>Guncutter</spaceShipDef>
+                <spaceShipDef>Seg_WOTV_SOS2Guncutter</spaceShipDef>
                 <startType>Ship</startType>
 				<visible>true</visible>
             </li>
