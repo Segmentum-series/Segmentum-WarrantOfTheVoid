@@ -74,6 +74,7 @@
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>LongBlades</li>
+				<li>Shields</li>
 				<li>Seg_WOTV_TraderApparel</li>
 			</researchPrerequisites>
 			<recipeUsers>
