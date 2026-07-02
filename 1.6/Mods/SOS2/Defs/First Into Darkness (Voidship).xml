@@ -119,23 +119,11 @@
 				<closeSound>GameStartSting</closeSound>
 				</li>
 				
-				<li Class="ScenPart_PlanetLayer">
-                <def>PlanetLayer</def>
-                <layer>Orbit</layer>
-                <settingsDef>Orbit</settingsDef>
-                <hide>True</hide>
-                <tag>Orbit</tag>
-                <connections>
-                    <li>
-                        <tag>Surface</tag>
-                        <zoomMode>ZoomIn</zoomMode>
-                    </li>
-                </connections>
-            </li>
 			<li Class="SaveOurShip2.ScenPart_StartInSpace">
                 <def>StartInSpace</def>
                 <spaceShipDef>Seg_WOTV_SOS2Guncutter</spaceShipDef>
                 <startType>Ship</startType>
+				<damageStart>false</damageStart>
 				<visible>true</visible>
             </li>
 			</parts>
