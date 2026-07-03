@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- Rogue Trader Scenario -->
+	<ScenarioDef Name="Seg_WOTV_Scenario_RogueTraderGravship" ParentName="ScenarioBase">
+		<defName>Seg_WOTV_Scenario_RogueTraderGravship</defName>
+		<label>First Into Darkness (Gravship)</label>
+		<description>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship disintegrates and burns in high orbit after attack by pirates, and almost nobody from its crew of thousands has survived, but the Emperor-blessed Rogue Trader had taken the precaution of modifying one of the flagship's guncutters with the local 'gravship' technology - a serious tech-heresy, but allowable under the privileges of the Warrant.\n\nLanding the modified guncutter on the planet's surface, the survivors swear an oath. It is time to show the Imperium - nay, the galaxy! - just how indomitable a Rogue Trader is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!</description>
+		<scenario>
+			<playerFaction>
+				<factionDef>Seg_WOTV_PlayerRT</factionDef>
+			</playerFaction>
+			<summary>A Rogue Trader and what remains of their retinue crash land on a rimworld.</summary>
+			<parts>
+				
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+					<def>Seg_ConfigurePawnsKindDefs</def>
+					<pawnChoiceCount>5</pawnChoiceCount>
+					<leftBehindPawnKind>Seg_WOTV_ScenarioPawnKind_Worker</leftBehindPawnKind>
+					<kindCounts>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_RogueTrader</kindDef>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_Bodyguard</kindDef>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_Worker</kindDef>
+							<count>2</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<kindDef>Seg_WOTV_ScenarioPawnKind_Armsman</kindDef>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+					</kindCounts>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+					<visible>false</visible>
+				</li>
+				<li Class="KCSG.ScenPart_AddStartingStructure">
+					<def>VFEC_AddStartingStructure</def>
+					<structureLabel>A modified guncutter</structureLabel>
+					<nearMapCenter>True</nearMapCenter>
+					<chooseFrom>
+						<li>Seg_WOTV_GuncutterGravship</li>
+					</chooseFrom>
+				</li>
+
+				<!-- Player pawns modifiers -->
+				
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Seg_MunitorumEquipment</project>
+					<project>ColoredLights</project>
+					<project>BasicGravtech</project>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting on ground weapons -->
+					<def>StartingThing_Defined</def>
+					<thingDef>Seg_WOTV_Gun_LasLock</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Seg_WOTV_Gun_StubRevolver</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Seg_WOTV_MeleeWeapon_TraderRapier</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting components -->
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting food -->
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting advanced components -->
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentSpacer</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting plasteel -->
+					<def>StartingThing_Defined</def>
+					<thingDef>Plasteel</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting silver -->
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>1500</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined"> <!-- Starting medicine -->
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>15</count>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart"> <!-- Starting steel -->
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>1000</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>10</count>
+				</li>
+
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<allowRoofed>false</allowRoofed>
+					<count>5</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>300</count>
+				</li>
+				
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>Rogue Traders are proverbial risktakers and adventurers, but perhaps approaching an unclaimed world in a contested system of a little-charted subsector was not the best move to make. The dynasty's flagship disintegrates and burns in high orbit after attack by pirates, and almost nobody from its crew of thousands has survived, but the Emperor-blessed Rogue Trader had taken the precaution of modifying one of the flagship's guncutters with the local 'gravship' technology - a serious tech-heresy, but allowable under the privileges of the Warrant.\n\nLanding the modified guncutter on the planet's surface, the survivors swear an oath. It is time to show the Imperium - nay, the galaxy! - just how indomitable a Rogue Trader is. A Rogue Trader does not merely survive. They walk bravely first into darkness. They thrive, conquer, and rule!\n\nNote: the fate of the sacred Warrant of Trade is unknown. Keep an ear to the ground for information on its whereabouts, assuming it is not merely ash in the void.</text>
+				<closeSound>GameStartSting</closeSound>
+				</li>
+				
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>
