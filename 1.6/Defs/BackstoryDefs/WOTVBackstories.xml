@@ -64,6 +64,7 @@
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+      <li>SegWOTV_RetinueBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>3</Shooting>
