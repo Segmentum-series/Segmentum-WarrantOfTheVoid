@@ -216,6 +216,10 @@
         <description>The most effective enforcers are promoted to positions of command \nand given responsibility for keeping order in a whole compartment or segment of a deck. The position can attract sadists, but even the more duty-minded enforcers often take satisfaction from the physical \nexecution of their duties.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnforcerOfficer</rankIconPath>
         <rankTier>4</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_Armsman</li>
+            <li>Seg_WOTV_VoidBreacher</li>
+        </incompatibleRanks>
         <requiredSkills>
             <Melee>5</Melee>
             <Social>3</Social>
@@ -245,6 +249,10 @@
         <description>Any ship plying the void needs an armed contingent aboard to protect against piracy, xenos attack, or heretics. The ship's armsmen are \ntrained and equipped to fight any threats the voidship may face.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Armsman</rankIconPath>
         <rankTier>4</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_EnforcerOfficer</li>
+            <li>Seg_WOTV_VoidBreacher</li>
+        </incompatibleRanks>
         <requiredSkills>
             <Shooting>5</Shooting>
         </requiredSkills>
@@ -270,6 +278,10 @@
         <description>If a shipmaster expects to perform any boarding actions or similar, then training and equipping void breachers is a smart idea. These soldiers \nare expected to be able to breach hulls, break through entrenched \ndefenders on a ship or station, and engage in close quarters combat, \ncreating openings for other squads to follow up behind them.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_VoidBreacher</rankIconPath>
         <rankTier>4</rankTier>
+        <incompatibleRanks>
+            <li>Seg_WOTV_EnforcerOfficer</li>
+            <li>Seg_WOTV_Armsman</li>
+        </incompatibleRanks>
         <requiredSkills>
             <Shooting>4</Shooting>
             <Melee>3</Melee>
