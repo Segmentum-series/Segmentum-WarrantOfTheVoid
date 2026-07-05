@@ -51,7 +51,7 @@
 <ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_MiningLaser</defName>
 		<label>mining laser</label>
-		<description>This laser emits intense focused beams of energy intended for use in industrial-scale mines. It is unwieldy though still deadly if aimed at a living target.</description>
+		<description>This laser emits intense focused beams of energy intended for use in industrial-scale mines. It is unwieldy though still deadly if aimed at a living target.\n\n&lt;color=#bb8f04&gt;Note:&lt;/color&gt; the laser must be manually targeted at rock faces to mine them.</description>
 		<recipeMaker>
 			<researchPrerequisite Inherit="False"></researchPrerequisite>
 			<researchPrerequisites Inherit="False">
