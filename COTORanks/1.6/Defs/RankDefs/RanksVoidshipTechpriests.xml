@@ -10,6 +10,8 @@
             <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_AstartesRankNeophyte</li>
             <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ThunderWarriorRankInitiate</li>
 			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechMilita</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_ServitorUnderseer</li>
+			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_FabricatorMinoris</li>
             <li MayRequire="Phonicmas.RimDark.Abhuman">Seg_WOTV_Navigator</li>
         </incompatibleRanks>
         <ImplantsRequired>4</ImplantsRequired>
