@@ -51,9 +51,6 @@
 			<li>Seg_WOTV_BasicApparel</li>
 		</prerequisites>
 		<tab>Seg_SegmentumTab</tab>
-		<requiredResearchFacilities>
-      		<li>Seg_WOTV_WarrantWall</li>
-    	</requiredResearchFacilities>
 </ResearchProjectDef>
 
 <!-- Work gear -->
