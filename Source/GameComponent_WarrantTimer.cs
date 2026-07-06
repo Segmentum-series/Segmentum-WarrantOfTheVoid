@@ -35,8 +35,8 @@ public class Seg_WOTV_WarrantTimer : GameComponent
             return;
         if (startTick < 0)
             return;
-        // Wait one in-game year 
-        if (Find.TickManager.TicksGame - startTick < 3600000)
+        //  6 months jk 
+        if (Find.TickManager.TicksGame - startTick < 1800000)
             return;
         QuestScriptDef questDef = DefDatabase<QuestScriptDef>.GetNamed("Seg_WOTV_warrantBuildingscenario");
         Slate slate = new Slate();
