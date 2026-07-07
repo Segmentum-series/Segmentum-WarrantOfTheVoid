@@ -67,7 +67,7 @@
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
 			<shaderType>Cutout</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.9</drawSize>
+			<drawSize>1.2</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite Inherit="False"></researchPrerequisite>
@@ -77,7 +77,7 @@
 				<li>GasOperation</li>
 			</researchPrerequisites>
 		</recipeMaker>
-		<uiIconScale>1.4</uiIconScale>
+		<uiIconScale>1</uiIconScale>
 		<statBases>
 			<Mass>3.5</Mass>
 			<EquipDelay>1.5</EquipDelay>
