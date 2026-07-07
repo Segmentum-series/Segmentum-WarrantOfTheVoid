@@ -112,6 +112,12 @@
 					<count>15</count>
 				</li>
 				
+				<!-- Disable non-scenario Warrant quest -->
+				<li Class="ScenPart_DisableQuest">
+					<def>DisableQuest</def>
+					<questDef>Seg_WOTV_WarrantHeist</questDef>
+				</li>
+				
 				<!-- Game start dialog -->
 				<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
