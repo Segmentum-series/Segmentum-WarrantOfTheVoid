@@ -81,12 +81,12 @@
 		<statBases>
 			<Mass>3.5</Mass>
 			<EquipDelay>1.5</EquipDelay>
-			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
 			<AccuracyTouch>0.75</AccuracyTouch>
-			<AccuracyShort>0.55</AccuracyShort>
-			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
 			<AccuracyLong>0.25</AccuracyLong>
-			<WorkToMake>20000</WorkToMake>
+			<WorkToMake>30000</WorkToMake>
 			<MarketValue>660</MarketValue>
 		</statBases>
 		<verbs>
@@ -158,7 +158,7 @@
 		<statBases>
 			<Mass>5</Mass>
 			<EquipDelay>1.2</EquipDelay>
-			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 			<AccuracyTouch>0.55</AccuracyTouch>
 			<AccuracyShort>0.65</AccuracyShort>
 			<AccuracyMedium>0.90</AccuracyMedium>

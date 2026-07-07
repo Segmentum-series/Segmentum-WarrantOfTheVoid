@@ -70,7 +70,7 @@
 		<statBases>
 			<Mass>6</Mass>
 			<EquipDelay>1.2</EquipDelay>
-			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
 			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.40</AccuracyShort>
 			<AccuracyMedium>0.20</AccuracyMedium>
@@ -85,11 +85,11 @@
 				<defaultProjectile>Seg_WOTV_MiningLaser</defaultProjectile>
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<warmupTime>3</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>11.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
-				<muzzleFlashScale>10</muzzleFlashScale>
+				<muzzleFlashScale>12</muzzleFlashScale>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
