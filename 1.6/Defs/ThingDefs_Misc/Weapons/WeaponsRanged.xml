@@ -67,7 +67,7 @@
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
 			<shaderType>Cutout</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>0.9</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite Inherit="False"></researchPrerequisite>
