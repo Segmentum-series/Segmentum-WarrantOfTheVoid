@@ -82,7 +82,7 @@
 			<Mass>3.5</Mass>
 			<EquipDelay>1.5</EquipDelay>
 			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyTouch>0.85</AccuracyTouch>
 			<AccuracyShort>0.75</AccuracyShort>
 			<AccuracyMedium>0.50</AccuracyMedium>
 			<AccuracyLong>0.25</AccuracyLong>
