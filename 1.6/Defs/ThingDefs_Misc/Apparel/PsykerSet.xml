@@ -72,6 +72,9 @@
 				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_PsykerApparel</li>
+		</thingCategories>
 	</ThingDef>
 
 	<!-- Psyker Helm -->
@@ -133,6 +136,9 @@
 				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_PsykerApparel</li>
+		</thingCategories>
 	</ThingDef>
 
 	<!--Psyker Robe-->
@@ -206,5 +212,8 @@
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_PsykerApparel</li>
+		</thingCategories>
 	</ThingDef>
 </Defs>

@@ -124,7 +124,7 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
-		<thingCategories>
+		<thingCategories Inherit="False">
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
 	</ThingDef>
@@ -203,7 +203,7 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
-		<thingCategories>
+		<thingCategories Inherit="False">
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
 	</ThingDef>
@@ -287,7 +287,7 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
-		<thingCategories>
+		<thingCategories Inherit="False">
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
 	</ThingDef>
@@ -373,7 +373,7 @@
 				</tabDefs>
 			</li>
 		</modExtensions>
-		<thingCategories>
+		<thingCategories Inherit="False">
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
 	</ThingDef>

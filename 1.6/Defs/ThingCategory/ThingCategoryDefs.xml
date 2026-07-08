@@ -4,4 +4,9 @@
 		<label>Rogue Trader armour</label>
 		<parent>Seg_ImperiumArmour</parent>
 	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Seg_WOTV_PsykerApparel</defName>
+		<label>Psyker apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
 </Defs>
