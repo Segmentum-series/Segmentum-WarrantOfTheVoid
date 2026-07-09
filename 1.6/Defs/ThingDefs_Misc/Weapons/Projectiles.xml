@@ -118,4 +118,64 @@
       <speed>55</speed>
     </projectile>
 	</ThingDef>
+	
+	<!--Autogun bullet-->
+	<ThingDef ParentName="BaseBullet">
+    <defName>Seg_WOTV_AutogunBullet</defName>
+    <label>autogun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+	  <armorPenetrationBase>0.17</armorPenetrationBase>
+      <stoppingPower>0.6</stoppingPower>
+      <speed>70</speed>
+    </projectile>
+	</ThingDef>
+	
+	<!--Autogun bullet spray-->
+	<!--ThingDef ParentName="BaseBullet">
+    <defName>Seg_WOTV_AutogunBulletSpray</defName>
+    <label>autogun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+	  <armorPenetrationBase>0.17</armorPenetrationBase>
+      <stoppingPower>0.6</stoppingPower>
+      <speed>70</speed>
+	  <modExtensions>
+		<li Class="Core40k.DefModExtension_AmmoChanger">
+			<unlockedBy>Seg_WOTV_AdvancedEquipment</unlockedBy>
+			<effectiveRange>33.9</effectiveRange>
+			<warmupTime>3.25</warmupTime>
+			<shotsPerBurst>5</shotsPerBurst>
+		</li>
+	  </modExtensions>
+    </projectile>
+	</ThingDef-->
+	
+	<!--Shotgun bullet-->
+	<ThingDef ParentName="BaseBullet">
+    <defName>Seg_WOTV_ShotgunBullet</defName>
+    <label>shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>19</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+	</ThingDef>
+	
 </Defs>
