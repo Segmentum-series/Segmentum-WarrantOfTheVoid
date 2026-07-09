@@ -313,7 +313,7 @@
 		<recipeMaker>
 			<researchPrerequisite Inherit="False"></researchPrerequisite>
 			<researchPrerequisites Inherit="False">
-				<li>Seg_WOTV_MunitorumEquipment</li>
+				<li>Seg_MunitorumEquipment</li>
 				<li>PrecisionRifling</li>
 			</researchPrerequisites>
 			<skillRequirements>
