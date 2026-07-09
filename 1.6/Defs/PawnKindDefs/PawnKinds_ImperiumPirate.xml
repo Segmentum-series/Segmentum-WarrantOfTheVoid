@@ -8,9 +8,13 @@
     <backstoryCryptosleepCommonality>0.00</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>
     <biocodeWeaponChance>0</biocodeWeaponChance>
+    <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+    <useFactionXenotypes>true</useFactionXenotypes>
+    <minGenerationAge>19</minGenerationAge>
+    <maxGenerationAge>78</maxGenerationAge>
   </PawnKindDef>
 
-  <!-- Poverty tier - drifter -->
+  <!-- Poverty tier - dreg -->
   
   <PawnKindDef ParentName="Seg_WOTV_PirateBase" Name="Seg_WOTV_DregBase">
     <defName>Seg_WOTV_Dreg</defName>
@@ -48,7 +52,7 @@
     <initialResistanceRange>7~12</initialResistanceRange>
   </PawnKindDef>
 
-  <!-- Low tier - scavenger, thrasher -->
+  <!-- Low tier - ganger -->
 
   <PawnKindDef ParentName="Seg_WOTV_PirateBase" Name="Seg_WOTV_PirateGangerTierBase" Abstract="True">
     <combatPower>50</combatPower>
@@ -154,7 +158,7 @@
   </PawnKindDef>
 
 
-  <!-- High tier - renegade -->
+  <!-- High tier - renegade, captain, malatek -->
 
   <PawnKindDef ParentName="Seg_WOTV_PirateBase" Name="Seg_WOTV_RenegadeBase">
     <defName>Seg_WOTV_Renegade</defName>
