@@ -181,6 +181,7 @@
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>50~900</techHediffsMoney>
     <techHediffsTags>
+	  <li>Simple</li>
 	  <li>Poor</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_CrudeAugmetics</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_StandardAugmetics</li>
@@ -220,6 +221,7 @@
     <techHediffsMoney>50~900</techHediffsMoney>
     <techHediffsTags>
 	  <li>Simple</li>
+	  <li>Poor</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_CrudeAugmetics</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_StandardAugmetics</li>
     </techHediffsTags>
@@ -247,7 +249,7 @@
 	</modExtensions>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="Seg_WOTV_PirateBase" Name="Seg_WOTV_RenegadeBase">
+  <PawnKindDef ParentName="Seg_WOTV_PirateBase" Name="Seg_WOTV_RenegadeBreacher">
     <defName>Seg_WOTV_RenegadeBreacher</defName>
     <label>renegade breacher</label>
     <race>Human</race>
@@ -262,13 +264,14 @@
 	  <li>Seg_WOTV_UtilityApparel</li>
     </apparelTags>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-    <weaponMoney>500~700</weaponMoney>
+    <weaponMoney>600~700</weaponMoney>
     <weaponTags>
 	  <li>Seg_WOTV_Shotgun</li>
     </weaponTags>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>50~900</techHediffsMoney>
     <techHediffsTags>
+	  <li>Simple</li>
 	  <li>Poor</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_CrudeAugmetics</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_StandardAugmetics</li>
@@ -321,6 +324,7 @@
     <techHediffsMoney>400~1500</techHediffsMoney>
     <techHediffsTags>
 	  <li>Simple</li>
+	  <li>Poor</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_CrudeAugmetics</li>
 	  <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_StandardAugmetics</li>
     </techHediffsTags>
