@@ -1,0 +1,17 @@
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/FactionDef[defName="Seg_WOTV_ImperiumPirates"]</xpath>
+        <value>
+        <li Class="KCSG.CustomGenOption">
+          <chooseFromSettlements>
+            <li>VBGE_EmpireProduction</li>
+            <li>VBGE_EmpireMining</li>
+            <li>VBGE_EmpireSlavery</li>
+            <li>VBGE_EmpireLogging</li>
+            <li>VBGE_EmpireDefence</li>
+          </chooseFromSettlements>
+          <preventBridgeable>true</preventBridgeable>
+        </li>
+      </value>
+    </Operation>
+</Patch>
