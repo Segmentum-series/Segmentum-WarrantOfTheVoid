@@ -481,7 +481,6 @@
 			</li>
 		</tools>
 		<weaponTags Inherit="False">
-			<li>Seg_WOTV_BasicWeapons</li>
 			<li>Seg_WOTV_Shotgun</li>
 		</weaponTags>
 		<tradeTags>
