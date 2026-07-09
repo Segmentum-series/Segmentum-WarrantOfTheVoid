@@ -301,7 +301,7 @@
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Autogun</defName>
 		<label>autogun</label>
-		<description>Autoguns are weapons of an ancient lineage which fire metal bullets, whether solid or jacketed, using fyceline or primitive gunpowder as propellant. They are far easier to manufacture than lasguns and as a result are widely used across the Imperium, but the ammunition's logistical requirements make them less favoured by military forces who have easy access to las weaponry instead.</description>
+		<description>Autoguns are weapons of an ancient lineage which fire metal bullets, whether solid or jacketed, using fyceline or primitive gunpowder as propellant. They are easier to manufacture than lasguns and as a result are widely used across the Imperium, but the ammunition's logistical requirements make them less favoured by military forces who have access to more efficient las weaponry, unless facing enemies where solid rounds are more effective.</description>
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Autogun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -313,7 +313,7 @@
 		<recipeMaker>
 			<researchPrerequisite Inherit="False"></researchPrerequisite>
 			<researchPrerequisites Inherit="False">
-				<li>Seg_WOTV_AdvancedEquipment</li>
+				<li>Seg_WOTV_MunitorumEquipment</li>
 				<li>PrecisionRifling</li>
 			</researchPrerequisites>
 			<skillRequirements>
