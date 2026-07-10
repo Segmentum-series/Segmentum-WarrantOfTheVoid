@@ -164,7 +164,8 @@
 	<!--Shotgun bullet-->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_ShotgunBullet</defName>
-		<label>shotgun blast</label>
+		<label>heavy shotgun blast</label>
+		<description>Fires all three barrels of the Navis heavy shotgun in quick succession.</description>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -180,6 +181,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_ShotgunBreachingSlug</defName>
 		<label>shotgun breaching slug</label>
+		<description>Fires a single heavy-alloy slug designed to punch through hull armour and breach bulkheads.</description>
 		<graphicData>
 		<texPath>Things/Projectile/Bullet_Thump</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

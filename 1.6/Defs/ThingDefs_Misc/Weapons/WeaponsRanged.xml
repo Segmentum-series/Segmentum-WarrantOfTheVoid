@@ -443,7 +443,7 @@
 			<AccuracyShort>0.68</AccuracyShort>
 			<AccuracyMedium>0.59</AccuracyMedium>
 			<AccuracyLong>0.25</AccuracyLong>
-			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
 			<MarketValue>600</MarketValue>
 		</statBases>
 		<costList>
