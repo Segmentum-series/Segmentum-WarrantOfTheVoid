@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- navy -->
+	<SaveOurShip2.NavyDef ParentName="SpaceNavy">
+		<defName>Seg_WOTV_SOS2PirateNavy</defName>
+		<label>Imperium Pirate Fleet</label>
+		<factionDefs>
+			<li>Seg_WOTV_ImperiumPirates</li>
+		</factionDefs>
+		<bountyHunts>false</bountyHunts>
+		<pirates>true</pirates>
+		<colorPrimary>Structure_Black</colorPrimary>
+		<colorSecondary>Structure_Red</colorSecondary>
+		<crewDef>Seg_WOTV_SOS2PirateVoidsman</crewDef>
+		<marineDef>Seg_WOTV_SOS2Breacher</marineDef>
+		<marineHeavyDef>Seg_WOTV_SOS2HeavyBreacher</marineHeavyDef>
+		<spaceShipDefs>
+			<li>Seg_WOTV_SOS2FuryInterceptor</li>
+			<li>Seg_WOTV_SOS2StarhawkBomber</li>
+			<li>PirateMiningRig</li>
+			<li>PirateISCS</li>
+			<li>DestroyerT1</li>
+			<li>FrigateIronclad</li>
+			<li>FrigateScorpion</li>
+			<li>ShipBreakerFullyArmed</li>
+			<li>CorvetteMartian</li>
+			<li>CruiserCrab</li>
+		</spaceShipDefs>
+	</SaveOurShip2.NavyDef>
+</Defs>
