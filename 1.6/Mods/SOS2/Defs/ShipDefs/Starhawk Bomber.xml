@@ -17,9 +17,10 @@
 		<startingDungeon>False</startingDungeon>
 		<spaceSite>False</spaceSite>
 		<tradeShip>False</tradeShip>
-		<navyExclusive>False</navyExclusive>
-		<customPaintjob>False</customPaintjob>
+		<navyExclusive>True</navyExclusive>
+		<customPaintjob>True</customPaintjob>
 		<neverFleet>False</neverFleet>
+		<cargoValue>200</cargoValue>
 		<core>
 			<shapeOrDef>ShipPilotSeatMini</shapeOrDef>
 			<x>7</x>

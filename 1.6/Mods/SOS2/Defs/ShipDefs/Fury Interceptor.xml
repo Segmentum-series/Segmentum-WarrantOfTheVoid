@@ -8,7 +8,7 @@
 		<sizeX>20</sizeX>
 		<sizeZ>16</sizeZ>
 		<label>Fury interceptor</label>
-		<combatPoints>72</combatPoints>
+		<combatPoints>75</combatPoints>
 		<rarityLevel>0</rarityLevel>
 		<neverRandom>False</neverRandom>
 		<neverAttacks>False</neverAttacks>
