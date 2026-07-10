@@ -15,7 +15,7 @@
 		<marineDef>Seg_WOTV_SOS2Breacher</marineDef>
 		<marineHeavyDef>Seg_WOTV_SOS2HeavyBreacher</marineHeavyDef>
 		<spaceShipDefs>
-			<li>Seg_WOTV_SOS2FuryInterceptor</li>
+			<li>Seg_WOTV_SOS2Fury</li>
 			<li>Seg_WOTV_SOS2StarhawkBomber</li>
 			<li>PirateMiningRig</li>
 			<li>PirateISCS</li>
