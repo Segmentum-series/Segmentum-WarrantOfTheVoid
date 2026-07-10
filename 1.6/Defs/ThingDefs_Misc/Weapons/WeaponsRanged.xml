@@ -492,13 +492,13 @@
 		<comps>
 			<li Class="Core40k.CompProperties_WeaponDecoration" />
 			
-			<!-- This works, just commenting it out for now, not sure what we will use it on <3 2lgm <li Class="Core40k.CompProperties_AmmoChanger">
-			<compClass>Core40k.Comp_AmmoChanger</compClass>
-			<availableProjectiles>
-			<li>Seg_COTO_Bullet_Stubber</li>
-			<li>SEG_COTO_RadBullet</li>
-			</availableProjectiles>
-			</li> -->
+			<li Class="Core40k.CompProperties_AmmoChanger">
+				<compClass>Core40k.Comp_AmmoChanger</compClass>
+				<availableProjectiles>
+					<li>Seg_WOTV_ShotgunBullet</li>
+					<li>Seg_WOTV_ShotgunBreachingSlug</li>
+				</availableProjectiles>
+			</li>
 		</comps>
 
 	</ThingDef>

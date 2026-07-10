@@ -163,19 +163,62 @@
 	
 	<!--Shotgun bullet-->
 	<ThingDef ParentName="BaseBullet">
-    <defName>Seg_WOTV_ShotgunBullet</defName>
-    <label>shotgun blast</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>19</damageAmountBase>
-      <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.25</armorPenetrationBase>
-      <speed>55</speed>
-    </projectile>
+		<defName>Seg_WOTV_ShotgunBullet</defName>
+		<label>shotgun blast</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>19</damageAmountBase>
+		<stoppingPower>3</stoppingPower>
+		<armorPenetrationBase>0.25</armorPenetrationBase>
+		<speed>55</speed>
+		</projectile>
 	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Seg_WOTV_ShotgunBreachingSlug</defName>
+		<label>shotgun breaching slug</label>
+		<graphicData>
+		<texPath>Things/Projectile/Bullet_Thump</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Seg_WOTV_BreachingSlugDamage</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>1.50</armorPenetrationBase>
+			<speed>85</speed>
+		</projectile>
+		<modExtensions>
+		<li Class="Core40k.DefModExtension_AmmoChanger">
+			<effectiveRange>23.9</effectiveRange>
+			<warmupTime>1.35</warmupTime>
+			<shotsPerBurst>1</shotsPerBurst>
+		</li>
+	  </modExtensions>
+	</ThingDef>
+
+	<DamageDef>
+		<defName>Seg_WOTV_BreachingSlugDamage</defName>
+		<label>thump</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has been breached.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>5</defaultDamage>
+		<defaultArmorPenetration>2</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>30</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>15</buildingDamageFactorPassable>
+		<plantDamageFactor>4</plantDamageFactor>
+  </DamageDef>
+
 	
 </Defs>
