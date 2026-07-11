@@ -17,13 +17,15 @@
 		<spaceShipDefs>
 			<li>Seg_WOTV_SOS2Fury</li>
 			<li>Seg_WOTV_SOS2StarhawkBomber</li>
+			<li>Seg_WOTV_SOS2Freighter</li>
+			<li>Seg_WOTV_SOS2ArmedFreighter</li>
+			<li>Seg_WOTV_SOS2AssaultFreighter</li>
 			<li>PirateMiningRig</li>
 			<li>PirateISCS</li>
 			<li>DestroyerT1</li>
 			<li>FrigateIronclad</li>
 			<li>FrigateScorpion</li>
 			<li>ShipBreakerFullyArmed</li>
-			<li>CorvetteMartian</li>
 			<li>CruiserCrab</li>
 		</spaceShipDefs>
 	</SaveOurShip2.NavyDef>
