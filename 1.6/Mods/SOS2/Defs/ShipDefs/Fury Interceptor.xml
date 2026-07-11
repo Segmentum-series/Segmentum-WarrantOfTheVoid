@@ -9,7 +9,6 @@
 		<sizeZ>16</sizeZ>
 		<label>Fury interceptor</label>
 		<combatPoints>75</combatPoints>
-		<rarityLevel>0</rarityLevel>
 		<neverRandom>False</neverRandom>
 		<neverAttacks>False</neverAttacks>
 		<neverWreck>False</neverWreck>

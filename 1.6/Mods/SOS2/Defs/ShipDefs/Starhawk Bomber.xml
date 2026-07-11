@@ -9,7 +9,6 @@
 		<sizeZ>24</sizeZ>
 		<label>Starhawk bomber</label>
 		<combatPoints>160</combatPoints>
-		<rarityLevel>0</rarityLevel>
 		<neverRandom>False</neverRandom>
 		<neverAttacks>False</neverAttacks>
 		<neverWreck>False</neverWreck>

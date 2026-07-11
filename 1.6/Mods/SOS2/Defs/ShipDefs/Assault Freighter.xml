@@ -9,7 +9,6 @@
 		<sizeZ>20</sizeZ>
 		<label>Pirate freighter</label>
 		<combatPoints>150</combatPoints>
-		<rarityLevel>0</rarityLevel>
 		<neverRandom>False</neverRandom>
 		<neverAttacks>False</neverAttacks>
 		<neverWreck>False</neverWreck>
