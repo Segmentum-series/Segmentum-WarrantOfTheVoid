@@ -342,9 +342,9 @@
 				<defaultProjectile>Seg_WOTV_AutogunBullet</defaultProjectile>
 				<warmupTime>0.8</warmupTime>
 				<range>33.9</range>
-				<burstShotCount>2</burstShotCount>
+				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
-				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCast>Fire_Autogun</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -456,9 +456,7 @@
 				<defaultProjectile>Seg_WOTV_ShotgunBullet</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<range>13.9</range>
-				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<soundCast>Shot_Shotgun</soundCast>
+				<soundCast>Fire_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
