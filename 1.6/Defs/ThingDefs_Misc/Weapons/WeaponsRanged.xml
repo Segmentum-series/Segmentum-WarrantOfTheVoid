@@ -416,7 +416,7 @@
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_NavisHeavyShotgun</defName>
 		<label>Navis heavy shotgun</label>
-		<description>Void breacher teams in the Imperial Navy are issued with heavy triple-barrelled breacher shotguns for close-quarters killwork. These solidly-constructed shotguns are somewhat unwieldy but ideal for fighting inside voidship compartments or clearing rooms.</description>
+		<description>Void breacher teams in the Imperial Navy are issued with heavy triple-barrelled breacher shotguns for close-quarters killwork. These solidly-constructed shotguns are somewhat unwieldy but ideal for fighting inside voidship compartments or clearing rooms.\n\n&lt;color=#40cbde&gt;Note:&lt;/color&gt; This weapon can switch ammunition type to fire a single heavy-alloy breaching slug intended for voidship boarding.&lt;/color&gt;</description>
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

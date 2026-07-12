@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <Seg_WOTV_RogueTraderTitle_LetterTitle>Warrant Verified!</Seg_WOTV_RogueTraderTitle_LetterTitle>
-    <Seg_WOTV_RogueTraderTitle_LetterBody>.{PAWN_labelShort} has received the sacred Warrant of Trade from {FACTION_name}!/nThis Warrant grants {PAWN_labelShort} the title of Rogue Trader, granting Imperial right of settlement and ownership of this very rimworld./nA new heir can be chosen by selecting your Warrant of Trade.
+    <Seg_WOTV_RogueTraderTitle_LetterTitle>Warrant of Trade certified!</Seg_WOTV_RogueTraderTitle_LetterTitle>
+    <Seg_WOTV_RogueTraderTitle_LetterBody>{PAWN_labelShort} is now the bearer of the sacred Warrant of Trade by all laws and traditions of {FACTION_name}!\n\nThe Warrant grants {PAWN_labelShort} the title of Rogue Trader, and with it Imperial right of settlement on this very rimworld, as well as privileges and leniencies enjoyed by only a select few among humanity's masses. All hail the Emperor's anointed. All hail the Rogue Trader!\n\nAn heir to the title - or, Emperor forbid, a new bearer - can be chosen by selecting your Warrant of Trade.
     </Seg_WOTV_RogueTraderTitle_LetterBody>
 </LanguageData>
