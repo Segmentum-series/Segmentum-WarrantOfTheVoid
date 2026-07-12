@@ -106,6 +106,7 @@
     <label>Rogue Trader</label>
     <seniority>0</seniority>
     <favorCost>0</favorCost>
+    <canBeInherited>true</canBeInherited>
     <grantedAbilities>
       <li>Seg_WOTV_RogueTraderAbility</li>
     </grantedAbilities>
