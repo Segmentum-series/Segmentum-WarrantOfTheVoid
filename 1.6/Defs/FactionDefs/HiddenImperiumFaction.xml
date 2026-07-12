@@ -73,10 +73,6 @@
     <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Imperial Authority</royalFavorLabel>
     <royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">UI/Icons/RoyalFavor</royalFavorIconPath>
 
-      <royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">
-        RoyalTitleInheritanceWorker
-      </royalTitleInheritanceWorkerClass>
-
       <royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
         <li>Child</li>
         <li>Grandchild</li>
