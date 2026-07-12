@@ -2,7 +2,7 @@
     <Seg.RankDef>
         <defName>Seg_WOTV_VoidshipMenial</defName>
         <label>Voidship Menial</label>
-        <description>Many Imperial ships are enclosed cities in the void, where thousands of people will be born, live, and die without ever seeing natural light or setting foot on a planet's surface. Often formed into clans, a lot of these menials have little to do with the operation of the ship itself, being more like the camp followers of an army on campaign.</description>
+        <description>Many Imperial ships are enclosed cities in the void, where thousands of people will be born, live, and die without ever seeing natural light or setting foot on a planet's surface. Often formed into clans, a lot of these menials have little to do with the operation of the ship itself, being more like the camp followers of an army on campaign. Many of them will have been pressganged into service from their home worlds or stations, and will spend the rest of their lives in the bowels of a ship.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_VoidshipMenial</rankIconPath>
         <rankTier>1</rankTier>
 		<incompatibleRanks>
