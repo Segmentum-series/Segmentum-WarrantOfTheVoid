@@ -101,91 +101,96 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<!--Stub revolver bullet-->
 	<ThingDef ParentName="BaseBullet">
-    <defName>Seg_WOTV_StubRevolverBullet</defName>
-    <label>stub revolver bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
-	  <armorPenetrationBase>0.4</armorPenetrationBase>
-      <stoppingPower>3</stoppingPower>
-      <speed>55</speed>
-    </projectile>
+		<defName>Seg_WOTV_StubRevolverBullet</defName>
+		<label>stub revolver bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+		<armorPenetrationBase>0.4</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>55</speed>
+		</projectile>
 	</ThingDef>
 	
 	<!--Autogun bullet-->
 	<ThingDef ParentName="BaseBullet">
-    <defName>Seg_WOTV_AutogunBullet</defName>
-    <label>autogun bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>14</damageAmountBase>
-	  <armorPenetrationBase>0.17</armorPenetrationBase>
-      <stoppingPower>0.6</stoppingPower>
-      <speed>70</speed>
-    </projectile>
+		<defName>Seg_WOTV_AutogunBullet</defName>
+		<label>autogun bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+		<armorPenetrationBase>0.17</armorPenetrationBase>
+			<stoppingPower>0.6</stoppingPower>
+			<speed>70</speed>
+		</projectile>
 	</ThingDef>
 	
 	<!--Autogun bullet spray-->
 	<!--ThingDef ParentName="BaseBullet">
-    <defName>Seg_WOTV_AutogunBulletSpray</defName>
-    <label>autogun bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>14</damageAmountBase>
-	  <armorPenetrationBase>0.17</armorPenetrationBase>
-      <stoppingPower>0.6</stoppingPower>
-      <speed>70</speed>
-	  <modExtensions>
+		<defName>Seg_WOTV_AutogunBulletSpray</defName>
+		<label>autogun bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+		<armorPenetrationBase>0.17</armorPenetrationBase>
+			<stoppingPower>0.6</stoppingPower>
+			<speed>70</speed>
+		<modExtensions>
 		<li Class="Core40k.DefModExtension_AmmoChanger">
 			<unlockedBy>Seg_WOTV_AdvancedEquipment</unlockedBy>
 			<effectiveRange>33.9</effectiveRange>
 			<warmupTime>3.25</warmupTime>
 			<shotsPerBurst>5</shotsPerBurst>
 		</li>
-	  </modExtensions>
-    </projectile>
+		</modExtensions>
+	</projectile>
 	</ThingDef-->
-	
+
+<!-- Heavy shotgun -->
 	<!--Shotgun bullet-->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_ShotgunBullet</defName>
 		<label>heavy shotgun blast</label>
 		<description>Fires all three barrels of the Navis heavy shotgun in quick succession.</description>
 		<graphicData>
-		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<uiIconPath>UI/Projectile/Seg_WOTV_UI_ShotgunBullet</uiIconPath>
 		<projectile>
-		<damageDef>Bullet</damageDef>
-		<damageAmountBase>19</damageAmountBase>
-		<stoppingPower>3</stoppingPower>
-		<armorPenetrationBase>0.25</armorPenetrationBase>
-		<speed>55</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>19</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+			<speed>55</speed>
 		</projectile>
 	</ThingDef>
+
+	<!-- Breaching slug -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_ShotgunBreachingSlug</defName>
 		<label>shotgun breaching slug</label>
 		<description>Fires a single heavy-alloy slug designed to punch through hull armour and breach bulkheads.</description>
 		<graphicData>
-		<texPath>Things/Projectile/Bullet_Thump</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Thump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<uiIconPath>UI/Projectile/Seg_WOTV_UI_ShotgunBreachingSlug</uiIconPath>
 		<projectile>
 			<damageDef>Seg_WOTV_BreachingSlugDamage</damageDef>
 			<damageAmountBase>10</damageAmountBase>
@@ -194,14 +199,16 @@
 			<speed>85</speed>
 		</projectile>
 		<modExtensions>
-		<li Class="Core40k.DefModExtension_AmmoChanger">
-			<effectiveRange>23.9</effectiveRange>
-			<warmupTime>1.35</warmupTime>
-			<shotsPerBurst>1</shotsPerBurst>
-		</li>
-	  </modExtensions>
+			<li Class="Core40k.DefModExtension_AmmoChanger">
+				<effectiveRange>23.9</effectiveRange>
+				<warmupTime>1.35</warmupTime>
+				<shotsPerBurst>1</shotsPerBurst>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
+
+	<!-- Breaching slug DamageDef -->
 	<DamageDef>
 		<defName>Seg_WOTV_BreachingSlugDamage</defName>
 		<label>thump</label>
@@ -220,7 +227,6 @@
 		<buildingDamageFactorImpassable>30</buildingDamageFactorImpassable>
 		<buildingDamageFactorPassable>15</buildingDamageFactorPassable>
 		<plantDamageFactor>4</plantDamageFactor>
-  </DamageDef>
+	</DamageDef>
 
-	
 </Defs>
