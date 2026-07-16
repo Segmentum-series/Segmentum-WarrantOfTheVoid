@@ -8,7 +8,7 @@
 		<sizeX>187</sizeX>
 		<sizeZ>50</sizeZ>
 		<label>Sword-class Frigate</label>
-		<combatPoints>3972</combatPoints>
+		<combatPoints>3900</combatPoints>
 		<neverRandom>False</neverRandom>
 		<neverAttacks>False</neverAttacks>
 		<neverWreck>False</neverWreck>

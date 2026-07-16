@@ -11,5 +11,6 @@
 		<li IfModActive = "Phonicmas.RimDark.Abhuman">RDAbhumanRanks/1.6</li>
 		<li IfModActive = "kentington.saveourship2">1.6/Mods/SOS2</li>
 		<li IfModActive="VanillaExpanded.BaseGeneration">1.6/Mods/VGE</li>
+		<li IfModActive = "xannihilusx.saveourship40k">1.6/Mods/SOS240k</li>
 	</v1.6>
 </loadFolders>
