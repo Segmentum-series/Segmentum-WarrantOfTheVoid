@@ -22,6 +22,7 @@
 			<li>Seg_WOTV_SOS2AsltFreighter</li>
 			<li>Seg_WOTV_SOS2Cobra</li>
 			<li>Seg_WOTV_SOS2Sword</li>
+			<li>Seg_WOTV_SOS2PirateCutter</li>
 			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2Sword40k</li>
 			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2Cobra40k</li>
 			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2ArmFreight40k</li>
