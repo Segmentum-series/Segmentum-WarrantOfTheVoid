@@ -10,7 +10,7 @@
 		<label>Pirate freighter</label>
 		<combatPoints>50</combatPoints>
 		<neverRandom>False</neverRandom>
-		<neverAttacks>False</neverAttacks>
+		<neverAttacks>True</neverAttacks>
 		<neverWreck>False</neverWreck>
 		<startingShip>False</startingShip>
 		<startingDungeon>False</startingDungeon>
@@ -19,7 +19,7 @@
 		<navyExclusive>True</navyExclusive>
 		<customPaintjob>True</customPaintjob>
 		<neverFleet>False</neverFleet>
-		<cargoValue>1000</cargoValue>
+		<cargoValue>700</cargoValue>
 		<core>
 			<shapeOrDef>ShipConsoleTactical</shapeOrDef>
 			<x>54</x>
