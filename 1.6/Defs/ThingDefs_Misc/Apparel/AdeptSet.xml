@@ -66,14 +66,6 @@
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-				<tabDefs>
-					<li>BEWH_ArmorColoring</li>
-					<li>BEWH_ArmorDecoration</li>
-				</tabDefs>
-			</li>
-		</modExtensions>
 		<thingCategories Inherit="False">
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
@@ -144,14 +136,6 @@
 				<decorativeType>Body</decorativeType>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-				<tabDefs>
-					<li>BEWH_ArmorColoring</li>
-					<li>BEWH_ArmorDecoration</li>
-				</tabDefs>
-			</li>
-		</modExtensions>
 		<thingCategories Inherit="False">
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>
@@ -257,14 +241,6 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
-		<comps>
-			<li Class="Core40k.CompProperties_MultiColor" MayRequire="phonicmas.rimdark.frameworkcore">
-				<defaultPrimaryColor>(120,82,66)</defaultPrimaryColor>
-				<defaultSecondaryColor>(255,255,255)</defaultSecondaryColor>
-				<defaultTertiaryColor>(25,146,198)</defaultTertiaryColor>
-				
-			</li>
-		</comps>
 		<thingCategories Inherit="False">
 			<li>Seg_ImperiumWorkGear</li>
 		</thingCategories>

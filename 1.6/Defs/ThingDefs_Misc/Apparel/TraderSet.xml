@@ -66,13 +66,6 @@
 				<decorativeType>Head</decorativeType>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
-				<tabDefs>
-					<li>BEWH_ArmorDecoration</li>
-				</tabDefs>
-			</li>
-		</modExtensions>
 		<thingCategories Inherit="False">
 			<li>Seg_WOTV_ArmorTrader</li>
 		</thingCategories>

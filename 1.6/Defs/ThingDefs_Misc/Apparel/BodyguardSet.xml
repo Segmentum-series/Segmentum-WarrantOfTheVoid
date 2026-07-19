@@ -7,7 +7,7 @@
 		<description>Members of a Rogue Trader's retinue have more latitude in their personal dress than most armed servants of the Imperium, and what better way to express their individuality than to adopt some rakish headgear?</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Apparel/BodyguardHat/Seg_WOTV_BodyguardHat</texPath>
 		</graphicData>
 
@@ -67,19 +67,23 @@
 			</skillRequirements>
 		</recipeMaker>
 
-		<!-- <comps>
-			<li Class="Core40k.CompProperties_Decorative">
+		<comps>
+			<!-- <li Class="Core40k.CompProperties_Decorative">
 				<decorativeType>Head</decorativeType>
-			</li>
-		</comps> -->
+			</li> -->
+		<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+				<defaultPrimaryColor>(136,48,54)</defaultPrimaryColor>
+			</li> 
+		</comps>
 
-		<!-- <modExtensions>
+		<modExtensions>
 			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
 				<tabDefs>
-					<li>BEWH_ArmorDecoration</li>
+					<li>BEWH_ArmorColoring</li>
 				</tabDefs>
 			</li>
-		</modExtensions> -->
+		</modExtensions>
 	</ThingDef>
 
 
