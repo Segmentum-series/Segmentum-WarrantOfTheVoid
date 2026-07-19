@@ -61,7 +61,7 @@
 	<!-- Ryza-pattern Lasgun -->
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_RyzaLasgun</defName>
-		<label>Lasgun (Ryza-pattern)</label>
+		<label>lasgun (Ryza-pattern)</label>
 		<description>Like all lasguns, the Ryza-pattern is not the most powerful firearm, but it is reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts. This is one of the oldest patterns of lasgun still in use in the Imperium, and is still frequently found in the hands of noble retinues or Inquisition warbands as well as seeing continuing use by forces supplied by the forge world of Ryza.</description>
 		<graphicData>
 			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
@@ -138,7 +138,7 @@
 	<!-- Las-lock -->
 	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_LasLock</defName>
-		<label>Las-lock</label>
+		<label>las-lock</label>
 		<description>The las-lock is an archaic type of las weapon that focuses its energy into powerful single shots with a significant recharge time rather than being capable of bursts or sustained fire. Las-locks are often handbuilt outside of manufactoria and used by militias, scavengers, and heretics, although some better-quality examples following established patterns are still in use in Militarum regiments or for the armsmen of Rogue Trader houses.</description>
 		<recipeMaker>
 			<researchPrerequisite Inherit="False"></researchPrerequisite>
@@ -217,7 +217,7 @@
 	</ThingDef>
 
 	<!--Stub revolver-->
-	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase" Name="Gun_Revolver">
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase" Name="Seg_WOTV_Gun_StubRevolver">
 		<defName>Seg_WOTV_Gun_StubRevolver</defName>
 		<label>stub revolver</label>
 		<description>This short-barrelled large-calibre revolver fires solid bullets from a rotating chamber. It is a weapon of an ancient type, possibly dating back as far as late M2, and is rarely used by the Militarum except as an unofficial sidearm. It is most often found in the hands of enforcers and hive gangers, or perhaps noble lifewards who fancy themselves as dashing gunslingers.</description>
