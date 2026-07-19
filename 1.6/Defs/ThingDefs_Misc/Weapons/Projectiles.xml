@@ -166,7 +166,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>Seg_WOTV_ShotgunBullet</defName>
 		<label>heavy shotgun blast</label>
-		<description>Fires all three barrels of the Navis heavy shotgun in quick succession.</description>
+		<description>Fires both barrels of the Navis heavy shotgun in quick succession.</description>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -174,9 +174,9 @@
 		<uiIconPath>UI/Projectile/Seg_WOTV_UI_ShotgunBullet</uiIconPath>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>19</damageAmountBase>
+			<damageAmountBase>21</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.25</armorPenetrationBase>
+			<armorPenetrationBase>0.30</armorPenetrationBase>
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
