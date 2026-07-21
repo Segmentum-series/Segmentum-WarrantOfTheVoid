@@ -1,15 +1,15 @@
 <Defs>
 <HediffDef>
 		<defName>Seg_WOTV_RogueTraderTitleHediff</defName>
-		<label>Hidden RT Buff</label>
+		<label>Emperor's anointed!</label>
         <hediffClass>HediffWithComps</hediffClass>
         <scenarioCanAdd>false</scenarioCanAdd>
 		<everCurableByItem>false</everCurableByItem>
 		<isBad>false</isBad>
-		<description>hidden code way to give the rogue trader a boost. should only be visible with show hidden hediffs.</description>
+		<description>The Rogue Trader is making use of the Warrant's privileges to the fullest extent for a short time.</description>
 		<stages>
 			<li>
-            <becomeVisible>false</becomeVisible>
+            <becomeVisible>true</becomeVisible>
 				<statOffsets>
 					<TradePriceImprovement>0.395</TradePriceImprovement> <!-- 39.5% better prices, this is the the code allows-->
 					<SocialImpact>.50</SocialImpact>
@@ -22,7 +22,7 @@
 			<li Class="HediffCompProperties_DisappearsOnDeath" />
             <li Class="HediffCompProperties_Disappears">
                 <disappearsAfterTicks>30000</disappearsAfterTicks>
-                <showRemainingTime>False</showRemainingTime>
+                <showRemainingTime>True</showRemainingTime>
       </li>
 		</comps>
 	</HediffDef>
