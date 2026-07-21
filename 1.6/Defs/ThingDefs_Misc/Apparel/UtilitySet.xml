@@ -277,7 +277,6 @@
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
 				<colorMaskAmount>1</colorMaskAmount>
-				<defaultPrimaryColor>(174,219,228)</defaultPrimaryColor>
 			</li>
 		</comps>
 		<modExtensions>
@@ -363,7 +362,6 @@
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
 				<colorMaskAmount>1</colorMaskAmount>
-				<defaultPrimaryColor>(174,219,228)</defaultPrimaryColor>
 			</li>
 		</comps>
 		<modExtensions>
