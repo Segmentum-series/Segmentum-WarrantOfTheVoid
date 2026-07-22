@@ -29,7 +29,7 @@
     <AbilityDef>
         <defName>Seg_WOTV_RogueTraderAbility</defName>
         <label>I am the Emperor's anointed!</label>
-        <description>Utilise the influence of the Warrant of Trade to its fullest extent for a short period of time, securing the most favourable trades and powers of persuasion.</description>
+        <description>Utilise the influence of the Warrant of Trade to its fullest extent for a short period of time, securing the most favourable trades and deploying powers of persuasion backed by administrative weight.</description>
         <cooldownTicksRange>120000</cooldownTicksRange>
         <iconPath>UI/Abilities/Seg_WOTV_Ability_RogueTrader</iconPath>
         <jobDef>CastAbilityOnThing</jobDef>
