@@ -41,7 +41,9 @@ public class Seg_WOTV_WarrantTimer : GameComponent
         QuestScriptDef questDef = DefDatabase<QuestScriptDef>.GetNamed("Seg_WOTV_warrantBuildingscenario");
         Slate slate = new Slate();
         QuestUtility.GenerateQuestAndMakeAvailable(questDef, slate);
-
+        string letterTitle = "Seg_WOTV_WarrantQuestScenario_LetterTitle".Translate();
+        string letterBody = "Seg_WOTV_WarrantQuestScenario_LetterBody".Translate();
+        Find.LetterStack.ReceiveLetter(letterTitle, letterBody, LetterDefOf.PositiveEvent);
         questFired = true;
     }
 

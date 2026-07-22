@@ -39,6 +39,13 @@
           <canBeSpace>true</canBeSpace>
         </li>
 
+         <li Class="QuestNode_Letter">
+            <inSignal>QuestStart</inSignal>
+            <letterDef>PositiveEvent</letterDef>
+            <label>Warrant of Trade Located!</label>
+            <text>You've intercepted communications indicating the location of the Warrant of Trade, check your quest log for more details.</text>
+        </li>
+
         <li Class="QuestNode_GetPawn">
           <storeAs>asker</storeAs>
           <mustBeFactionLeader>true</mustBeFactionLeader>
@@ -154,8 +161,8 @@
               </li>
               <li Class="QuestNode_GiveRewards">
                 <parms>
-                  <allowGoodwill>true</allowGoodwill>
-                  <allowRoyalFavor>true</allowRoyalFavor>
+                  <allowGoodwill>false</allowGoodwill>
+                  <allowRoyalFavor>false</allowRoyalFavor>
                   <chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
                 </parms>
                 <addCampLootReward>true</addCampLootReward>

@@ -4,4 +4,6 @@
     <Seg_WOTV_RogueTraderTitle_LetterTitle>Warrant of Trade certified!</Seg_WOTV_RogueTraderTitle_LetterTitle>
     <Seg_WOTV_RogueTraderTitle_LetterBody>{PAWN_labelShort} is now the bearer of the sacred Warrant of Trade by all laws and traditions of {FACTION_name}!\n\nThe Warrant grants {PAWN_labelShort} the title of Rogue Trader, and with it Imperial right of settlement on this very rimworld, as well as privileges and leniencies enjoyed by only a select few among humanity's masses. All hail the Emperor's anointed. All hail the Rogue Trader!\n\nAn heir to the title - or, Emperor forbid, a new bearer - can be chosen by selecting your Warrant of Trade.
     </Seg_WOTV_RogueTraderTitle_LetterBody>
+    <Seg_WOTV_WarrantQuestScenario_LetterTitle>Warrant of Trade Located!</Seg_WOTV_WarrantQuestScenario_LetterTitle>
+    <Seg_WOTV_WarrantQuestScenario_LetterBody>You've intercepted communications indicating the location of the Warrant of Trade, check your quest log for more details.</Seg_WOTV_WarrantQuestScenario_LetterBody>
 </LanguageData>
