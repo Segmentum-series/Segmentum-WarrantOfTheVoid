@@ -13,7 +13,7 @@
     <questDescriptionRules>
       <rulesStrings>
         <!-- Faction leader asker -->
-        <li>questDescription(asker_factionLeader==True)->In a great stroke of luck, or possibly the favour of the God-Emperor, the Warrant of Trade has been located! It is intact, and being held by a group of pirates who survived the mutual destruction of your flagship. Their camp is sure to be well-guarded by the standards of malcontents and criminals, but the sacred Warrant of Trade must be recovered at all costs!</li>
+        <li>questDescription(asker_factionLeader==True)->In a great stroke of luck, or possibly the favour of the God-Emperor, the Warrant of Trade has been located! It is intact, and being held by a group of hostiles who recovered it during or after the destruction of your flagship. Their camp is sure to be well-guarded by the standards of malcontents and criminals, but the sacred Warrant of Trade must be recovered at all costs!</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -42,8 +42,8 @@
          <li Class="QuestNode_Letter">
             <inSignal>QuestStart</inSignal>
             <letterDef>PositiveEvent</letterDef>
-            <label>Warrant of Trade Located!</label>
-            <text>You've intercepted communications indicating the location of the Warrant of Trade, check your quest log for more details.</text>
+            <label>Stolen Warrant of Trade located!</label>
+            <text>You've intercepted communications indicating the location of the Warrant of Trade! Check your quest log for more details.</text>
         </li>
 
         <li Class="QuestNode_GetPawn">
