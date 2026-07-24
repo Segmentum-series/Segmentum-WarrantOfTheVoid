@@ -2,7 +2,7 @@
  <ThingDef ParentName="BuildingBase">
     <defName>Seg_WOTV_WarrantWall</defName>
     <label>Warrant of Trade</label>
-    <description>The Warrant of Trade is a one-of-a-kind document that gives the bearer almost boundless authority, on a level with planetary or subsector governors or even the agents of the Imperial Inquisition. Some of the oldest Rogue Trader houses have documents supposedly signed by the Emperor himself or one of his primarch sons, but even the more recent warrants carry the authority of the High Lords of Terra and grant legitimacy and power beyond the wildest dreams of even most nobles of the Imperium of Man. The decisions and diktats of a Rogue Trader cannot be overruled or countermanded except at the highest levels of Imperial society - in theory, at least.</description>
+    <description>The Warrant of Trade is a one-of-a-kind document that gives the bearer almost boundless authority, on a level with planetary or subsector governors or even the agents of the Imperial Inquisition. Some of the oldest Rogue Trader houses have documents supposedly signed by the Emperor himself or one of his primarch sons, but even the more recent warrants carry the authority of the High Lords of Terra and grant legitimacy and power beyond the wildest dreams of even most nobles of the Imperium of Man. The decisions and diktats of a Rogue Trader cannot be overruled or countermanded except at the highest levels of Imperial society - in theory, at least.\n\nFormally installing the Warrant of Trade will improve relations with most factions due to the legitimacy it confers, but if it should ever be destroyed, this bonus will be lost.</description>
     <!--<thingClass>seg.WarrantOfTrade</thingClass>-->
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
@@ -74,9 +74,21 @@
         </li>
         <li Class="seg.CompProperties_WarrantWallGoodwill">
             <goodwillAmount>25</goodwillAmount>
-            <factions> <!-- hands hurt, could you bulk these out pls anndra-->
+            <factions> 
                 <li>OutlanderCivil</li>
                 <li>OutlanderRough</li>
+                <li>TribeCivil</li>
+                <li>TribeRough</li>
+				<li>Seg_WOTV_ImperiumPirates</li>
+                <li MayRequire="Ludeon.Rimworld.Royalty">Empire</li>
+                <li MayRequire="Ludeon.Rimworld.Ideology">NudistTribe</li>
+                <li MayRequire="Ludeon.Rimworld.Biotech">TribeRoughNeanderthal</li>
+                <li MayRequire="Ludeon.Rimworld.Odyssey">TradersGuild</li>
+                <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ImperiumFaction</li>
+                <li MayRequire="happypurging.ageofdarkness">GW_SM_AdeptusAstartes</li>
+                <li MayRequire="grimworld.astramilitarum">GW_HOI_AstraMilitarum</li>
+                <li MayRequire="grimworld.talonoftheemperor">GW_TotE_TalonsOfTheEmperor</li>
+                <li MayRequire="grimworld.deadmen">GW_HOI_DM_DeathKorps</li>
             </factions>
         </li>
 </comps>
