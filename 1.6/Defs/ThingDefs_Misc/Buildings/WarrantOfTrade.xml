@@ -68,11 +68,18 @@
             <isAffectPlayerPawnOutsideMap>True</isAffectPlayerPawnOutsideMap>
             <!--factionDefs>
                 <li>FactionDef</li>
-            </factionDefs>
-            <affectRelationBy>-25</affectRelationBy-->
+            </factionDefs>-->
+            <affectRelationBy>0</affectRelationBy>
             <soundDef>Message_NegativeEvent</soundDef>
         </li>
-    </comps>
+        <li Class="seg.CompProperties_WarrantWallGoodwill">
+            <goodwillAmount>25</goodwillAmount>
+            <factions> <!-- hands hurt, could you bulk these out pls anndra-->
+                <li>OutlanderCivil</li>
+                <li>OutlanderRough</li>
+            </factions>
+        </li>
+</comps>
   </ThingDef>
   
   <ThingDef ParentName="ResourceBase">
