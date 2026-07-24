@@ -62,6 +62,16 @@
     <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType>
     <comps>
       <li Class="seg.CompProperties_SegCompWarrantWall" />
+	  <li Class="ThoughtOnDestroy.CompProperties_EffectOnDestroy">
+            <thoughtDef>Seg_WOTV_WarrantDestroyed</thoughtDef>
+            <isOnlyAffectPlayerPawn>True</isOnlyAffectPlayerPawn>
+            <isAffectPlayerPawnOutsideMap>True</isAffectPlayerPawnOutsideMap>
+            <!--factionDefs>
+                <li>FactionDef</li>
+            </factionDefs>
+            <affectRelationBy>-25</affectRelationBy-->
+            <soundDef>Message_NegativeEvent</soundDef>
+        </li>
     </comps>
   </ThingDef>
   
@@ -93,6 +103,18 @@
     <tradeTags>
       <li>Seg_Untradable</li>
     </tradeTags>
+    <comps>
+	  <li Class="ThoughtOnDestroy.CompProperties_EffectOnDestroy">
+            <thoughtDef>Seg_WOTV_WarrantDestroyed</thoughtDef>
+            <isOnlyAffectPlayerPawn>True</isOnlyAffectPlayerPawn>
+            <isAffectPlayerPawnOutsideMap>True</isAffectPlayerPawnOutsideMap>
+            <!--factionDefs>
+                <li>FactionDef</li>
+            </factionDefs>
+            <affectRelationBy>-25</affectRelationBy-->
+            <soundDef>Message_NegativeEvent</soundDef>
+        </li>
+    </comps>
   </ThingDef>
   <RoyalTitleDef>
     <defName>Seg_WOTV_RogueTraderTitle</defName>
@@ -106,5 +128,5 @@
     <tags>
       <li>Seg_WOTV_RogueTraderTitle</li>
     </tags>
-</RoyalTitleDef>
+  </RoyalTitleDef>
 </Defs>

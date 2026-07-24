@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--===================== Warrant of Trade destroyed =====================-->
+
+  <ThoughtDef>
+    <defName>Seg_WOTV_WarrantDestroyed</defName>
+    <durationDays>30</durationDays>
+    <stackLimit>1</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Warrant destroyed</label>
+        <description>The Warrant of Trade was destroyed! Losing such a sacred document is an unimaginable blow.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
