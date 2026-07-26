@@ -18,8 +18,11 @@ namespace seg
     public class CompWarrantWallGoodwill : ThingComp
     {
         public CompProperties_WarrantWallGoodwill Props => (CompProperties_WarrantWallGoodwill)this.props;
-
+        bool WOTV_WarrantWallGoodwillApplied = false; 
+       
         public override void PostSpawnSetup(bool respawningAfterLoad)
+        {
+        if (!WOTV_WarrantWallGoodwillApplied)
         {
             base.PostSpawnSetup(respawningAfterLoad);
 
@@ -28,16 +31,21 @@ namespace seg
             foreach (var factionDef in Props.factions)
             {
                 Faction f = Find.FactionManager.FirstFactionOfDef(factionDef);
+                if (!WOTV_WarrantWallGoodwillApplied)
+                {
                 if (f != null)
                 {
                     Faction.OfPlayer.TryAffectGoodwillWith(f, Props.goodwillAmount);
                     Log.Message($"[WOTV] Added {Props.goodwillAmount} goodwill with {f.Name}");
+                    WOTV_WarrantWallGoodwillApplied = true;
                 }
                 else
                 {
                     Log.Message($"[WOTV] No faction found for {factionDef.defName}");
                 }
             }
+            }
+        }
         }
 
         public override void PostDestroy(DestroyMode mode, Map map)
@@ -53,6 +61,7 @@ namespace seg
                 {
                     Faction.OfPlayer.TryAffectGoodwillWith(f, -Props.goodwillAmount);
                     Log.Message($"[WOTV] Removed {Props.goodwillAmount} goodwill with {f.Name}");
+                    WOTV_WarrantWallGoodwillApplied = false;
                 }
                 else
                 {
