@@ -8,7 +8,7 @@
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Normal</itemQuality>
 		<defaultFactionType>Seg_WOTV_ImperiumPirates</defaultFactionType>
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>Seg_WOTV_Laslock</li>
 			<li>Seg_WOTV_Autogun</li>
 			<li>Seg_WOTV_StubRevolver</li>
@@ -76,7 +76,7 @@
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<weaponMoney>500~600</weaponMoney>
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>Seg_WOTV_Laslock</li>
 			<li>Seg_WOTV_Autogun</li>
 			<li>Seg_WOTV_StubRevolver</li>
@@ -123,7 +123,7 @@
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<weaponMoney>1200~2000</weaponMoney>
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>Seg_WOTV_Autogun</li>
 			<li>Seg_WOTV_RyzaLasgun</li>
 			<li>Seg_Las</li>
@@ -185,7 +185,7 @@
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<weaponMoney>1500~3000</weaponMoney>
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>Seg_WOTV_RyzaLasgun</li>
 			<li>Seg_WOTV_Shotgun</li>
 			<li MayRequire="Ludeon.Rimworld.Odyssey">Seg_WOTV_MiningLaser</li>
