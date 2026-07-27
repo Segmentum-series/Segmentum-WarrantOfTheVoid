@@ -31,20 +31,18 @@ namespace seg
             foreach (var factionDef in Props.factions)
             {
                 Faction f = Find.FactionManager.FirstFactionOfDef(factionDef);
-                if (!WOTV_WarrantWallGoodwillApplied)
-                {
                 if (f != null)
                 {
                     Faction.OfPlayer.TryAffectGoodwillWith(f, Props.goodwillAmount);
                     Log.Message($"[WOTV] Added {Props.goodwillAmount} goodwill with {f.Name}");
-                    WOTV_WarrantWallGoodwillApplied = true;
+                    
                 }
                 else
                 {
                     Log.Message($"[WOTV] No faction found for {factionDef.defName}");
                 }
             }
-            }
+        WOTV_WarrantWallGoodwillApplied = true;
         }
         }
 
