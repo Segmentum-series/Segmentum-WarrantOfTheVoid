@@ -26,9 +26,6 @@
 			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2Sword40k</li>
 			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2Cobra40k</li>
 			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2ArmFreight40k</li>
-			<li>PirateMiningRig</li>
-			<li>PirateISCS</li>
-			<li>ShipBreakerFullyArmed</li>
 		</spaceShipDefs>
 	</SaveOurShip2.NavyDef>
 </Defs>
