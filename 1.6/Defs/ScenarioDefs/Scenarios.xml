@@ -18,7 +18,8 @@
 			<li>Seg_WOTV_Apparel_TraderShirt</li>
 			<li>Seg_WOTV_Apparel_TraderPants</li>
 		</apparelRequired>
-		<!--nameMaker>SegNamerPersonRogueTrader</nameMaker-->
+		<nameMaker>SegNamerPersonRogueTraderMale</nameMaker>
+		<nameMakerFemale>SegNamerPersonRogueTraderFemale</nameMakerFemale>
 		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
 		<initialWillRange>0~0</initialWillRange>
 		<apparelMoney>0~0</apparelMoney>
