@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<KCSG.StructureLayoutDef>
+  <defName>Seg_WOTV_WarrantBunker</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.,.,.,ChunkGranite,ChunkGranite,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ChunkGranite,ChunkGranite,.,.</li>
+      <li>.,.,.,.,.,.,.,Fence_Steel,Fence_Steel,Fence_Steel,Fence_Steel,Fence_Steel,Fence_Steel,.,.,.,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,.,.,.,.,.,.</li>
+      <li>.,Colonist,.,.,.,.,ChunkGranite,Fence_Steel,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,Turret_MiniTurret_Steel,.,Sandbags_Cloth,.,.,.,.,.,.,.,.</li>
+      <li>Colonist,Colonist,.,Corpse_LabradorRetriever,.,.,.,Fence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,Fence_Steel,Fence_Steel,Fence_Steel,.,.,Campfire_West,.,.,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,PowerConduit,PowerConduit,.,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,Fence_Steel,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,Bedroll_Cloth_North,.,Bedroll_Cloth_West,Wall_Seg_Ceramite,PowerConduit,.,.,Wall_Seg_Ceramite,.,DrugLab_WoodLog_South,.,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,Fence_Steel,.,HorseshoesPin_Steel,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,Wall_Seg_Ceramite,PowerConduit,Door_Steel,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,.,.,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,PowerConduit,.,WallLamp_South,.,.,.,Bedroll_Cloth_West,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,Sandbags_Cloth,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Heater,.,PowerConduit,.,.,.,Shelf_Steel_West,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,Sandbags_Cloth,Sandbags_Cloth,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,.,Wall_Seg_Ceramite,WallLamp_West,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.,.,.,Sandbags_Cloth,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,Turret_MiniTurret_Steel,.,.,.,Door_Steel,.,.,.,PowerConduit,TubeTelevision_North,.,.,Door_Steel,.,.,.,Turret_MiniTurret_Steel,Sandbags_Cloth,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,.,Wall_Seg_Ceramite,.,PowerConduit,PowerConduit,PowerConduit,.,.,Shelf_Steel_West,Wall_Seg_Ceramite,.,.,.,.,Sandbags_Cloth,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,Sandbags_Cloth,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.,Couch_Leather_Patch_South,.,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,Sandbags_Cloth,Sandbags_Cloth,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit,.,.,.,.,WallLamp_North,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Door_Steel,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,.,.,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,.,PowerConduit,.,.,PowerConduit,PowerConduit,PowerConduit,.,.,Wall_Seg_Ceramite,Battery_South_Power100,Battery_South_Power100,Battery_South_Power100,Wall_Seg_Ceramite,.,.,.,Wall_Seg_Ceramite,Bedroll_Cloth_South,Bedroll_Cloth_South,.,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,.,PowerConduit,.,.,.,.,.,.,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,.,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Fence_Steel,.</li>
+      <li>.,.,SolarGenerator,.,.,.,SolarGenerator,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,Turret_MiniTurret_Steel,.,Sandbags_Cloth,.,.,.,.,.,.,Fence_Steel,.</li>
+      <li>.,.,.,.,.,.,.,.,.,Fence_Steel,Fence_Steel,Fence_Steel,Fence_Steel,Fence_Steel,Fence_Steel,.,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,.,Fence_Steel,Fence_Steel,Fence_Steel,Fence_Steel,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Seg_WOTV_WarrantOfTrade,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ShelfSmall_Steel_East,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WallLamp_East,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,.,.,.,.,.,Seg_Gun_MarsLasgun,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,MealSurvivalPack,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <roofGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </roofGrid>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,FlagstoneGranite,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,FlagstoneGranite,FlagstoneGranite,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,FlagstoneGranite,.,.,FlagstoneGranite,FlagstoneGranite,FlagstoneGranite,FlagstoneGranite,FlagstoneGranite,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,FlagstoneGranite,.,FlagstoneGranite,FlagstoneGranite,FlagstoneGranite,FlagstoneGranite,FlagstoneGranite,FlagstoneGranite,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,FlagstoneGranite,FlagstoneGranite,.,.,FlagstoneGranite,FlagstoneGranite,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,FlagstoneGranite,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <needRoofClearance>true</needRoofClearance>
+  <modRequirements>
+    <li>redacted.segmentum.warrantofthevoid</li>
+    <li>redacted.segmentum.core</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>  
+
+<KCSG.SymbolDef>
+  <defName>Wall_Seg_Ceramite</defName>
+  <thing>Wall</thing>
+  <stuff>Seg_Ceramite</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Seg_WOTV_WarrantOfTrade</defName>
+  <thing>Seg_WOTV_WarrantOfTrade</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Seg_Gun_MarsLasgun</defName>
+  <thing>Seg_Gun_MarsLasgun</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Battery_Power100</defName>
+  <thing>Battery</thing>
+  <rotation>South</rotation>
+  <powerPercent>1</powerPercent>
+</KCSG.SymbolDef>
+
+</Defs>
