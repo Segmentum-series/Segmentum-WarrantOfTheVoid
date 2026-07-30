@@ -159,8 +159,8 @@
 
 <SitePartDef>
         <defName>Seg_WarrantBunkerSite</defName>
-        <label>crashed warrant</label>
-        <description>The last known location of your Warrant of Trade. Grab it!</description>
+        <label>renegade bunker</label>
+        <description>A prefab bunker serving as a safehouse for the pirate scum who stole your Warrant of Trade. Reclaim it!</description>
         <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
         <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
         <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
