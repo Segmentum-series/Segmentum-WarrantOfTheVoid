@@ -13,7 +13,7 @@
     <questDescriptionRules>
       <rulesStrings>
         <!-- Faction leader asker -->
-        <li>questDescription(asker_factionLeader==True)->In a great stroke of luck, or possibly the favour of the God-Emperor, the Warrant of Trade has been located! It is intact, and being held by a group of hostiles who recovered it during or after the destruction of your flagship. Their camp is sure to be well-guarded by the standards of malcontents and criminals, but the sacred Warrant of Trade must be recovered at all costs!</li>
+        <li>questDescription(asker_factionLeader==True)->In a great stroke of luck, or possibly the favour of the God-Emperor, the Warrant of Trade has been located! It is intact, and being held by a group of the same pirates who assaulted and destroyed your flagship. It is likely that they will attempt to move the Warrant to a safer location before long, but we have a good chance to recover it before that happens. The bunker being used as their safehouse is sure to be well-guarded by the standards of malcontents and criminals, but the sacred Warrant of Trade must be recovered at all costs!</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -127,7 +127,7 @@
         <li Class="QuestNode_WorldObjectTimeout">
           <worldObject>$site</worldObject>
           <isQuestTimeout>true</isQuestTimeout>
-          <delayTicks>$(randInt(12,28)*60000)</delayTicks>
+          <delayTicks>$(randInt(12,28)*90000)</delayTicks>
           <inSignalDisable>site.MapGenerated</inSignalDisable>
           <node Class="QuestNode_Sequence">
             <nodes>
