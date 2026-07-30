@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+ 
 <KCSG.StructureLayoutDef>
-  <defName>Seg_WOTV_WarrantBunker</defName>
+  <defName>Seg_WOTV_WarrantBunkerNormal</defName>
   <spawnConduits>false</spawnConduits>
   <layouts>
     <li>
@@ -15,7 +15,7 @@
       <li>.,.,.,.,.,.,Fence_Steel,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,Bedroll_Cloth_North,.,Bedroll_Cloth_West,Wall_Seg_Ceramite,PowerConduit,.,.,Wall_Seg_Ceramite,.,DrugLab_WoodLog_South,.,Wall_Seg_Ceramite,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,Fence_Steel,.,HorseshoesPin_Steel,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,Wall_Seg_Ceramite,PowerConduit,Door_Steel,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,PollutionPump,PowerConduit,.,WallLamp_South,.,.,.,Bedroll_Cloth_West,Wall_Seg_Ceramite,.,.,Corpse_Lynx,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,Sandbags_Cloth,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Heater,.,PowerConduit,.,VitalsMonitor_South,.,Seg_WOTV_WarrantOfTrade,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,Sandbags_Cloth,Sandbags_Cloth,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,Sandbags_Cloth,.,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Heater,.,PowerConduit,.,VitalsMonitor_South,.,Shelf_Steel_West,Wall_Seg_Ceramite,Wall_Seg_Ceramite,Wall_Seg_Ceramite,.,Sandbags_Cloth,Sandbags_Cloth,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,.,Wall_Seg_Ceramite,WallLamp_West,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.,.,.,Sandbags_Cloth,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,Turret_MiniTurret_Steel,.,PollutionPump,.,Door_Steel,.,.,.,PowerConduit,TubeTelevision_North,.,.,Door_Steel,.,PollutionPump,.,Turret_MiniTurret_Steel,Sandbags_Cloth,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,.,Wall_Seg_Ceramite,.,PowerConduit,PowerConduit,PowerConduit,.,.,MealSurvivalPack,Wall_Seg_Ceramite,.,.,.,.,Sandbags_Cloth,.,.</li>
@@ -41,7 +41,7 @@
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Shelf_Steel_West,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ShelfSmall_Steel_East,.,.,.,.,.,.,Wall_Seg_Ceramite,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WallLamp_East,.,.,.,.,.,.,.,.</li>
@@ -140,52 +140,28 @@
   <needRoofClearance>true</needRoofClearance>
   <modRequirements>
     <li>ludeon.rimworld.biotech</li>
-    <li>redacted.segmentum.warrantofthevoid</li>
     <li>redacted.segmentum.core</li>
   </modRequirements>
-</KCSG.StructureLayoutDef>
-
-<KCSG.SymbolDef>
-  <defName>Wall_Seg_Ceramite</defName>
-  <thing>Wall</thing>
-  <stuff>Seg_Ceramite</stuff>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>Seg_WOTV_WarrantOfTrade</defName>
-  <thing>Seg_WOTV_WarrantOfTrade</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>Seg_Gun_MarsLasgun</defName>
-  <thing>Seg_Gun_MarsLasgun</thing>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>Battery_Power100</defName>
-  <thing>Battery</thing>
-  <rotation>South</rotation>
-  <powerPercent>1</powerPercent>
-</KCSG.SymbolDef>
+</KCSG.StructureLayoutDef> 
 
 <SitePartDef>
-        <defName>Seg_WarrantBunkerSite</defName>
+        <defName>Seg_WarrantBunkerNormalSite</defName>
         <label>renegade bunker</label>
-        <description>A prefab bunker serving as a safehouse for the pirate scum who stole your Warrant of Trade. Reclaim it!</description>
+        <description>A prefab bunker serving as a safehouse for a pirate band who have done something to draw the wrath of the Imperium of Man.</description>
         <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
         <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
         <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
         <tags>
-            <li>Seg_WarrantBunkerSite</li>
+            <li>Seg_WarrantBunkerNormalSite</li>
         </tags>
     </SitePartDef>
     <GenStepDef>
-        <defName>Seg_WarrantBunkerSite</defName>
-        <linkWithSite>Seg_WarrantBunkerSite</linkWithSite>
+        <defName>Seg_WarrantBunkerNormalSite</defName>
+        <linkWithSite>Seg_WarrantBunkerNormalSite</linkWithSite>
         <order>460</order>
         <genStep Class="KCSG.GenStep_CustomStructureGen">
             <structureLayoutDefs>
-                <li>Seg_WOTV_WarrantBunker</li>
+                <li>Seg_WOTV_WarrantBunkerNormal</li>
             </structureLayoutDefs>
             <!-- Additional options -->
             <fullClear>false</fullClear> <!-- Clear any impassable in the way -->
@@ -194,14 +170,14 @@
         </genStep>
     </GenStepDef>
     <GenStepDef>
-        <defName>Seg_WarrantBunkerPawns</defName>
-        <linkWithSite>Seg_WarrantBunkerSite</linkWithSite>
+        <defName>Seg_WarrantBunkerNormalPawns</defName>
+        <linkWithSite>Seg_WarrantBunkerNormalSite</linkWithSite>
         <order>461</order>
         <genStep Class="GenStep_SitePawns">
             <factionDef>Seg_WOTV_ImperiumPirates</factionDef>
             <pawnGroupKindDef>Combat</pawnGroupKindDef>
             <letterLabel>Hostile pirates</letterLabel> 
-            <letterDesc>The bunker is manned by pirates and renegades! They are sure to resist any attempt to recover the Warrant.</letterDesc> 
+            <letterDesc>The bunker's garrison are active and alert! Time to wipe these renegades out.</letterDesc> 
     </genStep>
     </GenStepDef>
 
