@@ -182,6 +182,18 @@
             <preventBridgeable>true</preventBridgeable> <!-- Prevent lake/river/marsh (bridgeable) -->
         </genStep>
     </GenStepDef>
+    <GenStepDef>
+        <defName>Seg_WarrantBunkerPawns</defName>
+        <linkWithSite>Seg_WarrantBunkerSite</linkWithSite>
+        <order>461</order>
+        <genStep Class="GenStep_SitePawns">
+            <factionDef>Seg_WOTV_ImperiumPirates</factionDef>
+            <pawnGroupKindDef>Combat</pawnGroupKindDef>
+            <letterLabel>Hostile Pirates</letterLabel> 
+            <letterDesc>The orbital wreck contains a number of scavengers. Be prepared for their assault!</letterDesc> 
+    </genStep>
+    </GenStepDef>
+
 
 
 
