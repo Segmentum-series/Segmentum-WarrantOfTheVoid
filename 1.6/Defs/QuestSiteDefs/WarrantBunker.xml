@@ -157,4 +157,32 @@
   <powerPercent>1</powerPercent>
 </KCSG.SymbolDef>
 
+<SitePartDef>
+        <defName>Seg_WarrantBunkerSite</defName>
+        <label>crashed warrant</label>
+        <description>The last known location of your Warrant of Trade. Grab it!</description>
+        <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+        <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
+        <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+        <tags>
+            <li>Seg_WarrantBunkerSite</li>
+        </tags>
+    </SitePartDef>
+    <GenStepDef>
+        <defName>Seg_WarrantBunkerSite</defName>
+        <linkWithSite>Seg_WarrantBunkerSite</linkWithSite>
+        <order>460</order>
+        <genStep Class="KCSG.GenStep_CustomStructureGen">
+            <structureLayoutDefs>
+                <li>Seg_WOTV_WarrantBunker</li>
+            </structureLayoutDefs>
+            <!-- Additional options -->
+            <fullClear>false</fullClear> <!-- Clear any impassable in the way -->
+            <clearFogInRect>false</clearFogInRect> <!-- Clear fog on the structure -->
+            <preventBridgeable>true</preventBridgeable> <!-- Prevent lake/river/marsh (bridgeable) -->
+        </genStep>
+    </GenStepDef>
+
+
+
 </Defs>

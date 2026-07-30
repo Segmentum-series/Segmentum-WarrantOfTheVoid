@@ -29,11 +29,11 @@
         <li Class="QuestNode_SubScript">
           <def>Util_AdjustPointsForDistantFight</def>
         </li>
-        <li Class="QuestNode_SetItemStashContents">
+        <!--<li Class="QuestNode_SetItemStashContents">
           <items>
             <li>Seg_WOTV_WarrantOfTrade</li>
           </items>
-        </li>
+        </li> -->
 
         <li Class="QuestNode_GetMap">
           <canBeSpace>true</canBeSpace>
@@ -86,8 +86,9 @@
           <storeAs>sitePartDefs</storeAs>
           <storeFactionAs>siteFaction</storeFactionAs>
           <sitePartsTags>
-            <li><tag>BanditCamp</tag></li>
-            <li><tag>ItemStash</tag></li>
+           <li>
+                <tag>Seg_WarrantBunkerSite</tag>
+            </li>
           </sitePartsTags>
           <mustBeHostileToFactionOf>$asker</mustBeHostileToFactionOf>
         </li>
