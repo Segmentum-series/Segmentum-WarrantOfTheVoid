@@ -188,24 +188,19 @@
                 <li>Seg_WOTV_WarrantBunker</li>
             </structureLayoutDefs>
             <!-- Additional options -->
-            <fullClear>false</fullClear> <!-- Clear any impassable in the way -->
+            <fullClear>true</fullClear> <!-- Clear any impassable in the way -->
             <clearFogInRect>false</clearFogInRect> <!-- Clear fog on the structure -->
             <preventBridgeable>true</preventBridgeable> <!-- Prevent lake/river/marsh (bridgeable) -->
         </genStep>
     </GenStepDef>
     <GenStepDef>
-        <defName>Seg_WarrantBunkerPawns</defName>
+        <defName>Seg_WarrantBunkerSpawner</defName>
         <linkWithSite>Seg_WarrantBunkerSite</linkWithSite>
-        <order>461</order>
-        <genStep Class="GenStep_SitePawns">
-            <factionDef>Seg_WOTV_ImperiumPirates</factionDef>
-            <pawnGroupKindDef>Combat</pawnGroupKindDef>
-            <letterLabel>Hostile pirates</letterLabel> 
-            <letterDesc>The bunker is manned by pirates and renegades! They are sure to resist any attempt to recover the Warrant.</letterDesc> 
-    </genStep>
+        <order>1600</order>
+        <genStep Class="seg.GenStep_PirateSpawner">
+            <count>6</count>
+            <nearMapCenter>false</nearMapCenter>
+        </genStep>
     </GenStepDef>
-
-
-
 
 </Defs>

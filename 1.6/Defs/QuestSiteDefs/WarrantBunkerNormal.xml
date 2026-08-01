@@ -170,15 +170,13 @@
         </genStep>
     </GenStepDef>
     <GenStepDef>
-        <defName>Seg_WarrantBunkerNormalPawns</defName>
+        <defName>Seg_WarrantBunkerSpawnerNormal</defName>
         <linkWithSite>Seg_WarrantBunkerNormalSite</linkWithSite>
-        <order>461</order>
-        <genStep Class="GenStep_SitePawns">
-            <factionDef>Seg_WOTV_ImperiumPirates</factionDef>
-            <pawnGroupKindDef>Combat</pawnGroupKindDef>
-            <letterLabel>Hostile pirates</letterLabel> 
-            <letterDesc>The bunker's garrison are active and alert! Time to wipe these renegades out.</letterDesc> 
-    </genStep>
+        <order>1600</order>
+        <genStep Class="seg.GenStep_PirateSpawner">
+            <count>6</count>
+            <nearMapCenter>false</nearMapCenter>
+        </genStep>
     </GenStepDef>
 
 
