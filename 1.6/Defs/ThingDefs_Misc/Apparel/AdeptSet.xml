@@ -28,6 +28,7 @@
 			<WorkSpeedGlobal>.15</WorkSpeedGlobal>
 			<MoveSpeed>-0.15</MoveSpeed>
 			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
 			<ResearchSpeed>0.35</ResearchSpeed>
 			<ReadingSpeed>0.50</ReadingSpeed>
 		</equippedStatOffsets>
