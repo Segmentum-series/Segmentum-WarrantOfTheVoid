@@ -130,11 +130,13 @@
     <seniority>0</seniority>
     <favorCost>0</favorCost>
     <canBeInherited>true</canBeInherited>
+    <changeHeirQuestPoints>2800</changeHeirQuestPoints>
     <grantedAbilities>
       <li>Seg_WOTV_RogueTraderAbility</li>
     </grantedAbilities>
     <tags>
       <li>Seg_WOTV_RogueTraderTitle</li>
     </tags>
+    <inheritanceWorkerOverrideClass>seg.RTRoyalTitleInheritanceWorker</inheritanceWorkerOverrideClass>
   </RoyalTitleDef>
 </Defs>

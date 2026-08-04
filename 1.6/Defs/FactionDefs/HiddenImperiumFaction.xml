@@ -72,6 +72,7 @@
     <description>The galaxy-spanning Imperium of Man, ruled by the God-Emperor.</description>
     <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Imperial Authority</royalFavorLabel>
     <royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">UI/Icons/RoyalFavor</royalFavorIconPath>
+    <royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
 
       <royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
         <li>Child</li>
