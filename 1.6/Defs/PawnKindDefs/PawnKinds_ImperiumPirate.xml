@@ -346,6 +346,16 @@
     <biocodeWeaponChance>0</biocodeWeaponChance>
     <initialWillRange>12~15</initialWillRange>
     <initialResistanceRange>12~18</initialResistanceRange>
+	<modExtensions>
+			<li Class="Core40k.DefModExtension_PawnKindCustomization">
+			<defaultColorSelection>
+				<li>
+					<key>Seg_FlakArmour_ColorPreset_8</key>
+					<value>TryMatch</value>
+				</li>
+			</defaultColorSelection>
+			</li>
+	</modExtensions>
   </PawnKindDef>
 
 	<!-- Malatek -->

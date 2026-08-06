@@ -68,11 +68,29 @@
       <rulesStrings>
         <li>r_name->[PirateNoun] [PirateBand]</li>
         <li>r_name->[PirateSegmentum] [PirateBand]</li>
+        <li>r_name->[PirateAdjective] [PirateNoun] [PirateBand]</li>
+        <li>r_name->[PirateAdjective] [PirateSegmentum] [PirateBand]</li>
       </rulesStrings>
       <rulesFiles>
 		<li>PirateNoun->SegmentumNames/Names/PirateNoun</li>
+		<li>PirateAdjective->SegmentumNames/Names/PirateAdjective</li>
 		<li>PirateBand->SegmentumNames/Names/PirateBand</li>
 		<li>PirateSegmentum->SegmentumNames/Names/PirateSegmentum</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>Seg_WOTV_NamerTraderPirates</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[PirateShipAdjective] [PirateShipNoun]</li>
+        <li>r_name->[PirateShipPlaceName]'s [PirateShipNoun]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>PirateShipNoun->SegmentumNames/Names/PirateShipNoun</li>
+        <li>PirateShipPlaceName->SegmentumNames/Names/PirateShipPlaceName</li>
+        <li>PirateShipAdjective->SegmentumNames/Names/PirateShipAdjective</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>

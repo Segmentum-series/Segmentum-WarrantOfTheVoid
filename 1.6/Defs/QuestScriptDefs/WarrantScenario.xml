@@ -13,7 +13,7 @@
     <questDescriptionRules>
       <rulesStrings>
         <!-- Faction leader asker -->
-        <li>questDescription(asker_factionLeader==True)->In a great stroke of luck, or possibly the favour of the God-Emperor, the Warrant of Trade has been located! It is intact, and being held by a group of hostiles who recovered it during or after the destruction of your flagship. Their camp is sure to be well-guarded by the standards of malcontents and criminals, but the sacred Warrant of Trade must be recovered at all costs!</li>
+        <li>questDescription(asker_factionLeader==True)->In a great stroke of luck, or possibly the favour of the God-Emperor, the Warrant of Trade has been located! It is intact, and being held by a group of the same pirates who assaulted and destroyed your flagship. It is likely that they will attempt to move the Warrant to a safer location before long, but we have a good chance to recover it before that happens. The bunker being used as their safehouse is sure to be well-guarded by the standards of malcontents and criminals, but the sacred Warrant of Trade must be recovered at all costs!</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -29,11 +29,11 @@
         <li Class="QuestNode_SubScript">
           <def>Util_AdjustPointsForDistantFight</def>
         </li>
-        <li Class="QuestNode_SetItemStashContents">
+        <!--<li Class="QuestNode_SetItemStashContents">
           <items>
             <li>Seg_WOTV_WarrantOfTrade</li>
           </items>
-        </li>
+        </li> -->
 
         <li Class="QuestNode_GetMap">
           <canBeSpace>true</canBeSpace>
@@ -82,12 +82,16 @@
             <li MayRequire="Ludeon.RimWorld.Odyssey">AncientHeatVent</li>
           </allowedLandmarks>
         </li>
+        <li Class="seg.QuestNode_GetImperiumPirates">
+          <storeAs>siteFaction</storeAs>
+        </li>
  <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
           <storeAs>sitePartDefs</storeAs>
-          <storeFactionAs>siteFaction</storeFactionAs>
+         <!-- <storeFactionAs>siteFaction</storeFactionAs>-->
           <sitePartsTags>
-            <li><tag>BanditCamp</tag></li>
-            <li><tag>ItemStash</tag></li>
+           <li>
+                <tag>Seg_WarrantBunkerSite</tag>
+            </li>
           </sitePartsTags>
           <mustBeHostileToFactionOf>$asker</mustBeHostileToFactionOf>
         </li>
@@ -103,22 +107,14 @@
           <storeAs>sitePoints</storeAs>
           <sitePartsParams>$sitePartsParams</sitePartsParams>
         </li>
-        <li Class="QuestNode_SubScript">
+        <!--<li Class="QuestNode_SubScript">
           <def>Util_GetDefaultRewardValueFromPoints</def>
           <parms>
-            <!-- Use the actual threat points generated (some site parts define a minimum threshold) -->
+            <!- Use the actual threat points generated (some site parts define a minimum threshold) ->
             <points>$sitePoints</points>
           </parms>
-        </li>
-
-        <!-- Inflate reward value. Since we're basing the reward value on the threat points generated, we need to do this
-             even though the threat points was deflated from the input points already. -->
-        <li Class="QuestNode_Multiply">
-            <value1>$rewardValue</value1>
-            <value2>1.75</value2>
-            <storeAs>rewardValue</storeAs>
-        </li>
-
+        </li>-->
+        
         <li Class="QuestNode_SubScript">
           <def>Util_GenerateSite</def>
         </li>
@@ -131,7 +127,7 @@
         <li Class="QuestNode_WorldObjectTimeout">
           <worldObject>$site</worldObject>
           <isQuestTimeout>true</isQuestTimeout>
-          <delayTicks>$(randInt(12,28)*60000)</delayTicks>
+          <delayTicks>$(randInt(12,28)*90000)</delayTicks>
           <inSignalDisable>site.MapGenerated</inSignalDisable>
           <node Class="QuestNode_Sequence">
             <nodes>

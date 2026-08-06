@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!--Adept Coat-->
@@ -23,12 +24,20 @@
 		</statBases>
 
 		<equippedStatOffsets>
-			<SocialImpact>.05</SocialImpact>
-			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
+			<SocialImpact>.15</SocialImpact>
+			<WorkSpeedGlobal>.15</WorkSpeedGlobal>
+			<MoveSpeed>-0.15</MoveSpeed>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+			<ResearchSpeed>0.35</ResearchSpeed>
+			<ReadingSpeed>0.50</ReadingSpeed>
 		</equippedStatOffsets>
+
 		<costList>
-			<Steel>5</Steel>
-			<Cloth>120</Cloth>
+			<Steel>25</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Cloth>180</Cloth>
+			<WoodLog>30</WoodLog>
 		</costList>
 
 		<apparel>
@@ -52,6 +61,32 @@
 			<wornGraphicPaths>
 				<li>Things/Apparel/AdeptCoat/Seg_WOTV_AdeptCoat</li>
 			</wornGraphicPaths>
+
+			<renderNodeProperties>
+				<!-- Backpacks -->
+				<li>
+					<workerClass>Core40k.PawnRenderNodeWorker_AttachmentBackpack</workerClass>
+					<nodeClass>Core40k.PawnRenderNode_FlagEdit</nodeClass>
+					<texPath>Things/Apparel/AdeptCoat/Backpack/Seg_WOTV_AdeptCoat_Backpack</texPath>
+					<parentTagDef>Body</parentTagDef>
+					<drawData>
+						<dataEast>
+							<layer>71</layer>
+						</dataEast>
+						<dataWest>
+							<layer>71</layer>
+						</dataWest>
+						<dataNorth>
+							<layer>99.6</layer>
+						</dataNorth>
+						<dataSouth>
+							<layer>-1</layer>
+						</dataSouth>
+					</drawData>
+					<texSeed>1</texSeed>
+				</li>
+			</renderNodeProperties>
+
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -141,108 +176,4 @@
 		</thingCategories>
 	</ThingDef>
 
-<!-- Backpack base -->
-	<ThingDef Abstract="true" Name="Seg_WOTV_BackpackBase" ParentName="ArmorMachineableBase">
-		<techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>8</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>Seg_ImperialCraftingTable</li>
-			</recipeUsers>
-		</recipeMaker>
-		<thingCategories>
-			<li>Seg_WOTV_ArmorInquisitorial</li>
-		</thingCategories>
-		<tradeTags>
-			<li>Seg_WOTV_InquisitorialArmor</li>
-		</tradeTags>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Backpack</li>
-			</layers>
-			<drawData>
-				<dataSouth>
-					<layer>-10</layer>
-				</dataSouth>
-				<dataWest>
-					<layer>80</layer>
-				</dataWest>
-				<dataEast>
-					<layer>80</layer>
-				</dataEast>
-				<dataNorth>
-					<layer>100</layer>
-				</dataNorth>
-			</drawData>
-			<careIfWornByCorpse>false</careIfWornByCorpse>
-			<careIfDamaged>false</careIfDamaged>
-			<countsAsClothingForNudity>true</countsAsClothingForNudity>
-		</apparel>
-		<modExtensions>
-			<li Class="VEF.Apparels.ApparelExtension">
-				<isUnifiedApparel>true</isUnifiedApparel>
-				<hideHead>false</hideHead>
-			</li>
-		</modExtensions>
-	</ThingDef>
-
-	<!-- Adept backpack -->
-	<ThingDef ParentName="Seg_WOTV_BackpackBase">
-		<defName>Seg_WOTV_Apparel_AdeptPack</defName>
-		<label>adept backpack</label>
-		<description>The Imperium runs on parchment, ink, and candle tallow as much as it does on promethium and fyceline, and carrying an auto-quill, data-slate and spare scrolls can help an adept in the fulfillment of their responsibilities.</description> 
-		<graphicData>
-			<texPath>Things/Apparel/AdeptPack/Seg_WOTV_AdeptPack</texPath>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>Seg_WOTV_BasicApparel</researchPrerequisite>
-		</recipeMaker>
-		<costList>
-			<Steel>20</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Cloth>60</Cloth>
-			<WoodLog>30</WoodLog>
-		
-		</costList>
-		<statBases>
-			<WorkToMake>8000</WorkToMake>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>3.6</Mass>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.01</ArmorRating_Heat> 
-		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>-0.15</MoveSpeed>
-			<CarryingCapacity>15</CarryingCapacity>
-			<SocialImpact>0.10</SocialImpact>
-			<ResearchSpeed>0.35</ResearchSpeed>
-			<ReadingSpeed>0.50</ReadingSpeed>
-			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
-		</equippedStatOffsets>
-		
-		<apparel>
-			<wornGraphicPath>Things/Apparel/AdeptPack/Seg_WOTV_AdeptPack</wornGraphicPath>
-			<tags>
-				<li>Seg_WOTV_AdeptApparel</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Worker</li>
-			</defaultOutfitTags>
-		</apparel>
-		<thingCategories Inherit="False">
-			<li>Seg_ImperiumWorkGear</li>
-		</thingCategories>
-	</ThingDef>
 </Defs>
