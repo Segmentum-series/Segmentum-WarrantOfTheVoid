@@ -71,8 +71,11 @@
       <li>Seg_WOTV_Caravan_ImperiumPirates</li>
     </caravanTraderKinds>
     <baseTraderKinds>
-      <li>Base_Outlander_Standard</li>
+      <li>Seg_WOTV_Caravan_ImperiumPirates</li>
     </baseTraderKinds>
+    <orbitalTraderKinds>
+      <li>Seg_WOTV_Orbital_ImperiumPirates</li>
+    </orbitalTraderKinds>
 		<modExtensions>
 			<li Class="Core40k.DefModExtension_PawnKindCustomization">
 			<defaultColorSelection>
