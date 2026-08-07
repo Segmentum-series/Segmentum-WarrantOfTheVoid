@@ -393,7 +393,6 @@
 			<li>Seg_COTO_Apparel_ExploratorHood</li>
 			<li>Seg_COTO_Apparel_ExploratorRobe</li>
 			<li>Seg_COTO_Apparel_MagosCassock</li>
-			<li>Seg_COTO_Apparel_MagosBackpack</li>
 		</apparelRequired>
 		<techHediffsTags>
 			<li>Seg_COTO_StandardAugmetics</li>
@@ -440,10 +439,6 @@
 			<defaultColorSelection>
 				<li>
 					<key>Seg_COTO_MagosApparel_ColorPreset_3</key>
-					<value>TryMatch</value>
-				</li>
-				<li>
-					<key>Seg_COTO_MagosBackpack_ColorPreset_3</key>
 					<value>TryMatch</value>
 				</li>
 			</defaultColorSelection>
