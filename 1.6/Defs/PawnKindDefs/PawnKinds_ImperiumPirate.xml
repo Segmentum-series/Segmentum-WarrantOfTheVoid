@@ -127,7 +127,6 @@
       <li>IndustrialAdvanced</li>
 	  <li>Seg_FlakArmour</li>
 	  <li>Seg_WOTV_UtilityApparel</li>
-	  <li>Seg_Accessory_Pouches</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     <weaponMoney>250~650</weaponMoney>
@@ -174,8 +173,6 @@
       <li>IndustrialAdvanced</li>
 	  <li>Seg_FlakArmour</li>
 	  <li>Seg_WOTV_UtilityApparel</li>
-	  <li>Seg_Accessory_Medicae</li>
-	  <li>Seg_Accessory_Pouches</li>
     </apparelTags>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>500~700</weaponMoney>
@@ -218,9 +215,6 @@
     <apparelTags Inherit="False">
 	  <li>Seg_FlakArmour</li>
 	  <li>Seg_WOTV_UtilityApparel</li>
-	  <li>Seg_Accessory_Medicae</li>
-	  <li>Seg_Accessory_Pouches</li>
-	  <li>Seg_Accessory_Voxcaster</li>
     </apparelTags>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>500~700</weaponMoney>
@@ -272,6 +266,9 @@
       <li>IndustrialAdvanced</li>
 	  <li>Seg_FlakArmour</li>
 	  <li>Seg_WOTV_UtilityApparel</li>
+	  <li>Seg_Accessory_Medicae</li>
+	  <li>Seg_Accessory_Pouches</li>
+	  <li>Seg_Accessory_Voxcaster</li>
     </apparelTags>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>600~700</weaponMoney>

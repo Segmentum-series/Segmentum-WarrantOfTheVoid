@@ -127,7 +127,7 @@
           <Seg_WOTV_Pirate>10</Seg_WOTV_Pirate>
           <Seg_WOTV_RenegadeGrenadier>2</Seg_WOTV_RenegadeGrenadier>
           <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
-          <Seg_WOTV_RenegadeBreacher>4</Seg_WOTV_RenegadeBreacher>
+          <Seg_WOTV_RenegadeBreacher>3</Seg_WOTV_RenegadeBreacher>
           <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
           <Seg_WOTV_Malatek MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">0.25</Seg_WOTV_Malatek>
         </options>
@@ -141,7 +141,7 @@
           <Seg_WOTV_Pirate>10</Seg_WOTV_Pirate>
           <Seg_WOTV_RenegadeGrenadier>2</Seg_WOTV_RenegadeGrenadier>
           <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
-          <Seg_WOTV_RenegadeBreacher>4</Seg_WOTV_RenegadeBreacher>
+          <Seg_WOTV_RenegadeBreacher>3</Seg_WOTV_RenegadeBreacher>
           <Seg_WOTV_Malatek MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">0.25</Seg_WOTV_Malatek>
         </options>
       </li>
@@ -155,7 +155,7 @@
         <options>
           <Seg_WOTV_RenegadeGrenadier>10</Seg_WOTV_RenegadeGrenadier>
           <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
-          <Seg_WOTV_RenegadeBreacher>4</Seg_WOTV_RenegadeBreacher>
+          <Seg_WOTV_RenegadeBreacher>3</Seg_WOTV_RenegadeBreacher>
           <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
           <Seg_WOTV_Malatek MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">0.25</Seg_WOTV_Malatek>
         </options>
@@ -166,7 +166,7 @@
         <commonality>10</commonality>
         <options>
           <Seg_WOTV_Renegade>10</Seg_WOTV_Renegade>
-          <Seg_WOTV_RenegadeBreacher>4</Seg_WOTV_RenegadeBreacher>
+          <Seg_WOTV_RenegadeBreacher>3</Seg_WOTV_RenegadeBreacher>
           <Seg_WOTV_PirateCaptain>0.25</Seg_WOTV_PirateCaptain>
           <Seg_WOTV_Malatek MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">0.25</Seg_WOTV_Malatek>
         </options>
@@ -202,7 +202,8 @@
           <Seg_WOTV_Ganger>10</Seg_WOTV_Ganger>
           <Seg_WOTV_Pirate>10</Seg_WOTV_Pirate>
           <Seg_WOTV_Renegade>5</Seg_WOTV_Renegade>
-          <Seg_WOTV_RenegadeBreacher>3</Seg_WOTV_RenegadeBreacher>
+          <Seg_WOTV_RenegadeBreacher>2</Seg_WOTV_RenegadeBreacher>
+          <Seg_WOTV_Malatek MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">0.25</Seg_WOTV_Malatek>
         </guards>
       </li>
     </pawnGroupMakers>
