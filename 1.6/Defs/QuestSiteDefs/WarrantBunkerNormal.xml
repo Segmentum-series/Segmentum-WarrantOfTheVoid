@@ -148,8 +148,8 @@
         <defName>Seg_WarrantBunkerNormalSite</defName>
         <label>renegade bunker</label>
         <description>A prefab bunker serving as a safehouse for a pirate band who have done something to draw the wrath of the Imperium of Man.</description>
-        <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
-        <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
+        <siteTexture>UI/Icons/Seg_WOTV_WarrantQuest</siteTexture>
+        <expandingIconTexture>UI/Icons/Seg_WOTV_WarrantQuest</expandingIconTexture>
         <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
         <tags>
             <li>Seg_WarrantBunkerNormalSite</li>

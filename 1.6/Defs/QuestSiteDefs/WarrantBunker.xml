@@ -172,8 +172,8 @@
         <defName>Seg_WarrantBunkerSite</defName>
         <label>renegade bunker</label>
         <description>A prefab bunker serving as a safehouse for the pirate scum who stole your Warrant of Trade. Reclaim it!</description>
-        <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
-        <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
+        <siteTexture>UI/Icons/Seg_WOTV_WarrantQuest</siteTexture>
+        <expandingIconTexture>UI/Icons/Seg_WOTV_WarrantQuest</expandingIconTexture>
         <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
         <tags>
             <li>Seg_WarrantBunkerSite</li>
