@@ -73,6 +73,7 @@
         <Compile Include="WarrantFaction.cs" />
         <Compile Include="GenStep_PirateCaptain.cs" />
         <Compile Include="QuestPart_PirateSpawner.cs" />
+        <Compile Include="QuestNode_WarrantForce.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

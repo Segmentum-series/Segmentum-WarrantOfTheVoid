@@ -138,12 +138,6 @@
         <stackCount>1</stackCount>
       </li>
 
-        <li Class="QuestNode_AddItemsReward">
-          <items>$Seg_WOTV_WarrantQuestReward</items>
-          <inSignalChoiceUsed>site.MapGenerated</inSignalChoiceUsed>
-          <generateQuestParts>false</generateQuestParts>
-        </li>
-
         <li Class="QuestNode_NoWorldObject">
           <worldObject>$site</worldObject>
           <node Class="QuestNode_End">
@@ -156,23 +150,20 @@
               <li Class="QuestNode_Notify_PlayerRaidedSomeone">
                 <getRaidersFromMapParent>$site</getRaidersFromMapParent>
               </li>
-              <li Class="QuestNode_GiveRewards">
-                <parms>
-                  <allowGoodwill>true</allowGoodwill>
-                  <allowRoyalFavor>true</allowRoyalFavor>
-                  <chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
-                </parms>
-                <addCampLootReward>true</addCampLootReward>
-                <customLetterLabel TKey="LetterLabelPaymentArrived">Warrant of Trade arrived</customLetterLabel>
+
+        <li Class="QuestNode_AddItemsReward">
+          <items>$Seg_WOTV_WarrantQuestReward</items>
+          <generateQuestParts>false</generateQuestParts>
+        </li>
+              
+            <li Class="seg.QuestNode_GiveSpecificThing">
+                <inSignal>$site.AllEnemiesDefeated</inSignal>
+                <thingDefName>Seg_WOTV_WarrantOfTrade</thingDefName>
+                <stackCount>1</stackCount>
+             <customLetterLabel TKey="LetterLabelPaymentArrived">Warrant of Trade arrived</customLetterLabel>
                 <customLetterText TKey="LetterTextPaymentArrived">The enemies of the Imperium are defeated!\n\nThe signed and authenticated Warrant of Trade has arrived.</customLetterText>
-                <nodeIfChosenPawnSignalUsed Class="QuestNode_Letter">
-                  <letterDef>ChoosePawn</letterDef>
-                  <label TKey="LetterLabelFavorReceiver">[asker_faction_royalFavorLabel]</label>
-                  <text TKey="LetterTextFavorReceiver">These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service.</text>
-                  <useColonistsOnMap>$site</useColonistsOnMap>
-                  <chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
-                </nodeIfChosenPawnSignalUsed>
-              </li>
+            </li>
+ 
             </nodes>
           </node>
         </li>
