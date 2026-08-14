@@ -27,7 +27,7 @@
 
 		<costList>
 			<Cloth>80</Cloth>
-			<Gold>20</Gold>
+			<Gold>2</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 
@@ -100,7 +100,7 @@
 		</equippedStatOffsets>
 		<costList>
 			<Cloth>130</Cloth>
-			<Gold>20</Gold>
+			<Gold>2</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 
@@ -185,7 +185,7 @@
 		</equippedStatOffsets>
 		<costList>
 			<Cloth>40</Cloth>
-			<Gold>20</Gold>
+			<Gold>2</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 
@@ -260,7 +260,7 @@
 			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Gold>30</Gold>
+			<Gold>3</Gold>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		
@@ -350,7 +350,7 @@
 		</equippedStatOffsets>
 		<costList>
 			<Steel>120</Steel>
-			<Gold>30</Gold>
+			<Gold>3</Gold>
 			<Seg_Ceramite>90</Seg_Ceramite>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
