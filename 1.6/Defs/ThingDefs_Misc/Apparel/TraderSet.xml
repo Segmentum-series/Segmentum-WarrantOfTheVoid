@@ -81,7 +81,7 @@
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Apparel/TraderShirt/Seg_WOTV_TraderShirt</texPath>
 		</graphicData>
 
@@ -166,7 +166,7 @@
 
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Cutout</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Apparel/TraderPants/Seg_WOTV_TraderPants</texPath>
 		</graphicData>
 
