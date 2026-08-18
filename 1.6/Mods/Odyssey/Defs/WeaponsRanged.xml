@@ -47,6 +47,9 @@
 				<lockOnTarget>true</lockOnTarget>
 			</li>
 		</modExtensions>
+		<tradeTags Inherit="False">
+			<li>Seg_WOTV_KSDebugNoTraders</li>
+		</tradeTags>
 	</ThingDef>
 <ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
 		<defName>Seg_WOTV_Gun_MiningLaser</defName>
