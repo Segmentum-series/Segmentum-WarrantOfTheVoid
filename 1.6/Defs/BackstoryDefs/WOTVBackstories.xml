@@ -38,6 +38,7 @@
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>CVN_BP_BloodPactBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>1</Shooting>
@@ -88,6 +89,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>CVN_BP_BloodPactBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
       <li>Outlander</li>
@@ -199,6 +201,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>CVN_BP_BloodPactBackstories</li>
       <li>Pirate</li>
       <li>Offworld</li>
     </spawnCategories>
@@ -234,6 +237,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>CVN_BP_BloodPactBackstories</li>
       <li>Offworld</li>
     </spawnCategories>
     <workDisables>
@@ -256,6 +260,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>CVN_BP_BloodPactBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
     </spawnCategories>
@@ -339,6 +344,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>CVN_BP_BloodPactBackstories</li>
 	  <li>Pirate</li>
     </spawnCategories>
     <workDisables>
