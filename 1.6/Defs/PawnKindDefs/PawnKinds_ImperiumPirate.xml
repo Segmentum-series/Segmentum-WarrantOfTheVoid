@@ -396,7 +396,6 @@
 			<li>Seg_COTO_Apparel_ExploratorHood</li>
 			<li>Seg_COTO_Apparel_ExploratorRobe</li>
 			<li>Seg_COTO_Apparel_MagosCassock</li>
-			<li>Seg_Apparel_PowerPack</li>
 		</apparelRequired>
 		<techHediffsTags>
 			<li>Seg_COTO_StandardAugmetics</li>
