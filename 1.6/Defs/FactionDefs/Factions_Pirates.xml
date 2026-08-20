@@ -16,6 +16,7 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
+    <canMakeRandomly>true</canMakeRandomly>
     <factionIconPath>UI/Factions/Seg_WOTV_ImperialPiratesOutpost</factionIconPath>
     <factionNameMaker>SegNamerFactionPirate</factionNameMaker>
     <settlementNameMaker>SegNamerSettlementPirate</settlementNameMaker>
