@@ -197,6 +197,8 @@
         </requiredSkills>
         <statOffsets>
            <SocialImpact>0.10</SocialImpact>
+            <BEWH_ShipEvasionSkillOffset MayRequire="kentington.saveourship2">1</BEWH_ShipEvasionSkillOffset>
+            <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.1</PilotingAbility>
         </statOffsets>
          <statFactors>
             <GlobalLearningFactor>1.05</GlobalLearningFactor>
@@ -366,6 +368,7 @@
             <NegotiationAbility>0.20</NegotiationAbility>
             <ResearchSpeed>0.10</ResearchSpeed>
             <ReadingSpeed>0.20</ReadingSpeed>
+            <BEWH_GravshipRangeOffset MayRequire="Ludeon.RimWorld.Odyssey">3</BEWH_GravshipRangeOffset>
         </statOffsets>
         <givesPassions>
             <li>
@@ -392,7 +395,8 @@
             <Intellectual>5</Intellectual>
         </requiredSkills>
         <statOffsets>
-            <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey"> 0.7</PilotingAbility>
+            <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.7</PilotingAbility>
+            <BEWH_ShipEvasionSkillOffset MayRequire="kentington.saveourship2">3</BEWH_ShipEvasionSkillOffset>
             <MoveSpeed>0.05</MoveSpeed>
         </statOffsets>
 		<statFactors>
@@ -439,6 +443,7 @@
         <statOffsets>
             <SocialImpact>0.20</SocialImpact>
             <NegotiationAbility>0.10</NegotiationAbility>
+            <BEWH_ShipGunnerySkillOffset MayRequire="kentington.saveourship2">3</BEWH_ShipGunnerySkillOffset>
         </statOffsets>
         <removeRanksOnUnlock>
             <li>Seg_WOTV_Voxmaster</li>

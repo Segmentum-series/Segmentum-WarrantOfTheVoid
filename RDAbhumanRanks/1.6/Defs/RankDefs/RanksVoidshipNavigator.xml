@@ -22,9 +22,12 @@
         </requiredGenesAll>
         <statOffsets>
 			<SocialImpact>0.10</SocialImpact>
+            <BEWH_WarpTravelCapacity>4</BEWH_WarpTravelCapacity>
         </statOffsets>
         <statFactors>
 			<MentalBreakThreshold>0.80</MentalBreakThreshold>
+            <BEWH_WarpTravelDurationFactor>0.75</BEWH_WarpTravelDurationFactor>
+            <BEWH_WarpTravelInstability>0.75</BEWH_WarpTravelInstability>
         </statFactors>
         <givesPassions>
             <li>

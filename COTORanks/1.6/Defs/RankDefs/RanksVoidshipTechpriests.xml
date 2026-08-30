@@ -24,6 +24,8 @@
             <ConstructionSpeed>0.30</ConstructionSpeed>
             <ConstructSuccessChance>.20</ConstructSuccessChance>
             <FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
+            <BEWH_GravEngineCooldownFactor MayRequire="ludeon.rimworld.odyssey">-0.10</BEWH_GravEngineCooldownFactor>
+            <BEWH_GravshipFuelEfficiency MayRequire="ludeon.rimworld.odyssey">0.10</BEWH_GravshipFuelEfficiency>
         </statOffsets>
         <givesPassions>
             <li>
@@ -54,6 +56,8 @@
             <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
             <ConstructionSpeed>0.10</ConstructionSpeed>
             <ConstructSuccessChance>0.20</ConstructSuccessChance>
+            <BEWH_GravEngineCooldownFactor MayRequire="ludeon.rimworld.odyssey">-0.15</BEWH_GravEngineCooldownFactor>
+            <BEWH_GravshipFuelEfficiency MayRequire="ludeon.rimworld.odyssey">0.20</BEWH_GravshipFuelEfficiency>
         </statOffsets>
         <givesPassions>
             <li>
