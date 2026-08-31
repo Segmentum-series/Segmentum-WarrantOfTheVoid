@@ -462,6 +462,9 @@
         <requiredSkills>
             <Social>14</Social>
         </requiredSkills>
+		<requiredTitlesAll>
+			<li>Seg_WOTV_RogueTraderTitle</li>
+		</requiredTitlesAll>
         <statOffsets>
             <SocialImpact>0.50</SocialImpact>
             <NegotiationAbility>0.30</NegotiationAbility>
