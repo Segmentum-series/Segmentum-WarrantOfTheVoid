@@ -41,6 +41,7 @@
       <li>SegWOTV_PirateBackstories</li>
 	  <li>CVN_BP_BloodPactInitiateBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>1</Shooting>
@@ -93,6 +94,7 @@
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
 	  <li>CVN_BP_BloodPactInitiateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>Offworld</li>
 	  <li>Pirate</li>
       <li>Outlander</li>
@@ -146,6 +148,7 @@
     <spawnCategories>
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>Offworld</li>
 	  <li>Outsider</li>
       <li>Outlander</li>
@@ -206,6 +209,7 @@
       <li>SegWOTV_PirateBackstories</li>
 	  <li>CVN_BP_BloodPactInitiateBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
       <li>Pirate</li>
       <li>Offworld</li>
     </spawnCategories>
@@ -241,6 +245,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>CVN_BP_BloodPactInitiateBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
       <li>Offworld</li>
@@ -265,6 +270,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>CVN_BP_BloodPactInitiateBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
 	  <li>Pirate</li>
@@ -299,6 +305,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
     </spawnCategories>
     <skillGains>
@@ -323,6 +330,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
 	  <li>Pirate</li>
 	  <li>Offworld</li>
@@ -352,6 +360,7 @@
       <li>SegWOTV_WorkerBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>CVN_BP_BloodPactInitiateBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
 	  <li>Pirate</li>
@@ -379,6 +388,7 @@
     <spawnCategories>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_RetinueBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -409,6 +419,7 @@
     <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum and trained in the use of a lasgun and bayonet. [PAWN_pronoun] deserted and somehow evaded the commissars, but is often worried that [PAWN_possessive] actions will catch up with [PAWN_pronoun].</baseDesc>
     <spawnCategories>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>Pirate</li>
 	  <li>Ganger</li>
 	  <li>Outsider</li>
@@ -443,6 +454,7 @@
     <baseDesc>[PAWN_nameDef] was convicted of a capital crime on an Imperial world and pressed into a Penal Legion. [PAWN_pronoun] was sent into battle as las fodder but managed to run away and somehow remove the bomb collar around [PAWN_possessive] neck. So far [PAWN_pronoun] has avoided death or capture.</baseDesc>
     <spawnCategories>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>Pirate</li>
 	  <li>Ganger</li>
 	  <li>Outsider</li>
@@ -507,6 +519,7 @@
       <li>SegWOTV_RetinueBackstories</li>
       <li>SegWOTV_ArmsmanBackstories</li>
       <li>SegWOTV_PirateBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
       <li>Offworld</li>
 	  <li>Pirate</li>
     </spawnCategories>
@@ -1234,6 +1247,7 @@
     <baseDesc>[PAWN_nameDef] worked as a field labourer on an agriworld in a planet-wide food production operation. [PAWN_pronoun] spent 14-hour shifts tending to endless fields of crops, and had little time for anything else.</baseDesc>
     <spawnCategories>
 	  <li>SegWOTV_WorkerBackstories</li>
+	  <li>SegGG_CultistBackstories</li>
 	  <li>Offworld</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -2023,7 +2037,6 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
-  
   
   <BackstoryDef>
     <slot>Adulthood</slot>
