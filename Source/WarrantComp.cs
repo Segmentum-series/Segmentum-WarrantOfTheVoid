@@ -38,11 +38,29 @@ public class Alert_NoHeirAssigned : Alert
     return AlertReport.Inactive;
 }
 }
+    /// runs when a game is loaded, used to clean up the list of pawns needing heir alerts, should fix that issue weve been having. big ups to phonic
+    public override void LoadedGame()
+        {
+        SegWarrantGameComponent.pawnsNeedingHeirAlert.RemoveAll(p =>
+                p == null ||
+                p.Destroyed ||
+                !Find.WorldPawns.Contains(p)
+        );
+        }
 
 /// runs every tick be careful about adding code here
 
  public override void GameComponentTick()
 {
+
+    ///alert logic, light as i can make it i think
+    SegWarrantGameComponent.pawnsNeedingHeirAlert.RemoveAll(p =>
+        p == null ||
+        p.Destroyed ||
+        !Find.WorldPawns.AllPawnsAlive.Contains(p) ||
+        p.royalty?.GetHeir(p.Faction) != null
+    );
+
     for (int i = warrantBuildings.Count - 1; i >= 0; i--)
     {
         Thing thing = warrantBuildings[i];
