@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Utility Helmet -->
+	<!-- Mask 1 -->
+	<Core40k.ExtraDecorationDef>
+		<defName>Seg_WOTV_Deco_UtilityHelmet_Mask1</defName>
+		<label>Welding mask</label>
+		<description>...</description>
+		<iconPath>UI/Decoration/Icons/UtilityHelmet/Seg_WOTV_Deco_UtilityHelmet_Mask1</iconPath>
+		<drawnTextureIconPath>Things/Decoration/UtilityHelmet/Seg_WOTV_UtilityHelmet_Mask1</drawnTextureIconPath>
+		<drawSize>(1, 1)</drawSize>
+		<sortOrder>1</sortOrder>
+
+		<appliesTo>
+			<li>Seg_WOTV_Apparel_UtilityHelmet</li>
+		</appliesTo>
+		<defaultShowRotation>
+			<li>West</li>
+			<li>South</li>
+			<li>East</li>
+		</defaultShowRotation>
+		<drawData>
+			<dataNorth>
+				<layer>77</layer>
+			</dataNorth>
+			<dataSouth>
+				<layer>81</layer>
+			</dataSouth>
+			<dataEast>
+				<layer>75</layer>
+			</dataEast>
+			<dataWest>
+				<layer>75</layer>
+			</dataWest>
+		</drawData>
+
+		<colourable>true</colourable>
+		<shaderType>Cutout</shaderType>
+		<hasParentColourPaletteOption>true</hasParentColourPaletteOption>
+		<useParentColourAsDefault>true</useParentColourAsDefault>
+
+		<incompatibleDecorations>
+				<li>Seg_WOTV_Deco_UtilityHelmet_Mask2</li>
+				<li>Seg_WOTV_Deco_UtilityHelmet_Glasses1</li>
+		</incompatibleDecorations>
+
+		<decorationType>BEWH_DecoCategory_Misc</decorationType>
+	</Core40k.ExtraDecorationDef>
+
+
+	<!-- Mask 2 -->
+	<Core40k.ExtraDecorationDef>
+		<defName>Seg_WOTV_Deco_UtilityHelmet_Mask2</defName>
+		<label>Lifted welding mask</label>
+		<description>...</description>
+		<iconPath>UI/Decoration/Icons/UtilityHelmet/Seg_WOTV_Deco_UtilityHelmet_Mask2</iconPath>
+		<drawnTextureIconPath>Things/Decoration/UtilityHelmet/Seg_WOTV_UtilityHelmet_Mask2</drawnTextureIconPath>
+		<drawSize>(1, 1)</drawSize>
+		<sortOrder>2</sortOrder>
+
+		<appliesTo>
+			<li>Seg_WOTV_Apparel_UtilityHelmet</li>
+		</appliesTo>
+		<defaultShowRotation>
+			<li>West</li>
+			<li>South</li>
+			<li>East</li>
+		</defaultShowRotation>
+		<drawData>
+			<dataNorth>
+				<layer>77</layer>
+			</dataNorth>
+			<dataSouth>
+				<layer>81</layer>
+			</dataSouth>
+			<dataEast>
+				<layer>75</layer>
+			</dataEast>
+			<dataWest>
+				<layer>75</layer>
+			</dataWest>
+		</drawData>
+
+		<colourable>true</colourable>
+		<shaderType>Cutout</shaderType>
+		<hasParentColourPaletteOption>true</hasParentColourPaletteOption>
+		<useParentColourAsDefault>true</useParentColourAsDefault>
+
+		<incompatibleDecorations>
+				<li>Seg_WOTV_Deco_UtilityHelmet_Mask1</li>
+		</incompatibleDecorations>
+
+		<decorationType>BEWH_DecoCategory_Misc</decorationType>
+	</Core40k.ExtraDecorationDef>
+
+
+	<!-- Glasses 1 -->
+	<Core40k.ExtraDecorationDef>
+		<defName>Seg_WOTV_Deco_UtilityHelmet_Glasses1</defName>
+		<label>Protective glasses</label>
+		<description>...</description>
+		<iconPath>UI/Decoration/Icons/UtilityHelmet/Seg_WOTV_Deco_UtilityHelmet_Glasses1</iconPath>
+		<drawnTextureIconPath>Things/Decoration/UtilityHelmet/Seg_WOTV_UtilityHelmet_Glasses1</drawnTextureIconPath>
+		<drawSize>(0.5, 0.5)</drawSize>
+		<sortOrder>3</sortOrder>
+
+		<appliesTo>
+			<li>Seg_WOTV_Apparel_UtilityHelmet</li>
+		</appliesTo>
+		<defaultShowRotation>
+			<li>West</li>
+			<li>South</li>
+			<li>East</li>
+		</defaultShowRotation>
+		<drawData>
+			<dataNorth>
+				<layer>77</layer>
+			</dataNorth>
+			<dataSouth>
+				<layer>81</layer>
+			</dataSouth>
+			<dataEast>
+				<layer>75</layer>
+			</dataEast>
+			<dataWest>
+				<layer>75</layer>
+			</dataWest>
+		</drawData>
+
+		<colourable>true</colourable>
+		<shaderType>Cutout</shaderType>
+		<hasParentColourPaletteOption>true</hasParentColourPaletteOption>
+		<useParentColourAsDefault>true</useParentColourAsDefault>
+
+		<incompatibleDecorations>
+				<li>Seg_WOTV_Deco_UtilityHelmet_Mask1</li>
+		</incompatibleDecorations>
+
+		<decorationType>BEWH_DecoCategory_Misc</decorationType>
+	</Core40k.ExtraDecorationDef>
+
+</Defs>

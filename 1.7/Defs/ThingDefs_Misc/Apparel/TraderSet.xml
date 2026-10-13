@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Trader Hat -->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderHat</defName>
+		<label>trader hat</label>
+		<description>No Lord Captain can expect to be taken seriously without a suitably imposing hat of office.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/TraderHat/Seg_WOTV_TraderHat</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<SocialImpact>.20</SocialImpact>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.1</Mass>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+		</statBases>
+
+		<costList>
+			<Cloth>80</Cloth>
+			<Gold>2</Gold>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/TraderHat/Seg_WOTV_TraderHat</li>
+			</wornGraphicPaths>
+			<renderSkipFlags>
+					<li>Hair</li>
+			</renderSkipFlags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_TraderApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Head</decorativeType>
+			</li>
+		</comps>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<!--Trader Shirt-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderShirt</defName>
+		<label>trader shirt</label>
+		<description>There is no uniform for the Rogue Traders of the Imperium, but many of them tend towards the flamboyant, lavish and almost piratical in their dress. This shirt is a typical example, embroidered and decorated to ensure everyone knows of the Trader's high status.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Apparel/TraderShirt/Seg_WOTV_TraderShirt</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>3.6</Mass>
+			<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>.10</SocialImpact>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Cloth>130</Cloth>
+			<Gold>2</Gold>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/TraderShirt/Seg_WOTV_TraderShirt</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_TraderApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<!--Trader pants-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderPants</defName>
+		<label>trader pants</label>
+		<description>There is no uniform for the Rogue Traders of the Imperium, but many of them tend towards the flamboyant, lavish and almost piratical in their dress. These pants are a typical example, embroidered and decorated to ensure everyone knows of the Trader's high status.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Apparel/TraderPants/Seg_WOTV_TraderPants</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>4.1</Mass>
+			<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>.10</SocialImpact>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Cloth>40</Cloth>
+			<Gold>2</Gold>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_TraderApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<!--Trader Coat-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderCoat</defName>
+		<label>trader coat</label>
+		<description>There is no uniform for the Rogue Traders of the Imperium, but many of them tend towards the flamboyant, lavish and almost piratical in their dress. This long coat is a typical example, embroidered and decorated to ensure everyone knows of the Trader's high status.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Apparel/TraderCoat/Seg_WOTV_TraderCoat</texPath>
+		</graphicData>
+
+		
+		<statBases>
+			<WorkToMake>32000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>4.5</Mass>
+			<StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>.15</SocialImpact>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Gold>3</Gold>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>160</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/TraderCoat/Seg_WOTV_TraderCoat</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_TraderApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
+	</ThingDef>
+
+
+<!--Trader Armor-->
+    <ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_TraderArmor</defName>
+		<label>trader armour</label>
+		<description>This armour may be ornamental, but it doesn't lack for protective qualities either. Rogue Traders tend to be aware of the dangers that come with their role, and when necessary they don flak or carapace armour quite happily - although they always ensure that it looks the part.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/TraderArmor/Seg_WOTV_TraderArmor</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<ArmorRating_Sharp>.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.14</DecompressionResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.14</VacuumResistance>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>.10</SocialImpact>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.20</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>120</Steel>
+			<Gold>3</Gold>
+			<Seg_Ceramite>90</Seg_Ceramite>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_TraderApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/TraderArmor/Seg_WOTV_TraderArmor</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_TraderApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<thingCategories Inherit="False">
+			<li>Seg_WOTV_ArmorTrader</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>

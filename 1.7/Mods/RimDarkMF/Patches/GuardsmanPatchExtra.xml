@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="BEWH_ImperiumGuardmanPawn"]/weaponTags</xpath>
+		<value>
+            <li>Seg_WOTV_Autogun</li>
+			<li>Seg_WOTV_RyzaLasgun</li>
+		</value>
+  </Operation>
+  
+</Patch>

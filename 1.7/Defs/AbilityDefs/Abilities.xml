@@ -1,0 +1,70 @@
+<Defs>
+<HediffDef>
+		<defName>Seg_WOTV_RogueTraderTitleHediff</defName>
+		<label>Emperor's anointed!</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+		<everCurableByItem>false</everCurableByItem>
+		<isBad>false</isBad>
+		<description>The Rogue Trader is making use of the Warrant's privileges to the fullest extent for a short time.</description>
+		<stages>
+			<li>
+            <becomeVisible>true</becomeVisible>
+				<statOffsets>
+					<TradePriceImprovement>0.395</TradePriceImprovement> <!-- 39.5% better prices, this is the the code allows-->
+					<SocialImpact>.50</SocialImpact>
+					<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.50</ConversionPower>
+					<NegotiationAbility>0.40</NegotiationAbility>
+                </statOffsets>                      
+			</li>
+		</stages>
+        <comps>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>30000</disappearsAfterTicks>
+                <showRemainingTime>True</showRemainingTime>
+      </li>
+		</comps>
+	</HediffDef>
+    <AbilityDef>
+        <defName>Seg_WOTV_RogueTraderAbility</defName>
+        <label>I am the Emperor's anointed!</label>
+        <description>Utilise the influence of the Warrant of Trade to its fullest extent for a short period of time, securing the most favourable trades and deploying powers of persuasion backed by administrative weight.</description>
+        <cooldownTicksRange>120000</cooldownTicksRange>
+        <iconPath>UI/Abilities/Seg_WOTV_Ability_RogueTrader</iconPath>
+        <jobDef>CastAbilityOnThing</jobDef>
+        <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+        <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+        <targetRequired>true</targetRequired>
+        <showWhenDrafted>true</showWhenDrafted>
+         <casterMustBeCapableOfViolence>False</casterMustBeCapableOfViolence>
+        <targetRequired>False</targetRequired>
+        <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+        <hostile>false</hostile>
+        <statBases>
+            <Ability_Duration>50</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>-1</range>
+            <warmupTime>.5</warmupTime>
+            <drawAimPie>False</drawAimPie>
+            <requireLineOfSight>False</requireLineOfSight>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetBuildings>false</canTargetBuildings>
+                <canTargetAnimals>false</canTargetAnimals>
+                <canTargetHumans>false</canTargetHumans>
+                <canTargetMechs>false</canTargetMechs>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Seg_WOTV_RogueTraderTitleHediff</hediffDef>
+                <replaceExisting>true</replaceExisting>
+            </li>
+        </comps>
+    </AbilityDef>
+    </Defs>

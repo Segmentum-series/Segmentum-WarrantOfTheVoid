@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/Genes40k.ChapterRankDef[defName="BEWH_AstartesRankNeophyte"]</xpath>
+		<value>
+			<incompatibleRanks>
+				<li>Seg_WOTV_VoidshipMenial</li>
+			</incompatibleRanks>
+		</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/Core40k.RankDef[defName="BEWH_ThunderWarriorRankInitiate"]</xpath>
+		<value>
+			<incompatibleRanks>
+				<li>Seg_WOTV_VoidshipMenial</li>
+			</incompatibleRanks>
+		</value>
+  </Operation>
+  
+</Patch>

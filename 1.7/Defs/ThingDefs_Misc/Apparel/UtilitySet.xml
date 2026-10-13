@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Abstract="true" Name="Seg_WOTV_ClothingBase" ParentName="ArmorMachineableBase">
+		<thingClass>Apparel</thingClass>
+		<graphicData>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>Seg_ImperiumArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Seg_WOTV_Armor</li>
+		</tradeTags>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<!--<tags></tags>-->
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>Seg_ImperialCraftingTable</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+
+	<!-- Utility Helmet -->
+		<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_UtilityHelmet</defName>
+		<label>utility helmet</label>
+		<description>This rigid helmet is basic but effective protection for manual labourers, such as those found in the enginarium or maintenance clans of a voidship's lower decks.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/UtilityHelmet/Seg_WOTV_UtilityHelmet</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/UtilityHelmet/Seg_WOTV_UtilityHelmet</uiIconPath>
+
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.20</WorkSpeedGlobal>
+			<ConstructionSpeed>.15</ConstructionSpeed>
+			<ConstructSuccessChance>.15</ConstructSuccessChance>
+			<SmeltingSpeed>.30</SmeltingSpeed>
+			<ConstructionSpeed>.10</ConstructionSpeed>
+			<ShootingAccuracyPawn>-.50</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>125</MaxHitPoints>
+			<Mass>1.6</Mass>
+			<StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<stuffCategories>	
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_UtilityApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+			<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/UtilityHelmet/Seg_WOTV_UtilityHelmet</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_BasicApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+			</li>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Head</decorativeType>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+					<li>BEWH_ArmorDecoration</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<!--Utility Jumpsuit-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_UtilityJumpsuit</defName>
+		<label>utility jumpsuit</label>
+		<description>This basic jumpsuit is made of cheap but resilient fabric, similar to those worn by the masses of lower-rank labourers and crewmen on a Rogue Trader's voidship.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/UtilityJumpsuit/Seg_WOTV_UtilityJumpsuit</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Cloth>80</Cloth>
+		</costList>
+
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_UtilityApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/UtilityJumpsuit/Seg_WOTV_UtilityJumpsuit</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_BasicApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<!-- Utility Apron -->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_UtilityApron</defName>
+		<label>utility apron</label>
+		<description>This rough and resilient apron provides extra protection for manual labourers, such as those found in the enginarium or maintenance clans of a voidship's lower decks.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/UtilityApron/Seg_WOTV_UtilityApron</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>2.2</Mass>
+			<StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeed>.10</ConstructionSpeed>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<costList>
+			<Cloth>60</Cloth>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_UtilityApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/UtilityApron/Seg_WOTV_UtilityApron</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_BasicApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>1</colorMaskAmount>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Core40k.DefModExtension_AvailableDrawerTabDefs">
+				<tabDefs>
+					<li>BEWH_ArmorColoring</li>
+				</tabDefs>
+			</li>
+		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>

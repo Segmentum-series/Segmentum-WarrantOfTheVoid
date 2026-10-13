@@ -1,0 +1,501 @@
+<Defs>
+	<!-- Seg_WOTV_RangedWeaponBase -->
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="Seg_WOTV_RangedWeaponBase" Abstract="True">
+		<label>Seg_WOTV_RangedWeaponBase</label>
+		<description>Base definition for that Skitarii rifle thing i cant be assed to spell again.this should never show in game, if it does report to KitchenSink.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_MunitorumEquipment</li>
+			</researchPrerequisites>
+			<recipeUsers Inherit="False">
+				<li>Seg_ImperialCraftingTable</li>
+			</recipeUsers>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Good</minQualityForArtistic>
+			</li>
+			<!-- <li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(0.23,0.23,0.23)</defaultPrimaryColor>
+				<defaultSecondaryColor>(0.38,0.38,0.38)</defaultSecondaryColor>
+				<defaultTertiaryColor>(0.79,0.58,0.08)</defaultTertiaryColor>
+			</li> -->
+		</comps>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>4</cooldownTime>
+			</li>
+		</tools>
+		<relicChance MayRequire="Ludeon.RimWorld.Ideology">0</relicChance>
+		<weaponTags Inherit="False" />
+		<tradeTags Inherit="False" />
+	</ThingDef>
+
+	<!-- Ryza-pattern Lasgun -->
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
+		<defName>Seg_WOTV_Gun_RyzaLasgun</defName>
+		<label>lasgun (Ryza-pattern)</label>
+		<description>Like all lasguns, the Ryza-pattern is not the most powerful firearm, but it is reliable, logistically simple, and can stop a charging greenskin at fifty paces with an accurate grouping of lasbolts. This is one of the oldest patterns of lasgun still in use in the Imperium, and is still frequently found in the hands of noble retinues or Inquisition warbands as well as seeing continuing use by forces supplied by the forge world of Ryza.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Ranged_Lasgun</texPath>
+			<shaderType>Cutout</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_MunitorumEquipment</li>
+				<li>Batteries</li>
+				<li>GasOperation</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<uiIconScale>1.2</uiIconScale>
+		<statBases>
+			<Mass>3.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<WorkToMake>30000</WorkToMake>
+			<MarketValue>660</MarketValue>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_RyzaLasgunShot</defaultProjectile>
+				<soundCast>Seg_WOTV_RyzaLasgunFire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<warmupTime>1</warmupTime>
+				<range>25.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<modExtensions>
+			<li Class="VEF.Things.ThingDefExtension">
+				<weaponCarryDrawOffsets>
+					<north>
+						<drawOffset>(-0.05, 0, 0)</drawOffset>
+					</north>
+					<east>
+						<drawOffset>(0.2, 0, -0.15)</drawOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.05, 0, -0.2)</drawOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.2, 0, -0.15)</drawOffset>
+					</west>
+				</weaponCarryDrawOffsets>
+			</li>
+		</modExtensions>
+		<!-- Tags for trading and categorization for later-->
+		<weaponTags>
+			<li>Seg_WOTV_Las</li>
+			<li>Seg_WOTV_RyzaLasgun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Seg_WOTV_Las</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Las-lock -->
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
+		<defName>Seg_WOTV_Gun_LasLock</defName>
+		<label>las-lock</label>
+		<description>The las-lock is an archaic type of las weapon that focuses its energy into powerful single shots with a significant recharge time rather than being capable of bursts or sustained fire. Las-locks are often handbuilt outside of manufactoria and used by militias, scavengers, and heretics, although some better-quality examples following established patterns are still in use in Militarum regiments or for the armsmen of Rogue Trader houses.</description>
+		<recipeMaker>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_MunitorumEquipment</li>
+				<li>Batteries</li>
+				<li>Gunsmithing</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Ranged_Laslock</texPath>
+			<shaderType>Cutout</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<statBases>
+			<Mass>5</Mass>
+			<EquipDelay>1.2</EquipDelay>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<WorkToMake>6000</WorkToMake>
+			<MarketValue>500</MarketValue>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_LaslockShot</defaultProjectile>
+				<soundCast>Seg_WOTV_LaslockFire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<warmupTime>3</warmupTime>
+				<range>38.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<costList>
+			<Steel>50</Steel>
+			<WoodLog>10</WoodLog>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<!-- Tags for trading and categorization for later-->
+		<weaponTags>
+			<li>Seg_WOTV_Las</li>
+			<li>Seg_WOTV_Laslock</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Seg_WOTV_Las</li>
+		</tradeTags>
+				<modExtensions>
+			<li Class="VEF.Things.ThingDefExtension">
+				<weaponCarryDrawOffsets>
+					<east>
+						<drawOffset>(0.1, 0, -0.06)</drawOffset>
+					</east>
+					<north>
+						<angleOffset>-20</angleOffset>
+						<drawOffset>(0.12, 0, -0.1)</drawOffset>
+					</north>
+					<south>
+						<angleOffset>-20</angleOffset>
+						<drawOffset>(0.12, 0, -0.1)</drawOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1, 0, -0.06)</drawOffset>
+					</west>
+				</weaponCarryDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--Stub revolver-->
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase" Name="Seg_WOTV_Gun_StubRevolver">
+		<defName>Seg_WOTV_Gun_StubRevolver</defName>
+		<label>stub revolver</label>
+		<description>This short-barrelled large-calibre revolver fires solid bullets from a rotating chamber. It is a weapon of an ancient type, possibly dating back as far as late M2, and is rarely used by the Militarum except as an unofficial sidearm. It is most often found in the hands of enforcers and hive gangers, or perhaps noble lifewards who fancy themselves as dashing gunslingers.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Ranged_Revolver</texPath>
+			<shaderType>Cutout</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<uiIconScale>2</uiIconScale>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>1.2</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<MarketValue>600</MarketValue>
+		</statBases>
+		<weaponTags Inherit="False">
+			<li>Seg_WOTV_BasicWeapons</li>
+			<li>Seg_WOTV_StubRevolver</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Seg_WOTV_ProjectileGuns</li>
+		</tradeTags>
+		<weaponClasses Inherit="False">
+			<li>RangedLight</li>
+		</weaponClasses>
+		<costList Inherit="False">
+			<Steel>40</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<skillRequirements Inherit="False">
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_WOTV_AdvancedEquipment</li>
+				<li>Gunsmithing</li>
+			</researchPrerequisites>
+			<displayPriority>400</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_StubRevolverBullet</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
+				<range>19.9</range>
+				<soundCast>Fire_Revolver</soundCast>
+				<soundAiming>Aim_Revolver</soundAiming>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools Inherit="False">
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+  </ThingDef>
+
+	<!-- Autogun -->
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
+		<defName>Seg_WOTV_Gun_Autogun</defName>
+		<label>autogun</label>
+		<description>Autoguns are weapons of an ancient lineage which fire metal bullets, whether solid or jacketed, using fyceline or primitive gunpowder as propellant. They are easier to manufacture than lasguns and as a result are widely used across the Imperium, but the ammunition's logistical requirements make them less favoured by military forces who have access to more efficient las weaponry, unless facing enemies where solid rounds are more effective.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Autogun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_MunitorumEquipment</li>
+				<li>GasOperation</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>32000</WorkToMake>
+			<Mass>3.6</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
+			<RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+			<MarketValue>550</MarketValue>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_AutogunBullet</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>33.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+				<soundCast>Fire_Autogun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+			<!--li>
+				<verbClass>Core40k.Verb_ShootChangeableBullets</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_AutogunBullet</defaultProjectile>
+				<soundCast>Shot_AssaultRifle</soundCast> 
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<warmupTime>1.5</warmupTime>
+				<range>33.9</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li-->
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags Inherit="False">
+			<li>Seg_WOTV_BasicWeapons</li>
+			<li>Seg_WOTV_Autogun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Seg_WOTV_ProjectileGuns</li>
+		</tradeTags>
+
+		<comps>
+			<li Class="Core40k.CompProperties_WeaponDecoration" />
+			
+			<!-- This works, just commenting it out for now, not sure what we will use it on <3 2lgm <li Class="Core40k.CompProperties_AmmoChanger">
+			<compClass>Core40k.Comp_AmmoChanger</compClass>
+			<availableProjectiles>
+			<li>Seg_COTO_Bullet_Stubber</li>
+			<li>SEG_COTO_RadBullet</li>
+			</availableProjectiles>
+			</li> -->
+			<!--li Class="Core40k.CompProperties_AmmoChanger">
+			<compClass>Core40k.Comp_AmmoChanger</compClass>
+			<availableProjectiles>
+				<li>Seg_WOTV_AutogunBullet</li>
+				<li>Seg_WOTV_AutogunBulletSpray</li>
+			</availableProjectiles>
+			</li-->
+		</comps>
+
+	</ThingDef>
+
+	<!-- Navis Heavy Shotgun -->
+	<ThingDef ParentName="Seg_WOTV_RangedWeaponBase">
+		<defName>Seg_WOTV_Gun_NavisHeavyShotgun</defName>
+		<label>Navis heavy shotgun</label>
+		<description>Void breacher teams in the Imperial Navy are issued with heavy double-barrelled breacher shotguns for close-quarters killwork. These solidly-constructed shotguns are somewhat unwieldy but ideal for fighting inside voidship compartments or clearing rooms.\n\n&lt;color=#40cbde&gt;Note:&lt;/color&gt; This weapon can switch ammunition type to fire a single heavy-alloy breaching slug intended for voidship boarding.</description>
+		<graphicData>
+			<texPath>Things/Weapon/Seg_WOTV_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+		<soundInteract>Interact_Shotgun</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite Inherit="False"></researchPrerequisite>
+			<researchPrerequisites Inherit="False">
+				<li>Seg_WOTV_AdvancedEquipment</li>
+				<li>GasOperation</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>31000</WorkToMake>
+			<Mass>4.9</Mass>
+			<AccuracyTouch>0.71</AccuracyTouch>
+			<AccuracyShort>0.68</AccuracyShort>
+			<AccuracyMedium>0.59</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+			<MarketValue>600</MarketValue>
+		</statBases>
+		<costList>
+			<Steel>75</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Seg_WOTV_ShotgunBullet</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>13.9</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<soundCast>Fire_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags Inherit="False">
+			<li>Seg_WOTV_Shotgun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Seg_WOTV_ProjectileGuns</li>
+		</tradeTags>
+
+		<comps>
+			<li Class="Core40k.CompProperties_WeaponDecoration" />
+			
+			<li Class="Core40k.CompProperties_AmmoChanger">
+				<compClass>Core40k.Comp_AmmoChanger</compClass>
+				<availableProjectiles>
+					<li>Seg_WOTV_ShotgunBullet</li>
+					<li>Seg_WOTV_ShotgunBreachingSlug</li>
+				</availableProjectiles>
+			</li>
+		</comps>
+
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- navy -->
+	<SaveOurShip2.NavyDef ParentName="SpaceNavy">
+		<defName>Seg_WOTV_SOS2PirateNavy</defName>
+		<label>Imperium Pirate Fleet</label>
+		<factionDefs>
+			<li>Seg_WOTV_ImperiumPirates</li>
+		</factionDefs>
+		<bountyHunts>false</bountyHunts>
+		<pirates>true</pirates>
+		<colorPrimary>Structure_Black</colorPrimary>
+		<colorSecondary>Structure_Red</colorSecondary>
+		<crewDef>Seg_WOTV_SOS2PirateVoidsman</crewDef>
+		<marineDef>Seg_WOTV_SOS2Breacher</marineDef>
+		<marineHeavyDef>Seg_WOTV_SOS2HeavyBreacher</marineHeavyDef>
+		<spaceShipDefs>
+			<li>Seg_WOTV_SOS2Fury</li>
+			<li>Seg_WOTV_SOS2StarhawkBomber</li>
+			<li>Seg_WOTV_SOS2Freighter</li>
+			<li>Seg_WOTV_SOS2ArmedFreighter</li>
+			<li>Seg_WOTV_SOS2AsltFreighter</li>
+			<li>Seg_WOTV_SOS2Cobra</li>
+			<li>Seg_WOTV_SOS2Sword</li>
+			<li>Seg_WOTV_SOS2PirateCutter</li>
+			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2Sword40k</li>
+			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2Cobra40k</li>
+			<li MayRequire="xannihilusx.saveourship40k">Seg_WOTV_SOS2ArmFreight40k</li>
+		</spaceShipDefs>
+	</SaveOurShip2.NavyDef>
+</Defs>

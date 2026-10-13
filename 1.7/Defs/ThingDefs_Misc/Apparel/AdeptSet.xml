@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--Adept Coat-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_AdeptCoat</defName>
+		<label>adept coat</label>
+		<description>This functional uniform is characteristic of the civilian specialists of the Imperium of Man. While the Imperium's propaganda centres the role of its armed forces and holy servants - from the Space Marines to the Guard and the militant orders of the Sisters of Battle - without the functionaries and bureaucrats and clerks of the Adeptus Administratum, it would grind to a halt.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/AdeptCoat/Seg_WOTV_AdeptCoat</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<MaxHitPoints>175</MaxHitPoints>
+			<Mass>5.1</Mass>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+		</statBases>
+
+		<equippedStatOffsets>
+			<SocialImpact>.15</SocialImpact>
+			<WorkSpeedGlobal>.15</WorkSpeedGlobal>
+			<MoveSpeed>-0.15</MoveSpeed>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+			<ResearchSpeed>0.35</ResearchSpeed>
+			<ReadingSpeed>0.50</ReadingSpeed>
+		</equippedStatOffsets>
+
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Cloth>180</Cloth>
+			<WoodLog>30</WoodLog>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_AdeptApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/AdeptCoat/Seg_WOTV_AdeptCoat</li>
+			</wornGraphicPaths>
+
+			<renderNodeProperties>
+				<!-- Backpacks -->
+				<li>
+					<workerClass>Core40k.PawnRenderNodeWorker_AttachmentBackpack</workerClass>
+					<nodeClass>Core40k.PawnRenderNode_FlagEdit</nodeClass>
+					<texPath>Things/Apparel/AdeptCoat/Backpack/Seg_WOTV_AdeptCoat_Backpack</texPath>
+					<parentTagDef>Body</parentTagDef>
+					<drawData>
+						<dataEast>
+							<layer>71</layer>
+						</dataEast>
+						<dataWest>
+							<layer>71</layer>
+						</dataWest>
+						<dataNorth>
+							<layer>99.6</layer>
+						</dataNorth>
+						<dataSouth>
+							<layer>-1</layer>
+						</dataSouth>
+					</drawData>
+					<texSeed>1</texSeed>
+				</li>
+			</renderNodeProperties>
+
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_BasicApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<!--Adept Wrapping-->
+	<ThingDef ParentName="Seg_WOTV_ClothingBase">
+		<defName>Seg_WOTV_Apparel_AdeptWrapping</defName>
+		<label>adept wrappings</label>
+		<description>Many adepts will wear belts and pouches to carry scrolls, data-slates, and containers so that they can perform their duties more efficiently.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Apparel/AdeptWrapping/Seg_WOTV_AdeptWrapping</texPath>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>125</MaxHitPoints>
+			<Mass>3.2</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<ResearchSpeed>.10</ResearchSpeed>
+			<WorkSpeedGlobal>.05</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>Seg_WOTV_AdeptApparel</li>
+			</tags>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPaths>
+				<li>Things/Apparel/AdeptWrapping/Seg_WOTV_AdeptWrapping</li>
+			</wornGraphicPaths>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Seg_WOTV_BasicApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li Class="Core40k.CompProperties_Decorative">
+				<decorativeType>Body</decorativeType>
+			</li>
+		</comps>
+		<thingCategories Inherit="False">
+			<li>Seg_ImperiumWorkGear</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

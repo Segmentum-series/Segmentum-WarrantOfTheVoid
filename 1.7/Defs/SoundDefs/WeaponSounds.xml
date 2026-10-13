@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<SoundDef>
+		<defName>Seg_WOTV_RapierEquip</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Seg_WOTV_Sound_PoweredMeleeWeapon_Equip</clipPath>
+					</li>
+				</grains>
+				<volumeRange>28~32</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Seg_WOTV_RapierHit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Seg_WOTV_Sound_PoweredRapier_Impact</clipPath>
+					</li>
+				</grains>
+				<volumeRange>28~32</volumeRange>
+				<pitchRange>.8~1.4</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Seg_WOTV_RyzaLasgunFire</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Seg_WOTV_Sound_RyzaLasgun</clipPath>
+					</li>
+				</grains>
+				<volumeRange>28~32</volumeRange>
+				<pitchRange>1.0~1.2</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Seg_WOTV_LaslockFire</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Seg_WOTV_Sound_Laslock</clipPath>
+					</li>
+				</grains>
+				<volumeRange>28~32</volumeRange>
+				<pitchRange>1.0~1.2</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	      	    <SoundDef>
+    <defName>Aim_Revolver</defName>  
+    <context>MapOnly</context>
+	<sustain>true</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Seg_WOTV_Sound_RevolverAim</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>0.8~1</pitchRange>
+        <volumeRange>25~25</volumeRange>
+		</li>
+    </subSounds>
+  </SoundDef>
+
+  	      	    <SoundDef>
+    <defName>Fire_Revolver</defName>  
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Seg_WOTV_Sound_Revolver</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>0.8~1</pitchRange>
+        <volumeRange>25~25</volumeRange>
+		</li>
+    </subSounds>
+  </SoundDef>
+  
+    	      	    <SoundDef>
+    <defName>Fire_Autogun</defName>  
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Seg_WOTV_Sound_Autogun</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>0.8~1</pitchRange>
+        <volumeRange>25~25</volumeRange>
+		</li>
+    </subSounds>
+  
+  </SoundDef>
+  
+      	      	    <SoundDef>
+    <defName>Fire_Shotgun</defName>  
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Seg_WOTV_Sound_ShotReg</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>0.8~1</pitchRange>
+        <volumeRange>25~25</volumeRange>
+		</li>
+    </subSounds>
+  </SoundDef>
+</Defs>

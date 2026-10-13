@@ -1,0 +1,142 @@
+<Defs>
+ <ThingDef ParentName="BuildingBase">
+    <defName>Seg_WOTV_WarrantWall</defName>
+    <label>Warrant of Trade</label>
+    <description>The Warrant of Trade is a one-of-a-kind document that gives the bearer almost boundless authority, on a level with planetary or subsector governors or even the agents of the Imperial Inquisition. Some of the oldest Rogue Trader houses have documents supposedly signed by the Emperor himself or one of his primarch sons, but even the more recent warrants carry the authority of the High Lords of Terra and grant legitimacy and power beyond the wildest dreams of even most nobles of the Imperium of Man. The decisions and diktats of a Rogue Trader cannot be overruled or countermanded except at the highest levels of Imperial society - in theory, at least.\n\nFormally installing the Warrant of Trade will improve relations with many factions due to the legitimacy it confers, but if it should ever be destroyed, this bonus will be lost.</description>
+    <!--<thingClass>seg.WarrantOfTrade</thingClass>-->
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+    <li>Seg_ImperiumArtifactBuildings</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Seg_WOTV_WarrantWall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(4,3)</drawSize>
+      <damageData>
+        <rect>(0,0,3,1.8)</rect>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <shadowData>
+        <volume>(3,0.5,2)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <Flammability>0.6</Flammability>
+      <Mass>500</Mass>
+    </statBases>
+    <size>(3,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <costList>
+      <Gold>200</Gold>
+      <Silver>200</Silver>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Seg_WOTV_WarrantOfTrade>1</Seg_WOTV_WarrantOfTrade>
+    </costList>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>BEWH_RimDarkCategory</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <designationHotKey>Misc3</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>Core40k.PlaceWorker_OnlyOnePerMap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType>
+    <comps>
+      <li Class="seg.CompProperties_SegCompWarrantWall" />
+	  <li Class="ThoughtOnDestroy.CompProperties_EffectOnDestroy">
+            <thoughtDef>Seg_WOTV_WarrantDestroyed</thoughtDef>
+            <isOnlyAffectPlayerPawn>True</isOnlyAffectPlayerPawn>
+            <isAffectPlayerPawnOutsideMap>True</isAffectPlayerPawnOutsideMap>
+            <!--factionDefs>
+                <li>FactionDef</li>
+            </factionDefs>-->
+            <affectRelationBy>0</affectRelationBy>
+            <soundDef>Message_NegativeEvent</soundDef>
+        </li>
+        <li Class="seg.CompProperties_WarrantWallGoodwill">
+            <goodwillAmount>25</goodwillAmount>
+            <factions> 
+                <li>OutlanderCivil</li>
+                <li>OutlanderRough</li>
+                <li>TribeCivil</li>
+                <li>TribeRough</li>
+				<li>Seg_WOTV_ImperiumPirates</li>
+                <li MayRequire="Ludeon.Rimworld.Royalty">Empire</li>
+                <li MayRequire="OskarPotocki.VFE.Empire">VFEE_Deserters</li>
+                <li MayRequire="Ludeon.Rimworld.Ideology">NudistTribe</li>
+                <li MayRequire="Ludeon.Rimworld.Biotech">TribeRoughNeanderthal</li>
+                <li MayRequire="Ludeon.Rimworld.Odyssey">TradersGuild</li>
+                <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ImperiumFaction</li>
+                <li MayRequire="happypurging.ageofdarkness">GW_SM_AdeptusAstartes</li>
+                <li MayRequire="grimworld.astramilitarum">GW_HOI_AstraMilitarum</li>
+                <li MayRequire="grimworld.talonoftheemperor">GW_TotE_TalonsOfTheEmperor</li>
+                <li MayRequire="grimworld.deadmen">GW_HOI_DM_DeathKorps</li>
+            </factions>
+        </li>
+</comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Seg_WOTV_WarrantOfTrade</defName>
+    <label>Warrant of Trade (unmounted)</label>
+    <description>The Warrant of Trade is a one-of-a-kind document that gives the bearer almost boundless authority, on a level with planetary or subsector governors or even the agents of the Imperial Inquisition. Some of the oldest Rogue Trader houses have documents supposedly signed by the Emperor himself or one of his primarch sons, but even the more recent warrants carry the authority of the High Lords of Terra and grant legitimacy and power beyond the wildest dreams of even most nobles of the Imperium of Man. The decisions and diktats of a Rogue Trader cannot be overruled or countermanded except at the highest levels of Imperial society - in theory, at least.</description>
+    <graphicData>
+      <texPath>Things/Item/Seg_WOTV_WarrantOfTrade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>10000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <tradeability>None</tradeability>
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>Seg_Untradable</li>
+    </tradeTags>
+  </ThingDef>
+  <RoyalTitleDef>
+    <defName>Seg_WOTV_RogueTraderTitle</defName>
+    <label>Rogue Trader</label>
+    <seniority>0</seniority>
+    <favorCost>0</favorCost>
+    <canBeInherited>true</canBeInherited>
+    <changeHeirQuestPoints>2800</changeHeirQuestPoints>
+    <grantedAbilities>
+      <li>Seg_WOTV_RogueTraderAbility</li>
+    </grantedAbilities>
+    <tags>
+      <li>Seg_WOTV_RogueTraderTitle</li>
+    </tags>
+    <inheritanceWorkerOverrideClass>seg.RTRoyalTitleInheritanceWorker</inheritanceWorkerOverrideClass>
+  </RoyalTitleDef>
+</Defs>

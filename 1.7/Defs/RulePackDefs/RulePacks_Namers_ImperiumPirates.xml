@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Imperium Pirate Namers-->
+  
+  <RulePackDef>
+    <defName>SegImperiumPirateNameUtility</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>SegImperiumPirateFirst_Male->SegmentumNames/Names/ImperiumFirst_Male</li>
+	    <li>SegImperiumPirateFirst_Female->SegmentumNames/Names/ImperiumFirst_Female</li>
+	    <li>SegImperiumPirateNickname->SegmentumNames/Names/PirateNickname</li>
+        <li>SegImperiumPirateLast->SegmentumNames/Names/ImperiumLast</li>
+      </rulesFiles>
+	  <rulesStrings>
+        <li>SegImperiumPirateFirstMale->[SegImperiumPirateFirst_Male]</li>
+        <li>SegImperiumPirateFirstFemale->[SegImperiumPirateFirst_Female]</li>
+        <li>SegImperiumPirateNickname->[SegImperiumPirateNickname]</li>
+        <li>SegImperiumPirateLast->[SegImperiumPirateLast]</li>
+      </rulesStrings>
+	  </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>SegNamerPersonImperiumPirateMale</defName>
+	<include>
+		<li>SegImperiumPirateNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=10)->[SegImperiumPirateFirstMale] [SegImperiumPirateLast]</li>
+        <li>r_name(p=1)->[SegImperiumPirateFirstMale] '[SegImperiumPirateNickname]' [SegImperiumPirateLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>SegNamerPersonImperiumPirateFemale</defName>
+	<include>
+		<li>SegImperiumPirateNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=10)->[SegImperiumPirateFirstFemale] [SegImperiumPirateLast]</li>
+        <li>r_name(p=1)->[SegImperiumPirateFirstFemale] '[SegImperiumPirateNickname]' [SegImperiumPirateLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>SegNamerSettlementPirate</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name(p=4)->[segpiratetownname]'s [segpiratetowntype]</li>
+		<li>r_name(p=4)->[segpiratetownlabel] [segpiratetowntype]</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>segpiratetownname->SegmentumNames/Names/ImperiumLast</li>
+		<li>segpiratetownlabel->SegmentumNames/Names/PirateSettlementLabel</li>
+		<li>segpiratetowntype->SegmentumNames/Names/PirateSettlementType</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>SegNamerFactionPirate</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[PirateNoun] [PirateBand]</li>
+        <li>r_name->[PirateSegmentum] [PirateBand]</li>
+        <li>r_name->[PirateAdjective] [PirateNoun] [PirateBand]</li>
+        <li>r_name->[PirateAdjective] [PirateSegmentum] [PirateBand]</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>PirateNoun->SegmentumNames/Names/PirateNoun</li>
+		<li>PirateAdjective->SegmentumNames/Names/PirateAdjective</li>
+		<li>PirateBand->SegmentumNames/Names/PirateBand</li>
+		<li>PirateSegmentum->SegmentumNames/Names/PirateSegmentum</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>Seg_WOTV_NamerTraderPirates</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[PirateShipAdjective] [PirateShipNoun]</li>
+        <li>r_name->[PirateShipPlaceName]'s [PirateShipNoun]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>PirateShipNoun->SegmentumNames/Names/PirateShipNoun</li>
+        <li>PirateShipPlaceName->SegmentumNames/Names/PirateShipPlaceName</li>
+        <li>PirateShipAdjective->SegmentumNames/Names/PirateShipAdjective</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+ 
+</Defs>
