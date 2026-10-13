@@ -7,6 +7,7 @@
 	<description>"Never take a gamble you’re not prepared to lose."\n\nServe under a Rogue Trader, an insanely wealthy noble with an ancient warrant of the void. They are exploring the uncharted Segmentum Mundus Marginalis, and making sure their extreme wealth and power are known to everyone.\n\nThis mod includes:\n- Apparels\n- Weapons\n- Structures\n- Faction\n- Ranks/abilities\n- Scenario\n- Full integration with Save Our Ship 2\n\nWarrant of the Void is part of "Segmentum", a Warhammer 40.000 modding series by REDACTED.</description>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
