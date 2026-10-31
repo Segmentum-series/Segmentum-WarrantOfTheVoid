@@ -308,6 +308,7 @@
         <label>Master-at-Arms</label>
         <description>The Master-at-Arms is responsible for discipline aboard the voidship, as well as commanding the ship's complement of enforcers and armsmen.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_MasterAtArms</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
         <rankTier>5</rankTier>
         <requiredSkills>
             <Shooting>7</Shooting>
