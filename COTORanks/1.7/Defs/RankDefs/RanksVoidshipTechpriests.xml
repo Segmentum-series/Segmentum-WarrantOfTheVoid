@@ -1,25 +1,38 @@
     <Defs>
-    <Seg.RankDef>
+    <Core40k.RankDef>
         <defName>Seg_WOTV_Drivesmaster</defName>
         <label>Drivesmaster</label>
         <description>The Drivesmaster is a techpriest with responsibility for the engines of a voidship, overseeing the maintenance crews of ratings and technomats who keep the great machines running.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_Drivesmaster</rankIconPath>
         <rankTier>4</rankTier>
-        <incompatibleRanks>
-            <li>Seg_WOTV_VoidshipMenial</li>
-            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_AstartesRankNeophyte</li>
-            <li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ThunderWarriorRankInitiate</li>
-			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechMilita</li>
-			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_ServitorUnderseer</li>
-			<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_FabricatorMinoris</li>
-            <li MayRequire="Phonicmas.RimDark.Abhuman">Seg_WOTV_Navigator</li>
-        </incompatibleRanks>
-        <ImplantsRequired>4</ImplantsRequired>
-        <RequiredHediff>Seg_COTO_NoosphericCortex_Hediff</RequiredHediff>
-        <requiredSkills>
-            <Crafting>6</Crafting>
-            <Construction>6</Construction>
-        </requiredSkills>
+        <requirements>
+            <li Class="Core40k.PawnRequirement_IncompatibleRanks">
+                <ranks>
+					<li>Seg_WOTV_VoidshipMenial</li>
+					<li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_AstartesRankNeophyte</li>
+					<li MayRequire="Phonicmas.RimDark.MankindsFinest">BEWH_ThunderWarriorRankInitiate</li>
+					<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_TechMilita</li>
+					<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_ServitorUnderseer</li>
+					<li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_FabricatorMinoris</li>
+					<li MayRequire="Phonicmas.RimDark.Abhuman">Seg_WOTV_Navigator</li>
+				</ranks>
+            </li>
+            <li Class="Core40k.PawnRequirement_Skills">
+                <skills>
+					<Crafting>6</Crafting>
+					<Construction>6</Construction>
+                </skills>
+            </li>
+			<li Class="Core40k.PawnRequirement_Hediffs">
+				<hediffs>
+					<li>Seg_COTO_NoosphericCortex_Hediff</li>
+				</hediffs>
+				<oneAmong>true</oneAmong>
+			</li>
+			<li Class="Seg.PawnRequirement_ArtificialParts">
+				<count>4</count>
+			</li>
+        </requirements>
         <statOffsets>
             <ConstructionSpeed>0.30</ConstructionSpeed>
             <ConstructSuccessChance>.20</ConstructSuccessChance>
@@ -37,19 +50,25 @@
 				<modType>AddOneLevel</modType>
 			</li>
         </givesPassions>
-    </Seg.RankDef>
+    </Core40k.RankDef>
 	
-    <Seg.RankDef>
+    <Core40k.RankDef>
         <defName>Seg_WOTV_EnginseerPrime</defName>
         <label>Enginseer Prime</label>
         <description>The highest-ranking member of the Cult of Mars aboard an Imperial voidship is usually the Enginseer Prime, who serves as the most expert techpriest on the crew. They often personally oversee the operation of crucial equipment such as the ship's void shields and Gellar field generator, knowing that such sacred machines are the only defences \nthe ship has against fiery death in space or the horrors of the warp.</description>
         <rankIconPath>UI/Ranks/VoidshipCrew/Seg_WOTV_EnginseerPrime</rankIconPath>
         <rankTier>8</rankTier>
-        <ImplantsRequired>6</ImplantsRequired>
-        <requiredSkills>
-            <Construction>10</Construction>
-            <Crafting>10</Crafting>
-        </requiredSkills>
+        <requirements>
+            <li Class="Core40k.PawnRequirement_Skills">
+                <skills>
+					<Construction>10</Construction>
+					<Crafting>10</Crafting>
+                </skills>
+            </li>
+			<li Class="Seg.PawnRequirement_ArtificialParts">
+				<count>6</count>
+			</li>
+        </requirements>
         <statOffsets>
             <ResearchSpeed>0.20</ResearchSpeed>
             <ReadingSpeed>0.10</ReadingSpeed>
@@ -65,5 +84,5 @@
 				<modType>AddOneLevel</modType>
 			</li>
         </givesPassions>
-    </Seg.RankDef>
+    </Core40k.RankDef>
     </Defs>

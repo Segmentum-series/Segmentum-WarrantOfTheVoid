@@ -2,19 +2,19 @@
 <Patch>
 
   <Operation Class="PatchOperationAdd">
-		<xpath>Defs/Genes40k.ChapterRankDef[defName="BEWH_AstartesRankNeophyte"]</xpath>
+		<xpath>Defs/Genes40k.ChapterRankDef[defName="BEWH_AstartesRankNeophyte"]/requirements</xpath>
 		<value>
-			<incompatibleRanks>
-				<li>Seg_WOTV_VoidshipMenial</li>
-			</incompatibleRanks>
+            <li Class="Core40k.PawnRequirement_IncompatibleRanks">
+                <ranks><li>Seg_WOTV_VoidshipMenial</li></ranks>
+            </li>
 		</value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-		<xpath>Defs/Core40k.RankDef[defName="BEWH_ThunderWarriorRankInitiate"]</xpath>
+		<xpath>Defs/Core40k.RankDef[defName="BEWH_ThunderWarriorRankInitiate"]/requirements</xpath>
 		<value>
-			<incompatibleRanks>
-				<li>Seg_WOTV_VoidshipMenial</li>
-			</incompatibleRanks>
+            <li Class="Core40k.PawnRequirement_IncompatibleRanks">
+                <ranks><li>Seg_WOTV_VoidshipMenial</li></ranks>
+            </li>
 		</value>
   </Operation>
   
